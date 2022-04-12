@@ -1,0 +1,50 @@
+#!/bin/bash
+
+FINAL_NAMES=($(cat files.txt ))
+FIND_NAMES=($(cat species_names.txt ))
+NUM=${#FINAL_NAMES[@]}
+
+
+cont=0
+for (( i=0; i<NUM; i++ ))
+do
+
+#Extract the IDs of all the strains of that species
+cont2=$(($cont + 1))
+grep "${FIND_NAMES[$cont]} ${FIND_NAMES[$cont2]}" genome | cut -d$'\t' -f 1 | cut -d ":" -f 2 > ${FINAL_NAMES[i]}_id.txt
+
+if [ -s ${FINAL_NAMES[i]}_id.txt ]
+then
+
+expr=($(wc -l ${FINAL_NAMES[i]}_id.txt ))
+if [ $expr -gt 1 ]
+then
+
+ID=($(cat ${FINAL_NAMES[i]}_id.txt ))
+NUM2=${#ID[@]}
+for (( j=0; j<NUM2; j++ ))
+do
+wget http://rest.kegg.jp/link/${ID[j]}/enzyme
+awk '{print $1}' enzyme | cut -d ":" -f 2 >> result/${FINAL_NAMES[i]}_EC.txt
+rm enzyme
+done
+
+
+else
+
+#Extract the EC numbers of that unique ID
+ID=($(cat ${FINAL_NAMES[i]}_id.txt ))
+wget http://rest.kegg.jp/link/$ID/enzyme
+awk '{print $1}' enzyme | cut -d ":" -f 2 > result/${FINAL_NAMES[i]}_EC.txt
+rm enzyme
+
+fi
+	
+
+fi
+
+rm *_id.txt
+
+
+cont=$(($cont + 2))
+done

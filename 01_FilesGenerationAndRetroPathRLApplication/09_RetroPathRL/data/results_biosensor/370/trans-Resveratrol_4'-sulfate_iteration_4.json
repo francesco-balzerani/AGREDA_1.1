@@ -1,0 +1,116 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OS(=O)(=O)Oc1c([H])c([H])c(C([H])=O)c([H])c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C7H6O5S/c8-5-6-1-3-7(4-2-6)12-13(9,10)11/h1-5H,(H,9,10,11)",
+          "Names": [
+            "VQROQDIDXQDQLG-UHFFFAOYSA-N"
+          ],
+          "id": "VQROQDIDXQDQLG-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(C([H])=O)c([H])c1O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C7H6O3/c8-4-5-1-2-6(9)7(10)3-5/h1-4,9-10H",
+          "Names": [
+            "IBGBGRVKPALMCQ-UHFFFAOYSA-N",
+            "Protocatechualdehyde"
+          ],
+          "id": "IBGBGRVKPALMCQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c([H])c(C([H])=C([H])c2c([H])c([H])c(OS(=O)(=O)O[H])c([H])c2[H])c1[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C14H12O6S/c15-12-7-11(8-13(16)9-12)2-1-10-3-5-14(6-4-10)20-21(17,18)19/h1-9,15-16H,(H,17,18,19)",
+          "Names": [
+            "trans-Resveratrol_4'-sulfate",
+            "KOTTWDFKZULRPN-UHFFFAOYSA-N"
+          ],
+          "id": "KOTTWDFKZULRPN-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "KOTTWDFKZULRPN-UHFFFAOYSA-N-MNXR117216_MNXM1293_8-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR117216_MNXM1293_8",
+            "MNXR117216_MNXM1293_6",
+            "MNXR117216_MNXM1293_10"
+          ],
+          "EC number": [
+            "1.13.11.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(O[H])c([H])c(C([H])=C([H])c2c([H])c([H])c(OS(=O)(=O)O[H])c([H])c2[H])c1[H]>>[H]Oc1c([H])c([H])c(C([H])=O)c([H])c1O[H].[H]OS(=O)(=O)Oc1c([H])c([H])c(C([H])=O)c([H])c1[H]",
+          "Diameter": 42,
+          "Score": 1.9030899869919435,
+          "ChemicalScore": 0.6666666666666666,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "IBGBGRVKPALMCQ-UHFFFAOYSA-N": 1,
+            "VQROQDIDXQDQLG-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "KOTTWDFKZULRPN-UHFFFAOYSA-N-MNXR117216_MNXM1293_8-0-1",
+          "source": "KOTTWDFKZULRPN-UHFFFAOYSA-N",
+          "id": "KOTTWDFKZULRPN-UHFFFAOYSA-N-MNXR117216_MNXM1293_8-0-1_=>_KOTTWDFKZULRPN-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "IBGBGRVKPALMCQ-UHFFFAOYSA-N",
+          "source": "KOTTWDFKZULRPN-UHFFFAOYSA-N-MNXR117216_MNXM1293_8-0-1",
+          "id": "IBGBGRVKPALMCQ-UHFFFAOYSA-N_=>_KOTTWDFKZULRPN-UHFFFAOYSA-N-MNXR117216_MNXM1293_8-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "VQROQDIDXQDQLG-UHFFFAOYSA-N",
+          "source": "KOTTWDFKZULRPN-UHFFFAOYSA-N-MNXR117216_MNXM1293_8-0-1",
+          "id": "VQROQDIDXQDQLG-UHFFFAOYSA-N_=>_KOTTWDFKZULRPN-UHFFFAOYSA-N-MNXR117216_MNXM1293_8-0-1"
+        }
+      }
+    ]
+  }
+}

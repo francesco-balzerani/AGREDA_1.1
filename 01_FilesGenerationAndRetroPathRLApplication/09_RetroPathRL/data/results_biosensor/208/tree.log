@@ -1,0 +1,137 @@
+17/07/2021 18:41:16 -- WARNING -- Setting the seed at 1234
+17/07/2021 18:41:16 -- INFO -- Stating global parameters from configuration file
+17/07/2021 18:41:16 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 18:41:16 -- INFO -- Full search - no stopping at first result
+17/07/2021 18:41:16 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 18:41:16 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 18:41:16 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 18:41:16 -- INFO -- Using biological cut off at 0.1
+17/07/2021 18:41:16 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 18:41:16 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 18:41:16 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 18:41:16 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 18:41:16 -- INFO -- Using RAVE: False
+17/07/2021 18:41:16 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 18:41:16 -- INFO -- Using explicit hydrogens : True
+17/07/2021 18:41:16 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 18:41:16 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+17/07/2021 18:41:16 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 18:41:37 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 18:41:37 -- INFO -- Starting move obtention process with compound Enterodiol ([H]Oc1c([H])c([H])c([H])c(C([H])([H])C([H])(C([H])([H])O[H])C([H])(C([H])([H])O[H])C([H])([H])c2c([H])c([H])c([H])c(O[H])c2[H])c1[H]) at 1626540097.5637856
+17/07/2021 18:41:37 -- INFO -- 95 available rules
+17/07/2021 18:41:39 -- INFO -- For compound Enterodiol, matching moves are [DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd201_r_1_cpd90000_6_6-0, DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd195_r_1_cpd90000_2_6-0, DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd193_r_1_cpd90000_2_6-0, DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd191_r_1_cpd90000_2_6-0, DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd189_r_1_cpd90000_2_6-0, DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd209_r_1_cpd90000_1_16-0, DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd207_r_1_cpd90000_1_16-0, DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd205_r_1_cpd90000_1_16-0, DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd203_r_1_cpd90000_1_16-0, DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd199_r_1_cpd90000_1_16-0]
+17/07/2021 18:41:39 -- INFO -- Calculated moves in 2.148104190826416 for compound DWONJCNDULPHLV-UHFFFAOYSA-N - without caching
+17/07/2021 18:41:39 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 18h 41min 39s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 18:41:39 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 18:41:39 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd201_r_1_cpd90000_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:39 -- INFO -- Pathway is found at iteration 0
+17/07/2021 18:41:39 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd201_r_1_cpd90000_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|PUETUDUXMCLALY-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 18:41:39 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Enterodiol| for the first time at iteration 0
+17/07/2021 18:41:39 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd195_r_1_cpd90000_2_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:39 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd193_r_1_cpd90000_2_6-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:40 -- INFO -- Pathway is found at iteration 2
+17/07/2021 18:41:40 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd195_r_1_cpd90000_2_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|MATGKVZWFZHCLI-UHFFFAOYSA-N- solved| for the first time at iteration 2
+17/07/2021 18:41:40 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd191_r_1_cpd90000_2_6-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:40 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd189_r_1_cpd90000_2_6-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:40 -- INFO -- Pathway is found at iteration 4
+17/07/2021 18:41:40 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd193_r_1_cpd90000_2_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|GMQXOLRKJQWPNB-UHFFFAOYSA-N- solved| for the first time at iteration 4
+17/07/2021 18:41:40 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd209_r_1_cpd90000_1_16-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:40 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd207_r_1_cpd90000_1_16-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:40 -- INFO -- Pathway is found at iteration 6
+17/07/2021 18:41:40 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd191_r_1_cpd90000_2_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|MHXCIKYXNYCMHY-UHFFFAOYSA-N- solved| for the first time at iteration 6
+17/07/2021 18:41:40 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd205_r_1_cpd90000_1_16-0 to node 
+Count: 7/ Score : 6.57/ Children: 7/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:40 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626540100.4710948
+17/07/2021 18:41:40 -- INFO -- 0 available rules
+17/07/2021 18:41:40 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 18:41:40 -- INFO -- Calculated moves in 0.2731475830078125 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 18:41:40 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd203_r_1_cpd90000_1_16-0 to node 
+Count: 8/ Score : 6.0/ Children: 8/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:40 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626540100.854459
+17/07/2021 18:41:41 -- INFO -- 0 available rules
+17/07/2021 18:41:41 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 18:41:41 -- INFO -- Calculated moves in 0.25219154357910156 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 18:41:41 -- INFO -- Pathway is found at iteration 8
+17/07/2021 18:41:41 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd189_r_1_cpd90000_2_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|NQWVSMVXKMHKTF-UHFFFAOYSA-N- solved| for the first time at iteration 8
+17/07/2021 18:41:41 -- INFO -- Adding a child with move DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd199_r_1_cpd90000_1_16-0 to node 
+Count: 9/ Score : 6.44/ Children: 9/ Terminal : False
+|Enterodiol|
+17/07/2021 18:41:41 -- INFO -- Pathway is found at iteration 10
+17/07/2021 18:41:41 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd209_r_1_cpd90000_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|YFVZKLQNMNKWSB-UHFFFAOYSA-N- solved| for the first time at iteration 10
+17/07/2021 18:41:41 -- INFO -- Pathway is found at iteration 12
+17/07/2021 18:41:41 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd207_r_1_cpd90000_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|KOWMJRJXZMEZLD-UHFFFAOYSA-N- solved| for the first time at iteration 12
+17/07/2021 18:41:41 -- INFO -- Pathway is found at iteration 14
+17/07/2021 18:41:41 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd205_r_1_cpd90000_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|OJVGWDJIYBTWDS-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 14
+17/07/2021 18:41:41 -- INFO -- Pathway is found at iteration 16
+17/07/2021 18:41:41 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd203_r_1_cpd90000_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|PEYUIKBAABKQKQ-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 16
+17/07/2021 18:41:41 -- INFO -- Pathway is found at iteration 18
+17/07/2021 18:41:41 -- INFO -- Udapted solved Node 	Move name: DWONJCNDULPHLV-UHFFFAOYSA-N-rxnAdd199_r_1_cpd90000_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|HGXBRUKMWQGOIE-UHFFFAOYSA-N- solved| for the first time at iteration 18
+17/07/2021 18:41:42 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 18:41:44 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 18:41:46 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 18:41:48 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 18:41:50 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 18:41:52 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 18:41:54 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 18:41:56 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 18:41:57 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 18:41:58 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 18h 41min 58s 
+Your tree search took 1.9e+01s 
+ 
+Time was spent in selection: 5.4e-02s, expansion: 1.1e+00s, rollout: 0.0e+00s, update: 1.5e-01s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 18:41:58 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 18:41:58 -- WARNING -- RECAP TIME_EXECUTION=18.97
+17/07/2021 18:41:58 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 18:41:58 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 18:41:58 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 18:41:59 -- INFO -- Found 10 pathways for Enterodiol
+17/07/2021 18:41:59 -- INFO -- 10 pathways were found
+17/07/2021 18:41:59 -- INFO -- At the end of this tree search, the cache contains 0

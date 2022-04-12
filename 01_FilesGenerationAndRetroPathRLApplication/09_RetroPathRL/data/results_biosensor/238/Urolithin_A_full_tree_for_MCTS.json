@@ -1,0 +1,68 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|Urolithin_A|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|AFSDNFLWKVMVRB-UHFFFAOYSA-N- solved|GPRLSGONYQIRFK-UHFFFAOYSA-N|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "rxnAdd44_r_1_cpd36012_2_6",
+            "rxnAdd44_r_1_cpd36012_1_16"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c2c(oc(=O)c3c([H])c(O[H])c([H])c([H])c32)c1[H]>>[H+].[H]Oc1c(O[H])c2oc(=O)c3c([H])c(O[H])c(O[H])c4oc(=O)c(c1[H])c2c43",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 1.0,
+          "Name": "RIUPLDUFZCXCHM-UHFFFAOYSA-N-rxnAdd44_r_1_cpd36012_2_6-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      }
+    ]
+  }
+}

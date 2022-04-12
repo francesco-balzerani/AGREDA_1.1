@@ -1,0 +1,87 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=[O+]C([H])([H])C1([H])OC([H])(OC2=C([H])c3c(O[H])c([H])c(O[H])c([H])c3OC2=C2C([H])=C([H])C(=O)C([H])=C2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H])C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C30H26O12/c31-17-6-1-15(2-7-17)3-10-25(35)39-14-24-26(36)27(37)28(38)30(42-24)41-23-13-20-21(34)11-19(33)12-22(20)40-29(23)16-4-8-18(32)9-5-16/h1-13,24,26-28,30,36-38H,14H2,(H3-,31,32,33,34,35)/p+1",
+          "Names": [
+            "VZPBBOAZFCREMQ-UHFFFAOYSA-O",
+            "Pelargonidin 3-(6-p-coumaroyl)glucoside"
+          ],
+          "id": "VZPBBOAZFCREMQ-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c([H])c1[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C15H10O5/c16-9-3-1-8(2-4-9)15-13(19)7-11-12(18)5-10(17)6-14(11)20-15/h1-7H,(H3-,16,17,18,19)/p+1",
+          "Names": [
+            "Pelargonidin",
+            "XVFMGWDSJLBXDZ-UHFFFAOYSA-O"
+          ],
+          "id": "XVFMGWDSJLBXDZ-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "XVFMGWDSJLBXDZ-UHFFFAOYSA-O-rxnAdd3_r_3_cpd03502_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd3_r_3_cpd03502_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c([H])c1[H]>>[H]OC(=[O+]C([H])([H])C1([H])OC([H])(OC2=C([H])c3c(O[H])c([H])c(O[H])c([H])c3OC2=C2C([H])=C([H])C(=O)C([H])=C2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H])C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.9333333333333333,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "VZPBBOAZFCREMQ-UHFFFAOYSA-O": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "XVFMGWDSJLBXDZ-UHFFFAOYSA-O-rxnAdd3_r_3_cpd03502_6_6-0-1",
+          "source": "XVFMGWDSJLBXDZ-UHFFFAOYSA-O",
+          "id": "XVFMGWDSJLBXDZ-UHFFFAOYSA-O-rxnAdd3_r_3_cpd03502_6_6-0-1_=>_XVFMGWDSJLBXDZ-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "VZPBBOAZFCREMQ-UHFFFAOYSA-O",
+          "source": "XVFMGWDSJLBXDZ-UHFFFAOYSA-O-rxnAdd3_r_3_cpd03502_6_6-0-1",
+          "id": "VZPBBOAZFCREMQ-UHFFFAOYSA-O_=>_XVFMGWDSJLBXDZ-UHFFFAOYSA-O-rxnAdd3_r_3_cpd03502_6_6-0-1"
+        }
+      }
+    ]
+  }
+}

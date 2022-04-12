@@ -1,0 +1,65 @@
+18/07/2021 02:07:36 -- WARNING -- Setting the seed at 1234
+18/07/2021 02:07:36 -- INFO -- Stating global parameters from configuration file
+18/07/2021 02:07:36 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 02:07:36 -- INFO -- Full search - no stopping at first result
+18/07/2021 02:07:36 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 02:07:36 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 02:07:36 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 02:07:36 -- INFO -- Using biological cut off at 0.1
+18/07/2021 02:07:36 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 02:07:36 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 02:07:36 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 02:07:36 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 02:07:36 -- INFO -- Using RAVE: False
+18/07/2021 02:07:36 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 02:07:36 -- INFO -- Using explicit hydrogens : True
+18/07/2021 02:07:36 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 02:07:36 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 02:08:01 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 02:08:01 -- INFO -- Starting move obtention process with compound Ferulic_acid_4-O-glucuronide ([H]OC(=O)C([H])=C([H])c1c([H])c([H])c(OC2([H])OC([H])(C(=O)O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c(OC([H])([H])[H])c1[H]) at 1626566881.8426251
+18/07/2021 02:08:02 -- INFO -- 28 available rules
+18/07/2021 02:08:02 -- INFO -- For compound Ferulic_acid_4-O-glucuronide, matching moves are [TWSIWBHKRJLZCF-UHFFFAOYSA-N-MNXR112308_MNXM7210_6-0]
+18/07/2021 02:08:02 -- INFO -- Calculated moves in 0.6290607452392578 for compound TWSIWBHKRJLZCF-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:02 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 2h 8min 2s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 02:08:02 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 02:08:02 -- INFO -- Adding a child with move TWSIWBHKRJLZCF-UHFFFAOYSA-N-MNXR112308_MNXM7210_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Ferulic_acid_4-O-glucuronide|
+18/07/2021 02:08:02 -- INFO -- Pathway is found at iteration 0
+18/07/2021 02:08:02 -- INFO -- Udapted solved Node 	Move name: TWSIWBHKRJLZCF-UHFFFAOYSA-N-MNXR112308_MNXM7210_6-0/ Biological score : 1.48/ Chemical score: 0.63
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|HDYANYHVCAPMJV-UHFFFAOYSA-N- solved|KSEBMYQBYZTDHS-UHFFFAOYSA-N- solved| for the first time at iteration 0
+18/07/2021 02:08:02 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Ferulic_acid_4-O-glucuronide| for the first time at iteration 0
+18/07/2021 02:08:04 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 02:08:06 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 02:08:07 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 02:08:09 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 02:08:10 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 02:08:12 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 02:08:14 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 02:08:16 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 02:08:17 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 02:08:19 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 2h 8min 19s 
+Your tree search took 1.7e+01s 
+ 
+Time was spent in selection: 2.8e-02s, expansion: 9.3e-02s, rollout: 0.0e+00s, update: 4.5e-02s 
+CONGRATULATIONS, THATS A WIN
+18/07/2021 02:08:19 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 02:08:19 -- WARNING -- RECAP TIME_EXECUTION=16.79
+18/07/2021 02:08:19 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 02:08:19 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 02:08:19 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 02:08:19 -- INFO -- Found 1 pathways for Ferulic_acid_4-O-glucuronide
+18/07/2021 02:08:19 -- INFO -- 1 pathways were found
+18/07/2021 02:08:19 -- INFO -- At the end of this tree search, the cache contains 0

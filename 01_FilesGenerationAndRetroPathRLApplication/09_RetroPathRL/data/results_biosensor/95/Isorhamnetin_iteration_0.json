@@ -1,0 +1,94 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C22H22O12/c1-31-12-4-8(2-3-10(12)25)20-21(17(28)15-11(26)5-9(24)6-13(15)32-20)34-22-19(30)18(29)16(27)14(7-23)33-22/h2-6,14,16,18-19,22-27,29-30H,7H2,1H3",
+          "Names": [
+            "CQLRUIIRRZYHHS-UHFFFAOYSA-N",
+            "isorhamnetin 3-O-glucoside"
+          ],
+          "id": "CQLRUIIRRZYHHS-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C16H12O7/c1-22-11-4-7(2-3-9(11)18)16-15(21)14(20)13-10(19)5-8(17)6-12(13)23-16/h2-6,17-19,21H,1H3",
+          "Names": [
+            "Isorhamnetin",
+            "IZQSVPBOUDKVDZ-UHFFFAOYSA-N"
+          ],
+          "id": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N-rxnAdd66_r_2_cpd06974_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd66_r_2_cpd06974_6_6",
+            "rxnAdd66_r_2_cpd06974_5_8",
+            "rxnAdd66_r_2_cpd06974_4_16",
+            "rxnAdd66_r_2_cpd06974_3_14",
+            "rxnAdd66_r_2_cpd06974_2_12",
+            "rxnAdd66_r_2_cpd06974_1_10",
+            "rxnAdd143_r_2_cpd00313_6_6",
+            "rxnAdd142_r_2_cpd00313_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2O[H])c([H])c1OC([H])([H])[H]>>[H]Oc1c([H])c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 1.0,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "CQLRUIIRRZYHHS-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N-rxnAdd66_r_2_cpd06974_6_6-0-1",
+          "source": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N",
+          "id": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N-rxnAdd66_r_2_cpd06974_6_6-0-1_=>_IZQSVPBOUDKVDZ-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "CQLRUIIRRZYHHS-UHFFFAOYSA-N",
+          "source": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N-rxnAdd66_r_2_cpd06974_6_6-0-1",
+          "id": "CQLRUIIRRZYHHS-UHFFFAOYSA-N_=>_IZQSVPBOUDKVDZ-UHFFFAOYSA-N-rxnAdd66_r_2_cpd06974_6_6-0-1"
+        }
+      }
+    ]
+  }
+}

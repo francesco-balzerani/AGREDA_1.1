@@ -1,0 +1,117 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC([H])([H])C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2",
+          "Names": [
+            "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+            "D-Galactose"
+          ],
+          "id": "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(O[H])C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c(-c3c([H])c([H])c(OC([H])([H])[H])c(O[H])c3[H])[o+]c3c([H])c(O[H])c([H])c(O[H])c3c2[H])C([H])(OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C31H34O19/c1-44-18-3-2-11(4-15(18)34)27-20(7-13-14(33)5-12(32)6-19(13)47-27)48-31-28(50-30-26(41)23(38)17(36)9-46-30)25(40)24(39)21(49-31)10-45-22(37)8-16(35)29(42)43/h2-7,16-17,21,23-26,28,30-31,35-36,38-41H,8-10H2,1H3,(H3-,32,33,34,42,43)/p+1",
+          "Names": [
+            "RLYKBMQTCLYJPY-UHFFFAOYSA-O"
+          ],
+          "id": "RLYKBMQTCLYJPY-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C27H30O15/c1-37-16-3-2-10(4-14(16)31)24-18(7-12-13(30)5-11(29)6-17(12)39-24)40-27-25(22(35)21(34)19(8-28)41-27)42-26-23(36)20(33)15(32)9-38-26/h2-7,15,19-23,25-28,32-36H,8-9H2,1H3,(H2-,29,30,31)/p+1",
+          "Names": [
+            "Isopeonidin_3-O-sambubioside",
+            "NZLZAGYUNATZMP-UHFFFAOYSA-O"
+          ],
+          "id": "NZLZAGYUNATZMP-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "NZLZAGYUNATZMP-UHFFFAOYSA-O-MNXR118690_MNXM1146_8-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR118690_MNXM1146_8",
+            "MNXR118690_MNXM1146_12",
+            "MNXR118690_MNXM1146_10",
+            "MNXR118690_MNXM1146_6"
+          ],
+          "EC number": [
+            "2.3.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c([H])c1OC([H])([H])[H]>>[H]OC(=O)C([H])(O[H])C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c(-c3c([H])c([H])c(OC([H])([H])[H])c(O[H])c3[H])[o+]c3c([H])c(O[H])c([H])c(O[H])c3c2[H])C([H])(OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])C([H])(O[H])C1([H])O[H].[H]OC([H])([H])C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "Diameter": 42,
+          "Score": 2.2600713879850747,
+          "ChemicalScore": 0.8,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "RLYKBMQTCLYJPY-UHFFFAOYSA-O": 1,
+            "WQZGKKKJIJFFOK-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "NZLZAGYUNATZMP-UHFFFAOYSA-O-MNXR118690_MNXM1146_8-0-1",
+          "source": "NZLZAGYUNATZMP-UHFFFAOYSA-O",
+          "id": "NZLZAGYUNATZMP-UHFFFAOYSA-O-MNXR118690_MNXM1146_8-0-1_=>_NZLZAGYUNATZMP-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "RLYKBMQTCLYJPY-UHFFFAOYSA-O",
+          "source": "NZLZAGYUNATZMP-UHFFFAOYSA-O-MNXR118690_MNXM1146_8-0-1",
+          "id": "RLYKBMQTCLYJPY-UHFFFAOYSA-O_=>_NZLZAGYUNATZMP-UHFFFAOYSA-O-MNXR118690_MNXM1146_8-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+          "source": "NZLZAGYUNATZMP-UHFFFAOYSA-O-MNXR118690_MNXM1146_8-0-1",
+          "id": "WQZGKKKJIJFFOK-UHFFFAOYSA-N_=>_NZLZAGYUNATZMP-UHFFFAOYSA-O-MNXR118690_MNXM1146_8-0-1"
+        }
+      }
+    ]
+  }
+}

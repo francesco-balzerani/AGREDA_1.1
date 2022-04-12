@@ -1,0 +1,216 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])OC5([H])OC([H])(C([H])([H])[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C28H32O15/c1-10-20(32)22(34)24(36)27(40-10)39-9-19-21(33)23(35)25(37)28(43-19)42-17-7-12(29)6-16-13(17)8-15(31)26(41-16)11-3-4-14(30)18(5-11)38-2/h3-8,10,19-25,27-28,32-37H,9H2,1-2H3,(H2-,29,30,31)/p+1",
+          "Names": [
+            "IVPGEIPNNHVULW-UHFFFAOYSA-O"
+          ],
+          "id": "IVPGEIPNNHVULW-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC([H])([H])C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2",
+          "Names": [
+            "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+            "D-Galactose"
+          ],
+          "id": "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C9H14N2O12P2/c12-5-1-2-11(9(15)10-5)8-7(14)6(13)4(22-8)3-21-25(19,20)23-24(16,17)18/h1-2,4,6-8,13-14H,3H2,(H,19,20)(H,10,12,15)(H2,16,17,18)",
+          "Names": [
+            "XCCTYIAWTASOJW-UHFFFAOYSA-N"
+          ],
+          "id": "XCCTYIAWTASOJW-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])OC5([H])OC([H])(C([H])([H])[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])OC3([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C3([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C40H52O25/c1-12-24(44)28(48)32(52)37(59-12)57-10-22-26(46)30(50)34(54)39(64-22)61-18-7-14(42)6-17-15(18)8-20(36(60-17)13-3-4-16(43)19(5-13)56-2)62-40-35(55)31(51)27(47)23(65-40)11-58-38-33(53)29(49)25(45)21(9-41)63-38/h3-8,12,21-35,37-41,44-55H,9-11H2,1-2H3,(H-,42,43)/p+1",
+          "Names": [
+            "XXUSZCXTWBXIGQ-UHFFFAOYSA-O"
+          ],
+          "id": "XXUSZCXTWBXIGQ-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])OC3([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C3([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C34H42O21/c1-48-17-4-11(2-3-14(17)38)31-18(7-13-15(50-31)5-12(37)6-16(13)51-33-29(46)26(43)23(40)20(9-36)54-33)52-34-30(47)27(44)24(41)21(55-34)10-49-32-28(45)25(42)22(39)19(8-35)53-32/h2-7,19-30,32-36,39-47H,8-10H2,1H3,(H-,37,38)/p+1",
+          "Names": [
+            "Peonidin_3-O-diglucoside-5-O-glucoside",
+            "CTPVRNHONLVYJU-UHFFFAOYSA-O"
+          ],
+          "id": "CTPVRNHONLVYJU-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "CTPVRNHONLVYJU-UHFFFAOYSA-O-MNXR119309_MNXM1146_6-1-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR119309_MNXM1146_6",
+            "MNXR110563_MNXM1146_6",
+            "MNXR119309_MNXM1146_8",
+            "MNXR110563_MNXM1146_8",
+            "MNXR119309_MNXM1146_10",
+            "MNXR110563_MNXM1146_10",
+            "MNXR119309_MNXM1146_12",
+            "MNXR110563_MNXM1146_12",
+            "MNXR119309_MNXM1146_14",
+            "MNXR110563_MNXM1146_14",
+            "MNXR111486_MNXM1474_6",
+            "MNXR111486_MNXM1474_8",
+            "MNXR111486_MNXM1474_10",
+            "MNXR111486_MNXM1474_12",
+            "MNXR111486_MNXM1474_14"
+          ],
+          "EC number": [
+            "2.4.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])OC3([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C3([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]>>[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])OC5([H])OC([H])(C([H])([H])[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])OC3([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C3([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H].[H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.017186428511828,
+          "ChemicalScore": 0.8225806451612904,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "XXUSZCXTWBXIGQ-UHFFFAOYSA-O": 1,
+            "XCCTYIAWTASOJW-UHFFFAOYSA-N": 1
+          }
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "XXUSZCXTWBXIGQ-UHFFFAOYSA-O-rxnAdd16_cpd05527_6_6-0-2",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd16_cpd05527_6_6",
+            "rxnAdd16_cpd05527_5_8",
+            "rxnAdd24_cpd09275_6_6",
+            "rxnAdd24_cpd09275_5_8"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])OC5([H])OC([H])(C([H])([H])[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])OC3([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C3([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]>>[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])OC5([H])OC([H])(C([H])([H])[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2O[H])c([H])c1OC([H])([H])[H].[H]OC([H])([H])C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]OC([H])([H])C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.8461538461538461,
+          "Iteration": 2,
+          "Stoechiometry": {
+            "WQZGKKKJIJFFOK-UHFFFAOYSA-N": 2,
+            "IVPGEIPNNHVULW-UHFFFAOYSA-O": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "CTPVRNHONLVYJU-UHFFFAOYSA-O-MNXR119309_MNXM1146_6-1-1",
+          "source": "CTPVRNHONLVYJU-UHFFFAOYSA-O",
+          "id": "CTPVRNHONLVYJU-UHFFFAOYSA-O-MNXR119309_MNXM1146_6-1-1_=>_CTPVRNHONLVYJU-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "XXUSZCXTWBXIGQ-UHFFFAOYSA-O",
+          "source": "CTPVRNHONLVYJU-UHFFFAOYSA-O-MNXR119309_MNXM1146_6-1-1",
+          "id": "XXUSZCXTWBXIGQ-UHFFFAOYSA-O_=>_CTPVRNHONLVYJU-UHFFFAOYSA-O-MNXR119309_MNXM1146_6-1-1"
+        }
+      },
+      {
+        "data": {
+          "target": "XCCTYIAWTASOJW-UHFFFAOYSA-N",
+          "source": "CTPVRNHONLVYJU-UHFFFAOYSA-O-MNXR119309_MNXM1146_6-1-1",
+          "id": "XCCTYIAWTASOJW-UHFFFAOYSA-N_=>_CTPVRNHONLVYJU-UHFFFAOYSA-O-MNXR119309_MNXM1146_6-1-1"
+        }
+      },
+      {
+        "data": {
+          "target": "XXUSZCXTWBXIGQ-UHFFFAOYSA-O-rxnAdd16_cpd05527_6_6-0-2",
+          "source": "XXUSZCXTWBXIGQ-UHFFFAOYSA-O",
+          "id": "XXUSZCXTWBXIGQ-UHFFFAOYSA-O-rxnAdd16_cpd05527_6_6-0-2_=>_XXUSZCXTWBXIGQ-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+          "source": "XXUSZCXTWBXIGQ-UHFFFAOYSA-O-rxnAdd16_cpd05527_6_6-0-2",
+          "id": "WQZGKKKJIJFFOK-UHFFFAOYSA-N_=>_XXUSZCXTWBXIGQ-UHFFFAOYSA-O-rxnAdd16_cpd05527_6_6-0-2"
+        }
+      },
+      {
+        "data": {
+          "target": "IVPGEIPNNHVULW-UHFFFAOYSA-O",
+          "source": "XXUSZCXTWBXIGQ-UHFFFAOYSA-O-rxnAdd16_cpd05527_6_6-0-2",
+          "id": "IVPGEIPNNHVULW-UHFFFAOYSA-O_=>_XXUSZCXTWBXIGQ-UHFFFAOYSA-O-rxnAdd16_cpd05527_6_6-0-2"
+        }
+      }
+    ]
+  }
+}

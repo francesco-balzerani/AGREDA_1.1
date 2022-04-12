@@ -1,0 +1,91 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C9H8O4/c10-7-3-1-6(5-8(7)11)2-4-9(12)13/h1-5,10-11H,(H,12,13)",
+          "Names": [
+            "QAIPRVGONGVQAS-UHFFFAOYSA-N",
+            "Caffeate"
+          ],
+          "id": "QAIPRVGONGVQAS-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C9H8O3/c10-8-4-1-7(2-5-8)3-6-9(11)12/h1-6,10H,(H,11,12)",
+          "Names": [
+            "p-Coumaric_acid",
+            "NGSWKAQJJWESNS-UHFFFAOYSA-N"
+          ],
+          "id": "NGSWKAQJJWESNS-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "NGSWKAQJJWESNS-UHFFFAOYSA-N-MNXR134337_MNXM505_8-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR134337_MNXM505_8",
+            "MNXR134337_MNXM505_10",
+            "MNXR134337_MNXM505_12",
+            "MNXR134337_MNXM505_14",
+            "MNXR134337_MNXM505_16"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H]>>[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]",
+          "Diameter": 42,
+          "Score": 3.964165310621736,
+          "ChemicalScore": 1.0,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "QAIPRVGONGVQAS-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "NGSWKAQJJWESNS-UHFFFAOYSA-N-MNXR134337_MNXM505_8-0-1",
+          "source": "NGSWKAQJJWESNS-UHFFFAOYSA-N",
+          "id": "NGSWKAQJJWESNS-UHFFFAOYSA-N-MNXR134337_MNXM505_8-0-1_=>_NGSWKAQJJWESNS-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "QAIPRVGONGVQAS-UHFFFAOYSA-N",
+          "source": "NGSWKAQJJWESNS-UHFFFAOYSA-N-MNXR134337_MNXM505_8-0-1",
+          "id": "QAIPRVGONGVQAS-UHFFFAOYSA-N_=>_NGSWKAQJJWESNS-UHFFFAOYSA-N-MNXR134337_MNXM505_8-0-1"
+        }
+      }
+    ]
+  }
+}

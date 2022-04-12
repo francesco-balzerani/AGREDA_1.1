@@ -1,0 +1,115 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|1-Feruloyl-5-caffeoylquinic_acid|",
+          "average_score": 2.016,
+          "total_score": 2016,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|QAIPRVGONGVQAS-UHFFFAOYSA-N- solved|VUDGIKJFRLJLBR-UHFFFAOYSA-N|",
+          "average_score": 2.008130081300813,
+          "total_score": 1976,
+          "visits": 984,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_2",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|YDDUMTOHNYZQPO-UHFFFAOYSA-N|",
+          "average_score": 2.5,
+          "total_score": 40,
+          "visits": 16,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "rxnAdd150_cpd00634_6_6",
+            "rxnAdd171_cpd02595_6_6",
+            "rxnAdd171_cpd02595_5_8"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(OC([H])([H])[H])c2[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C1([H])[H]>>[H]OC(=O)C1(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(OC([H])([H])[H])c2[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])[H].[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.8235294117647058,
+          "Name": "WBACKTNTXNGGBO-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_1",
+          "Rule ID": [
+            "MNXR119429_MNXM13920_6",
+            "MNXR119429_MNXM13920_8"
+          ],
+          "EC number": [
+            "2.1.1.-"
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(OC([H])([H])[H])c2[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C1([H])[H]>>[H]OC(=O)C([H])(N([H])[H])C([H])([H])C([H])([H])[S+](C([H])([H])[H])C([H])([H])C1([H])OC([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)C([H])(O[H])C1([H])O[H].[H]OC(=O)C1(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C1([H])[H]",
+          "Diameter": 42,
+          "Score": 0.6989700043360189,
+          "ChemicalScore": 0.6129032258064516,
+          "Name": "WBACKTNTXNGGBO-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      },
+      {
+        "data": {
+          "target": "move_1",
+          "source": "node_2",
+          "id": "move_1_=>_node_2"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_1",
+          "id": "node_0_=>_move_1"
+        }
+      }
+    ]
+  }
+}

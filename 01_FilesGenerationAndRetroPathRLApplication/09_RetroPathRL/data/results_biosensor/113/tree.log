@@ -1,0 +1,143 @@
+17/07/2021 07:37:05 -- WARNING -- Setting the seed at 1234
+17/07/2021 07:37:05 -- INFO -- Stating global parameters from configuration file
+17/07/2021 07:37:05 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 07:37:05 -- INFO -- Full search - no stopping at first result
+17/07/2021 07:37:05 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 07:37:05 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 07:37:05 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 07:37:05 -- INFO -- Using biological cut off at 0.1
+17/07/2021 07:37:05 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 07:37:05 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 07:37:05 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 07:37:05 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 07:37:05 -- INFO -- Using RAVE: False
+17/07/2021 07:37:05 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 07:37:05 -- INFO -- Using explicit hydrogens : True
+17/07/2021 07:37:05 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 07:37:05 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 07:37:24 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 07:37:24 -- INFO -- Starting move obtention process with compound 3',4',7-Trihydroxyisoflavanone ([H]Oc1c([H])c([H])c2c(c1[H])OC([H])([H])C([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C2=O) at 1626500244.7829273
+17/07/2021 07:37:25 -- INFO -- 39 available rules
+17/07/2021 07:37:25 -- INFO -- For compound 3',4',7-Trihydroxyisoflavanone, matching moves are [NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM1025_6-0, NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0]
+17/07/2021 07:37:25 -- INFO -- Calculated moves in 0.5438258647918701 for compound NIUUFTCRUDJDHY-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:25 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 7h 37min 25s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 07:37:25 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 07:37:25 -- INFO -- Adding a child with move NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM1025_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|3',4',7-Trihydroxyisoflavanone|
+17/07/2021 07:37:25 -- INFO -- Starting move obtention process with compound TWJUQWMRZAUXLW-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c(O[H])c(O[H])c([H])c3OC2([H])[H])c([H])c1O[H]) at 1626500245.4388385
+17/07/2021 07:37:25 -- INFO -- 22 available rules
+17/07/2021 07:37:26 -- INFO -- For compound TWJUQWMRZAUXLW-UHFFFAOYSA-N, matching moves are [TWJUQWMRZAUXLW-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0, TWJUQWMRZAUXLW-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-1]
+17/07/2021 07:37:26 -- INFO -- Calculated moves in 0.6020369529724121 for compound TWJUQWMRZAUXLW-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:26 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626500246.0528438
+17/07/2021 07:37:26 -- INFO -- 0 available rules
+17/07/2021 07:37:26 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:26 -- INFO -- Calculated moves in 0.3777487277984619 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:26 -- INFO -- Starting move obtention process with compound TWJUQWMRZAUXLW-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c(O[H])c(O[H])c([H])c3OC2([H])[H])c([H])c1O[H]) at 1626500246.4560254
+17/07/2021 07:37:26 -- INFO -- 21 available rules
+17/07/2021 07:37:26 -- INFO -- For compound TWJUQWMRZAUXLW-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:26 -- INFO -- Calculated moves in 0.4595470428466797 for compound TWJUQWMRZAUXLW-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:26 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626500246.931281
+17/07/2021 07:37:27 -- INFO -- 0 available rules
+17/07/2021 07:37:27 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:27 -- INFO -- Calculated moves in 0.2819361686706543 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:27 -- INFO -- Rollout results are -1, False
+17/07/2021 07:37:27 -- INFO -- Adding a child with move NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0 to node 
+Count: 1/ Score : -1.0/ Children: 1/ Terminal : False
+|3',4',7-Trihydroxyisoflavanone|
+17/07/2021 07:37:27 -- INFO -- Starting move obtention process with compound MYMOFIZGZYHOMD-UHFFFAOYSA-N (O=O) at 1626500247.336711
+17/07/2021 07:37:27 -- INFO -- 0 available rules
+17/07/2021 07:37:27 -- INFO -- For compound MYMOFIZGZYHOMD-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:27 -- INFO -- Calculated moves in 0.34345173835754395 for compound MYMOFIZGZYHOMD-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:27 -- INFO -- Starting move obtention process with compound TWJUQWMRZAUXLW-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c(O[H])c(O[H])c([H])c3OC2([H])[H])c([H])c1O[H]) at 1626500247.6955602
+17/07/2021 07:37:27 -- INFO -- 22 available rules
+17/07/2021 07:37:28 -- INFO -- For compound TWJUQWMRZAUXLW-UHFFFAOYSA-N, matching moves are [TWJUQWMRZAUXLW-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0, TWJUQWMRZAUXLW-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-1]
+17/07/2021 07:37:28 -- INFO -- Calculated moves in 0.4730386734008789 for compound TWJUQWMRZAUXLW-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:28 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626500248.1844985
+17/07/2021 07:37:28 -- INFO -- 0 available rules
+17/07/2021 07:37:28 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:28 -- INFO -- Calculated moves in 0.34723544120788574 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:28 -- INFO -- Starting move obtention process with compound MYMOFIZGZYHOMD-UHFFFAOYSA-N (O=O) at 1626500248.5684302
+17/07/2021 07:37:28 -- INFO -- 0 available rules
+17/07/2021 07:37:28 -- INFO -- For compound MYMOFIZGZYHOMD-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:28 -- INFO -- Calculated moves in 0.2946016788482666 for compound MYMOFIZGZYHOMD-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:28 -- INFO -- Starting move obtention process with compound NIUUFTCRUDJDHY-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c2c(c1[H])OC([H])([H])C([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C2=O) at 1626500248.8718913
+17/07/2021 07:37:29 -- INFO -- 39 available rules
+17/07/2021 07:37:29 -- INFO -- For compound NIUUFTCRUDJDHY-UHFFFAOYSA-N, matching moves are [NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM1025_6-0, NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0]
+17/07/2021 07:37:29 -- INFO -- Calculated moves in 0.5686318874359131 for compound NIUUFTCRUDJDHY-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:29 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626500249.4600565
+17/07/2021 07:37:29 -- INFO -- 0 available rules
+17/07/2021 07:37:29 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:29 -- INFO -- Calculated moves in 0.3503122329711914 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:29 -- INFO -- Rollout results are 2, True
+17/07/2021 07:37:29 -- INFO -- Udapted solved Node 	Move name: NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM1025_6-0/ Biological score : 0.6/ Chemical score: 0.62
+	Count: 2/ Score : -1.0/ Children: 0/ Terminal : False
+	|TWJUQWMRZAUXLW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 1
+17/07/2021 07:37:29 -- INFO -- Udapted solved Node Count: 2/ Score : -1.0/ Children: 2/ Terminal : False
+|3',4',7-Trihydroxyisoflavanone| for the first time at iteration 1
+17/07/2021 07:37:29 -- INFO -- Pathway is found at iteration 2
+17/07/2021 07:37:29 -- INFO -- Udapted solved Node 	Move name: NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0/ Biological score : 0.6/ Chemical score: 0.6
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|ACFIXJIJDZMPPO-UHFFFAOYSA-N- solved|JHYXBPPMXZIHKG-UHFFFAOYSA-N- solved|MYMOFIZGZYHOMD-UHFFFAOYSA-N| for the first time at iteration 2
+17/07/2021 07:37:30 -- INFO -- Adding a child with move TWJUQWMRZAUXLW-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0 to node 
+	Move name: NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM1025_6-0/ Biological score : 0.6/ Chemical score: 0.62
+	Count: 2/ Score : 0.5/ Children: 0/ Terminal : False
+	|TWJUQWMRZAUXLW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+17/07/2021 07:37:30 -- INFO -- Starting move obtention process with compound MYMOFIZGZYHOMD-UHFFFAOYSA-N (O=O) at 1626500250.1676989
+17/07/2021 07:37:30 -- INFO -- 0 available rules
+17/07/2021 07:37:30 -- INFO -- For compound MYMOFIZGZYHOMD-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:30 -- INFO -- Calculated moves in 0.3177680969238281 for compound MYMOFIZGZYHOMD-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:30 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626500250.4948928
+17/07/2021 07:37:30 -- INFO -- 0 available rules
+17/07/2021 07:37:30 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:30 -- INFO -- Calculated moves in 0.3152501583099365 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:30 -- INFO -- Starting move obtention process with compound ZAIJTQZQMCNJHG-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c(O[H])c(O[H])c([H])c3OC2([H])[H])c([H])c1[H]) at 1626500250.818448
+17/07/2021 07:37:31 -- INFO -- 22 available rules
+17/07/2021 07:37:31 -- INFO -- For compound ZAIJTQZQMCNJHG-UHFFFAOYSA-N, matching moves are [ZAIJTQZQMCNJHG-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0]
+17/07/2021 07:37:31 -- INFO -- Calculated moves in 0.47417569160461426 for compound ZAIJTQZQMCNJHG-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:31 -- INFO -- Pathway is found at iteration 7
+17/07/2021 07:37:31 -- INFO -- Udapted solved Node 		Move name: TWJUQWMRZAUXLW-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0/ Biological score : 0.6/ Chemical score: 0.62
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|ACFIXJIJDZMPPO-UHFFFAOYSA-N- solved|MYMOFIZGZYHOMD-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZAIJTQZQMCNJHG-UHFFFAOYSA-N| for the first time at iteration 7
+17/07/2021 07:37:31 -- INFO -- Looping move in node |TWJUQWMRZAUXLW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|-1 for move TWJUQWMRZAUXLW-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-1
+17/07/2021 07:37:31 -- INFO -- Starting move obtention process with compound TWJUQWMRZAUXLW-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c(O[H])c(O[H])c([H])c3OC2([H])[H])c([H])c1O[H]) at 1626500251.4842837
+17/07/2021 07:37:31 -- INFO -- 21 available rules
+17/07/2021 07:37:31 -- INFO -- For compound TWJUQWMRZAUXLW-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:31 -- INFO -- Calculated moves in 0.48187828063964844 for compound TWJUQWMRZAUXLW-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:31 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626500251.9837837
+17/07/2021 07:37:32 -- INFO -- 0 available rules
+17/07/2021 07:37:32 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 07:37:32 -- INFO -- Calculated moves in 0.34166860580444336 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:32 -- INFO -- Rollout results are -1, False
+17/07/2021 07:37:33 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 07:37:34 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 07:37:35 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 07:37:37 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 07:37:38 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 07:37:39 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 07:37:40 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 07:37:41 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 07:37:42 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 07:37:44 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 7h 37min 44s 
+Your tree search took 1.9e+01s 
+ 
+Time was spent in selection: 3.2e-02s, expansion: 2.8e+00s, rollout: 3.8e+00s, update: 1.2e-01s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 07:37:44 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 07:37:44 -- WARNING -- RECAP TIME_EXECUTION=18.82
+17/07/2021 07:37:44 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 07:37:44 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 07:37:44 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 07:37:44 -- INFO -- Found 2 pathways for 3',4',7-Trihydroxyisoflavanone
+17/07/2021 07:37:44 -- INFO -- 2 pathways were found
+17/07/2021 07:37:44 -- INFO -- At the end of this tree search, the cache contains 0

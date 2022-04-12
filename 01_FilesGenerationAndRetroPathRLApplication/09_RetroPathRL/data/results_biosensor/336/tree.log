@@ -1,0 +1,69 @@
+18/07/2021 04:26:13 -- WARNING -- Setting the seed at 1234
+18/07/2021 04:26:13 -- INFO -- Stating global parameters from configuration file
+18/07/2021 04:26:13 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 04:26:13 -- INFO -- Full search - no stopping at first result
+18/07/2021 04:26:13 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 04:26:13 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 04:26:13 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 04:26:13 -- INFO -- Using biological cut off at 0.1
+18/07/2021 04:26:13 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 04:26:13 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 04:26:13 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 04:26:13 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 04:26:13 -- INFO -- Using RAVE: False
+18/07/2021 04:26:13 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 04:26:13 -- INFO -- Using explicit hydrogens : True
+18/07/2021 04:26:13 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 04:26:13 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 04:26:35 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 04:26:35 -- INFO -- Starting move obtention process with compound 3,4-Dihydroxyphenyllactic_acid_methyl_ester ([H]Oc1c([H])c([H])c(C([H])([H])C([H])(O[H])C(=O)OC([H])([H])[H])c([H])c1O[H]) at 1626575195.9733698
+18/07/2021 04:26:36 -- INFO -- 31 available rules
+18/07/2021 04:26:36 -- INFO -- For compound 3,4-Dihydroxyphenyllactic_acid_methyl_ester, matching moves are [NMAOZVAEJYOPOF-UHFFFAOYSA-N-MNXR121980_MNXM988_6-0]
+18/07/2021 04:26:36 -- INFO -- Calculated moves in 0.6546590328216553 for compound NMAOZVAEJYOPOF-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:36 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 4h 26min 36s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 04:26:36 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 04:26:36 -- INFO -- Adding a child with move NMAOZVAEJYOPOF-UHFFFAOYSA-N-MNXR121980_MNXM988_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|3,4-Dihydroxyphenyllactic_acid_methyl_ester|
+18/07/2021 04:26:36 -- INFO -- Starting move obtention process with compound HCAYRPIZVSCHOD-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])(C(=O)OC([H])([H])[H])C([H])([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])c([H])c1[H]) at 1626575196.7119708
+18/07/2021 04:26:37 -- INFO -- 84 available rules
+18/07/2021 04:26:38 -- INFO -- For compound HCAYRPIZVSCHOD-UHFFFAOYSA-N, matching moves are [HCAYRPIZVSCHOD-UHFFFAOYSA-N-MNXR121984_MNXM10183_6-0, HCAYRPIZVSCHOD-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0, HCAYRPIZVSCHOD-UHFFFAOYSA-N-MNXR121980_MNXM8142_6-0]
+18/07/2021 04:26:38 -- INFO -- Calculated moves in 1.557091236114502 for compound HCAYRPIZVSCHOD-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:38 -- INFO -- Pathway is found at iteration 0
+18/07/2021 04:26:38 -- INFO -- Udapted solved Node 	Move name: NMAOZVAEJYOPOF-UHFFFAOYSA-N-MNXR121980_MNXM988_6-0/ Biological score : 2.26/ Chemical score: 0.69
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|HCAYRPIZVSCHOD-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 0
+18/07/2021 04:26:38 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|3,4-Dihydroxyphenyllactic_acid_methyl_ester| for the first time at iteration 0
+18/07/2021 04:26:40 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 04:26:42 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 04:26:44 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 04:26:46 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 04:26:48 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 04:26:50 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 04:26:52 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 04:26:54 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 04:26:55 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 04:26:57 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 4h 26min 57s 
+Your tree search took 2.0e+01s 
+ 
+Time was spent in selection: 2.8e-02s, expansion: 1.7e+00s, rollout: 0.0e+00s, update: 7.4e-02s 
+CONGRATULATIONS, THATS A WIN
+18/07/2021 04:26:57 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 04:26:57 -- WARNING -- RECAP TIME_EXECUTION=20.63
+18/07/2021 04:26:57 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 04:26:57 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 04:26:57 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 04:26:57 -- INFO -- Found 1 pathways for 3,4-Dihydroxyphenyllactic_acid_methyl_ester
+18/07/2021 04:26:57 -- INFO -- 1 pathways were found
+18/07/2021 04:26:57 -- INFO -- At the end of this tree search, the cache contains 0

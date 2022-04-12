@@ -1,0 +1,82 @@
+17/07/2021 23:31:36 -- WARNING -- Setting the seed at 1234
+17/07/2021 23:31:36 -- INFO -- Stating global parameters from configuration file
+17/07/2021 23:31:36 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 23:31:36 -- INFO -- Full search - no stopping at first result
+17/07/2021 23:31:36 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 23:31:36 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 23:31:36 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 23:31:36 -- INFO -- Using biological cut off at 0.1
+17/07/2021 23:31:36 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 23:31:36 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 23:31:36 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 23:31:36 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 23:31:36 -- INFO -- Using RAVE: False
+17/07/2021 23:31:36 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 23:31:36 -- INFO -- Using explicit hydrogens : True
+17/07/2021 23:31:36 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 23:31:36 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+17/07/2021 23:31:36 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 23:31:56 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 23:31:56 -- INFO -- Starting move obtention process with compound Oleuropein ([H]Oc1c([H])c([H])c(C([H])([H])C([H])([H])OC(=O)C([H])([H])C2([H])C(C(=O)OC([H])([H])[H])=C([H])OC([H])(OC3([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C3([H])O[H])C2=C([H])C([H])([H])[H])c([H])c1O[H]) at 1626557516.54681
+17/07/2021 23:31:56 -- INFO -- 32 available rules
+17/07/2021 23:32:03 -- WARNING -- 
+17/07/2021 23:32:15 -- INFO -- For compound Oleuropein, matching moves are [RFWGABANNQMHMZ-UHFFFAOYSA-N-rxnAdd216_cpd06686_6_6-0, RFWGABANNQMHMZ-UHFFFAOYSA-N-rxnAdd215_r_1_cpd06686_6_6-0]
+17/07/2021 23:32:15 -- INFO -- Calculated moves in 18.471391439437866 for compound RFWGABANNQMHMZ-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:15 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 23h 32min 15s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 23:32:15 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 23:32:15 -- INFO -- Adding a child with move RFWGABANNQMHMZ-UHFFFAOYSA-N-rxnAdd216_cpd06686_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Oleuropein|
+17/07/2021 23:32:15 -- INFO -- Starting move obtention process with compound CURLTUGMZLYLDI-UHFFFAOYSA-N (O=C=O) at 1626557535.17294
+17/07/2021 23:32:15 -- INFO -- 11 available rules
+17/07/2021 23:32:15 -- INFO -- For compound CURLTUGMZLYLDI-UHFFFAOYSA-N, matching moves are [CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96884_MNXM13_6-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96961_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96481_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR106403_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR95786_MNXM13_14-0]
+17/07/2021 23:32:15 -- INFO -- Calculated moves in 0.5818016529083252 for compound CURLTUGMZLYLDI-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:15 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626557535.7871797
+17/07/2021 23:32:16 -- INFO -- 0 available rules
+17/07/2021 23:32:16 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 23:32:16 -- INFO -- Calculated moves in 0.35653162002563477 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:16 -- INFO -- Pathway is found at iteration 0
+17/07/2021 23:32:16 -- INFO -- Udapted solved Node 	Move name: RFWGABANNQMHMZ-UHFFFAOYSA-N-rxnAdd216_cpd06686_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CURLTUGMZLYLDI-UHFFFAOYSA-N|JUUBCHWRXWPFFH-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 0
+17/07/2021 23:32:16 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Oleuropein| for the first time at iteration 0
+17/07/2021 23:32:16 -- INFO -- Adding a child with move RFWGABANNQMHMZ-UHFFFAOYSA-N-rxnAdd215_r_1_cpd06686_6_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Oleuropein|
+17/07/2021 23:32:16 -- INFO -- Pathway is found at iteration 2
+17/07/2021 23:32:16 -- INFO -- Udapted solved Node 	Move name: RFWGABANNQMHMZ-UHFFFAOYSA-N-rxnAdd215_r_1_cpd06686_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|HKVGJQVJNQRJPO-UHFFFAOYSA-N- solved|VNWKTOKETHGBQD-UHFFFAOYSA-N- solved| for the first time at iteration 2
+17/07/2021 23:32:18 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 23:32:19 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 23:32:20 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 23:32:21 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 23:32:22 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 23:32:23 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 23:32:24 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 23:32:25 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 23:32:25 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 23:32:26 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 23h 32min 26s 
+Your tree search took 1.2e+01s 
+ 
+Time was spent in selection: 2.2e-02s, expansion: 1.2e+00s, rollout: 0.0e+00s, update: 6.4e-02s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 23:32:26 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 23:32:26 -- WARNING -- RECAP TIME_EXECUTION=11.6
+17/07/2021 23:32:26 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 23:32:26 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 23:32:26 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 23:32:26 -- INFO -- Found 2 pathways for Oleuropein
+17/07/2021 23:32:26 -- INFO -- 2 pathways were found
+17/07/2021 23:32:26 -- INFO -- At the end of this tree search, the cache contains 0

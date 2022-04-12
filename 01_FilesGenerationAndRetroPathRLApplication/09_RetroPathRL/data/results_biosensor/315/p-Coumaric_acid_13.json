@@ -1,0 +1,212 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "O=O",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/O2/c1-2",
+          "Names": [
+            "MYMOFIZGZYHOMD-UHFFFAOYSA-N"
+          ],
+          "id": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H])C(=O)O[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C22H18O10/c23-15-7-1-13(2-8-15)5-11-17(25)31-19(21(27)28)20(22(29)30)32-18(26)12-6-14-3-9-16(24)10-4-14/h1-12,19-20,23-24H,(H,27,28)(H,29,30)",
+          "Names": [
+            "BFEFLDQQDKPMIB-UHFFFAOYSA-N"
+          ],
+          "id": "BFEFLDQQDKPMIB-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]N=C(O[H])C1=C([H])N(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C3([H])OC([H])(n4c([H])nc5c(N([H])[H])nc([H])nc54)C([H])(OP(=O)(O[H])O[H])C3([H])O[H])C([H])(O[H])C2([H])O[H])C([H])=C([H])C1([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)",
+          "Names": [
+            "ACFIXJIJDZMPPO-UHFFFAOYSA-N",
+            "Nicotinamide adenine dinucleotide phosphate - reduced"
+          ],
+          "id": "ACFIXJIJDZMPPO-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H])C(=O)O[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C22H18O11/c23-14-6-1-12(2-7-14)4-9-17(26)32-19(21(28)29)20(22(30)31)33-18(27)10-5-13-3-8-15(24)16(25)11-13/h1-11,19-20,23-25H,(H,28,29)(H,30,31)",
+          "Names": [
+            "SDUIRYIRCLFWGA-UHFFFAOYSA-N"
+          ],
+          "id": "SDUIRYIRCLFWGA-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C9H8O3/c10-8-4-1-7(2-5-8)3-6-9(11)12/h1-6,10H,(H,11,12)",
+          "Names": [
+            "p-Coumaric_acid",
+            "NGSWKAQJJWESNS-UHFFFAOYSA-N"
+          ],
+          "id": "NGSWKAQJJWESNS-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "NGSWKAQJJWESNS-UHFFFAOYSA-N-rxnAdd157_r_1_cpd00881_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd157_r_1_cpd00881_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H]>>[H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H])C(=O)O[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.8928571428571429,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "SDUIRYIRCLFWGA-UHFFFAOYSA-N": 1
+          }
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "SDUIRYIRCLFWGA-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0-2",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR121984_MNXM3355_6",
+            "MNXR121981_MNXM10863_6",
+            "MNXR121983_MNXM10183_6",
+            "MNXR121981_MNXM10863_8",
+            "MNXR121981_MNXM10863_10",
+            "MNXR121981_MNXM10863_16",
+            "MNXR121981_MNXM10863_14",
+            "MNXR121981_MNXM10863_12",
+            "MNXR121984_MNXM3355_8",
+            "MNXR121984_MNXM3355_10",
+            "MNXR121984_MNXM3355_16",
+            "MNXR121984_MNXM3355_14",
+            "MNXR121984_MNXM3355_12",
+            "MNXR121982_MNXM3355_6"
+          ],
+          "EC number": [
+            "1.14.13.-"
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H])C(=O)O[H]>>[H]N=C(O[H])C1=C([H])N(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C3([H])OC([H])(n4c([H])nc5c(N([H])[H])nc([H])nc54)C([H])(OP(=O)(O[H])O[H])C3([H])O[H])C([H])(O[H])C2([H])O[H])C([H])=C([H])C1([H])[H].[H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H])C(=O)O[H].O=O",
+          "Diameter": 42,
+          "Score": 2.524990622306487,
+          "ChemicalScore": 0.8095238095238095,
+          "Iteration": 2,
+          "Stoechiometry": {
+            "ACFIXJIJDZMPPO-UHFFFAOYSA-N": 1,
+            "BFEFLDQQDKPMIB-UHFFFAOYSA-N": 1,
+            "MYMOFIZGZYHOMD-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "NGSWKAQJJWESNS-UHFFFAOYSA-N-rxnAdd157_r_1_cpd00881_6_6-0-1",
+          "source": "NGSWKAQJJWESNS-UHFFFAOYSA-N",
+          "id": "NGSWKAQJJWESNS-UHFFFAOYSA-N-rxnAdd157_r_1_cpd00881_6_6-0-1_=>_NGSWKAQJJWESNS-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "SDUIRYIRCLFWGA-UHFFFAOYSA-N",
+          "source": "NGSWKAQJJWESNS-UHFFFAOYSA-N-rxnAdd157_r_1_cpd00881_6_6-0-1",
+          "id": "SDUIRYIRCLFWGA-UHFFFAOYSA-N_=>_NGSWKAQJJWESNS-UHFFFAOYSA-N-rxnAdd157_r_1_cpd00881_6_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "SDUIRYIRCLFWGA-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0-2",
+          "source": "SDUIRYIRCLFWGA-UHFFFAOYSA-N",
+          "id": "SDUIRYIRCLFWGA-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0-2_=>_SDUIRYIRCLFWGA-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "ACFIXJIJDZMPPO-UHFFFAOYSA-N",
+          "source": "SDUIRYIRCLFWGA-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0-2",
+          "id": "ACFIXJIJDZMPPO-UHFFFAOYSA-N_=>_SDUIRYIRCLFWGA-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0-2"
+        }
+      },
+      {
+        "data": {
+          "target": "BFEFLDQQDKPMIB-UHFFFAOYSA-N",
+          "source": "SDUIRYIRCLFWGA-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0-2",
+          "id": "BFEFLDQQDKPMIB-UHFFFAOYSA-N_=>_SDUIRYIRCLFWGA-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0-2"
+        }
+      },
+      {
+        "data": {
+          "target": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
+          "source": "SDUIRYIRCLFWGA-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0-2",
+          "id": "MYMOFIZGZYHOMD-UHFFFAOYSA-N_=>_SDUIRYIRCLFWGA-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0-2"
+        }
+      }
+    ]
+  }
+}

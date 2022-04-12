@@ -1,0 +1,69 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|trans-Resveratrol_3,5-disulfate|",
+          "average_score": -1.0,
+          "total_score": -1000,
+          "visits": 1000,
+          "solved_child": false
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 0,
+          "Names": "|KSFBJARIUJOGSM-UHFFFAOYSA-N|",
+          "average_score": -1.0,
+          "total_score": -1000,
+          "visits": 1000,
+          "solved_child": false
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "rxnAdd218_cpd02252_4_6",
+            "rxnAdd218_cpd02252_3_8",
+            "rxnAdd221_cpd90018_4_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C([H])=C([H])c2c([H])c(OS(=O)(=O)O[H])c([H])c(OS(=O)(=O)O[H])c2[H])c([H])c1[H]>>[H]Oc1c([H])c([H])c(C([H])([H])C([H])([H])c2c([H])c(OS(=O)(=O)O[H])c([H])c(OS(=O)(=O)O[H])c2[H])c([H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.6666666666666666,
+          "Name": "AUJFEUYHBMJMOQ-UHFFFAOYSA-N-rxnAdd218_cpd02252_4_6-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      }
+    ]
+  }
+}

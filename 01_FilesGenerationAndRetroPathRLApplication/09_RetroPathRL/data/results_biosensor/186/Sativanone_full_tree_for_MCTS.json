@@ -1,0 +1,67 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|Sativanone|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|WQCJOKYOIJVEFN-UHFFFAOYSA-N- solved|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "MNXR122555_MNXM13456_8"
+          ],
+          "EC number": [
+            "2.1.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c2c(c1[H])OC([H])([H])C([H])(c1c([H])c([H])c(OC([H])([H])[H])c([H])c1OC([H])([H])[H])C2=O>>[H]Oc1c([H])c([H])c2c(c1[H])OC([H])([H])C([H])(c1c([H])c([H])c(OC([H])([H])[H])c([H])c1O[H])C2=O.[H]OC(=O)C([H])(N([H])[H])C([H])([H])C([H])([H])[S+](C([H])([H])[H])C([H])([H])C1([H])OC([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)C([H])(O[H])C1([H])O[H]",
+          "Diameter": 42,
+          "Score": 2.103803720955957,
+          "ChemicalScore": 0.6,
+          "Name": "JOVYBWHPTQRVNZ-UHFFFAOYSA-N-MNXR122555_MNXM13456_8-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      }
+    ]
+  }
+}

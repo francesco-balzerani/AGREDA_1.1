@@ -1,0 +1,115 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2O[H])c([H])c1O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C21H20O11/c22-7-16-17(27)18(28)19(29)21(32-16)31-15-5-9(23)4-14-10(15)6-13(26)20(30-14)8-1-2-11(24)12(25)3-8/h1-6,16-19,21-22,27-29H,7H2,(H3-,23,24,25,26)/p+1",
+          "Names": [
+            "PWORRIQTGXEXBH-UHFFFAOYSA-O",
+            "Cyanidin 5-O-glucoside"
+          ],
+          "id": "PWORRIQTGXEXBH-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC1([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2",
+          "Names": [
+            "SRBFZHDQGSBBOR-UHFFFAOYSA-N"
+          ],
+          "id": "SRBFZHDQGSBBOR-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C32H38O20/c33-7-19-22(40)24(42)27(45)31(50-19)48-17-5-11(35)4-16-12(17)6-18(28(47-16)10-1-2-13(36)14(37)3-10)49-32-29(25(43)23(41)20(8-34)51-32)52-30-26(44)21(39)15(38)9-46-30/h1-6,15,19-27,29-34,38-45H,7-9H2,(H2-,35,36,37)/p+1",
+          "Names": [
+            "Cyanidin_3-O-sambubioside_5-O-glucoside",
+            "OLBLWNPOURNBCY-UHFFFAOYSA-O"
+          ],
+          "id": "OLBLWNPOURNBCY-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "OLBLWNPOURNBCY-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd17_cpd15022_6_6",
+            "rxnAdd25_cpd15021_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1O[H]>>[H]OC1([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3c([H])c2O[H])c([H])c1O[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.9016393442622951,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "SRBFZHDQGSBBOR-UHFFFAOYSA-N": 1,
+            "PWORRIQTGXEXBH-UHFFFAOYSA-O": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "OLBLWNPOURNBCY-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1",
+          "source": "OLBLWNPOURNBCY-UHFFFAOYSA-O",
+          "id": "OLBLWNPOURNBCY-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1_=>_OLBLWNPOURNBCY-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "SRBFZHDQGSBBOR-UHFFFAOYSA-N",
+          "source": "OLBLWNPOURNBCY-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1",
+          "id": "SRBFZHDQGSBBOR-UHFFFAOYSA-N_=>_OLBLWNPOURNBCY-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "PWORRIQTGXEXBH-UHFFFAOYSA-O",
+          "source": "OLBLWNPOURNBCY-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1",
+          "id": "PWORRIQTGXEXBH-UHFFFAOYSA-O_=>_OLBLWNPOURNBCY-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1"
+        }
+      }
+    ]
+  }
+}

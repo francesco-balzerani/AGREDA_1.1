@@ -1,0 +1,114 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|Glycitein_7-O-glucuronide|",
+          "average_score": 2.016,
+          "total_score": 2016,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|DXYUAIFZCFRPTH-UHFFFAOYSA-N- solved|",
+          "average_score": 2.0096385542168673,
+          "total_score": 1668,
+          "visits": 830,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_2",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|DXYUAIFZCFRPTH-UHFFFAOYSA-N- solved|HDYANYHVCAPMJV-UHFFFAOYSA-N- solved|",
+          "average_score": 2.0470588235294116,
+          "total_score": 348,
+          "visits": 170,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "rxnAdd183_cpd14914_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c(OC([H])([H])[H])c([H])c3c(=O)c(-c4c([H])c([H])c(O[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]>>[H]OC(=O)C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]Oc1c([H])c([H])c(-c2c([H])oc3c([H])c(O[H])c(OC([H])([H])[H])c([H])c3c2=O)c([H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.746268656716418,
+          "Name": "HVZUFDAWJOXFQU-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_1",
+          "Rule ID": [
+            "MNXR122814_MNXM8258_6",
+            "MNXR111311_MNXM7400_6"
+          ],
+          "EC number": [
+            "2.4.1.-",
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c(OC([H])([H])[H])c([H])c3c(=O)c(-c4c([H])c([H])c(O[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]>>[H]Oc1c([H])c([H])c(-c2c([H])oc3c([H])c(O[H])c(OC([H])([H])[H])c([H])c3c2=O)c([H])c1[H].[H]OC(=O)C1([H])OC([H])(OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C2([H])OC([H])(n3c([H])c([H])c(O[H])nc3=O)C([H])(O[H])C2([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "Diameter": 42,
+          "Score": 1.9637878273455556,
+          "ChemicalScore": 0.6911764705882353,
+          "Name": "HVZUFDAWJOXFQU-UHFFFAOYSA-N-MNXR122814_MNXM8258_6-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      },
+      {
+        "data": {
+          "target": "move_1",
+          "source": "node_2",
+          "id": "move_1_=>_node_2"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_1",
+          "id": "node_0_=>_move_1"
+        }
+      }
+    ]
+  }
+}

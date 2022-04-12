@@ -1,0 +1,69 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|6'-Hydroxyangolensin|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|GPRLSGONYQIRFK-UHFFFAOYSA-N|WUADCCWRTIWANL-UHFFFAOYSA-N- solved|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "rxnAdd180_r_1_cpd90006_4_6",
+            "rxnAdd180_r_1_cpd90006_3_8",
+            "rxnAdd180_r_1_cpd90006_2_10"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(O[H])c(C(=O)C([H])(c2c([H])c([H])c(OC([H])([H])[H])c([H])c2[H])C([H])([H])[H])c(O[H])c1[H]>>[H+].[H]Oc1c([H])c(O[H])c2c(=O)c(-c3c([H])c([H])c(OC([H])([H])[H])c([H])c3[H])c([H])oc2c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.8529411764705882,
+          "Name": "UDALNYNLNYDPMV-UHFFFAOYSA-N-rxnAdd180_r_1_cpd90006_4_6-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      }
+    ]
+  }
+}

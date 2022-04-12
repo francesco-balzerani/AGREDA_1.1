@@ -1,0 +1,98 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])c1c(O[H])c([H])c(O[H])c2c1OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])c1c(O[H])c([H])c(O[H])c2c1OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])c1c(O[H])c([H])c(O[H])c2c1OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C60H50O24/c61-23-13-34(71)42-41(14-23)81-55(20-2-6-26(63)31(68)10-20)51(78)48(42)44-36(73)17-38(75)46-50(53(80)57(83-59(44)46)22-4-8-28(65)33(70)12-22)47-39(76)18-37(74)45-49(52(79)56(84-60(45)47)21-3-7-27(64)32(69)11-21)43-35(72)16-29(66)24-15-40(77)54(82-58(24)43)19-1-5-25(62)30(67)9-19/h1-14,16-18,40,48-57,61-80H,15H2",
+          "Names": [
+            "QFLMUASKTWGRQE-UHFFFAOYSA-N",
+            "Cinnamtannin A2"
+          ],
+          "id": "QFLMUASKTWGRQE-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C15H14O6/c16-8-4-11(18)9-6-13(20)15(21-14(9)5-8)7-1-2-10(17)12(19)3-7/h1-5,13,15-20H,6H2",
+          "Names": [
+            "(-)-Epicatechin",
+            "PFTAWBLQPZVEMU-UHFFFAOYSA-N"
+          ],
+          "id": "PFTAWBLQPZVEMU-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd223_r_2_cpd06619_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd223_r_2_cpd06619_6_6",
+            "rxnAdd223_r_1_cpd03970_6_6",
+            "rxnAdd223_r_2_cpd06619_5_8",
+            "rxnAdd223_r_1_cpd03970_5_8",
+            "rxnAdd223_r_2_cpd06619_4_10",
+            "rxnAdd223_r_2_cpd06619_3_12",
+            "rxnAdd223_r_2_cpd06619_2_14",
+            "rxnAdd223_r_2_cpd06619_1_16",
+            "rxnAdd223_r_1_cpd03970_4_10",
+            "rxnAdd223_r_1_cpd03970_3_12",
+            "rxnAdd223_r_1_cpd03970_2_14",
+            "rxnAdd223_r_1_cpd03970_1_16"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]>>[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])c1c(O[H])c([H])c(O[H])c2c1OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])c1c(O[H])c([H])c(O[H])c2c1OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])c1c(O[H])c([H])c(O[H])c2c1OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 1.0,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "QFLMUASKTWGRQE-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd223_r_2_cpd06619_6_6-0-1",
+          "source": "PFTAWBLQPZVEMU-UHFFFAOYSA-N",
+          "id": "PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd223_r_2_cpd06619_6_6-0-1_=>_PFTAWBLQPZVEMU-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "QFLMUASKTWGRQE-UHFFFAOYSA-N",
+          "source": "PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd223_r_2_cpd06619_6_6-0-1",
+          "id": "QFLMUASKTWGRQE-UHFFFAOYSA-N_=>_PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd223_r_2_cpd06619_6_6-0-1"
+        }
+      }
+    ]
+  }
+}

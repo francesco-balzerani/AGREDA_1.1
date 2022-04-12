@@ -1,0 +1,217 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|2-Hydroxy-2-phenylacetic_acid|",
+          "average_score": 2.032,
+          "total_score": 2032,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|BOPGDPNILDQYTO-UHFFFAOYSA-N- solved|FAQJJMHZNSSFSM-UHFFFAOYSA-N- solved|GPRLSGONYQIRFK-UHFFFAOYSA-N|",
+          "average_score": 2.012678288431062,
+          "total_score": 1270,
+          "visits": 631,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_2",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|CURLTUGMZLYLDI-UHFFFAOYSA-N|HUMNYLRZRPPJDN-UHFFFAOYSA-N- solved|MHAJPDPJQMAIIY-UHFFFAOYSA-N- solved|",
+          "average_score": 2.0318725099601593,
+          "total_score": 510,
+          "visits": 251,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_3",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|XLYOFNOQVPJJNP-UHFFFAOYSA-N|YHXHKYRQLYQUIH-UHFFFAOYSA-N- solved|",
+          "average_score": 2.0695652173913044,
+          "total_score": 238,
+          "visits": 115,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_4",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|FAQJJMHZNSSFSM-UHFFFAOYSA-N- solved|GPRLSGONYQIRFK-UHFFFAOYSA-N|",
+          "average_score": 4.666666666666667,
+          "total_score": 14,
+          "visits": 3,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "MNXR108426_MNXM1698_10",
+            "MNXR134098_MNXM19188_10",
+            "MNXR134098_MNXM19188_8",
+            "MNXR134098_MNXM19188_6",
+            "MNXR134098_MNXM19188_14",
+            "MNXR108428_MNXM1097_8",
+            "MNXR108428_MNXM1097_6",
+            "MNXR108428_MNXM1097_14",
+            "MNXR108426_MNXM1698_8",
+            "MNXR108426_MNXM1698_6",
+            "MNXR108426_MNXM1698_14"
+          ],
+          "EC number": [
+            "",
+            "1.1.1.-"
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])(O[H])c1c([H])c([H])c([H])c([H])c1[H]>>[H+].[H]OC(=O)C(=O)c1c([H])c([H])c([H])c([H])c1[H].[H]N=C(O[H])C1=C([H])N(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C3([H])OC([H])(n4c([H])nc5c(N([H])[H])nc([H])nc54)C([H])(O[H])C3([H])O[H])C([H])(O[H])C2([H])O[H])C([H])=C([H])C1([H])[H]",
+          "Diameter": 42,
+          "Score": 3.4893959217271293,
+          "ChemicalScore": 1.0,
+          "Name": "IWYDHOAUDWTVEP-UHFFFAOYSA-N-MNXR108426_MNXM1698_10-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_1",
+          "Rule ID": [
+            "MNXR107658_MNXM1301_6",
+            "MNXR107658_MNXM1301_8"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])(O[H])c1c([H])c([H])c([H])c([H])c1[H]>>[H]OO[H].[H]C(=O)c1c([H])c([H])c([H])c([H])c1[H].O=C=O",
+          "Diameter": 42,
+          "Score": 2.7986506454452686,
+          "ChemicalScore": 0.7857142857142857,
+          "Name": "IWYDHOAUDWTVEP-UHFFFAOYSA-N-MNXR107658_MNXM1301_6-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_2",
+          "Rule ID": [
+            "MNXR108430_MNXM1097_14",
+            "MNXR108430_MNXM1097_12",
+            "MNXR108430_MNXM1097_10"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])(O[H])c1c([H])c([H])c([H])c([H])c1[H]>>[H]OC(=O)C([H])(O[H])c1c([H])c([H])c(O[H])c([H])c1[H].[H]O[H]",
+          "Diameter": 42,
+          "Score": 1.4913616938342726,
+          "ChemicalScore": 1.0,
+          "Name": "IWYDHOAUDWTVEP-UHFFFAOYSA-N-MNXR108430_MNXM1097_14-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_3",
+          "Rule ID": [
+            "MNXR115594_MNXM1301_8",
+            "MNXR115594_MNXM1301_6"
+          ],
+          "EC number": [
+            "1.1.5.-"
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])(O[H])c1c([H])c([H])c([H])c([H])c1[H]>>[H]OC(=O)C(=O)c1c([H])c([H])c([H])c([H])c1[H].[H+].[H+]",
+          "Diameter": 42,
+          "Score": 0.3010299956639812,
+          "ChemicalScore": 0.7857142857142857,
+          "Name": "IWYDHOAUDWTVEP-UHFFFAOYSA-N-MNXR115594_MNXM1301_8-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      },
+      {
+        "data": {
+          "target": "move_1",
+          "source": "node_2",
+          "id": "move_1_=>_node_2"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_1",
+          "id": "node_0_=>_move_1"
+        }
+      },
+      {
+        "data": {
+          "target": "move_2",
+          "source": "node_3",
+          "id": "move_2_=>_node_3"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_2",
+          "id": "node_0_=>_move_2"
+        }
+      },
+      {
+        "data": {
+          "target": "move_3",
+          "source": "node_4",
+          "id": "move_3_=>_node_4"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_3",
+          "id": "node_0_=>_move_3"
+        }
+      }
+    ]
+  }
+}

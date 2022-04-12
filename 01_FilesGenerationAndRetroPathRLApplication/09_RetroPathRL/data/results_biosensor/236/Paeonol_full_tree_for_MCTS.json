@@ -1,0 +1,68 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|Paeonol|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|SULYEHHGGXARJS-UHFFFAOYSA-N- solved|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "MNXR118545_MNXM6823_8",
+            "MNXR118545_MNXM6823_6"
+          ],
+          "EC number": [
+            "2.1.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(OC([H])([H])[H])c([H])c([H])c1C(=O)C([H])([H])[H]>>[H]OC(=O)C([H])(N([H])[H])C([H])([H])C([H])([H])[S+](C([H])([H])[H])C([H])([H])C1([H])OC([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)C([H])(O[H])C1([H])O[H].[H]Oc1c([H])c([H])c(C(=O)C([H])([H])[H])c(O[H])c1[H]",
+          "Diameter": 42,
+          "Score": 2.103803720955957,
+          "ChemicalScore": 0.6,
+          "Name": "UILPJVPSNHJFIK-UHFFFAOYSA-N-MNXR118545_MNXM6823_8-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      }
+    ]
+  }
+}

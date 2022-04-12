@@ -1,0 +1,56 @@
+18/07/2021 00:24:50 -- WARNING -- Setting the seed at 1234
+18/07/2021 00:24:50 -- INFO -- Stating global parameters from configuration file
+18/07/2021 00:24:50 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 00:24:50 -- INFO -- Full search - no stopping at first result
+18/07/2021 00:24:50 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 00:24:50 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 00:24:50 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 00:24:50 -- INFO -- Using biological cut off at 0.1
+18/07/2021 00:24:50 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 00:24:50 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 00:24:50 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 00:24:50 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 00:24:50 -- INFO -- Using RAVE: False
+18/07/2021 00:24:50 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 00:24:50 -- INFO -- Using explicit hydrogens : True
+18/07/2021 00:24:50 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 00:24:50 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 00:25:15 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 00:25:15 -- INFO -- Starting move obtention process with compound Paeoniflorin ([H]OC([H])([H])C1([H])OC([H])(OC23C([H])([H])C4([H])C5(O[H])OC([H])(OC2(C([H])([H])[H])C5([H])[H])C43C([H])([H])OC(=O)c2c([H])c([H])c([H])c([H])c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626560715.640737
+18/07/2021 00:25:16 -- INFO -- 0 available rules
+18/07/2021 00:25:16 -- INFO -- For compound Paeoniflorin, matching moves are []
+18/07/2021 00:25:16 -- INFO -- Calculated moves in 0.4482278823852539 for compound YKRGDOXKVOZESV-UHFFFAOYSA-N - without caching
+18/07/2021 00:25:16 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 0h 25min 16s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 00:25:16 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 00:25:18 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 00:25:20 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 00:25:22 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 00:25:23 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 00:25:25 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 00:25:27 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 00:25:29 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 00:25:31 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 00:25:33 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 00:25:34 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 0h 25min 34s 
+Your tree search took 1.8e+01s 
+ 
+Time was spent in selection: 1.2e-03s, expansion: 7.0e-04s, rollout: 0.0e+00s, update: 1.2e-02s 
+You just lost the game
+18/07/2021 00:25:34 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 00:25:34 -- WARNING -- RECAP TIME_EXECUTION=18.32
+18/07/2021 00:25:34 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 00:25:34 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 00:25:34 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 00:25:34 -- INFO -- No pathway was found for this compound
+18/07/2021 00:25:34 -- INFO -- 0 pathways were found
+18/07/2021 00:25:34 -- INFO -- At the end of this tree search, the cache contains 0

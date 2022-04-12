@@ -1,0 +1,157 @@
+17/07/2021 07:37:06 -- WARNING -- Setting the seed at 1234
+17/07/2021 07:37:06 -- INFO -- Stating global parameters from configuration file
+17/07/2021 07:37:06 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 07:37:06 -- INFO -- Full search - no stopping at first result
+17/07/2021 07:37:06 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 07:37:06 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 07:37:06 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 07:37:06 -- INFO -- Using biological cut off at 0.1
+17/07/2021 07:37:06 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 07:37:06 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 07:37:06 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 07:37:06 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 07:37:06 -- INFO -- Using RAVE: False
+17/07/2021 07:37:06 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 07:37:06 -- INFO -- Using explicit hydrogens : True
+17/07/2021 07:37:06 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 07:37:06 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+17/07/2021 07:37:06 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 07:37:27 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 07:37:27 -- INFO -- Starting move obtention process with compound Quercetin_3,4'-O-diglucoside ([H]Oc1c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626500247.8429754
+17/07/2021 07:37:28 -- INFO -- 841 available rules
+17/07/2021 07:37:32 -- INFO -- For compound Quercetin_3,4'-O-diglucoside, matching moves are [RPVIQWDFJPYNJM-UHFFFAOYSA-N-rxnAdd141_cpd32409_6_6-0, RPVIQWDFJPYNJM-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0, RPVIQWDFJPYNJM-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118459_MNXM2424_8-0, RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118458_MNXM2424_8-0, RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118457_MNXM2424_8-0, RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118456_MNXM2424_8-0, RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-1, RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-1]
+17/07/2021 07:37:32 -- INFO -- Calculated moves in 4.54364800453186 for compound RPVIQWDFJPYNJM-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:32 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 7h 37min 32s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 07:37:32 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 07:37:32 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-rxnAdd141_cpd32409_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:37:32 -- INFO -- Pathway is found at iteration 0
+17/07/2021 07:37:32 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-rxnAdd141_cpd32409_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|REFJWTPEDVJJIY-UHFFFAOYSA-N- solved|WQZGKKKJIJFFOK-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 07:37:32 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Quercetin_3,4'-O-diglucoside| for the first time at iteration 0
+17/07/2021 07:37:32 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:37:32 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:37:32 -- INFO -- Pathway is found at iteration 2
+17/07/2021 07:37:32 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0/ Biological score : 4.02/ Chemical score: 0.98
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|OIUBYZLTFSLSBY-UHFFFAOYSA-N- solved|WQZGKKKJIJFFOK-UHFFFAOYSA-N- solved| for the first time at iteration 2
+17/07/2021 07:37:32 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118459_MNXM2424_8-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:37:32 -- INFO -- Starting move obtention process with compound JWHOQIBHCTWPOD-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c(-c4c([H])c([H])c(OC5([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])c(O[H])c4[H])oc4c([H])c(=O)c([H])c(O[H])c-4c3O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]) at 1626500252.870683
+17/07/2021 07:37:33 -- INFO -- 181 available rules
+17/07/2021 07:37:39 -- INFO -- For compound JWHOQIBHCTWPOD-UHFFFAOYSA-N, matching moves are [JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-0, JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-1, JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR118459_MNXM80233_8-0, JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR118453_MNXM114519_8-0, JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-0, JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-1, JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR112308_MNXM5106_6-0, JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR112308_MNXM5106_6-1, JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR112307_MNXM5106_6-0, JWHOQIBHCTWPOD-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0]
+17/07/2021 07:37:39 -- INFO -- Calculated moves in 6.934389352798462 for compound JWHOQIBHCTWPOD-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:39 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118458_MNXM2424_8-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:37:39 -- INFO -- Starting move obtention process with compound SYEMWPDYJLMOFA-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c(-c4c([H])c([H])c(OC5([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])c(O[H])c4[H])oc4c([H])c(=O)c([H])c(O[H])c-4c3O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626500259.9677746
+17/07/2021 07:37:40 -- INFO -- 172 available rules
+17/07/2021 07:37:46 -- INFO -- For compound SYEMWPDYJLMOFA-UHFFFAOYSA-N, matching moves are [SYEMWPDYJLMOFA-UHFFFAOYSA-N-MNXR118460_MNXM114555_8-0, SYEMWPDYJLMOFA-UHFFFAOYSA-N-MNXR118460_MNXM114555_8-1, SYEMWPDYJLMOFA-UHFFFAOYSA-N-MNXR118458_MNXM114555_8-0, SYEMWPDYJLMOFA-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, SYEMWPDYJLMOFA-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-1, SYEMWPDYJLMOFA-UHFFFAOYSA-N-MNXR118452_MNXM114520_16-0, SYEMWPDYJLMOFA-UHFFFAOYSA-N-MNXR118719_MNXM83656_8-0]
+17/07/2021 07:37:46 -- INFO -- Calculated moves in 6.964288949966431 for compound SYEMWPDYJLMOFA-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:46 -- INFO -- Pathway is found at iteration 4
+17/07/2021 07:37:47 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0/ Biological score : 4.02/ Chemical score: 0.96
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|OVSQVDMCBVZWGM-UHFFFAOYSA-N- solved|WQZGKKKJIJFFOK-UHFFFAOYSA-N- solved| for the first time at iteration 4
+17/07/2021 07:37:47 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118457_MNXM2424_8-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:37:47 -- INFO -- Starting move obtention process with compound XJWWJKWICDAHSZ-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC2([H])C([H])(O[H])C([H])(Oc3c(-c4c([H])c([H])c(OC5([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])c(O[H])c4[H])oc4c([H])c(=O)c([H])c(O[H])c-4c3O[H])OC([H])(C([H])([H])O[H])C2([H])O[H])c([H])c1[H]) at 1626500267.095815
+17/07/2021 07:37:47 -- INFO -- 196 available rules
+17/07/2021 07:37:51 -- INFO -- For compound XJWWJKWICDAHSZ-UHFFFAOYSA-N, matching moves are [XJWWJKWICDAHSZ-UHFFFAOYSA-N-MNXR118457_MNXM114722_8-0, XJWWJKWICDAHSZ-UHFFFAOYSA-N-MNXR118451_MNXM114685_8-0, XJWWJKWICDAHSZ-UHFFFAOYSA-N-MNXR118460_MNXM114555_8-0, XJWWJKWICDAHSZ-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, XJWWJKWICDAHSZ-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-1, XJWWJKWICDAHSZ-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0]
+17/07/2021 07:37:51 -- INFO -- Calculated moves in 4.662662506103516 for compound XJWWJKWICDAHSZ-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:51 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118456_MNXM2424_8-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:37:51 -- INFO -- Starting move obtention process with compound SFIJGWLHCSTHDA-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC2([H])C([H])(C([H])([H])O[H])OC([H])(Oc3c(-c4c([H])c([H])c(OC5([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])c(O[H])c4[H])oc4c([H])c(=O)c([H])c(O[H])c-4c3O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626500271.858227
+17/07/2021 07:37:52 -- INFO -- 196 available rules
+17/07/2021 07:37:56 -- INFO -- For compound SFIJGWLHCSTHDA-UHFFFAOYSA-N, matching moves are [SFIJGWLHCSTHDA-UHFFFAOYSA-N-MNXR118456_MNXM114723_8-0, SFIJGWLHCSTHDA-UHFFFAOYSA-N-MNXR118450_MNXM114687_8-0, SFIJGWLHCSTHDA-UHFFFAOYSA-N-MNXR118460_MNXM114555_8-0, SFIJGWLHCSTHDA-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, SFIJGWLHCSTHDA-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-2, SFIJGWLHCSTHDA-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0]
+17/07/2021 07:37:56 -- INFO -- Calculated moves in 4.664461135864258 for compound SFIJGWLHCSTHDA-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:56 -- INFO -- Pathway is found at iteration 6
+17/07/2021 07:37:56 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118459_MNXM2424_8-0/ Biological score : 2.26/ Chemical score: 0.98
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|JWHOQIBHCTWPOD-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 6
+17/07/2021 07:37:56 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0 to node 
+Count: 7/ Score : 6.57/ Children: 7/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:37:56 -- INFO -- Starting move obtention process with compound IMSYOODRCSMDGS-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c([H])c([H])c(-c4oc5c([H])c(O[H])c([H])c(O[H])c5c(=O)c4OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c([H])c3O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]) at 1626500276.6811216
+17/07/2021 07:37:57 -- INFO -- 627 available rules
+17/07/2021 07:38:03 -- INFO -- For compound IMSYOODRCSMDGS-UHFFFAOYSA-N, matching moves are [IMSYOODRCSMDGS-UHFFFAOYSA-N-rxnAdd66_cpd31618_6_6-0, IMSYOODRCSMDGS-UHFFFAOYSA-N-rxnAdd141_cpd32409_6_6-0, IMSYOODRCSMDGS-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, IMSYOODRCSMDGS-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-0, IMSYOODRCSMDGS-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-1, IMSYOODRCSMDGS-UHFFFAOYSA-N-MNXR118453_MNXM114519_8-0, IMSYOODRCSMDGS-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-0, IMSYOODRCSMDGS-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-1, IMSYOODRCSMDGS-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, IMSYOODRCSMDGS-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0]
+17/07/2021 07:38:03 -- INFO -- Calculated moves in 6.471056699752808 for compound IMSYOODRCSMDGS-UHFFFAOYSA-N - without caching
+17/07/2021 07:38:03 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-1 to node 
+Count: 8/ Score : 6.0/ Children: 8/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:38:03 -- INFO -- Starting move obtention process with compound OTSXLBDITQLSSL-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c(-c4c([H])c([H])c(OC5([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])c(O[H])c4[H])oc4c([H])c(O[H])c([H])c(O[H])c4c3=O)C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]) at 1626500283.243615
+17/07/2021 07:38:03 -- INFO -- 627 available rules
+17/07/2021 07:38:10 -- INFO -- For compound OTSXLBDITQLSSL-UHFFFAOYSA-N, matching moves are [OTSXLBDITQLSSL-UHFFFAOYSA-N-rxnAdd66_cpd31618_6_6-0, OTSXLBDITQLSSL-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, OTSXLBDITQLSSL-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-0, OTSXLBDITQLSSL-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-1, OTSXLBDITQLSSL-UHFFFAOYSA-N-MNXR118453_MNXM114519_8-0, OTSXLBDITQLSSL-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-0, OTSXLBDITQLSSL-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-1, OTSXLBDITQLSSL-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, OTSXLBDITQLSSL-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, OTSXLBDITQLSSL-UHFFFAOYSA-N-MNXR118457_MNXM2424_8-0]
+17/07/2021 07:38:10 -- INFO -- Calculated moves in 7.612426042556763 for compound OTSXLBDITQLSSL-UHFFFAOYSA-N - without caching
+17/07/2021 07:38:10 -- INFO -- Pathway is found at iteration 8
+17/07/2021 07:38:10 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118458_MNXM2424_8-0/ Biological score : 2.26/ Chemical score: 0.98
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved|SYEMWPDYJLMOFA-UHFFFAOYSA-N| for the first time at iteration 8
+17/07/2021 07:38:10 -- INFO -- Adding a child with move RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0 to node 
+Count: 9/ Score : 6.44/ Children: 9/ Terminal : False
+|Quercetin_3,4'-O-diglucoside|
+17/07/2021 07:38:11 -- INFO -- Starting move obtention process with compound FNLAXWROXAQIAI-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c([H])c([H])c(-c4oc5c([H])c(O[H])c([H])c(O[H])c5c(=O)c4OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c([H])c3O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626500291.0090232
+17/07/2021 07:38:11 -- INFO -- 594 available rules
+17/07/2021 07:38:17 -- INFO -- For compound FNLAXWROXAQIAI-UHFFFAOYSA-N, matching moves are [FNLAXWROXAQIAI-UHFFFAOYSA-N-rxnAdd141_cpd32409_6_6-0, FNLAXWROXAQIAI-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0, FNLAXWROXAQIAI-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, FNLAXWROXAQIAI-UHFFFAOYSA-N-MNXR118460_MNXM114555_8-0, FNLAXWROXAQIAI-UHFFFAOYSA-N-MNXR118460_MNXM114555_8-1, FNLAXWROXAQIAI-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, FNLAXWROXAQIAI-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-1, FNLAXWROXAQIAI-UHFFFAOYSA-N-MNXR118452_MNXM114520_14-0, FNLAXWROXAQIAI-UHFFFAOYSA-N-MNXR118459_MNXM2424_8-0, FNLAXWROXAQIAI-UHFFFAOYSA-N-MNXR118458_MNXM2424_8-0]
+17/07/2021 07:38:17 -- INFO -- Calculated moves in 6.5711119174957275 for compound FNLAXWROXAQIAI-UHFFFAOYSA-N - without caching
+17/07/2021 07:38:17 -- INFO -- Pathway is found at iteration 10
+17/07/2021 07:38:17 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118457_MNXM2424_8-0/ Biological score : 2.26/ Chemical score: 0.98
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved|XJWWJKWICDAHSZ-UHFFFAOYSA-N| for the first time at iteration 10
+17/07/2021 07:38:17 -- INFO -- Pathway is found at iteration 12
+17/07/2021 07:38:17 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118456_MNXM2424_8-0/ Biological score : 2.26/ Chemical score: 0.98
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved|SFIJGWLHCSTHDA-UHFFFAOYSA-N| for the first time at iteration 12
+17/07/2021 07:38:17 -- INFO -- Pathway is found at iteration 14
+17/07/2021 07:38:17 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0/ Biological score : 2.26/ Chemical score: 0.9
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|IMSYOODRCSMDGS-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 14
+17/07/2021 07:38:17 -- INFO -- Pathway is found at iteration 16
+17/07/2021 07:38:17 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-1/ Biological score : 2.26/ Chemical score: 0.9
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|OTSXLBDITQLSSL-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 16
+17/07/2021 07:38:18 -- INFO -- Pathway is found at iteration 18
+17/07/2021 07:38:18 -- INFO -- Udapted solved Node 	Move name: RPVIQWDFJPYNJM-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0/ Biological score : 2.26/ Chemical score: 0.9
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|FNLAXWROXAQIAI-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 18
+17/07/2021 07:38:18 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 07:38:20 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 07:38:21 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 07:38:21 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 07:38:22 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 07:38:23 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 07:38:24 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 07:38:25 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 07:38:26 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 07:38:28 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 7h 38min 28s 
+Your tree search took 5.6e+01s 
+ 
+Time was spent in selection: 5.5e-02s, expansion: 4.5e+01s, rollout: 0.0e+00s, update: 2.5e-01s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 07:38:28 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 07:38:28 -- WARNING -- RECAP TIME_EXECUTION=55.84
+17/07/2021 07:38:28 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 07:38:28 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 07:38:28 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 07:38:28 -- INFO -- Found 10 pathways for Quercetin_3,4'-O-diglucoside
+17/07/2021 07:38:28 -- INFO -- 10 pathways were found
+17/07/2021 07:38:28 -- INFO -- At the end of this tree search, the cache contains 0

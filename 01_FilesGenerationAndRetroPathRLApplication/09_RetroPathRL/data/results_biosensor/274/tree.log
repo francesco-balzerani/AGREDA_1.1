@@ -1,0 +1,137 @@
+18/07/2021 00:24:51 -- WARNING -- Setting the seed at 1234
+18/07/2021 00:24:51 -- INFO -- Stating global parameters from configuration file
+18/07/2021 00:24:51 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 00:24:51 -- INFO -- Full search - no stopping at first result
+18/07/2021 00:24:51 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 00:24:51 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 00:24:51 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 00:24:51 -- INFO -- Using biological cut off at 0.1
+18/07/2021 00:24:51 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 00:24:51 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 00:24:51 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 00:24:51 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 00:24:51 -- INFO -- Using RAVE: False
+18/07/2021 00:24:51 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 00:24:51 -- INFO -- Using explicit hydrogens : True
+18/07/2021 00:24:51 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 00:24:51 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+18/07/2021 00:24:51 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 00:25:15 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 00:25:15 -- INFO -- Starting move obtention process with compound Gallic_acid ([H]OC(=O)c1c([H])c(O[H])c(O[H])c(O[H])c1[H]) at 1626560715.7244763
+18/07/2021 00:25:16 -- INFO -- 358 available rules
+18/07/2021 00:25:16 -- INFO -- For compound Gallic_acid, matching moves are [LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd7_r_3_cpd01020_4_6-0, LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd6_r_4_cpd01020_4_6-0, LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd58_r_1_cpd01020_5_6-0, LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd55_r_1_cpd01020_5_6-0, LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd47_cpd01020_3_6-0, LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd46_cpd01020_3_6-0, LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd42_r_2_cpd01020_5_6-0, LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd222_r_2_cpd01020_5_6-0, LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd19_r_3_cpd01020_4_6-0, LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd18_r_2_cpd01020_4_6-0]
+18/07/2021 00:25:16 -- INFO -- Calculated moves in 0.7925863265991211 for compound LNTHITQWFMADLM-UHFFFAOYSA-N - without caching
+18/07/2021 00:25:16 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 0h 25min 16s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 00:25:16 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 00:25:16 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd7_r_3_cpd01020_4_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:16 -- INFO -- Pathway is found at iteration 0
+18/07/2021 00:25:16 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd7_r_3_cpd01020_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|TWYYVOVDSNRIJM-UHFFFAOYSA-O- solved| for the first time at iteration 0
+18/07/2021 00:25:16 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Gallic_acid| for the first time at iteration 0
+18/07/2021 00:25:16 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd6_r_4_cpd01020_4_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:16 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd58_r_1_cpd01020_5_6-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:16 -- INFO -- Pathway is found at iteration 2
+18/07/2021 00:25:16 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd6_r_4_cpd01020_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|DHTPVCYNNWQRMN-UHFFFAOYSA-O- solved| for the first time at iteration 2
+18/07/2021 00:25:16 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd55_r_1_cpd01020_5_6-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:16 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd47_cpd01020_3_6-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:17 -- INFO -- Starting move obtention process with compound CURLTUGMZLYLDI-UHFFFAOYSA-N (O=C=O) at 1626560717.0010402
+18/07/2021 00:25:17 -- INFO -- 11 available rules
+18/07/2021 00:25:17 -- INFO -- For compound CURLTUGMZLYLDI-UHFFFAOYSA-N, matching moves are [CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96884_MNXM13_6-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96961_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96481_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR106403_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR95786_MNXM13_14-0]
+18/07/2021 00:25:17 -- INFO -- Calculated moves in 0.6204493045806885 for compound CURLTUGMZLYLDI-UHFFFAOYSA-N - without caching
+18/07/2021 00:25:17 -- INFO -- Pathway is found at iteration 4
+18/07/2021 00:25:17 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd58_r_1_cpd01020_5_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|WMBWREPUVVBILR-UHFFFAOYSA-N- solved| for the first time at iteration 4
+18/07/2021 00:25:17 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd46_cpd01020_3_6-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:17 -- INFO -- Starting move obtention process with compound CURLTUGMZLYLDI-UHFFFAOYSA-N (O=C=O) at 1626560717.844943
+18/07/2021 00:25:18 -- INFO -- 11 available rules
+18/07/2021 00:25:18 -- INFO -- For compound CURLTUGMZLYLDI-UHFFFAOYSA-N, matching moves are [CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96884_MNXM13_6-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96961_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96481_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR106403_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR95786_MNXM13_14-0]
+18/07/2021 00:25:18 -- INFO -- Calculated moves in 0.5885274410247803 for compound CURLTUGMZLYLDI-UHFFFAOYSA-N - without caching
+18/07/2021 00:25:18 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd42_r_2_cpd01020_5_6-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:18 -- INFO -- Pathway is found at iteration 6
+18/07/2021 00:25:18 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd55_r_1_cpd01020_5_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|LSHVYAFMTMFKBA-UHFFFAOYSA-N- solved| for the first time at iteration 6
+18/07/2021 00:25:18 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd222_r_2_cpd01020_5_6-0 to node 
+Count: 7/ Score : 6.57/ Children: 7/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:18 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd19_r_3_cpd01020_4_6-0 to node 
+Count: 8/ Score : 6.0/ Children: 8/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:18 -- INFO -- Pathway is found at iteration 8
+18/07/2021 00:25:18 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd47_cpd01020_3_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CURLTUGMZLYLDI-UHFFFAOYSA-N|RDJUHLUBPADHNP-UHFFFAOYSA-N- solved| for the first time at iteration 8
+18/07/2021 00:25:18 -- INFO -- Adding a child with move LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd18_r_2_cpd01020_4_6-0 to node 
+Count: 9/ Score : 6.44/ Children: 9/ Terminal : False
+|Gallic_acid|
+18/07/2021 00:25:18 -- INFO -- Pathway is found at iteration 10
+18/07/2021 00:25:18 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd46_cpd01020_3_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CURLTUGMZLYLDI-UHFFFAOYSA-N|WQGWDDDVZFFDIG-UHFFFAOYSA-N- solved| for the first time at iteration 10
+18/07/2021 00:25:18 -- INFO -- Pathway is found at iteration 12
+18/07/2021 00:25:19 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd42_r_2_cpd01020_5_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|GDVRUDXLQBVIKP-UHFFFAOYSA-N- solved| for the first time at iteration 12
+18/07/2021 00:25:19 -- INFO -- Pathway is found at iteration 14
+18/07/2021 00:25:19 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd222_r_2_cpd01020_5_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|LDPLFHGGZNSKDS-UHFFFAOYSA-N- solved| for the first time at iteration 14
+18/07/2021 00:25:19 -- INFO -- Pathway is found at iteration 16
+18/07/2021 00:25:19 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd19_r_3_cpd01020_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|PLKUTZNSKRWCCA-UHFFFAOYSA-O- solved| for the first time at iteration 16
+18/07/2021 00:25:19 -- INFO -- Pathway is found at iteration 18
+18/07/2021 00:25:19 -- INFO -- Udapted solved Node 	Move name: LNTHITQWFMADLM-UHFFFAOYSA-N-rxnAdd18_r_2_cpd01020_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|XENHPQQLDPAYIJ-UHFFFAOYSA-O- solved| for the first time at iteration 18
+18/07/2021 00:25:20 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 00:25:22 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 00:25:24 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 00:25:26 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 00:25:28 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 00:25:29 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 00:25:31 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 00:25:33 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 00:25:34 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 00:25:35 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 0h 25min 35s 
+Your tree search took 1.9e+01s 
+ 
+Time was spent in selection: 5.2e-02s, expansion: 1.9e+00s, rollout: 0.0e+00s, update: 1.8e-01s 
+CONGRATULATIONS, THATS A WIN
+18/07/2021 00:25:35 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 00:25:35 -- WARNING -- RECAP TIME_EXECUTION=19.18
+18/07/2021 00:25:35 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 00:25:35 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 00:25:35 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 00:25:36 -- INFO -- Found 10 pathways for Gallic_acid
+18/07/2021 00:25:36 -- INFO -- 10 pathways were found
+18/07/2021 00:25:36 -- INFO -- At the end of this tree search, the cache contains 0

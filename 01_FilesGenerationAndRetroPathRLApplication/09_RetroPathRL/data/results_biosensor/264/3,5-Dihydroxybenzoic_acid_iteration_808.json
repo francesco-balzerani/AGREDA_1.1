@@ -1,0 +1,287 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(O[H])C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c(-c3c([H])c(O[H])c([H])c(O[H])c3[H])oc3c([H])c(O[H])c([H])c(=O)c-3c2[H])C([H])(OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C31H34O20/c32-8-19-22(39)24(41)26(43)30(49-19)51-28-25(42)23(40)20(9-46-21(38)7-16(37)29(44)45)50-31(28)48-18-6-14-15(36)4-13(35)5-17(14)47-27(18)10-1-11(33)3-12(34)2-10/h1-6,16,19-20,22-26,28,30-35,37,39-43H,7-9H2,(H,44,45)",
+          "Names": [
+            "XDBGRIRFIFCTHW-UHFFFAOYSA-N"
+          ],
+          "id": "XDBGRIRFIFCTHW-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC([H])([H])C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2",
+          "Names": [
+            "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+            "D-Galactose"
+          ],
+          "id": "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H+]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/p+1",
+          "Names": [
+            "GPRLSGONYQIRFK-UHFFFAOYSA-N"
+          ],
+          "id": "GPRLSGONYQIRFK-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C27H30O16/c28-7-17-19(34)21(36)23(38)26(41-17)43-25-22(37)20(35)18(8-29)42-27(25)40-16-6-13-14(33)4-12(32)5-15(13)39-24(16)9-1-10(30)3-11(31)2-9/h1-6,17-23,25-29,34-38H,7-8H2,(H3-,30,31,32,33)/p+1",
+          "Names": [
+            "CPJNZXIHCVEZRM-UHFFFAOYSA-O"
+          ],
+          "id": "CPJNZXIHCVEZRM-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]O[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/H2O/h1H2",
+          "Names": [
+            "XLYOFNOQVPJJNP-UHFFFAOYSA-N"
+          ],
+          "id": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C15H10O6/c16-8-1-7(2-9(17)3-8)15-13(20)6-11-12(19)4-10(18)5-14(11)21-15/h1-6H,(H4-,16,17,18,19,20)/p+1",
+          "Names": [
+            "VBOKBVZZEYWRLT-UHFFFAOYSA-O"
+          ],
+          "id": "VBOKBVZZEYWRLT-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)c1c([H])c(O[H])c([H])c(O[H])c1[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C7H6O4/c8-5-1-4(7(10)11)2-6(9)3-5/h1-3,8-9H,(H,10,11)",
+          "Names": [
+            "3,5-Dihydroxybenzoic_acid",
+            "UYEMGAFJOZZIFP-UHFFFAOYSA-N"
+          ],
+          "id": "UYEMGAFJOZZIFP-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "UYEMGAFJOZZIFP-UHFFFAOYSA-N-rxnAdd22_r_1_cpd00136_4_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd22_r_1_cpd00136_4_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)c1c([H])c(O[H])c([H])c(O[H])c1[H]>>[H]Oc1c([H])c(O[H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c1[H].[H]O[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.8181818181818182,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "VBOKBVZZEYWRLT-UHFFFAOYSA-O": 1,
+            "XLYOFNOQVPJJNP-UHFFFAOYSA-N": 1
+          }
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "VBOKBVZZEYWRLT-UHFFFAOYSA-O-rxnAdd17_r_2_cpd03502_6_6-0-2",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd17_r_2_cpd03502_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(O[H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c1[H]>>[H]Oc1c([H])c(O[H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.9,
+          "Iteration": 2,
+          "Stoechiometry": {
+            "CPJNZXIHCVEZRM-UHFFFAOYSA-O": 1
+          }
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "CPJNZXIHCVEZRM-UHFFFAOYSA-O-MNXR118692_MNXM1474_8-0-3",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR118692_MNXM1474_8",
+            "MNXR118692_MNXM1474_12",
+            "MNXR118692_MNXM1474_10",
+            "MNXR118692_MNXM1474_6"
+          ],
+          "EC number": [
+            "2.3.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(O[H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c1[H]>>[H+].[H]OC([H])([H])C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]OC(=O)C([H])(O[H])C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c(-c3c([H])c(O[H])c([H])c(O[H])c3[H])oc3c([H])c(O[H])c([H])c(=O)c-3c2[H])C([H])(OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])C([H])(O[H])C1([H])O[H]",
+          "Diameter": 42,
+          "Score": 2.2600713879850747,
+          "ChemicalScore": 0.8909090909090909,
+          "Iteration": 3,
+          "Stoechiometry": {
+            "GPRLSGONYQIRFK-UHFFFAOYSA-N": 1,
+            "WQZGKKKJIJFFOK-UHFFFAOYSA-N": 1,
+            "XDBGRIRFIFCTHW-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "UYEMGAFJOZZIFP-UHFFFAOYSA-N-rxnAdd22_r_1_cpd00136_4_6-0-1",
+          "source": "UYEMGAFJOZZIFP-UHFFFAOYSA-N",
+          "id": "UYEMGAFJOZZIFP-UHFFFAOYSA-N-rxnAdd22_r_1_cpd00136_4_6-0-1_=>_UYEMGAFJOZZIFP-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "VBOKBVZZEYWRLT-UHFFFAOYSA-O",
+          "source": "UYEMGAFJOZZIFP-UHFFFAOYSA-N-rxnAdd22_r_1_cpd00136_4_6-0-1",
+          "id": "VBOKBVZZEYWRLT-UHFFFAOYSA-O_=>_UYEMGAFJOZZIFP-UHFFFAOYSA-N-rxnAdd22_r_1_cpd00136_4_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "source": "UYEMGAFJOZZIFP-UHFFFAOYSA-N-rxnAdd22_r_1_cpd00136_4_6-0-1",
+          "id": "XLYOFNOQVPJJNP-UHFFFAOYSA-N_=>_UYEMGAFJOZZIFP-UHFFFAOYSA-N-rxnAdd22_r_1_cpd00136_4_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "VBOKBVZZEYWRLT-UHFFFAOYSA-O-rxnAdd17_r_2_cpd03502_6_6-0-2",
+          "source": "VBOKBVZZEYWRLT-UHFFFAOYSA-O",
+          "id": "VBOKBVZZEYWRLT-UHFFFAOYSA-O-rxnAdd17_r_2_cpd03502_6_6-0-2_=>_VBOKBVZZEYWRLT-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "CPJNZXIHCVEZRM-UHFFFAOYSA-O",
+          "source": "VBOKBVZZEYWRLT-UHFFFAOYSA-O-rxnAdd17_r_2_cpd03502_6_6-0-2",
+          "id": "CPJNZXIHCVEZRM-UHFFFAOYSA-O_=>_VBOKBVZZEYWRLT-UHFFFAOYSA-O-rxnAdd17_r_2_cpd03502_6_6-0-2"
+        }
+      },
+      {
+        "data": {
+          "target": "CPJNZXIHCVEZRM-UHFFFAOYSA-O-MNXR118692_MNXM1474_8-0-3",
+          "source": "CPJNZXIHCVEZRM-UHFFFAOYSA-O",
+          "id": "CPJNZXIHCVEZRM-UHFFFAOYSA-O-MNXR118692_MNXM1474_8-0-3_=>_CPJNZXIHCVEZRM-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "GPRLSGONYQIRFK-UHFFFAOYSA-N",
+          "source": "CPJNZXIHCVEZRM-UHFFFAOYSA-O-MNXR118692_MNXM1474_8-0-3",
+          "id": "GPRLSGONYQIRFK-UHFFFAOYSA-N_=>_CPJNZXIHCVEZRM-UHFFFAOYSA-O-MNXR118692_MNXM1474_8-0-3"
+        }
+      },
+      {
+        "data": {
+          "target": "WQZGKKKJIJFFOK-UHFFFAOYSA-N",
+          "source": "CPJNZXIHCVEZRM-UHFFFAOYSA-O-MNXR118692_MNXM1474_8-0-3",
+          "id": "WQZGKKKJIJFFOK-UHFFFAOYSA-N_=>_CPJNZXIHCVEZRM-UHFFFAOYSA-O-MNXR118692_MNXM1474_8-0-3"
+        }
+      },
+      {
+        "data": {
+          "target": "XDBGRIRFIFCTHW-UHFFFAOYSA-N",
+          "source": "CPJNZXIHCVEZRM-UHFFFAOYSA-O-MNXR118692_MNXM1474_8-0-3",
+          "id": "XDBGRIRFIFCTHW-UHFFFAOYSA-N_=>_CPJNZXIHCVEZRM-UHFFFAOYSA-O-MNXR118692_MNXM1474_8-0-3"
+        }
+      }
+    ]
+  }
+}

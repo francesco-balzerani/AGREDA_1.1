@@ -1,0 +1,117 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c(-c2c([H])oc3c([H])c(O[H])c([H])c([H])c3c2=O)c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C16H12O6/c1-21-15-5-10(12(18)6-13(15)19)11-7-22-14-4-8(17)2-3-9(14)16(11)20/h2-7,17-19H,1H3",
+          "Names": [
+            "VBJRSQONEIUISQ-UHFFFAOYSA-N"
+          ],
+          "id": "VBJRSQONEIUISQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(N([H])[H])C([H])([H])C([H])([H])[S+](C([H])([H])[H])C([H])([H])C1([H])OC([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C15H22N6O5S/c1-27(3-2-7(16)15(24)25)4-8-10(22)11(23)14(26-8)21-6-20-9-12(17)18-5-19-13(9)21/h5-8,10-11,14,22-23H,2-4,16H2,1H3,(H2-,17,18,19,24,25)/p+1",
+          "Names": [
+            "MEFKEPWMEQBLKI-UHFFFAOYSA-O",
+            "S-Adenosyl-L-methionine"
+          ],
+          "id": "MEFKEPWMEQBLKI-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c([H])c1-c1c([H])oc2c([H])c(O[H])c([H])c([H])c2c1=O",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C17H14O6/c1-21-15-6-11(13(19)7-16(15)22-2)12-8-23-14-5-9(18)3-4-10(14)17(12)20/h3-8,18-19H,1-2H3",
+          "Names": [
+            "2',7-Dihydroxy-4',5'-dimethoxyisoflavone",
+            "UYOJEKMKWXYOEQ-UHFFFAOYSA-N"
+          ],
+          "id": "UYOJEKMKWXYOEQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "UYOJEKMKWXYOEQ-UHFFFAOYSA-N-MNXR122607_MNXM10420_6-1-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR122607_MNXM10420_6",
+            "MNXR118405_MNXM114344_6",
+            "MNXR110561_MNXM2733_6"
+          ],
+          "EC number": [
+            "2.1.1.-",
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c([H])c1-c1c([H])oc2c([H])c(O[H])c([H])c([H])c2c1=O>>[H]OC(=O)C([H])(N([H])[H])C([H])([H])C([H])([H])[S+](C([H])([H])[H])C([H])([H])C1([H])OC([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)C([H])(O[H])C1([H])O[H].[H]Oc1c([H])c(O[H])c(-c2c([H])oc3c([H])c(O[H])c([H])c([H])c3c2=O)c([H])c1OC([H])([H])[H]",
+          "Diameter": 42,
+          "Score": 2.4149733479708178,
+          "ChemicalScore": 0.8780487804878049,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "MEFKEPWMEQBLKI-UHFFFAOYSA-O": 1,
+            "VBJRSQONEIUISQ-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "UYOJEKMKWXYOEQ-UHFFFAOYSA-N-MNXR122607_MNXM10420_6-1-1",
+          "source": "UYOJEKMKWXYOEQ-UHFFFAOYSA-N",
+          "id": "UYOJEKMKWXYOEQ-UHFFFAOYSA-N-MNXR122607_MNXM10420_6-1-1_=>_UYOJEKMKWXYOEQ-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "MEFKEPWMEQBLKI-UHFFFAOYSA-O",
+          "source": "UYOJEKMKWXYOEQ-UHFFFAOYSA-N-MNXR122607_MNXM10420_6-1-1",
+          "id": "MEFKEPWMEQBLKI-UHFFFAOYSA-O_=>_UYOJEKMKWXYOEQ-UHFFFAOYSA-N-MNXR122607_MNXM10420_6-1-1"
+        }
+      },
+      {
+        "data": {
+          "target": "VBJRSQONEIUISQ-UHFFFAOYSA-N",
+          "source": "UYOJEKMKWXYOEQ-UHFFFAOYSA-N-MNXR122607_MNXM10420_6-1-1",
+          "id": "VBJRSQONEIUISQ-UHFFFAOYSA-N_=>_UYOJEKMKWXYOEQ-UHFFFAOYSA-N-MNXR122607_MNXM10420_6-1-1"
+        }
+      }
+    ]
+  }
+}

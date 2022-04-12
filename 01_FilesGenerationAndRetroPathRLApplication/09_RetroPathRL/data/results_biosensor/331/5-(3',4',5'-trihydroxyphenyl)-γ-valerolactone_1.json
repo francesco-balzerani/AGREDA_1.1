@@ -1,0 +1,87 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C15H14O7/c16-7-3-9(17)8-5-12(20)15(22-13(8)4-7)6-1-10(18)14(21)11(19)2-6/h1-4,12,15-21H,5H2",
+          "Names": [
+            "XMOCLSLCDHWDHP-UHFFFAOYSA-N",
+            "(+)-Gallocatechin"
+          ],
+          "id": "XMOCLSLCDHWDHP-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(C([H])([H])C2([H])OC(=O)C([H])([H])C2([H])[H])c([H])c(O[H])c1O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C11H12O5/c12-8-4-6(5-9(13)11(8)15)3-7-1-2-10(14)16-7/h4-5,7,12-13,15H,1-3H2",
+          "Names": [
+            "5-(3',4',5'-trihydroxyphenyl)-\u03b3-valerolactone",
+            "CZVAQLJEUUFQCH-UHFFFAOYSA-N"
+          ],
+          "id": "CZVAQLJEUUFQCH-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "CZVAQLJEUUFQCH-UHFFFAOYSA-N-rxnAdd49_r_1_cpd90010_4_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd49_r_1_cpd90010_4_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(C([H])([H])C2([H])OC(=O)C([H])([H])C2([H])[H])c([H])c(O[H])c1O[H]>>[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.9142857142857143,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "XMOCLSLCDHWDHP-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "CZVAQLJEUUFQCH-UHFFFAOYSA-N-rxnAdd49_r_1_cpd90010_4_6-0-1",
+          "source": "CZVAQLJEUUFQCH-UHFFFAOYSA-N",
+          "id": "CZVAQLJEUUFQCH-UHFFFAOYSA-N-rxnAdd49_r_1_cpd90010_4_6-0-1_=>_CZVAQLJEUUFQCH-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "XMOCLSLCDHWDHP-UHFFFAOYSA-N",
+          "source": "CZVAQLJEUUFQCH-UHFFFAOYSA-N-rxnAdd49_r_1_cpd90010_4_6-0-1",
+          "id": "XMOCLSLCDHWDHP-UHFFFAOYSA-N_=>_CZVAQLJEUUFQCH-UHFFFAOYSA-N-rxnAdd49_r_1_cpd90010_4_6-0-1"
+        }
+      }
+    ]
+  }
+}

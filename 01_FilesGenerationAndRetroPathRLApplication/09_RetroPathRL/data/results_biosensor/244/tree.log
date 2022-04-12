@@ -1,0 +1,149 @@
+17/07/2021 23:31:35 -- WARNING -- Setting the seed at 1234
+17/07/2021 23:31:35 -- INFO -- Stating global parameters from configuration file
+17/07/2021 23:31:35 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 23:31:35 -- INFO -- Full search - no stopping at first result
+17/07/2021 23:31:35 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 23:31:35 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 23:31:35 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 23:31:35 -- INFO -- Using biological cut off at 0.1
+17/07/2021 23:31:35 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 23:31:35 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 23:31:35 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 23:31:35 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 23:31:35 -- INFO -- Using RAVE: False
+17/07/2021 23:31:35 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 23:31:35 -- INFO -- Using explicit hydrogens : True
+17/07/2021 23:31:35 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 23:31:35 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+17/07/2021 23:31:35 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 23:31:57 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 23:31:57 -- INFO -- Starting move obtention process with compound Catechol ([H]Oc1c([H])c([H])c([H])c([H])c1O[H]) at 1626557517.997168
+17/07/2021 23:31:58 -- INFO -- 354 available rules
+17/07/2021 23:31:59 -- INFO -- For compound Catechol, matching moves are [YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd226_r_1_cpd00077_2_6-0, YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd225_r_1_cpd00077_2_6-0, YCIMNLLNPGFGHC-UHFFFAOYSA-N-MNXR109512_MNXM181_6-0, YCIMNLLNPGFGHC-UHFFFAOYSA-N-MNXR135625_MNXM181_6-0, YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd231_cpd00077_1_16-0, YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd228_r_1_cpd00077_1_16-0, YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd227_r_1_cpd00077_1_16-0, YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd35_r_1_cpd00127_2_6-0, YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd153_r_1_cpd00127_2_6-0, YCIMNLLNPGFGHC-UHFFFAOYSA-N-MNXR134192_MNXM181_14-0]
+17/07/2021 23:31:59 -- INFO -- Calculated moves in 1.3366966247558594 for compound YCIMNLLNPGFGHC-UHFFFAOYSA-N - without caching
+17/07/2021 23:31:59 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 23h 31min 59s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 23:31:59 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 23:31:59 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd226_r_1_cpd00077_2_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Catechol|
+17/07/2021 23:31:59 -- INFO -- Pathway is found at iteration 0
+17/07/2021 23:31:59 -- INFO -- Udapted solved Node 	Move name: YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd226_r_1_cpd00077_2_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CHWNEIVBYREQRF-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 23:31:59 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Catechol| for the first time at iteration 0
+17/07/2021 23:31:59 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd225_r_1_cpd00077_2_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Catechol|
+17/07/2021 23:31:59 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd35_r_1_cpd00127_2_6-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Catechol|
+17/07/2021 23:31:59 -- INFO -- Pathway is found at iteration 2
+17/07/2021 23:31:59 -- INFO -- Udapted solved Node 	Move name: YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd225_r_1_cpd00077_2_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|PGSWEKYNAOWQDF-UHFFFAOYSA-N- solved| for the first time at iteration 2
+17/07/2021 23:31:59 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd153_r_1_cpd00127_2_6-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|Catechol|
+17/07/2021 23:31:59 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-MNXR109512_MNXM181_6-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|Catechol|
+17/07/2021 23:31:59 -- INFO -- Starting move obtention process with compound WVRXNHUWDPIGMY-UHFFFAOYSA-N ([H]OC(=O)C(=O)C([H])=C([H])C([H])([H])C(=O)Oc1c([H])c([H])c([H])c([H])c1O[H]) at 1626557519.8618476
+17/07/2021 23:32:00 -- INFO -- 0 available rules
+17/07/2021 23:32:00 -- INFO -- For compound WVRXNHUWDPIGMY-UHFFFAOYSA-N, matching moves are []
+17/07/2021 23:32:00 -- INFO -- Calculated moves in 0.35894155502319336 for compound WVRXNHUWDPIGMY-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:00 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626557520.2306585
+17/07/2021 23:32:00 -- INFO -- 0 available rules
+17/07/2021 23:32:00 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 23:32:00 -- INFO -- Calculated moves in 0.3274264335632324 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:00 -- INFO -- Pathway is found at iteration 4
+17/07/2021 23:32:00 -- INFO -- Udapted solved Node 	Move name: YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd35_r_1_cpd00127_2_6-0/ Biological score : 4.02/ Chemical score: 0.85
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|YQUVCSBJEUQKSH-UHFFFAOYSA-N- solved| for the first time at iteration 4
+17/07/2021 23:32:00 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-MNXR135625_MNXM181_6-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|Catechol|
+17/07/2021 23:32:00 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626557520.7110736
+17/07/2021 23:32:01 -- INFO -- 0 available rules
+17/07/2021 23:32:01 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+17/07/2021 23:32:01 -- INFO -- Calculated moves in 0.43433690071105957 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:01 -- INFO -- Starting move obtention process with compound MYMOFIZGZYHOMD-UHFFFAOYSA-N (O=O) at 1626557521.1570394
+17/07/2021 23:32:01 -- INFO -- 0 available rules
+17/07/2021 23:32:01 -- INFO -- For compound MYMOFIZGZYHOMD-UHFFFAOYSA-N, matching moves are []
+17/07/2021 23:32:01 -- INFO -- Calculated moves in 0.35699462890625 for compound MYMOFIZGZYHOMD-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:01 -- INFO -- Starting move obtention process with compound WKJCOXIVDNKDAA-UHFFFAOYSA-N ([H]O[N+](=O)c1c([H])c([H])c([H])c([H])c1[H]) at 1626557521.523326
+17/07/2021 23:32:01 -- INFO -- 0 available rules
+17/07/2021 23:32:01 -- INFO -- For compound WKJCOXIVDNKDAA-UHFFFAOYSA-N, matching moves are []
+17/07/2021 23:32:01 -- INFO -- Calculated moves in 0.4033815860748291 for compound WKJCOXIVDNKDAA-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:01 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd231_cpd00077_1_16-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|Catechol|
+17/07/2021 23:32:02 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626557522.0278692
+17/07/2021 23:32:02 -- INFO -- 0 available rules
+17/07/2021 23:32:02 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 23:32:02 -- INFO -- Calculated moves in 0.4004693031311035 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:02 -- INFO -- Pathway is found at iteration 6
+17/07/2021 23:32:02 -- INFO -- Udapted solved Node 	Move name: YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd153_r_1_cpd00127_2_6-0/ Biological score : 4.02/ Chemical score: 0.85
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|QAIPRVGONGVQAS-UHFFFAOYSA-N- solved| for the first time at iteration 6
+17/07/2021 23:32:02 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd228_r_1_cpd00077_1_16-0 to node 
+Count: 7/ Score : 6.57/ Children: 7/ Terminal : False
+|Catechol|
+17/07/2021 23:32:02 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd227_r_1_cpd00077_1_16-0 to node 
+Count: 8/ Score : 6.0/ Children: 8/ Terminal : False
+|Catechol|
+17/07/2021 23:32:02 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626557522.6668892
+17/07/2021 23:32:02 -- INFO -- 0 available rules
+17/07/2021 23:32:02 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 23:32:02 -- INFO -- Calculated moves in 0.2993159294128418 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 23:32:03 -- INFO -- Adding a child with move YCIMNLLNPGFGHC-UHFFFAOYSA-N-MNXR134192_MNXM181_14-0 to node 
+Count: 9/ Score : 5.22/ Children: 9/ Terminal : False
+|Catechol|
+17/07/2021 23:32:03 -- INFO -- Pathway is found at iteration 12
+17/07/2021 23:32:03 -- INFO -- Udapted solved Node 	Move name: YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd231_cpd00077_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|ISWSIDIOOBJBQZ-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 12
+17/07/2021 23:32:03 -- INFO -- Pathway is found at iteration 14
+17/07/2021 23:32:03 -- INFO -- Udapted solved Node 	Move name: YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd228_r_1_cpd00077_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|ZBCATMYQYDCTIZ-UHFFFAOYSA-N- solved| for the first time at iteration 14
+17/07/2021 23:32:03 -- INFO -- Pathway is found at iteration 16
+17/07/2021 23:32:03 -- INFO -- Udapted solved Node 	Move name: YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd227_r_1_cpd00077_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|HXDOZKJGKXYMEW-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 16
+17/07/2021 23:32:03 -- INFO -- Pathway is found at iteration 18
+17/07/2021 23:32:03 -- INFO -- Udapted solved Node 	Move name: YCIMNLLNPGFGHC-UHFFFAOYSA-N-MNXR134192_MNXM181_14-0/ Biological score : 2.16/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|QIGBRXMKCJKVMJ-UHFFFAOYSA-N- solved| for the first time at iteration 18
+17/07/2021 23:32:05 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 23:32:07 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 23:32:09 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 23:32:11 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 23:32:13 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 23:32:14 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 23:32:16 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 23:32:17 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 23:32:18 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 23:32:19 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 23h 32min 19s 
+Your tree search took 2.1e+01s 
+ 
+Time was spent in selection: 6.0e-02s, expansion: 3.3e+00s, rollout: 0.0e+00s, update: 1.5e-01s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 23:32:19 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 23:32:19 -- WARNING -- RECAP TIME_EXECUTION=20.23
+17/07/2021 23:32:19 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 23:32:19 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 23:32:19 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 23:32:19 -- INFO -- Found 8 pathways for Catechol
+17/07/2021 23:32:19 -- INFO -- 8 pathways were found
+17/07/2021 23:32:19 -- INFO -- At the end of this tree search, the cache contains 0

@@ -1,0 +1,87 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(C([H])([H])[H])c([H])c1O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C7H8O2/c1-5-2-3-6(8)7(9)4-5/h2-4,8-9H,1H3",
+          "Names": [
+            "ZBCATMYQYDCTIZ-UHFFFAOYSA-N",
+            "4-Methylcatechol"
+          ],
+          "id": "ZBCATMYQYDCTIZ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c([H])c([H])c1O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C6H6O2/c7-5-3-1-2-4-6(5)8/h1-4,7-8H",
+          "Names": [
+            "Catechol",
+            "YCIMNLLNPGFGHC-UHFFFAOYSA-N"
+          ],
+          "id": "YCIMNLLNPGFGHC-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd228_r_1_cpd00077_1_16-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd228_r_1_cpd00077_1_16"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c([H])c([H])c1O[H]>>[H]Oc1c([H])c([H])c(C([H])([H])[H])c([H])c1O[H]",
+          "Diameter": 42,
+          "Score": 3.948,
+          "ChemicalScore": 1.0,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "ZBCATMYQYDCTIZ-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd228_r_1_cpd00077_1_16-0-1",
+          "source": "YCIMNLLNPGFGHC-UHFFFAOYSA-N",
+          "id": "YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd228_r_1_cpd00077_1_16-0-1_=>_YCIMNLLNPGFGHC-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "ZBCATMYQYDCTIZ-UHFFFAOYSA-N",
+          "source": "YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd228_r_1_cpd00077_1_16-0-1",
+          "id": "ZBCATMYQYDCTIZ-UHFFFAOYSA-N_=>_YCIMNLLNPGFGHC-UHFFFAOYSA-N-rxnAdd228_r_1_cpd00077_1_16-0-1"
+        }
+      }
+    ]
+  }
+}

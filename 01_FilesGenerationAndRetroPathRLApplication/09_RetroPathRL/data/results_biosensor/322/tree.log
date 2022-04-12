@@ -1,0 +1,103 @@
+18/07/2021 04:26:12 -- WARNING -- Setting the seed at 1234
+18/07/2021 04:26:12 -- INFO -- Stating global parameters from configuration file
+18/07/2021 04:26:12 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 04:26:12 -- INFO -- Full search - no stopping at first result
+18/07/2021 04:26:12 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 04:26:12 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 04:26:12 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 04:26:12 -- INFO -- Using biological cut off at 0.1
+18/07/2021 04:26:12 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 04:26:12 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 04:26:12 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 04:26:12 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 04:26:12 -- INFO -- Using RAVE: False
+18/07/2021 04:26:12 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 04:26:12 -- INFO -- Using explicit hydrogens : True
+18/07/2021 04:26:12 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 04:26:12 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+18/07/2021 04:26:12 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 04:26:34 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 04:26:34 -- INFO -- Starting move obtention process with compound 4-Hydroxymandelic_acid ([H]OC(=O)C([H])(O[H])c1c([H])c([H])c(O[H])c([H])c1[H]) at 1626575194.4926383
+18/07/2021 04:26:34 -- INFO -- 207 available rules
+18/07/2021 04:26:36 -- INFO -- For compound 4-Hydroxymandelic_acid, matching moves are [YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR107658_MNXM1301_6-0, YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR108430_MNXM1301_14-0, YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR115594_MNXM1301_8-0, YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR134098_MNXM19188_8-0]
+18/07/2021 04:26:36 -- INFO -- Calculated moves in 1.6938915252685547 for compound YHXHKYRQLYQUIH-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:36 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 4h 26min 36s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 04:26:36 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 04:26:36 -- INFO -- Adding a child with move YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR107658_MNXM1301_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|4-Hydroxymandelic_acid|
+18/07/2021 04:26:36 -- INFO -- Starting move obtention process with compound CURLTUGMZLYLDI-UHFFFAOYSA-N (O=C=O) at 1626575196.3549418
+18/07/2021 04:26:36 -- INFO -- 11 available rules
+18/07/2021 04:26:36 -- INFO -- For compound CURLTUGMZLYLDI-UHFFFAOYSA-N, matching moves are [CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96884_MNXM13_6-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96961_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96481_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR106403_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR95786_MNXM13_14-0]
+18/07/2021 04:26:36 -- INFO -- Calculated moves in 0.5680558681488037 for compound CURLTUGMZLYLDI-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:36 -- INFO -- Pathway is found at iteration 0
+18/07/2021 04:26:37 -- INFO -- Udapted solved Node 	Move name: YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR107658_MNXM1301_6-0/ Biological score : 2.8/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CURLTUGMZLYLDI-UHFFFAOYSA-N|MHAJPDPJQMAIIY-UHFFFAOYSA-N- solved|RGHHSNMVTDWUBI-UHFFFAOYSA-N- solved| for the first time at iteration 0
+18/07/2021 04:26:37 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|4-Hydroxymandelic_acid| for the first time at iteration 0
+18/07/2021 04:26:37 -- INFO -- Adding a child with move YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR108430_MNXM1301_14-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|4-Hydroxymandelic_acid|
+18/07/2021 04:26:37 -- INFO -- Starting move obtention process with compound MYMOFIZGZYHOMD-UHFFFAOYSA-N (O=O) at 1626575197.1717973
+18/07/2021 04:26:37 -- INFO -- 0 available rules
+18/07/2021 04:26:37 -- INFO -- For compound MYMOFIZGZYHOMD-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:37 -- INFO -- Calculated moves in 0.37487196922302246 for compound MYMOFIZGZYHOMD-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:37 -- INFO -- Adding a child with move YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR115594_MNXM1301_8-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|4-Hydroxymandelic_acid|
+18/07/2021 04:26:37 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575197.623354
+18/07/2021 04:26:37 -- INFO -- 0 available rules
+18/07/2021 04:26:37 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:37 -- INFO -- Calculated moves in 0.27558302879333496 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:37 -- INFO -- Pathway is found at iteration 2
+18/07/2021 04:26:38 -- INFO -- Udapted solved Node 	Move name: YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR108430_MNXM1301_14-0/ Biological score : 1.49/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|FNKQXYHWGSIFBK-UHFFFAOYSA-N- solved|IWYDHOAUDWTVEP-UHFFFAOYSA-N- solved|MYMOFIZGZYHOMD-UHFFFAOYSA-N| for the first time at iteration 2
+18/07/2021 04:26:38 -- INFO -- Adding a child with move YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR134098_MNXM19188_8-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|4-Hydroxymandelic_acid|
+18/07/2021 04:26:38 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575198.117725
+18/07/2021 04:26:38 -- INFO -- 0 available rules
+18/07/2021 04:26:38 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:38 -- INFO -- Calculated moves in 0.3261842727661133 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:38 -- INFO -- Pathway is found at iteration 4
+18/07/2021 04:26:38 -- INFO -- Udapted solved Node 	Move name: YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR115594_MNXM1301_8-0/ Biological score : 0.3/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|GPRLSGONYQIRFK-UHFFFAOYSA-N|KXFJZKUFXHWWAJ-UHFFFAOYSA-N- solved| for the first time at iteration 4
+18/07/2021 04:26:38 -- INFO -- Pathway is found at iteration 6
+18/07/2021 04:26:38 -- INFO -- Udapted solved Node 	Move name: YHXHKYRQLYQUIH-UHFFFAOYSA-N-MNXR134098_MNXM19188_8-0/ Biological score : 0.3/ Chemical score: 0.79
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|BOPGDPNILDQYTO-UHFFFAOYSA-N- solved|GPRLSGONYQIRFK-UHFFFAOYSA-N|KXFJZKUFXHWWAJ-UHFFFAOYSA-N- solved| for the first time at iteration 6
+18/07/2021 04:26:39 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 04:26:41 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 04:26:42 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 04:26:43 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 04:26:44 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 04:26:45 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 04:26:46 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 04:26:47 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 04:26:48 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 04:26:49 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 4h 26min 49s 
+Your tree search took 1.4e+01s 
+ 
+Time was spent in selection: 3.3e-02s, expansion: 2.0e+00s, rollout: 0.0e+00s, update: 1.4e-01s 
+CONGRATULATIONS, THATS A WIN
+18/07/2021 04:26:49 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 04:26:49 -- WARNING -- RECAP TIME_EXECUTION=13.62
+18/07/2021 04:26:49 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 04:26:49 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 04:26:50 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 04:26:50 -- INFO -- Found 4 pathways for 4-Hydroxymandelic_acid
+18/07/2021 04:26:50 -- INFO -- 4 pathways were found
+18/07/2021 04:26:50 -- INFO -- At the end of this tree search, the cache contains 0

@@ -1,0 +1,15 @@
+19/02/2020 16:28:10 -- INFO -- Stating global parameters from configuration file
+19/02/2020 16:28:10 -- INFO -- Using retrosynthesis: False - using biosensor True
+19/02/2020 16:28:10 -- INFO -- Full search - no stopping at first result
+19/02/2020 16:28:10 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+19/02/2020 16:28:10 -- INFO -- Initialising an empty cache: {}; Using it: False
+19/02/2020 16:28:10 -- INFO -- -------------------Scoring configurations -------------------------
+19/02/2020 16:28:10 -- INFO -- Using biological cut off at 0.1
+19/02/2020 16:28:10 -- INFO -- Using substrate only cut off at 0.3
+19/02/2020 16:28:10 -- INFO -- Using chemical score cut off at 0.3
+19/02/2020 16:28:10 -- INFO -- -------------------MCTS configurations -------------------------
+19/02/2020 16:28:10 -- INFO -- Setting the minimal visit count for a node at 1
+19/02/2020 16:28:10 -- INFO -- Using RAVE: False
+19/02/2020 16:28:10 -- INFO -- -------------------Chemical configurations -------------------------
+19/02/2020 16:28:10 -- INFO -- Using explicit hydrogens : True
+19/02/2020 16:28:10 -- INFO -- Using detectable compounds as sink as running in biosensor mode.

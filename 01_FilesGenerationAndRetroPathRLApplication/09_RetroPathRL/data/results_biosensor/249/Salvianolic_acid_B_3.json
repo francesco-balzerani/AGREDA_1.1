@@ -1,0 +1,144 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "O=O",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/O2/c1-2",
+          "Names": [
+            "MYMOFIZGZYHOMD-UHFFFAOYSA-N"
+          ],
+          "id": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c2c1C([H])(C(=O)OC([H])(C(=O)O[H])C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(c1c([H])c([H])c(O[H])c([H])c1[H])O2)C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C36H30O15/c37-21-7-3-20(4-8-21)32-31(36(48)50-28(35(46)47)16-18-2-10-23(39)26(42)14-18)30-19(5-11-24(40)33(30)51-32)6-12-29(43)49-27(34(44)45)15-17-1-9-22(38)25(41)13-17/h1-14,27-28,31-32,37-42H,15-16H2,(H,44,45)(H,46,47)",
+          "Names": [
+            "FOGIWYLTESDCQS-UHFFFAOYSA-N"
+          ],
+          "id": "FOGIWYLTESDCQS-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]N=C(O[H])C1=C([H])N(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C3([H])OC([H])(n4c([H])nc5c(N([H])[H])nc([H])nc54)C([H])(OP(=O)(O[H])O[H])C3([H])O[H])C([H])(O[H])C2([H])O[H])C([H])=C([H])C1([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)",
+          "Names": [
+            "ACFIXJIJDZMPPO-UHFFFAOYSA-N",
+            "Nicotinamide adenine dinucleotide phosphate - reduced"
+          ],
+          "id": "ACFIXJIJDZMPPO-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c2c1C([H])(C(=O)OC([H])(C(=O)O[H])C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])O2)C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C36H30O16/c37-20-6-1-16(11-24(20)41)13-27(34(45)46)50-29(44)10-5-18-3-9-23(40)33-30(18)31(32(52-33)19-4-8-22(39)26(43)15-19)36(49)51-28(35(47)48)14-17-2-7-21(38)25(42)12-17/h1-12,15,27-28,31-32,37-43H,13-14H2,(H,45,46)(H,47,48)",
+          "Names": [
+            "Salvianolic_acid_B",
+            "SNKFFCBZYFGCQN-UHFFFAOYSA-N"
+          ],
+          "id": "SNKFFCBZYFGCQN-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "SNKFFCBZYFGCQN-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-2-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR121984_MNXM3355_6",
+            "MNXR121983_MNXM10183_6",
+            "MNXR121981_MNXM10863_6",
+            "MNXR121982_MNXM3355_6"
+          ],
+          "EC number": [
+            "1.14.13.-"
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c2c1C([H])(C(=O)OC([H])(C(=O)O[H])C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])O2)C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]>>[H]N=C(O[H])C1=C([H])N(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C3([H])OC([H])(n4c([H])nc5c(N([H])[H])nc([H])nc54)C([H])(OP(=O)(O[H])O[H])C3([H])O[H])C([H])(O[H])C2([H])O[H])C([H])=C([H])C1([H])[H].[H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c2c1C([H])(C(=O)OC([H])(C(=O)O[H])C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(c1c([H])c([H])c(O[H])c([H])c1[H])O2)C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H].O=O",
+          "Diameter": 42,
+          "Score": 2.524990622306487,
+          "ChemicalScore": 0.6229508196721312,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "ACFIXJIJDZMPPO-UHFFFAOYSA-N": 1,
+            "FOGIWYLTESDCQS-UHFFFAOYSA-N": 1,
+            "MYMOFIZGZYHOMD-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "SNKFFCBZYFGCQN-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-2-1",
+          "source": "SNKFFCBZYFGCQN-UHFFFAOYSA-N",
+          "id": "SNKFFCBZYFGCQN-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-2-1_=>_SNKFFCBZYFGCQN-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "ACFIXJIJDZMPPO-UHFFFAOYSA-N",
+          "source": "SNKFFCBZYFGCQN-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-2-1",
+          "id": "ACFIXJIJDZMPPO-UHFFFAOYSA-N_=>_SNKFFCBZYFGCQN-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-2-1"
+        }
+      },
+      {
+        "data": {
+          "target": "FOGIWYLTESDCQS-UHFFFAOYSA-N",
+          "source": "SNKFFCBZYFGCQN-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-2-1",
+          "id": "FOGIWYLTESDCQS-UHFFFAOYSA-N_=>_SNKFFCBZYFGCQN-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-2-1"
+        }
+      },
+      {
+        "data": {
+          "target": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
+          "source": "SNKFFCBZYFGCQN-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-2-1",
+          "id": "MYMOFIZGZYHOMD-UHFFFAOYSA-N_=>_SNKFFCBZYFGCQN-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-2-1"
+        }
+      }
+    ]
+  }
+}

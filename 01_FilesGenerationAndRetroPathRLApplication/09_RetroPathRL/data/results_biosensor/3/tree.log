@@ -1,0 +1,129 @@
+16/07/2021 23:31:42 -- WARNING -- Setting the seed at 1234
+16/07/2021 23:31:42 -- INFO -- Stating global parameters from configuration file
+16/07/2021 23:31:42 -- INFO -- Using retrosynthesis: False - using biosensor True
+16/07/2021 23:31:42 -- INFO -- Full search - no stopping at first result
+16/07/2021 23:31:42 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+16/07/2021 23:31:42 -- INFO -- Initialising an empty cache: {}; Using it: False
+16/07/2021 23:31:42 -- INFO -- -------------------Scoring configurations -------------------------
+16/07/2021 23:31:42 -- INFO -- Using biological cut off at 0.1
+16/07/2021 23:31:42 -- INFO -- Using substrate only cut off at 0.6
+16/07/2021 23:31:42 -- INFO -- Using chemical score cut off at 0.6
+16/07/2021 23:31:42 -- INFO -- -------------------MCTS configurations -------------------------
+16/07/2021 23:31:42 -- INFO -- Setting the minimal visit count for a node at 1
+16/07/2021 23:31:42 -- INFO -- Using RAVE: False
+16/07/2021 23:31:42 -- INFO -- -------------------Chemical configurations -------------------------
+16/07/2021 23:31:42 -- INFO -- Using explicit hydrogens : True
+16/07/2021 23:31:42 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+16/07/2021 23:31:42 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+16/07/2021 23:31:42 -- INFO -- Main layer was set to True. Sanitising state
+16/07/2021 23:32:07 -- INFO -- Main layer was set to True. Sanitising state
+16/07/2021 23:32:07 -- INFO -- Starting move obtention process with compound Cyanidin ([H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c([H])c1O[H]) at 1626471127.2969944
+16/07/2021 23:32:07 -- INFO -- 146 available rules
+16/07/2021 23:32:07 -- INFO -- For compound Cyanidin, matching moves are [VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd5_r_3_cpd03502_6_6-0, VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd4_r_3_cpd03502_6_6-0, VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd3_r_3_cpd03502_6_6-0, VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd2_r_3_cpd03502_6_6-0, VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd1_r_3_cpd03502_6_6-0, VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd17_r_2_cpd03502_6_6-0, VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd16_r_3_cpd03502_6_6-0, VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd15_r_2_cpd03502_6_6-0, VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd13_r_2_cpd03502_6_6-0, VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd12_cpd03502_4_6-0]
+16/07/2021 23:32:07 -- INFO -- Calculated moves in 0.6295173168182373 for compound VEVZSMAEJFVWIL-UHFFFAOYSA-O - without caching
+16/07/2021 23:32:07 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 23h 32min 7s 
+Your tree search is currently running ... 
+ 
+
+16/07/2021 23:32:07 -- INFO -- Performing iteration 0 out of 1000
+16/07/2021 23:32:07 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd5_r_3_cpd03502_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 0
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd5_r_3_cpd03502_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|OLBLWNPOURNBCY-UHFFFAOYSA-O- solved| for the first time at iteration 0
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Cyanidin| for the first time at iteration 0
+16/07/2021 23:32:08 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd4_r_3_cpd03502_6_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd3_r_3_cpd03502_6_6-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 2
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd4_r_3_cpd03502_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|ZPPQIOUITZSYAO-UHFFFAOYSA-O- solved| for the first time at iteration 2
+16/07/2021 23:32:08 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd2_r_3_cpd03502_6_6-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd1_r_3_cpd03502_6_6-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 4
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd3_r_3_cpd03502_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|QAOBEOXFSUJDJL-UHFFFAOYSA-O- solved| for the first time at iteration 4
+16/07/2021 23:32:08 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd17_r_2_cpd03502_6_6-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd16_r_3_cpd03502_6_6-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 6
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd2_r_3_cpd03502_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|ROQLTZUOXIQBDO-UHFFFAOYSA-O- solved| for the first time at iteration 6
+16/07/2021 23:32:08 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd15_r_2_cpd03502_6_6-0 to node 
+Count: 7/ Score : 6.57/ Children: 7/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd13_r_2_cpd03502_6_6-0 to node 
+Count: 8/ Score : 6.0/ Children: 8/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 8
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd1_r_3_cpd03502_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RTVUMLBJQCCROY-UHFFFAOYSA-O- solved| for the first time at iteration 8
+16/07/2021 23:32:08 -- INFO -- Adding a child with move VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd12_cpd03502_4_6-0 to node 
+Count: 9/ Score : 6.44/ Children: 9/ Terminal : False
+|Cyanidin|
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 10
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd17_r_2_cpd03502_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|SXYMMDGPXYVCER-UHFFFAOYSA-O- solved| for the first time at iteration 10
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 12
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd16_r_3_cpd03502_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|USNPULRDBDVJAO-UHFFFAOYSA-O- solved| for the first time at iteration 12
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 14
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd15_r_2_cpd03502_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RKWHWFONKJEUEF-UHFFFAOYSA-O- solved| for the first time at iteration 14
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 16
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd13_r_2_cpd03502_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RDFLLVCQYHQOBU-UHFFFAOYSA-O- solved| for the first time at iteration 16
+16/07/2021 23:32:08 -- INFO -- Pathway is found at iteration 18
+16/07/2021 23:32:08 -- INFO -- Udapted solved Node 	Move name: VEVZSMAEJFVWIL-UHFFFAOYSA-O-rxnAdd12_cpd03502_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|QCDYQQDYXPDABM-UHFFFAOYSA-N- solved|QTBSBXVTEAMEQO-UHFFFAOYSA-N- solved|YQUVCSBJEUQKSH-UHFFFAOYSA-N- solved| for the first time at iteration 18
+16/07/2021 23:32:09 -- INFO -- Performing iteration 100 out of 1000
+16/07/2021 23:32:10 -- INFO -- Performing iteration 200 out of 1000
+16/07/2021 23:32:11 -- INFO -- Performing iteration 300 out of 1000
+16/07/2021 23:32:12 -- INFO -- Performing iteration 400 out of 1000
+16/07/2021 23:32:14 -- INFO -- Performing iteration 500 out of 1000
+16/07/2021 23:32:15 -- INFO -- Performing iteration 600 out of 1000
+16/07/2021 23:32:16 -- INFO -- Performing iteration 700 out of 1000
+16/07/2021 23:32:17 -- INFO -- Performing iteration 800 out of 1000
+16/07/2021 23:32:18 -- INFO -- Performing iteration 900 out of 1000
+16/07/2021 23:32:18 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 23h 32min 18s 
+Your tree search took 1.1e+01s 
+ 
+Time was spent in selection: 4.6e-02s, expansion: 4.9e-01s, rollout: 0.0e+00s, update: 1.4e-01s 
+CONGRATULATIONS, THATS A WIN
+16/07/2021 23:32:18 -- INFO -- At the end of this tree search, the cache contains 0
+16/07/2021 23:32:18 -- WARNING -- RECAP TIME_EXECUTION=10.98
+16/07/2021 23:32:18 -- WARNING -- RECAP STOP_REASON=iteration
+16/07/2021 23:32:18 -- WARNING -- RECAP NUMBER_ITERATION=999
+16/07/2021 23:32:19 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+16/07/2021 23:32:19 -- INFO -- Found 10 pathways for Cyanidin
+16/07/2021 23:32:19 -- INFO -- 10 pathways were found
+16/07/2021 23:32:19 -- INFO -- At the end of this tree search, the cache contains 0

@@ -1,0 +1,117 @@
+17/07/2021 10:02:21 -- WARNING -- Setting the seed at 1234
+17/07/2021 10:02:21 -- INFO -- Stating global parameters from configuration file
+17/07/2021 10:02:21 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 10:02:21 -- INFO -- Full search - no stopping at first result
+17/07/2021 10:02:21 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 10:02:21 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 10:02:21 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 10:02:21 -- INFO -- Using biological cut off at 0.1
+17/07/2021 10:02:21 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 10:02:21 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 10:02:21 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 10:02:21 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 10:02:21 -- INFO -- Using RAVE: False
+17/07/2021 10:02:21 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 10:02:21 -- INFO -- Using explicit hydrogens : True
+17/07/2021 10:02:21 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 10:02:21 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+17/07/2021 10:02:21 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 10:02:41 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 10:02:41 -- INFO -- Starting move obtention process with compound 6''-O-Malonyldaidzin ([H]OC(=O)C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c([H])c([H])c3c(=O)c(-c4c([H])c([H])c(O[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626508961.800897
+17/07/2021 10:02:42 -- INFO -- 71 available rules
+17/07/2021 10:02:43 -- INFO -- For compound 6''-O-Malonyldaidzin, matching moves are [MTXMHWSVSZKYBT-UHFFFAOYSA-N-rxnAdd172_cpd14910_6_6-0, MTXMHWSVSZKYBT-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0, MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR111467_MNXM6373_8-0, MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR111467_MNXM6373_6-0, MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR107835_MNXM3602_6-0, MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR117699_MNXM14299_8-0]
+17/07/2021 10:02:43 -- INFO -- Calculated moves in 1.783313512802124 for compound MTXMHWSVSZKYBT-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:43 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 10h 2min 43s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 10:02:43 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 10:02:43 -- INFO -- Adding a child with move MTXMHWSVSZKYBT-UHFFFAOYSA-N-rxnAdd172_cpd14910_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|6''-O-Malonyldaidzin|
+17/07/2021 10:02:43 -- INFO -- Pathway is found at iteration 0
+17/07/2021 10:02:43 -- INFO -- Udapted solved Node 	Move name: MTXMHWSVSZKYBT-UHFFFAOYSA-N-rxnAdd172_cpd14910_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|BJEPYKJPYRNKOW-UHFFFAOYSA-N- solved|WQZGKKKJIJFFOK-UHFFFAOYSA-N- solved|ZQSIJRDFPHDXIC-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 10:02:43 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|6''-O-Malonyldaidzin| for the first time at iteration 0
+17/07/2021 10:02:43 -- INFO -- Adding a child with move MTXMHWSVSZKYBT-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|6''-O-Malonyldaidzin|
+17/07/2021 10:02:43 -- INFO -- Starting move obtention process with compound OHOQATLPDOXOOC-UHFFFAOYSA-N ([H]OC(=O)C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626508963.9367
+17/07/2021 10:02:44 -- INFO -- 15 available rules
+17/07/2021 10:02:44 -- INFO -- For compound OHOQATLPDOXOOC-UHFFFAOYSA-N, matching moves are [OHOQATLPDOXOOC-UHFFFAOYSA-N-MNXR117701_MNXM13911_8-0]
+17/07/2021 10:02:44 -- INFO -- Calculated moves in 0.8133807182312012 for compound OHOQATLPDOXOOC-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:44 -- INFO -- Adding a child with move MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR111467_MNXM6373_8-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|6''-O-Malonyldaidzin|
+17/07/2021 10:02:44 -- INFO -- Starting move obtention process with compound GHZNXIKNIDFZPV-UHFFFAOYSA-N ([H]OC(=O)C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c([H])c([H])c3c(=O)c(-c4c([H])c([H])c(O[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(OC(=O)C([H])([H])C(=O)O[H])C1([H])O[H]) at 1626508964.8544395
+17/07/2021 10:02:45 -- INFO -- 55 available rules
+17/07/2021 10:02:46 -- INFO -- For compound GHZNXIKNIDFZPV-UHFFFAOYSA-N, matching moves are [GHZNXIKNIDFZPV-UHFFFAOYSA-N-rxnAdd172_cpd14910_6_6-0, GHZNXIKNIDFZPV-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0, GHZNXIKNIDFZPV-UHFFFAOYSA-N-MNXR111467_MNXM12594_8-0, GHZNXIKNIDFZPV-UHFFFAOYSA-N-MNXR107835_MNXM3602_6-0, GHZNXIKNIDFZPV-UHFFFAOYSA-N-MNXR117699_MNXM14299_8-0]
+17/07/2021 10:02:46 -- INFO -- Calculated moves in 1.657592535018921 for compound GHZNXIKNIDFZPV-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:46 -- INFO -- Pathway is found at iteration 2
+17/07/2021 10:02:46 -- INFO -- Udapted solved Node 	Move name: MTXMHWSVSZKYBT-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0/ Biological score : 4.02/ Chemical score: 0.78
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|OHOQATLPDOXOOC-UHFFFAOYSA-N|ZQSIJRDFPHDXIC-UHFFFAOYSA-N- solved| for the first time at iteration 2
+17/07/2021 10:02:46 -- INFO -- Adding a child with move MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR111467_MNXM6373_6-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|6''-O-Malonyldaidzin|
+17/07/2021 10:02:46 -- INFO -- Starting move obtention process with compound VNMUORFNFLZMHZ-UHFFFAOYSA-N ([H]OC(=O)C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c([H])c([H])c3c(=O)c(-c4c([H])c([H])c(O[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])OC(=O)C([H])([H])C(=O)O[H]) at 1626508966.701187
+17/07/2021 10:02:47 -- INFO -- 43 available rules
+17/07/2021 10:02:47 -- INFO -- For compound VNMUORFNFLZMHZ-UHFFFAOYSA-N, matching moves are [VNMUORFNFLZMHZ-UHFFFAOYSA-N-rxnAdd172_cpd14910_6_6-0, VNMUORFNFLZMHZ-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0, VNMUORFNFLZMHZ-UHFFFAOYSA-N-MNXR107835_MNXM3602_6-0, VNMUORFNFLZMHZ-UHFFFAOYSA-N-MNXR117699_MNXM14299_8-0]
+17/07/2021 10:02:47 -- INFO -- Calculated moves in 1.0625498294830322 for compound VNMUORFNFLZMHZ-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:47 -- INFO -- Adding a child with move MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR107835_MNXM3602_6-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|6''-O-Malonyldaidzin|
+17/07/2021 10:02:47 -- INFO -- Starting move obtention process with compound BDMIRTMMFJHYGK-UHFFFAOYSA-N ([H]OC(=O)C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C2([H])OC([H])(n3c([H])c([H])c(O[H])nc3=O)C([H])(O[H])C2([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626508967.876182
+17/07/2021 10:02:48 -- INFO -- 1158 available rules
+17/07/2021 10:02:49 -- INFO -- For compound BDMIRTMMFJHYGK-UHFFFAOYSA-N, matching moves are [BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR119309_MNXM655_6-0, BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR136880_MNXM52_6-0, BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR105055_MNXM87_6-0, BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR122577_MNXM89795_6-0, BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR122575_MNXM89795_6-0, BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR111486_MNXM162273_6-0, BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR111604_MNXM52_8-0, BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR108613_MNXM52_8-0, BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR108275_MNXM52_8-0, BDMIRTMMFJHYGK-UHFFFAOYSA-N-MNXR108264_MNXM52_8-0]
+17/07/2021 10:02:49 -- INFO -- Calculated moves in 1.2087171077728271 for compound BDMIRTMMFJHYGK-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:49 -- INFO -- Pathway is found at iteration 4
+17/07/2021 10:02:49 -- INFO -- Udapted solved Node 	Move name: MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR111467_MNXM6373_8-0/ Biological score : 1.52/ Chemical score: 0.62
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|GHZNXIKNIDFZPV-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 4
+17/07/2021 10:02:49 -- INFO -- Adding a child with move MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR117699_MNXM14299_8-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|6''-O-Malonyldaidzin|
+17/07/2021 10:02:49 -- INFO -- Pathway is found at iteration 6
+17/07/2021 10:02:49 -- INFO -- Udapted solved Node 	Move name: MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR111467_MNXM6373_6-0/ Biological score : 1.52/ Chemical score: 0.62
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved|VNMUORFNFLZMHZ-UHFFFAOYSA-N| for the first time at iteration 6
+17/07/2021 10:02:49 -- INFO -- Pathway is found at iteration 8
+17/07/2021 10:02:49 -- INFO -- Udapted solved Node 	Move name: MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR107835_MNXM3602_6-0/ Biological score : 0.48/ Chemical score: 0.71
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|BDMIRTMMFJHYGK-UHFFFAOYSA-N|ZQSIJRDFPHDXIC-UHFFFAOYSA-N- solved| for the first time at iteration 8
+17/07/2021 10:02:49 -- INFO -- Pathway is found at iteration 10
+17/07/2021 10:02:49 -- INFO -- Udapted solved Node 	Move name: MTXMHWSVSZKYBT-UHFFFAOYSA-N-MNXR117699_MNXM14299_8-0/ Biological score : 0.48/ Chemical score: 0.68
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|KYQZWONCHDNPDP-UHFFFAOYSA-N- solved|LTYOQGRJFJAKNA-UHFFFAOYSA-N- solved| for the first time at iteration 10
+17/07/2021 10:02:51 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 10:02:52 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 10:02:54 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 10:02:56 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 10:02:57 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 10:02:59 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 10:03:00 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 10:03:01 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 10:03:03 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 10:03:04 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 10h 3min 4s 
+Your tree search took 2.1e+01s 
+ 
+Time was spent in selection: 4.3e-02s, expansion: 5.4e+00s, rollout: 0.0e+00s, update: 1.7e-01s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 10:03:04 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 10:03:04 -- WARNING -- RECAP TIME_EXECUTION=21.09
+17/07/2021 10:03:04 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 10:03:04 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 10:03:04 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 10:03:05 -- INFO -- Found 6 pathways for 6''-O-Malonyldaidzin
+17/07/2021 10:03:05 -- INFO -- 6 pathways were found
+17/07/2021 10:03:05 -- INFO -- At the end of this tree search, the cache contains 0

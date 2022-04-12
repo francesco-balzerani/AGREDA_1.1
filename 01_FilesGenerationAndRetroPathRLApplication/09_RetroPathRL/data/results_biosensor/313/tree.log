@@ -1,0 +1,244 @@
+18/07/2021 02:07:36 -- WARNING -- Setting the seed at 1234
+18/07/2021 02:07:36 -- INFO -- Stating global parameters from configuration file
+18/07/2021 02:07:36 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 02:07:36 -- INFO -- Full search - no stopping at first result
+18/07/2021 02:07:36 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 02:07:36 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 02:07:36 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 02:07:36 -- INFO -- Using biological cut off at 0.1
+18/07/2021 02:07:36 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 02:07:36 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 02:07:36 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 02:07:36 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 02:07:36 -- INFO -- Using RAVE: False
+18/07/2021 02:07:36 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 02:07:36 -- INFO -- Using explicit hydrogens : True
+18/07/2021 02:07:36 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 02:07:36 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 02:07:59 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 02:07:59 -- INFO -- Starting move obtention process with compound Isoferuloyl_C1-glucuronide ([H]OC(=O)C1([H])OC([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(OC([H])([H])[H])c(O[H])c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626566879.7097776
+18/07/2021 02:08:00 -- INFO -- 99 available rules
+18/07/2021 02:08:01 -- INFO -- For compound Isoferuloyl_C1-glucuronide, matching moves are [RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR137911_MNXM163634_6-0, RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR137888_MNXM163634_6-0, RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0, RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119313_MNXM8980_8-0, RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR118719_MNXM8980_8-0, RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0, RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0]
+18/07/2021 02:08:01 -- INFO -- Calculated moves in 1.622948408126831 for compound RBJXXYNRHTWXDN-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:01 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 2h 8min 1s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 02:08:01 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 02:08:01 -- INFO -- Adding a child with move RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR137911_MNXM163634_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Isoferuloyl_C1-glucuronide|
+18/07/2021 02:08:01 -- INFO -- Starting move obtention process with compound LHBFYVDYJZHOTB-UHFFFAOYSA-O ([H]OC(=O)C1=C([H])C(=C([H])C([H])=[N+]2c3c([H])c(O[H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])OC4([H])OC([H])(C(=O)O[H])C([H])(O[H])C([H])(O[H])C4([H])OC(=O)C([H])=C([H])c4c([H])c([H])c(OC([H])([H])[H])c(O[H])c4[H])c([H])c3C([H])([H])C2([H])C(=O)O[H])C([H])([H])C([H])(C(=O)O[H])N1[H]) at 1626566881.408429
+18/07/2021 02:08:01 -- INFO -- 88 available rules
+18/07/2021 02:08:03 -- INFO -- For compound LHBFYVDYJZHOTB-UHFFFAOYSA-O, matching moves are [LHBFYVDYJZHOTB-UHFFFAOYSA-O-MNXR137911_MNXM8385_6-0, LHBFYVDYJZHOTB-UHFFFAOYSA-O-MNXR137888_MNXM3931_6-0, LHBFYVDYJZHOTB-UHFFFAOYSA-O-MNXR118696_MNXM3931_8-0]
+18/07/2021 02:08:03 -- INFO -- Calculated moves in 2.142686605453491 for compound LHBFYVDYJZHOTB-UHFFFAOYSA-O - without caching
+18/07/2021 02:08:03 -- INFO -- Pathway is found at iteration 0
+18/07/2021 02:08:03 -- INFO -- Udapted solved Node 	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR137911_MNXM163634_6-0/ Biological score : 4.01/ Chemical score: 0.76
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|LHBFYVDYJZHOTB-UHFFFAOYSA-O| for the first time at iteration 0
+18/07/2021 02:08:03 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Isoferuloyl_C1-glucuronide| for the first time at iteration 0
+18/07/2021 02:08:03 -- INFO -- Adding a child with move RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR137888_MNXM163634_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Isoferuloyl_C1-glucuronide|
+18/07/2021 02:08:03 -- INFO -- Starting move obtention process with compound ZJIFRTSXIKRZGN-UHFFFAOYSA-O ([H]OC(=O)C1=C([H])C(=C([H])C([H])=[N+]2c3c([H])c(O[H])c(OC4([H])OC([H])(C([H])([H])OC(=O)C([H])=C([H])c5c([H])c([H])c(OC([H])([H])[H])c(O[H])c5[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c([H])c3C([H])([H])C2([H])C(=O)O[H])C([H])([H])C([H])(C(=O)O[H])N1[H]) at 1626566883.8001387
+18/07/2021 02:08:04 -- INFO -- 88 available rules
+18/07/2021 02:08:05 -- INFO -- For compound ZJIFRTSXIKRZGN-UHFFFAOYSA-O, matching moves are [ZJIFRTSXIKRZGN-UHFFFAOYSA-O-MNXR137888_MNXM12079_6-0, ZJIFRTSXIKRZGN-UHFFFAOYSA-O-MNXR137911_MNXM4465_6-0, ZJIFRTSXIKRZGN-UHFFFAOYSA-O-MNXR122342_MNXM4465_8-0, ZJIFRTSXIKRZGN-UHFFFAOYSA-O-MNXR112318_MNXM3931_6-0]
+18/07/2021 02:08:05 -- INFO -- Calculated moves in 1.8159728050231934 for compound ZJIFRTSXIKRZGN-UHFFFAOYSA-O - without caching
+18/07/2021 02:08:05 -- INFO -- Adding a child with move RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Isoferuloyl_C1-glucuronide|
+18/07/2021 02:08:05 -- INFO -- Starting move obtention process with compound JPTGOSSCOUCFGE-UHFFFAOYSA-N ([H]OC(=O)C([H])(O[H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(OC([H])([H])[H])c(O[H])c1[H])C(=O)O[H]) at 1626566885.7575777
+18/07/2021 02:08:06 -- INFO -- 157 available rules
+18/07/2021 02:08:07 -- INFO -- For compound JPTGOSSCOUCFGE-UHFFFAOYSA-N, matching moves are [JPTGOSSCOUCFGE-UHFFFAOYSA-N-MNXR119315_MNXM5479_8-0, JPTGOSSCOUCFGE-UHFFFAOYSA-N-MNXR119314_MNXM120600_6-0]
+18/07/2021 02:08:07 -- INFO -- Calculated moves in 1.2944622039794922 for compound JPTGOSSCOUCFGE-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:07 -- INFO -- Pathway is found at iteration 2
+18/07/2021 02:08:07 -- INFO -- Udapted solved Node 	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR137888_MNXM163634_6-0/ Biological score : 4.01/ Chemical score: 0.76
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|ZJIFRTSXIKRZGN-UHFFFAOYSA-O| for the first time at iteration 2
+18/07/2021 02:08:07 -- INFO -- Adding a child with move RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119313_MNXM8980_8-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|Isoferuloyl_C1-glucuronide|
+18/07/2021 02:08:07 -- INFO -- Starting move obtention process with compound YJNVPWSPOPRPMI-UHFFFAOYSA-N ([H]OC(=O)C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(OC([H])([H])[H])c(O[H])c1[H])C(=O)O[H]) at 1626566887.2321775
+18/07/2021 02:08:07 -- INFO -- 167 available rules
+18/07/2021 02:08:08 -- INFO -- For compound YJNVPWSPOPRPMI-UHFFFAOYSA-N, matching moves are [YJNVPWSPOPRPMI-UHFFFAOYSA-N-MNXR119314_MNXM120600_8-0, YJNVPWSPOPRPMI-UHFFFAOYSA-N-MNXR119313_MNXM120600_8-0, YJNVPWSPOPRPMI-UHFFFAOYSA-N-MNXR112307_MNXM3954_6-0]
+18/07/2021 02:08:08 -- INFO -- Calculated moves in 1.3145055770874023 for compound YJNVPWSPOPRPMI-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:08 -- INFO -- Adding a child with move RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR118719_MNXM8980_8-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|Isoferuloyl_C1-glucuronide|
+18/07/2021 02:08:08 -- INFO -- Starting move obtention process with compound LCPLYXWPOOMWHV-UHFFFAOYSA-N ([H]OC(=O)C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c(-c3c([H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c(O[H])c(OC4([H])OC([H])(C([H])([H])OC(=O)C([H])=C([H])c5c([H])c([H])c(OC([H])([H])[H])c(O[H])c5[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3[H])oc3c([H])c(O[H])c([H])c(=O)c-3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626566888.6451592
+18/07/2021 02:08:08 -- INFO -- 142 available rules
+18/07/2021 02:08:15 -- INFO -- For compound LCPLYXWPOOMWHV-UHFFFAOYSA-N, matching moves are [LCPLYXWPOOMWHV-UHFFFAOYSA-N-MNXR118719_MNXM83656_8-0, LCPLYXWPOOMWHV-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-0, LCPLYXWPOOMWHV-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-1, LCPLYXWPOOMWHV-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-2, LCPLYXWPOOMWHV-UHFFFAOYSA-N-MNXR118453_MNXM114519_8-0, LCPLYXWPOOMWHV-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-0, LCPLYXWPOOMWHV-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-1, LCPLYXWPOOMWHV-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-2]
+18/07/2021 02:08:15 -- INFO -- Calculated moves in 6.946333646774292 for compound LCPLYXWPOOMWHV-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:15 -- INFO -- Pathway is found at iteration 4
+18/07/2021 02:08:15 -- INFO -- Udapted solved Node 	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0/ Biological score : 2.26/ Chemical score: 0.69
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|JPTGOSSCOUCFGE-UHFFFAOYSA-N| for the first time at iteration 4
+18/07/2021 02:08:15 -- INFO -- Adding a child with move RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|Isoferuloyl_C1-glucuronide|
+18/07/2021 02:08:15 -- INFO -- Starting move obtention process with compound VMGJMCCDXJNCOK-UHFFFAOYSA-N ([H]OC(=O)C1([H])OC([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626566895.7679667
+18/07/2021 02:08:16 -- INFO -- 74 available rules
+18/07/2021 02:08:17 -- INFO -- For compound VMGJMCCDXJNCOK-UHFFFAOYSA-N, matching moves are [VMGJMCCDXJNCOK-UHFFFAOYSA-N-MNXR137911_MNXM163634_6-0, VMGJMCCDXJNCOK-UHFFFAOYSA-N-MNXR137888_MNXM163634_6-0, VMGJMCCDXJNCOK-UHFFFAOYSA-N-MNXR119313_MNXM8980_8-0, VMGJMCCDXJNCOK-UHFFFAOYSA-N-MNXR118719_MNXM8980_8-0, VMGJMCCDXJNCOK-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0, VMGJMCCDXJNCOK-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-1]
+18/07/2021 02:08:17 -- INFO -- Calculated moves in 1.4010744094848633 for compound VMGJMCCDXJNCOK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:17 -- INFO -- Adding a child with move RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|Isoferuloyl_C1-glucuronide|
+18/07/2021 02:08:17 -- INFO -- Starting move obtention process with compound CJQIVZXRILAGKO-UHFFFAOYSA-N ([H]OC(=O)C1([H])OC([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626566897.3168793
+18/07/2021 02:08:17 -- INFO -- 68 available rules
+18/07/2021 02:08:18 -- INFO -- For compound CJQIVZXRILAGKO-UHFFFAOYSA-N, matching moves are [CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR137911_MNXM163634_6-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR137888_MNXM163634_6-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119313_MNXM8980_8-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR118719_MNXM8980_8-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-1]
+18/07/2021 02:08:18 -- INFO -- Calculated moves in 1.5155181884765625 for compound CJQIVZXRILAGKO-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:18 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566898.8541307
+18/07/2021 02:08:19 -- INFO -- 0 available rules
+18/07/2021 02:08:19 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:19 -- INFO -- Calculated moves in 0.4681086540222168 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:19 -- INFO -- Pathway is found at iteration 6
+18/07/2021 02:08:19 -- INFO -- Udapted solved Node 	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119313_MNXM8980_8-0/ Biological score : 2.26/ Chemical score: 0.63
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|YJNVPWSPOPRPMI-UHFFFAOYSA-N| for the first time at iteration 6
+18/07/2021 02:08:19 -- INFO -- Pathway is found at iteration 8
+18/07/2021 02:08:19 -- INFO -- Udapted solved Node 	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR118719_MNXM8980_8-0/ Biological score : 2.26/ Chemical score: 0.63
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|LCPLYXWPOOMWHV-UHFFFAOYSA-N| for the first time at iteration 8
+18/07/2021 02:08:19 -- INFO -- Pathway is found at iteration 10
+18/07/2021 02:08:19 -- INFO -- Udapted solved Node 	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0/ Biological score : 0.7/ Chemical score: 0.76
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|VMGJMCCDXJNCOK-UHFFFAOYSA-N| for the first time at iteration 10
+18/07/2021 02:08:19 -- INFO -- Adding a child with move CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR137911_MNXM163634_6-0 to node 
+	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0/ Biological score : 0.7/ Chemical score: 0.67
+	Count: 0/ Score : 0/ Children: 0/ Terminal : False
+	|CJQIVZXRILAGKO-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|
+18/07/2021 02:08:19 -- INFO -- Starting move obtention process with compound AUOPVJMVFZBBSN-UHFFFAOYSA-O ([H]OC(=O)C1=C([H])C(=C([H])C([H])=[N+]2c3c([H])c(O[H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])OC4([H])OC([H])(C(=O)O[H])C([H])(O[H])C([H])(O[H])C4([H])OC(=O)C([H])=C([H])c4c([H])c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c4[H])c([H])c3C([H])([H])C2([H])C(=O)O[H])C([H])([H])C([H])(C(=O)O[H])N1[H]) at 1626566899.681788
+18/07/2021 02:08:19 -- INFO -- 88 available rules
+18/07/2021 02:08:21 -- INFO -- For compound AUOPVJMVFZBBSN-UHFFFAOYSA-O, matching moves are [AUOPVJMVFZBBSN-UHFFFAOYSA-O-MNXR137911_MNXM8385_6-0, AUOPVJMVFZBBSN-UHFFFAOYSA-O-MNXR137888_MNXM3931_6-0, AUOPVJMVFZBBSN-UHFFFAOYSA-O-MNXR118696_MNXM3931_8-0]
+18/07/2021 02:08:21 -- INFO -- Calculated moves in 1.9703481197357178 for compound AUOPVJMVFZBBSN-UHFFFAOYSA-O - without caching
+18/07/2021 02:08:21 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566901.6704607
+18/07/2021 02:08:22 -- INFO -- 0 available rules
+18/07/2021 02:08:22 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:22 -- INFO -- Calculated moves in 0.38130688667297363 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:22 -- INFO -- Pathway is found at iteration 12
+18/07/2021 02:08:22 -- INFO -- Udapted solved Node 		Move name: CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR137911_MNXM163634_6-0/ Biological score : 4.01/ Chemical score: 0.71
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|AUOPVJMVFZBBSN-UHFFFAOYSA-O|GPRLSGONYQIRFK-UHFFFAOYSA-N| for the first time at iteration 12
+18/07/2021 02:08:22 -- INFO -- Udapted solved Node 	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0/ Biological score : 0.7/ Chemical score: 0.67
+	Count: 1/ Score : 0/ Children: 1/ Terminal : False
+	|CJQIVZXRILAGKO-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N| for the first time at iteration 12
+18/07/2021 02:08:22 -- INFO -- Adding a child with move CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR137888_MNXM163634_6-0 to node 
+	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0/ Biological score : 0.7/ Chemical score: 0.67
+	Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+	|CJQIVZXRILAGKO-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|
+18/07/2021 02:08:22 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566902.3190806
+18/07/2021 02:08:22 -- INFO -- 0 available rules
+18/07/2021 02:08:22 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:22 -- INFO -- Calculated moves in 0.3191823959350586 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:22 -- INFO -- Starting move obtention process with compound IVKPGJMDAJCIOY-UHFFFAOYSA-O ([H]OC(=O)C1=C([H])C(=C([H])C([H])=[N+]2c3c([H])c(O[H])c(OC4([H])OC([H])(C([H])([H])OC(=O)C([H])=C([H])c5c([H])c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c5[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c([H])c3C([H])([H])C2([H])C(=O)O[H])C([H])([H])C([H])(C(=O)O[H])N1[H]) at 1626566902.6534052
+18/07/2021 02:08:22 -- INFO -- 88 available rules
+18/07/2021 02:08:24 -- INFO -- For compound IVKPGJMDAJCIOY-UHFFFAOYSA-O, matching moves are [IVKPGJMDAJCIOY-UHFFFAOYSA-O-MNXR137888_MNXM12079_6-0, IVKPGJMDAJCIOY-UHFFFAOYSA-O-MNXR137911_MNXM4465_6-0, IVKPGJMDAJCIOY-UHFFFAOYSA-O-MNXR122342_MNXM4465_8-0, IVKPGJMDAJCIOY-UHFFFAOYSA-O-MNXR112318_MNXM3931_6-0]
+18/07/2021 02:08:24 -- INFO -- Calculated moves in 1.77180814743042 for compound IVKPGJMDAJCIOY-UHFFFAOYSA-O - without caching
+18/07/2021 02:08:25 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 02:08:26 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 02:08:27 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 02:08:27 -- INFO -- Adding a child with move CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0 to node 
+	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0/ Biological score : 0.7/ Chemical score: 0.67
+	Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+	|CJQIVZXRILAGKO-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|
+18/07/2021 02:08:27 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566907.4859214
+18/07/2021 02:08:27 -- INFO -- 0 available rules
+18/07/2021 02:08:27 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:27 -- INFO -- Calculated moves in 0.4411590099334717 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:27 -- INFO -- Starting move obtention process with compound VQSAAFKGYNKPPP-UHFFFAOYSA-N ([H]OC(=O)C([H])(O[H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c1[H])C(=O)O[H]) at 1626566907.9400294
+18/07/2021 02:08:28 -- INFO -- 109 available rules
+18/07/2021 02:08:28 -- INFO -- For compound VQSAAFKGYNKPPP-UHFFFAOYSA-N, matching moves are [VQSAAFKGYNKPPP-UHFFFAOYSA-N-MNXR119315_MNXM5479_8-0, VQSAAFKGYNKPPP-UHFFFAOYSA-N-MNXR119314_MNXM120600_6-0]
+18/07/2021 02:08:28 -- INFO -- Calculated moves in 0.9160046577453613 for compound VQSAAFKGYNKPPP-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:28 -- INFO -- Pathway is found at iteration 318
+18/07/2021 02:08:28 -- INFO -- Udapted solved Node 		Move name: CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR137888_MNXM163634_6-0/ Biological score : 4.01/ Chemical score: 0.71
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|GPRLSGONYQIRFK-UHFFFAOYSA-N|IVKPGJMDAJCIOY-UHFFFAOYSA-O| for the first time at iteration 318
+18/07/2021 02:08:29 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 02:08:29 -- INFO -- Adding a child with move CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119313_MNXM8980_8-0 to node 
+	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0/ Biological score : 0.7/ Chemical score: 0.67
+	Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+	|CJQIVZXRILAGKO-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|
+18/07/2021 02:08:29 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566909.892536
+18/07/2021 02:08:30 -- INFO -- 0 available rules
+18/07/2021 02:08:30 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:30 -- INFO -- Calculated moves in 0.3349943161010742 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:30 -- INFO -- Starting move obtention process with compound GXLDAZLPDVFVOH-UHFFFAOYSA-N ([H]OC(=O)C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c1[H])C(=O)O[H]) at 1626566910.238107
+18/07/2021 02:08:30 -- INFO -- 133 available rules
+18/07/2021 02:08:31 -- INFO -- For compound GXLDAZLPDVFVOH-UHFFFAOYSA-N, matching moves are [GXLDAZLPDVFVOH-UHFFFAOYSA-N-MNXR119314_MNXM120600_8-0, GXLDAZLPDVFVOH-UHFFFAOYSA-N-MNXR119313_MNXM120600_8-0]
+18/07/2021 02:08:31 -- INFO -- Calculated moves in 1.096113681793213 for compound GXLDAZLPDVFVOH-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:32 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 02:08:32 -- INFO -- Adding a child with move CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR118719_MNXM8980_8-0 to node 
+	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0/ Biological score : 0.7/ Chemical score: 0.67
+	Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+	|CJQIVZXRILAGKO-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|
+18/07/2021 02:08:32 -- INFO -- Starting move obtention process with compound FWPWFPWBLGJFJF-UHFFFAOYSA-N ([H]OC(=O)C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c(-c3c([H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c(O[H])c(OC4([H])OC([H])(C([H])([H])OC(=O)C([H])=C([H])c5c([H])c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c5[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3[H])oc3c([H])c(O[H])c([H])c(=O)c-3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626566912.4395938
+18/07/2021 02:08:32 -- INFO -- 130 available rules
+18/07/2021 02:08:39 -- INFO -- For compound FWPWFPWBLGJFJF-UHFFFAOYSA-N, matching moves are [FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118719_MNXM83656_8-0, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-0, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-1, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-2, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118453_MNXM114519_8-0, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-0, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-1, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-2]
+18/07/2021 02:08:39 -- INFO -- Calculated moves in 6.727830171585083 for compound FWPWFPWBLGJFJF-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:39 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566919.1929314
+18/07/2021 02:08:39 -- INFO -- 0 available rules
+18/07/2021 02:08:39 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:39 -- INFO -- Calculated moves in 0.3621048927307129 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:39 -- INFO -- Pathway is found at iteration 531
+18/07/2021 02:08:39 -- INFO -- Udapted solved Node 		Move name: CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0/ Biological score : 2.26/ Chemical score: 0.67
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|GPRLSGONYQIRFK-UHFFFAOYSA-N|VQSAAFKGYNKPPP-UHFFFAOYSA-N| for the first time at iteration 531
+18/07/2021 02:08:40 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 02:08:40 -- INFO -- Adding a child with move CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0 to node 
+	Move name: RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0/ Biological score : 0.7/ Chemical score: 0.67
+	Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+	|CJQIVZXRILAGKO-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|
+18/07/2021 02:08:40 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566920.4813993
+18/07/2021 02:08:40 -- INFO -- 0 available rules
+18/07/2021 02:08:40 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:40 -- INFO -- Calculated moves in 0.3309047222137451 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:40 -- INFO -- Starting move obtention process with compound QJPVKEBTJJKZFP-UHFFFAOYSA-N ([H]OC(=O)C1([H])OC([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(OC([H])([H])[H])c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626566920.832925
+18/07/2021 02:08:41 -- INFO -- 99 available rules
+18/07/2021 02:08:42 -- INFO -- For compound QJPVKEBTJJKZFP-UHFFFAOYSA-N, matching moves are [QJPVKEBTJJKZFP-UHFFFAOYSA-N-MNXR137911_MNXM163634_6-0, QJPVKEBTJJKZFP-UHFFFAOYSA-N-MNXR137888_MNXM163634_6-0, QJPVKEBTJJKZFP-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0, QJPVKEBTJJKZFP-UHFFFAOYSA-N-MNXR119313_MNXM8980_8-0, QJPVKEBTJJKZFP-UHFFFAOYSA-N-MNXR118719_MNXM8980_8-0, QJPVKEBTJJKZFP-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0, QJPVKEBTJJKZFP-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0]
+18/07/2021 02:08:42 -- INFO -- Calculated moves in 1.4623215198516846 for compound QJPVKEBTJJKZFP-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:43 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 02:08:43 -- INFO -- Looping move in node |CJQIVZXRILAGKO-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|-1 for move CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-1
+18/07/2021 02:08:43 -- INFO -- Starting move obtention process with compound CJQIVZXRILAGKO-UHFFFAOYSA-N ([H]OC(=O)C1([H])OC([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626566923.435985
+18/07/2021 02:08:43 -- INFO -- 62 available rules
+18/07/2021 02:08:44 -- INFO -- For compound CJQIVZXRILAGKO-UHFFFAOYSA-N, matching moves are [CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR137911_MNXM163634_8-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR137888_MNXM163634_8-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119315_MNXM1304_6-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119313_MNXM8980_6-0, CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR118719_MNXM8980_6-0]
+18/07/2021 02:08:44 -- INFO -- Calculated moves in 1.1261036396026611 for compound CJQIVZXRILAGKO-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:44 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566924.5808618
+18/07/2021 02:08:44 -- INFO -- 0 available rules
+18/07/2021 02:08:44 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:44 -- INFO -- Calculated moves in 0.36254119873046875 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:44 -- INFO -- Starting move obtention process with compound FWPWFPWBLGJFJF-UHFFFAOYSA-N ([H]OC(=O)C([H])([H])C(=O)OC([H])([H])C1([H])OC([H])(Oc2c(-c3c([H])c(OC4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c(O[H])c(OC4([H])OC([H])(C([H])([H])OC(=O)C([H])=C([H])c5c([H])c([H])c(OC([H])([H])[H])c(OC([H])([H])[H])c5[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c3[H])oc3c([H])c(O[H])c([H])c(=O)c-3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626566924.97017
+18/07/2021 02:08:45 -- INFO -- 130 available rules
+18/07/2021 02:08:51 -- INFO -- For compound FWPWFPWBLGJFJF-UHFFFAOYSA-N, matching moves are [FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118719_MNXM83656_8-0, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-0, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-1, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-2, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118453_MNXM114519_8-0, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-0, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-1, FWPWFPWBLGJFJF-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-2]
+18/07/2021 02:08:51 -- INFO -- Calculated moves in 6.752059459686279 for compound FWPWFPWBLGJFJF-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:51 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566931.7378795
+18/07/2021 02:08:52 -- INFO -- 0 available rules
+18/07/2021 02:08:52 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:52 -- INFO -- Calculated moves in 0.35435914993286133 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:52 -- INFO -- Rollout results are 2, True
+18/07/2021 02:08:52 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 02:08:53 -- INFO -- Pathway is found at iteration 861
+18/07/2021 02:08:53 -- INFO -- Udapted solved Node 		Move name: CJQIVZXRILAGKO-UHFFFAOYSA-N-MNXR119313_MNXM8980_8-0/ Biological score : 2.26/ Chemical score: 0.6
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|GPRLSGONYQIRFK-UHFFFAOYSA-N|GXLDAZLPDVFVOH-UHFFFAOYSA-N| for the first time at iteration 861
+18/07/2021 02:08:54 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 02:08:54 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 2h 8min 54s 
+Your tree search took 5.4e+01s 
+ 
+Time was spent in selection: 3.8e-02s, expansion: 3.5e+01s, rollout: 8.7e+00s, update: 3.1e-01s 
+CONGRATULATIONS, THATS A WIN
+18/07/2021 02:08:54 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 02:08:54 -- WARNING -- RECAP TIME_EXECUTION=53.54
+18/07/2021 02:08:54 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 02:08:54 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 02:08:55 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 02:08:55 -- INFO -- Found 10 pathways for Isoferuloyl_C1-glucuronide
+18/07/2021 02:08:55 -- INFO -- 10 pathways were found
+18/07/2021 02:08:55 -- INFO -- At the end of this tree search, the cache contains 0

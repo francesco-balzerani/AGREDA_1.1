@@ -1,0 +1,95 @@
+17/07/2021 10:02:22 -- WARNING -- Setting the seed at 1234
+17/07/2021 10:02:22 -- INFO -- Stating global parameters from configuration file
+17/07/2021 10:02:22 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 10:02:22 -- INFO -- Full search - no stopping at first result
+17/07/2021 10:02:22 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 10:02:22 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 10:02:22 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 10:02:22 -- INFO -- Using biological cut off at 0.1
+17/07/2021 10:02:22 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 10:02:22 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 10:02:22 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 10:02:22 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 10:02:22 -- INFO -- Using RAVE: False
+17/07/2021 10:02:22 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 10:02:22 -- INFO -- Using explicit hydrogens : True
+17/07/2021 10:02:22 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 10:02:22 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 10:02:43 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 10:02:43 -- INFO -- Starting move obtention process with compound 5'-Methoxy-O-desmethylangolensin ([H]Oc1c([H])c([H])c(C([H])(C(=O)c2c([H])c(OC([H])([H])[H])c(O[H])c([H])c2O[H])C([H])([H])[H])c([H])c1[H]) at 1626508963.1346066
+17/07/2021 10:02:43 -- INFO -- 59 available rules
+17/07/2021 10:02:44 -- INFO -- For compound 5'-Methoxy-O-desmethylangolensin, matching moves are [NAIOQCWMMFVXSV-UHFFFAOYSA-N-MNXR113505_MNXM982_6-0, NAIOQCWMMFVXSV-UHFFFAOYSA-N-MNXR122528_MNXM754_6-0, NAIOQCWMMFVXSV-UHFFFAOYSA-N-MNXR105212_MNXM982_8-0]
+17/07/2021 10:02:44 -- INFO -- Calculated moves in 1.0009686946868896 for compound NAIOQCWMMFVXSV-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:44 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 10h 2min 44s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 10:02:44 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 10:02:44 -- INFO -- Adding a child with move NAIOQCWMMFVXSV-UHFFFAOYSA-N-MNXR113505_MNXM982_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|5'-Methoxy-O-desmethylangolensin|
+17/07/2021 10:02:44 -- INFO -- Starting move obtention process with compound MPGFHNNVFUGPOX-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])(C(=O)c2c([H])c(O[H])c(O[H])c([H])c2O[H])C([H])([H])[H])c([H])c1[H]) at 1626508964.2490613
+17/07/2021 10:02:44 -- INFO -- 14 available rules
+17/07/2021 10:02:44 -- INFO -- For compound MPGFHNNVFUGPOX-UHFFFAOYSA-N, matching moves are []
+17/07/2021 10:02:44 -- INFO -- Calculated moves in 0.43497300148010254 for compound MPGFHNNVFUGPOX-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:44 -- INFO -- Pathway is found at iteration 0
+17/07/2021 10:02:44 -- INFO -- Udapted solved Node 	Move name: NAIOQCWMMFVXSV-UHFFFAOYSA-N-MNXR113505_MNXM982_6-0/ Biological score : 1.95/ Chemical score: 0.6
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|MPGFHNNVFUGPOX-UHFFFAOYSA-N|ZNOVTXRBGFNYRX-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 10:02:44 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|5'-Methoxy-O-desmethylangolensin| for the first time at iteration 0
+17/07/2021 10:02:44 -- INFO -- Adding a child with move NAIOQCWMMFVXSV-UHFFFAOYSA-N-MNXR122528_MNXM754_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|5'-Methoxy-O-desmethylangolensin|
+17/07/2021 10:02:44 -- INFO -- Starting move obtention process with compound MPGFHNNVFUGPOX-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])(C(=O)c2c([H])c(O[H])c(O[H])c([H])c2O[H])C([H])([H])[H])c([H])c1[H]) at 1626508964.8959649
+17/07/2021 10:02:45 -- INFO -- 14 available rules
+17/07/2021 10:02:45 -- INFO -- For compound MPGFHNNVFUGPOX-UHFFFAOYSA-N, matching moves are []
+17/07/2021 10:02:45 -- INFO -- Calculated moves in 0.4521212577819824 for compound MPGFHNNVFUGPOX-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:45 -- INFO -- Adding a child with move NAIOQCWMMFVXSV-UHFFFAOYSA-N-MNXR105212_MNXM982_8-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|5'-Methoxy-O-desmethylangolensin|
+17/07/2021 10:02:45 -- INFO -- Starting move obtention process with compound MPGFHNNVFUGPOX-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])(C(=O)c2c([H])c(O[H])c(O[H])c([H])c2O[H])C([H])([H])[H])c([H])c1[H]) at 1626508965.50095
+17/07/2021 10:02:45 -- INFO -- 14 available rules
+17/07/2021 10:02:45 -- INFO -- For compound MPGFHNNVFUGPOX-UHFFFAOYSA-N, matching moves are []
+17/07/2021 10:02:45 -- INFO -- Calculated moves in 0.43259644508361816 for compound MPGFHNNVFUGPOX-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:45 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626508965.9560194
+17/07/2021 10:02:46 -- INFO -- 0 available rules
+17/07/2021 10:02:46 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 10:02:46 -- INFO -- Calculated moves in 0.40889430046081543 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 10:02:46 -- INFO -- Pathway is found at iteration 2
+17/07/2021 10:02:46 -- INFO -- Udapted solved Node 	Move name: NAIOQCWMMFVXSV-UHFFFAOYSA-N-MNXR122528_MNXM754_6-0/ Biological score : 0.7/ Chemical score: 0.62
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|MPGFHNNVFUGPOX-UHFFFAOYSA-N| for the first time at iteration 2
+17/07/2021 10:02:46 -- INFO -- Pathway is found at iteration 4
+17/07/2021 10:02:46 -- INFO -- Udapted solved Node 	Move name: NAIOQCWMMFVXSV-UHFFFAOYSA-N-MNXR105212_MNXM982_8-0/ Biological score : 0.3/ Chemical score: 0.6
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|MPGFHNNVFUGPOX-UHFFFAOYSA-N|WSFSSNUMVMOOMR-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 4
+17/07/2021 10:02:47 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 10:02:49 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 10:02:50 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 10:02:51 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 10:02:53 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 10:02:55 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 10:02:56 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 10:02:58 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 10:02:59 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 10:03:01 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 10h 3min 1s 
+Your tree search took 1.7e+01s 
+ 
+Time was spent in selection: 3.3e-02s, expansion: 2.1e+00s, rollout: 0.0e+00s, update: 1.1e-01s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 10:03:01 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 10:03:01 -- WARNING -- RECAP TIME_EXECUTION=16.85
+17/07/2021 10:03:01 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 10:03:01 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 10:03:01 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 10:03:01 -- INFO -- Found 3 pathways for 5'-Methoxy-O-desmethylangolensin
+17/07/2021 10:03:01 -- INFO -- 3 pathways were found
+17/07/2021 10:03:01 -- INFO -- At the end of this tree search, the cache contains 0

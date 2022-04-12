@@ -1,0 +1,111 @@
+18/07/2021 02:07:36 -- WARNING -- Setting the seed at 1234
+18/07/2021 02:07:36 -- INFO -- Stating global parameters from configuration file
+18/07/2021 02:07:36 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 02:07:36 -- INFO -- Full search - no stopping at first result
+18/07/2021 02:07:36 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 02:07:36 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 02:07:36 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 02:07:36 -- INFO -- Using biological cut off at 0.1
+18/07/2021 02:07:36 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 02:07:36 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 02:07:36 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 02:07:36 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 02:07:36 -- INFO -- Using RAVE: False
+18/07/2021 02:07:36 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 02:07:36 -- INFO -- Using explicit hydrogens : True
+18/07/2021 02:07:36 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 02:07:36 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+18/07/2021 02:07:36 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 02:07:59 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 02:07:59 -- INFO -- Starting move obtention process with compound Rosmarinic_acid ([H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]) at 1626566879.214021
+18/07/2021 02:07:59 -- INFO -- 90 available rules
+18/07/2021 02:08:01 -- INFO -- For compound Rosmarinic_acid, matching moves are [DOUMFZQKYFQNTF-UHFFFAOYSA-N-rxnAdd168_cpd01273_6_6-0, DOUMFZQKYFQNTF-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0, DOUMFZQKYFQNTF-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-1, DOUMFZQKYFQNTF-UHFFFAOYSA-N-MNXR121980_MNXM8142_8-0]
+18/07/2021 02:08:01 -- INFO -- Calculated moves in 2.1565535068511963 for compound DOUMFZQKYFQNTF-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:01 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 2h 8min 1s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 02:08:01 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 02:08:01 -- INFO -- Adding a child with move DOUMFZQKYFQNTF-UHFFFAOYSA-N-rxnAdd168_cpd01273_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Rosmarinic_acid|
+18/07/2021 02:08:01 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626566881.457279
+18/07/2021 02:08:01 -- INFO -- 0 available rules
+18/07/2021 02:08:01 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:01 -- INFO -- Calculated moves in 0.35068511962890625 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:01 -- INFO -- Pathway is found at iteration 0
+18/07/2021 02:08:01 -- INFO -- Udapted solved Node 	Move name: DOUMFZQKYFQNTF-UHFFFAOYSA-N-rxnAdd168_cpd01273_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|GPRLSGONYQIRFK-UHFFFAOYSA-N|QAIPRVGONGVQAS-UHFFFAOYSA-N- solved| for the first time at iteration 0
+18/07/2021 02:08:01 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Rosmarinic_acid| for the first time at iteration 0
+18/07/2021 02:08:01 -- INFO -- Adding a child with move DOUMFZQKYFQNTF-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Rosmarinic_acid|
+18/07/2021 02:08:01 -- INFO -- Starting move obtention process with compound KIMHJUCTTIEANQ-UHFFFAOYSA-N ([H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H])C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]) at 1626566881.999758
+18/07/2021 02:08:02 -- INFO -- 115 available rules
+18/07/2021 02:08:04 -- INFO -- For compound KIMHJUCTTIEANQ-UHFFFAOYSA-N, matching moves are [KIMHJUCTTIEANQ-UHFFFAOYSA-N-rxnAdd168_cpd01273_6_6-0, KIMHJUCTTIEANQ-UHFFFAOYSA-N-MNXR121984_MNXM10183_6-0, KIMHJUCTTIEANQ-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0, KIMHJUCTTIEANQ-UHFFFAOYSA-N-MNXR121980_MNXM8142_8-0]
+18/07/2021 02:08:04 -- INFO -- Calculated moves in 2.1299314498901367 for compound KIMHJUCTTIEANQ-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:04 -- INFO -- Starting move obtention process with compound MYMOFIZGZYHOMD-UHFFFAOYSA-N (O=O) at 1626566884.1479967
+18/07/2021 02:08:04 -- INFO -- 0 available rules
+18/07/2021 02:08:04 -- INFO -- For compound MYMOFIZGZYHOMD-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:04 -- INFO -- Calculated moves in 0.38615942001342773 for compound MYMOFIZGZYHOMD-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:04 -- INFO -- Adding a child with move DOUMFZQKYFQNTF-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-1 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Rosmarinic_acid|
+18/07/2021 02:08:04 -- INFO -- Starting move obtention process with compound MYMOFIZGZYHOMD-UHFFFAOYSA-N (O=O) at 1626566884.6405718
+18/07/2021 02:08:04 -- INFO -- 0 available rules
+18/07/2021 02:08:04 -- INFO -- For compound MYMOFIZGZYHOMD-UHFFFAOYSA-N, matching moves are []
+18/07/2021 02:08:04 -- INFO -- Calculated moves in 0.32942938804626465 for compound MYMOFIZGZYHOMD-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:04 -- INFO -- Starting move obtention process with compound ZIUGAQNCXNLSFT-UHFFFAOYSA-N ([H]OC(=O)C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])([H])c1c([H])c([H])c(O[H])c([H])c1[H]) at 1626566884.9785767
+18/07/2021 02:08:05 -- INFO -- 115 available rules
+18/07/2021 02:08:06 -- INFO -- For compound ZIUGAQNCXNLSFT-UHFFFAOYSA-N, matching moves are [ZIUGAQNCXNLSFT-UHFFFAOYSA-N-rxnAdd168_cpd01273_6_6-0, ZIUGAQNCXNLSFT-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0, ZIUGAQNCXNLSFT-UHFFFAOYSA-N-MNXR121984_MNXM10183_6-0, ZIUGAQNCXNLSFT-UHFFFAOYSA-N-MNXR121980_MNXM8142_8-0]
+18/07/2021 02:08:06 -- INFO -- Calculated moves in 1.9572951793670654 for compound ZIUGAQNCXNLSFT-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:06 -- INFO -- Pathway is found at iteration 2
+18/07/2021 02:08:07 -- INFO -- Udapted solved Node 	Move name: DOUMFZQKYFQNTF-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0/ Biological score : 2.52/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|ACFIXJIJDZMPPO-UHFFFAOYSA-N- solved|KIMHJUCTTIEANQ-UHFFFAOYSA-N|MYMOFIZGZYHOMD-UHFFFAOYSA-N| for the first time at iteration 2
+18/07/2021 02:08:07 -- INFO -- Adding a child with move DOUMFZQKYFQNTF-UHFFFAOYSA-N-MNXR121980_MNXM8142_8-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|Rosmarinic_acid|
+18/07/2021 02:08:07 -- INFO -- Starting move obtention process with compound PAFLSMZLRSPALU-UHFFFAOYSA-N ([H]OC(=O)C([H])(O[H])C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]) at 1626566887.1304362
+18/07/2021 02:08:07 -- INFO -- 232 available rules
+18/07/2021 02:08:09 -- INFO -- For compound PAFLSMZLRSPALU-UHFFFAOYSA-N, matching moves are [PAFLSMZLRSPALU-UHFFFAOYSA-N-MNXR121980_MNXM988_8-0, PAFLSMZLRSPALU-UHFFFAOYSA-N-MNXR104661_MNXM114141_6-0, PAFLSMZLRSPALU-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-0, PAFLSMZLRSPALU-UHFFFAOYSA-N-MNXR108085_MNXM645_6-0, PAFLSMZLRSPALU-UHFFFAOYSA-N-MNXR106657_MNXM279_8-0, PAFLSMZLRSPALU-UHFFFAOYSA-N-MNXR109193_MNXM3473_6-0, PAFLSMZLRSPALU-UHFFFAOYSA-N-MNXR109193_MNXM3473_6-1, PAFLSMZLRSPALU-UHFFFAOYSA-N-MNXR108105_MNXM988_6-0, PAFLSMZLRSPALU-UHFFFAOYSA-N-MNXR108103_MNXM988_6-0]
+18/07/2021 02:08:09 -- INFO -- Calculated moves in 2.2182438373565674 for compound PAFLSMZLRSPALU-UHFFFAOYSA-N - without caching
+18/07/2021 02:08:09 -- INFO -- Pathway is found at iteration 4
+18/07/2021 02:08:09 -- INFO -- Udapted solved Node 	Move name: DOUMFZQKYFQNTF-UHFFFAOYSA-N-MNXR121984_MNXM3355_6-1/ Biological score : 2.52/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|ACFIXJIJDZMPPO-UHFFFAOYSA-N- solved|MYMOFIZGZYHOMD-UHFFFAOYSA-N|ZIUGAQNCXNLSFT-UHFFFAOYSA-N| for the first time at iteration 4
+18/07/2021 02:08:09 -- INFO -- Pathway is found at iteration 6
+18/07/2021 02:08:09 -- INFO -- Udapted solved Node 	Move name: DOUMFZQKYFQNTF-UHFFFAOYSA-N-MNXR121980_MNXM8142_8-0/ Biological score : 2.26/ Chemical score: 0.93
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|PAFLSMZLRSPALU-UHFFFAOYSA-N|QHRGJMIMHCLHRG-UHFFFAOYSA-N- solved| for the first time at iteration 6
+18/07/2021 02:08:10 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 02:08:11 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 02:08:12 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 02:08:13 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 02:08:14 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 02:08:15 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 02:08:15 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 02:08:16 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 02:08:17 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 02:08:19 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 2h 8min 19s 
+Your tree search took 1.8e+01s 
+ 
+Time was spent in selection: 2.9e-02s, expansion: 7.8e+00s, rollout: 0.0e+00s, update: 1.3e-01s 
+CONGRATULATIONS, THATS A WIN
+18/07/2021 02:08:19 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 02:08:19 -- WARNING -- RECAP TIME_EXECUTION=17.86
+18/07/2021 02:08:19 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 02:08:19 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 02:08:19 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 02:08:19 -- INFO -- Found 4 pathways for Rosmarinic_acid
+18/07/2021 02:08:19 -- INFO -- 4 pathways were found
+18/07/2021 02:08:19 -- INFO -- At the end of this tree search, the cache contains 0

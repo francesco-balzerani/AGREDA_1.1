@@ -1,0 +1,115 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c2c(=O)c(-c3c([H])c([H])c(OC([H])([H])[H])c([H])c3[H])c([H])oc2c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C16H12O4/c1-19-12-5-2-10(3-6-12)14-9-20-15-8-11(17)4-7-13(15)16(14)18/h2-9,17H,1H3",
+          "Names": [
+            "HKQYGTCOTHHOMP-UHFFFAOYSA-N"
+          ],
+          "id": "HKQYGTCOTHHOMP-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)",
+          "Names": [
+            "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+            "D-Galacturonate"
+          ],
+          "id": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c3c(=O)c(-c4c([H])c([H])c(OC([H])([H])[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C22H20O10/c1-29-11-4-2-10(3-5-11)14-9-30-15-8-12(6-7-13(15)16(14)23)31-22-19(26)17(24)18(25)20(32-22)21(27)28/h2-9,17-20,22,24-26H,1H3,(H,27,28)",
+          "Names": [
+            "Formononetin_7-O-glucuronide",
+            "UMBVLOHYPOQARY-UHFFFAOYSA-N"
+          ],
+          "id": "UMBVLOHYPOQARY-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd178_cpd07105_6_6",
+            "rxnAdd113_cpd02215_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c3c(=O)c(-c4c([H])c([H])c(OC([H])([H])[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]>>[H]OC(=O)C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]Oc1c([H])c([H])c2c(=O)c(-c3c([H])c([H])c(OC([H])([H])[H])c([H])c3[H])c([H])oc2c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.6268656716417911,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "AEMOLEFTQBMNLQ-UHFFFAOYSA-N": 1,
+            "HKQYGTCOTHHOMP-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0-1",
+          "source": "UMBVLOHYPOQARY-UHFFFAOYSA-N",
+          "id": "UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0-1_=>_UMBVLOHYPOQARY-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+          "source": "UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0-1",
+          "id": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N_=>_UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "HKQYGTCOTHHOMP-UHFFFAOYSA-N",
+          "source": "UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0-1",
+          "id": "HKQYGTCOTHHOMP-UHFFFAOYSA-N_=>_UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0-1"
+        }
+      }
+    ]
+  }
+}

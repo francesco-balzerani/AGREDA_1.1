@@ -1,0 +1,165 @@
+17/07/2021 07:37:05 -- WARNING -- Setting the seed at 1234
+17/07/2021 07:37:05 -- INFO -- Stating global parameters from configuration file
+17/07/2021 07:37:05 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 07:37:05 -- INFO -- Full search - no stopping at first result
+17/07/2021 07:37:05 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 07:37:05 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 07:37:05 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 07:37:05 -- INFO -- Using biological cut off at 0.1
+17/07/2021 07:37:05 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 07:37:05 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 07:37:05 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 07:37:05 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 07:37:05 -- INFO -- Using RAVE: False
+17/07/2021 07:37:05 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 07:37:05 -- INFO -- Using explicit hydrogens : True
+17/07/2021 07:37:05 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 07:37:05 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+17/07/2021 07:37:05 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 07:37:28 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 07:37:28 -- INFO -- Starting move obtention process with compound Quercetin_3-O-glucoside ([H]Oc1c([H])c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1O[H]) at 1626500248.4332497
+17/07/2021 07:37:28 -- INFO -- 900 available rules
+17/07/2021 07:37:33 -- INFO -- For compound Quercetin_3-O-glucoside, matching moves are [OVSQVDMCBVZWGM-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0, OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR119309_MNXM1146_6-0, OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118459_MNXM2424_8-0, OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118458_MNXM2424_8-0, OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118457_MNXM2424_8-0, OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118456_MNXM2424_8-0, OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0]
+17/07/2021 07:37:33 -- INFO -- Calculated moves in 4.8114495277404785 for compound OVSQVDMCBVZWGM-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:33 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 7h 37min 33s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 07:37:33 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 07:37:33 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:37:33 -- INFO -- Pathway is found at iteration 0
+17/07/2021 07:37:33 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|REFJWTPEDVJJIY-UHFFFAOYSA-N- solved|WQZGKKKJIJFFOK-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 07:37:33 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Quercetin_3-O-glucoside| for the first time at iteration 0
+17/07/2021 07:37:33 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR119309_MNXM1146_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:37:33 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626500253.5370493
+17/07/2021 07:37:33 -- INFO -- 1334 available rules
+17/07/2021 07:37:39 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+17/07/2021 07:37:39 -- INFO -- Calculated moves in 5.499424934387207 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:39 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118459_MNXM2424_8-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:37:39 -- INFO -- Starting move obtention process with compound LMHZEJMAMDLUBS-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(=O)c([H])c(O[H])c-4c3O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]) at 1626500259.1691341
+17/07/2021 07:37:39 -- INFO -- 130 available rules
+17/07/2021 07:37:44 -- INFO -- For compound LMHZEJMAMDLUBS-UHFFFAOYSA-N, matching moves are [LMHZEJMAMDLUBS-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-0, LMHZEJMAMDLUBS-UHFFFAOYSA-N-MNXR118459_MNXM80233_8-0, LMHZEJMAMDLUBS-UHFFFAOYSA-N-MNXR118453_MNXM114519_8-0, LMHZEJMAMDLUBS-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-0]
+17/07/2021 07:37:44 -- INFO -- Calculated moves in 5.3811585903167725 for compound LMHZEJMAMDLUBS-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:44 -- INFO -- Pathway is found at iteration 2
+17/07/2021 07:37:44 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR119309_MNXM1146_6-0/ Biological score : 4.02/ Chemical score: 0.61
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|IKGXIBQEEMLURG-UHFFFAOYSA-N- solved|XCCTYIAWTASOJW-UHFFFAOYSA-N| for the first time at iteration 2
+17/07/2021 07:37:44 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118458_MNXM2424_8-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:37:44 -- INFO -- Starting move obtention process with compound VNAREQICHILZOH-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(=O)c([H])c(O[H])c-4c3O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626500264.7478664
+17/07/2021 07:37:45 -- INFO -- 172 available rules
+17/07/2021 07:37:50 -- INFO -- For compound VNAREQICHILZOH-UHFFFAOYSA-N, matching moves are [VNAREQICHILZOH-UHFFFAOYSA-N-MNXR118460_MNXM114555_8-0, VNAREQICHILZOH-UHFFFAOYSA-N-MNXR118458_MNXM114555_8-0, VNAREQICHILZOH-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, VNAREQICHILZOH-UHFFFAOYSA-N-MNXR118452_MNXM114520_16-0]
+17/07/2021 07:37:50 -- INFO -- Calculated moves in 5.274883031845093 for compound VNAREQICHILZOH-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:50 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118457_MNXM2424_8-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:37:50 -- INFO -- Starting move obtention process with compound XWXZQPRSUARMMD-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC2([H])C([H])(O[H])C([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(=O)c([H])c(O[H])c-4c3O[H])OC([H])(C([H])([H])O[H])C2([H])O[H])c([H])c1[H]) at 1626500270.1588926
+17/07/2021 07:37:50 -- INFO -- 190 available rules
+17/07/2021 07:37:54 -- INFO -- For compound XWXZQPRSUARMMD-UHFFFAOYSA-N, matching moves are [XWXZQPRSUARMMD-UHFFFAOYSA-N-MNXR118457_MNXM114722_8-0, XWXZQPRSUARMMD-UHFFFAOYSA-N-MNXR118451_MNXM114685_8-0, XWXZQPRSUARMMD-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, XWXZQPRSUARMMD-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0, XWXZQPRSUARMMD-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-1]
+17/07/2021 07:37:54 -- INFO -- Calculated moves in 3.8888442516326904 for compound XWXZQPRSUARMMD-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:54 -- INFO -- Pathway is found at iteration 4
+17/07/2021 07:37:54 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118459_MNXM2424_8-0/ Biological score : 2.26/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|LMHZEJMAMDLUBS-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 4
+17/07/2021 07:37:54 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118456_MNXM2424_8-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:37:54 -- INFO -- Starting move obtention process with compound SQEGNGHXBSVMKG-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC2([H])C([H])(C([H])([H])O[H])OC([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(=O)c([H])c(O[H])c-4c3O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626500274.2389655
+17/07/2021 07:37:54 -- INFO -- 184 available rules
+17/07/2021 07:37:57 -- INFO -- For compound SQEGNGHXBSVMKG-UHFFFAOYSA-N, matching moves are [SQEGNGHXBSVMKG-UHFFFAOYSA-N-MNXR118456_MNXM114723_8-0, SQEGNGHXBSVMKG-UHFFFAOYSA-N-MNXR118450_MNXM114687_8-0, SQEGNGHXBSVMKG-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, SQEGNGHXBSVMKG-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0, SQEGNGHXBSVMKG-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-1]
+17/07/2021 07:37:57 -- INFO -- Calculated moves in 3.693298578262329 for compound SQEGNGHXBSVMKG-UHFFFAOYSA-N - without caching
+17/07/2021 07:37:57 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:37:58 -- INFO -- Starting move obtention process with compound PSBFVXDMNYDZMV-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(O[H])c([H])c(O[H])c4c3=O)C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]) at 1626500278.0359745
+17/07/2021 07:37:58 -- INFO -- 584 available rules
+17/07/2021 07:38:06 -- INFO -- For compound PSBFVXDMNYDZMV-UHFFFAOYSA-N, matching moves are [PSBFVXDMNYDZMV-UHFFFAOYSA-N-rxnAdd66_cpd31618_6_6-0, PSBFVXDMNYDZMV-UHFFFAOYSA-N-MNXR118461_MNXM80233_8-0, PSBFVXDMNYDZMV-UHFFFAOYSA-N-MNXR118453_MNXM114519_8-0, PSBFVXDMNYDZMV-UHFFFAOYSA-N-MNXR118461_MNXM80233_6-0, PSBFVXDMNYDZMV-UHFFFAOYSA-N-MNXR118457_MNXM2424_8-0, PSBFVXDMNYDZMV-UHFFFAOYSA-N-MNXR118456_MNXM2424_8-0, PSBFVXDMNYDZMV-UHFFFAOYSA-N-MNXR118394_MNXM52966_6-0, PSBFVXDMNYDZMV-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0, PSBFVXDMNYDZMV-UHFFFAOYSA-N-MNXR122207_MNXM2424_6-0, PSBFVXDMNYDZMV-UHFFFAOYSA-N-MNXR123813_MNXM2424_6-0]
+17/07/2021 07:38:06 -- INFO -- Calculated moves in 8.062663316726685 for compound PSBFVXDMNYDZMV-UHFFFAOYSA-N - without caching
+17/07/2021 07:38:06 -- INFO -- Pathway is found at iteration 6
+17/07/2021 07:38:06 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118458_MNXM2424_8-0/ Biological score : 2.26/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved|VNAREQICHILZOH-UHFFFAOYSA-N| for the first time at iteration 6
+17/07/2021 07:38:06 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0 to node 
+Count: 7/ Score : 6.57/ Children: 7/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:38:06 -- INFO -- Starting move obtention process with compound NBAZENYUDPJQIH-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(O[H])c([H])c(O[H])c4c3=O)C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626500286.2746546
+17/07/2021 07:38:06 -- INFO -- 552 available rules
+17/07/2021 07:38:14 -- INFO -- For compound NBAZENYUDPJQIH-UHFFFAOYSA-N, matching moves are [NBAZENYUDPJQIH-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR118460_MNXM114555_8-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR118452_MNXM114520_14-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR118457_MNXM2424_8-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR118456_MNXM2424_8-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR122207_MNXM2424_6-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR118289_MNXM21431_6-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR123813_MNXM2424_6-0, NBAZENYUDPJQIH-UHFFFAOYSA-N-MNXR123813_MNXM2424_6-1]
+17/07/2021 07:38:14 -- INFO -- Calculated moves in 7.885200500488281 for compound NBAZENYUDPJQIH-UHFFFAOYSA-N - without caching
+17/07/2021 07:38:14 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0 to node 
+Count: 8/ Score : 6.0/ Children: 8/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:38:14 -- INFO -- Starting move obtention process with compound KKRGPGRSBFMOKP-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC2([H])C([H])(O[H])C([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(O[H])c([H])c(O[H])c4c3=O)OC([H])(C([H])([H])O[H])C2([H])O[H])c([H])c1[H]) at 1626500294.2939456
+17/07/2021 07:38:14 -- INFO -- 629 available rules
+17/07/2021 07:38:20 -- INFO -- For compound KKRGPGRSBFMOKP-UHFFFAOYSA-N, matching moves are [KKRGPGRSBFMOKP-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0, KKRGPGRSBFMOKP-UHFFFAOYSA-N-MNXR118451_MNXM114685_8-0, KKRGPGRSBFMOKP-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, KKRGPGRSBFMOKP-UHFFFAOYSA-N-MNXR118459_MNXM2424_8-0, KKRGPGRSBFMOKP-UHFFFAOYSA-N-MNXR118458_MNXM2424_8-0, KKRGPGRSBFMOKP-UHFFFAOYSA-N-MNXR118456_MNXM2424_6-0, KKRGPGRSBFMOKP-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, KKRGPGRSBFMOKP-UHFFFAOYSA-N-MNXR118452_MNXM114298_10-0, KKRGPGRSBFMOKP-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0, KKRGPGRSBFMOKP-UHFFFAOYSA-N-MNXR122207_MNXM2424_6-0]
+17/07/2021 07:38:20 -- INFO -- Calculated moves in 5.964890718460083 for compound KKRGPGRSBFMOKP-UHFFFAOYSA-N - without caching
+17/07/2021 07:38:20 -- INFO -- Pathway is found at iteration 8
+17/07/2021 07:38:20 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118457_MNXM2424_8-0/ Biological score : 2.26/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved|XWXZQPRSUARMMD-UHFFFAOYSA-N| for the first time at iteration 8
+17/07/2021 07:38:20 -- INFO -- Adding a child with move OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0 to node 
+Count: 9/ Score : 6.44/ Children: 9/ Terminal : False
+|Quercetin_3-O-glucoside|
+17/07/2021 07:38:20 -- INFO -- Starting move obtention process with compound FUBNYKGNARGHTG-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC2([H])C([H])(C([H])([H])O[H])OC([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(O[H])c([H])c(O[H])c4c3=O)C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626500300.4556546
+17/07/2021 07:38:20 -- INFO -- 629 available rules
+17/07/2021 07:38:25 -- INFO -- For compound FUBNYKGNARGHTG-UHFFFAOYSA-N, matching moves are [FUBNYKGNARGHTG-UHFFFAOYSA-N-rxnAdd143_cpd03340_6_6-0, FUBNYKGNARGHTG-UHFFFAOYSA-N-MNXR118450_MNXM114687_8-0, FUBNYKGNARGHTG-UHFFFAOYSA-N-MNXR118460_MNXM114555_6-0, FUBNYKGNARGHTG-UHFFFAOYSA-N-MNXR118459_MNXM2424_8-0, FUBNYKGNARGHTG-UHFFFAOYSA-N-MNXR118458_MNXM2424_8-0, FUBNYKGNARGHTG-UHFFFAOYSA-N-MNXR118457_MNXM2424_6-0, FUBNYKGNARGHTG-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, FUBNYKGNARGHTG-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0, FUBNYKGNARGHTG-UHFFFAOYSA-N-MNXR122207_MNXM2424_6-0, FUBNYKGNARGHTG-UHFFFAOYSA-N-MNXR118289_MNXM21431_6-0]
+17/07/2021 07:38:25 -- INFO -- Calculated moves in 5.535132884979248 for compound FUBNYKGNARGHTG-UHFFFAOYSA-N - without caching
+17/07/2021 07:38:26 -- INFO -- Pathway is found at iteration 10
+17/07/2021 07:38:26 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118456_MNXM2424_8-0/ Biological score : 2.26/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved|SQEGNGHXBSVMKG-UHFFFAOYSA-N| for the first time at iteration 10
+17/07/2021 07:38:26 -- INFO -- Pathway is found at iteration 12
+17/07/2021 07:38:26 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0/ Biological score : 2.26/ Chemical score: 0.92
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|PSBFVXDMNYDZMV-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 12
+17/07/2021 07:38:26 -- INFO -- Pathway is found at iteration 14
+17/07/2021 07:38:26 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0/ Biological score : 2.26/ Chemical score: 0.92
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|NBAZENYUDPJQIH-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 14
+17/07/2021 07:38:26 -- INFO -- Pathway is found at iteration 16
+17/07/2021 07:38:26 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0/ Biological score : 2.26/ Chemical score: 0.92
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|KKRGPGRSBFMOKP-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 16
+17/07/2021 07:38:26 -- INFO -- Pathway is found at iteration 18
+17/07/2021 07:38:26 -- INFO -- Udapted solved Node 	Move name: OVSQVDMCBVZWGM-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0/ Biological score : 2.26/ Chemical score: 0.92
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|FUBNYKGNARGHTG-UHFFFAOYSA-N|RGJOEKWQDUBAIZ-UHFFFAOYSA-N- solved| for the first time at iteration 18
+17/07/2021 07:38:27 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 07:38:28 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 07:38:29 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 07:38:31 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 07:38:32 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 07:38:33 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 07:38:34 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 07:38:35 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 07:38:36 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 07:38:36 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 7h 38min 36s 
+Your tree search took 6.4e+01s 
+ 
+Time was spent in selection: 5.1e-02s, expansion: 5.2e+01s, rollout: 0.0e+00s, update: 2.6e-01s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 07:38:36 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 07:38:36 -- WARNING -- RECAP TIME_EXECUTION=63.69
+17/07/2021 07:38:36 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 07:38:36 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 07:38:37 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 07:38:37 -- INFO -- Found 10 pathways for Quercetin_3-O-glucoside
+17/07/2021 07:38:37 -- INFO -- 10 pathways were found
+17/07/2021 07:38:37 -- INFO -- At the end of this tree search, the cache contains 0

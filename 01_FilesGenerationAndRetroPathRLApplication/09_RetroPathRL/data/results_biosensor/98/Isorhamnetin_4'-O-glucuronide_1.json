@@ -1,0 +1,114 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C16H12O7/c1-22-11-4-7(2-3-9(11)18)16-15(21)14(20)13-10(19)5-8(17)6-12(13)23-16/h2-6,17-19,21H,1H3",
+          "Names": [
+            "IZQSVPBOUDKVDZ-UHFFFAOYSA-N"
+          ],
+          "id": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)",
+          "Names": [
+            "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+            "D-Galacturonate"
+          ],
+          "id": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c(-c3oc4c([H])c(O[H])c([H])c(O[H])c4c(=O)c3O[H])c([H])c2OC([H])([H])[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C22H20O13/c1-32-11-4-7(19-16(27)14(25)13-9(24)5-8(23)6-12(13)33-19)2-3-10(11)34-22-18(29)15(26)17(28)20(35-22)21(30)31/h2-6,15,17-18,20,22-24,26-29H,1H3,(H,30,31)",
+          "Names": [
+            "Isorhamnetin_4'-O-glucuronide",
+            "NCHMCZDLVWDQLC-UHFFFAOYSA-N"
+          ],
+          "id": "NCHMCZDLVWDQLC-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd147_cpd23057_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c(-c3oc4c([H])c(O[H])c([H])c(O[H])c4c(=O)c3O[H])c([H])c2OC([H])([H])[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]>>[H]OC(=O)C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]Oc1c([H])c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2O[H])c([H])c1OC([H])([H])[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.6714285714285714,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "AEMOLEFTQBMNLQ-UHFFFAOYSA-N": 1,
+            "IZQSVPBOUDKVDZ-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0-1",
+          "source": "NCHMCZDLVWDQLC-UHFFFAOYSA-N",
+          "id": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0-1_=>_NCHMCZDLVWDQLC-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+          "source": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0-1",
+          "id": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N_=>_NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N",
+          "source": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0-1",
+          "id": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N_=>_NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0-1"
+        }
+      }
+    ]
+  }
+}

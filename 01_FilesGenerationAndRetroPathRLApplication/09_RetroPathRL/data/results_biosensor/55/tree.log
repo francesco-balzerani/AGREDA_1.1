@@ -1,0 +1,73 @@
+17/07/2021 01:20:20 -- WARNING -- Setting the seed at 1234
+17/07/2021 01:20:20 -- INFO -- Stating global parameters from configuration file
+17/07/2021 01:20:20 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 01:20:20 -- INFO -- Full search - no stopping at first result
+17/07/2021 01:20:20 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 01:20:20 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 01:20:20 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 01:20:20 -- INFO -- Using biological cut off at 0.1
+17/07/2021 01:20:20 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 01:20:20 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 01:20:20 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 01:20:20 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 01:20:20 -- INFO -- Using RAVE: False
+17/07/2021 01:20:20 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 01:20:20 -- INFO -- Using explicit hydrogens : True
+17/07/2021 01:20:20 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 01:20:20 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+17/07/2021 01:20:20 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 01:20:42 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 01:20:42 -- INFO -- Starting move obtention process with compound (-)-Epicatechin_3-O-gallate ([H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(OC(=O)c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C2([H])[H]) at 1626477642.3735454
+17/07/2021 01:20:42 -- INFO -- 195 available rules
+17/07/2021 01:20:44 -- INFO -- For compound (-)-Epicatechin_3-O-gallate, matching moves are [LSHVYAFMTMFKBA-UHFFFAOYSA-N-rxnAdd55_cpd31510_6_6-0, LSHVYAFMTMFKBA-UHFFFAOYSA-N-MNXR119278_MNXM104871_8-0]
+17/07/2021 01:20:44 -- INFO -- Calculated moves in 2.416443109512329 for compound LSHVYAFMTMFKBA-UHFFFAOYSA-N - without caching
+17/07/2021 01:20:44 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 1h 20min 44s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 01:20:44 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 01:20:44 -- INFO -- Adding a child with move LSHVYAFMTMFKBA-UHFFFAOYSA-N-rxnAdd55_cpd31510_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|(-)-Epicatechin_3-O-gallate|
+17/07/2021 01:20:44 -- INFO -- Pathway is found at iteration 0
+17/07/2021 01:20:44 -- INFO -- Udapted solved Node 	Move name: LSHVYAFMTMFKBA-UHFFFAOYSA-N-rxnAdd55_cpd31510_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|LNTHITQWFMADLM-UHFFFAOYSA-N- solved|PFTAWBLQPZVEMU-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 01:20:44 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|(-)-Epicatechin_3-O-gallate| for the first time at iteration 0
+17/07/2021 01:20:44 -- INFO -- Adding a child with move LSHVYAFMTMFKBA-UHFFFAOYSA-N-MNXR119278_MNXM104871_8-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|(-)-Epicatechin_3-O-gallate|
+17/07/2021 01:20:45 -- INFO -- Pathway is found at iteration 2
+17/07/2021 01:20:45 -- INFO -- Udapted solved Node 	Move name: LSHVYAFMTMFKBA-UHFFFAOYSA-N-MNXR119278_MNXM104871_8-0/ Biological score : 2.26/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|GDVRUDXLQBVIKP-UHFFFAOYSA-N- solved|PFTAWBLQPZVEMU-UHFFFAOYSA-N- solved| for the first time at iteration 2
+17/07/2021 01:20:46 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 01:20:47 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 01:20:49 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 01:20:51 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 01:20:52 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 01:20:54 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 01:20:55 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 01:20:57 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 01:20:59 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 01:21:00 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 1h 21min 0s 
+Your tree search took 1.5e+01s 
+ 
+Time was spent in selection: 3.1e-02s, expansion: 1.6e-01s, rollout: 0.0e+00s, update: 6.4e-02s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 01:21:00 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 01:21:00 -- WARNING -- RECAP TIME_EXECUTION=15.65
+17/07/2021 01:21:00 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 01:21:00 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 01:21:00 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 01:21:00 -- INFO -- Found 2 pathways for (-)-Epicatechin_3-O-gallate
+17/07/2021 01:21:00 -- INFO -- 2 pathways were found
+17/07/2021 01:21:00 -- INFO -- At the end of this tree search, the cache contains 0

@@ -1,0 +1,137 @@
+17/07/2021 01:20:20 -- WARNING -- Setting the seed at 1234
+17/07/2021 01:20:20 -- INFO -- Stating global parameters from configuration file
+17/07/2021 01:20:20 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 01:20:20 -- INFO -- Full search - no stopping at first result
+17/07/2021 01:20:20 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 01:20:20 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 01:20:20 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 01:20:20 -- INFO -- Using biological cut off at 0.1
+17/07/2021 01:20:20 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 01:20:20 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 01:20:20 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 01:20:20 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 01:20:20 -- INFO -- Using RAVE: False
+17/07/2021 01:20:20 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 01:20:20 -- INFO -- Using explicit hydrogens : True
+17/07/2021 01:20:20 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 01:20:20 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+17/07/2021 01:20:20 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 01:20:42 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 01:20:42 -- INFO -- Starting move obtention process with compound (+)-Catechin ([H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]) at 1626477642.8939714
+17/07/2021 01:20:43 -- INFO -- 228 available rules
+17/07/2021 01:20:46 -- INFO -- For compound (+)-Catechin, matching moves are [PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd55_r_2_cpd06619_6_6-0, PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd54_cpd06619_4_6-0, PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0, PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd49_cpd03970_4_6-0, PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd48_cpd03970_3_6-0, PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd223_r_2_cpd06619_6_6-0, PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd214_r_1_cpd06619_6_6-0, PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd213_r_1_cpd06619_6_6-0, PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd212_r_2_cpd06619_6_6-0, PFTAWBLQPZVEMU-UHFFFAOYSA-N-MNXR119278_MNXM6001_8-0]
+17/07/2021 01:20:46 -- INFO -- Calculated moves in 3.3458874225616455 for compound PFTAWBLQPZVEMU-UHFFFAOYSA-N - without caching
+17/07/2021 01:20:46 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 1h 20min 46s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 01:20:46 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 01:20:46 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd55_r_2_cpd06619_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:46 -- INFO -- Pathway is found at iteration 0
+17/07/2021 01:20:46 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd55_r_2_cpd06619_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|LSHVYAFMTMFKBA-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 01:20:46 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|(+)-Catechin| for the first time at iteration 0
+17/07/2021 01:20:46 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd54_cpd06619_4_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:46 -- INFO -- Starting move obtention process with compound CURLTUGMZLYLDI-UHFFFAOYSA-N (O=C=O) at 1626477646.47565
+17/07/2021 01:20:46 -- INFO -- 11 available rules
+17/07/2021 01:20:47 -- INFO -- For compound CURLTUGMZLYLDI-UHFFFAOYSA-N, matching moves are [CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96884_MNXM13_6-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96961_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96481_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR106403_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR95786_MNXM13_14-0]
+17/07/2021 01:20:47 -- INFO -- Calculated moves in 0.5279455184936523 for compound CURLTUGMZLYLDI-UHFFFAOYSA-N - without caching
+17/07/2021 01:20:47 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:47 -- INFO -- Pathway is found at iteration 2
+17/07/2021 01:20:47 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd54_cpd06619_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CURLTUGMZLYLDI-UHFFFAOYSA-N|KTDWBJGUMIZRHU-UHFFFAOYSA-N- solved|VNWKTOKETHGBQD-UHFFFAOYSA-N- solved| for the first time at iteration 2
+17/07/2021 01:20:47 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd49_cpd03970_4_6-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:47 -- INFO -- Starting move obtention process with compound CURLTUGMZLYLDI-UHFFFAOYSA-N (O=C=O) at 1626477647.3562293
+17/07/2021 01:20:47 -- INFO -- 11 available rules
+17/07/2021 01:20:47 -- INFO -- For compound CURLTUGMZLYLDI-UHFFFAOYSA-N, matching moves are [CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96884_MNXM13_6-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96961_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR96481_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR106403_MNXM13_14-0, CURLTUGMZLYLDI-UHFFFAOYSA-N-MNXR95786_MNXM13_14-0]
+17/07/2021 01:20:47 -- INFO -- Calculated moves in 0.5642127990722656 for compound CURLTUGMZLYLDI-UHFFFAOYSA-N - without caching
+17/07/2021 01:20:47 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd48_cpd03970_3_6-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:48 -- INFO -- Pathway is found at iteration 4
+17/07/2021 01:20:48 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|DZAUWHJDUNRCTF-UHFFFAOYSA-N- solved|QCDYQQDYXPDABM-UHFFFAOYSA-N- solved| for the first time at iteration 4
+17/07/2021 01:20:48 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd223_r_2_cpd06619_6_6-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:48 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd214_r_1_cpd06619_6_6-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:48 -- INFO -- Pathway is found at iteration 6
+17/07/2021 01:20:48 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd49_cpd03970_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CURLTUGMZLYLDI-UHFFFAOYSA-N|VNWKTOKETHGBQD-UHFFFAOYSA-N- solved|ZNXXWTPQHVLMQT-UHFFFAOYSA-N- solved| for the first time at iteration 6
+17/07/2021 01:20:48 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd213_r_1_cpd06619_6_6-0 to node 
+Count: 7/ Score : 6.57/ Children: 7/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:48 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd212_r_2_cpd06619_6_6-0 to node 
+Count: 8/ Score : 6.0/ Children: 8/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:48 -- INFO -- Pathway is found at iteration 8
+17/07/2021 01:20:48 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd48_cpd03970_3_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|QCDYQQDYXPDABM-UHFFFAOYSA-N- solved|QVWAEZJXDYOKEH-UHFFFAOYSA-N- solved| for the first time at iteration 8
+17/07/2021 01:20:48 -- INFO -- Adding a child with move PFTAWBLQPZVEMU-UHFFFAOYSA-N-MNXR119278_MNXM6001_8-0 to node 
+Count: 9/ Score : 6.44/ Children: 9/ Terminal : False
+|(+)-Catechin|
+17/07/2021 01:20:48 -- INFO -- Pathway is found at iteration 10
+17/07/2021 01:20:48 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd223_r_2_cpd06619_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|QFLMUASKTWGRQE-UHFFFAOYSA-N- solved| for the first time at iteration 10
+17/07/2021 01:20:48 -- INFO -- Pathway is found at iteration 12
+17/07/2021 01:20:48 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd214_r_1_cpd06619_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|MOJZMWJRUKIQGL-UHFFFAOYSA-N- solved| for the first time at iteration 12
+17/07/2021 01:20:48 -- INFO -- Pathway is found at iteration 14
+17/07/2021 01:20:48 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd213_r_1_cpd06619_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|GMISZFQPFDAPGI-UHFFFAOYSA-N- solved| for the first time at iteration 14
+17/07/2021 01:20:48 -- INFO -- Pathway is found at iteration 16
+17/07/2021 01:20:48 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-rxnAdd212_r_2_cpd06619_6_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|XFZJEEAOWLFHDH-UHFFFAOYSA-N- solved| for the first time at iteration 16
+17/07/2021 01:20:48 -- INFO -- Pathway is found at iteration 18
+17/07/2021 01:20:48 -- INFO -- Udapted solved Node 	Move name: PFTAWBLQPZVEMU-UHFFFAOYSA-N-MNXR119278_MNXM6001_8-0/ Biological score : 2.26/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|LSHVYAFMTMFKBA-UHFFFAOYSA-N- solved|WQZGKKKJIJFFOK-UHFFFAOYSA-N- solved| for the first time at iteration 18
+17/07/2021 01:20:50 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 01:20:52 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 01:20:53 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 01:20:55 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 01:20:56 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 01:20:58 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 01:21:00 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 01:21:01 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 01:21:03 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 01:21:04 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 1h 21min 4s 
+Your tree search took 1.8e+01s 
+ 
+Time was spent in selection: 4.9e-02s, expansion: 1.9e+00s, rollout: 0.0e+00s, update: 2.4e-01s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 01:21:04 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 01:21:04 -- WARNING -- RECAP TIME_EXECUTION=18.12
+17/07/2021 01:21:04 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 01:21:04 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 01:21:04 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 01:21:04 -- INFO -- Found 10 pathways for (+)-Catechin
+17/07/2021 01:21:04 -- INFO -- 10 pathways were found
+17/07/2021 01:21:04 -- INFO -- At the end of this tree search, the cache contains 0

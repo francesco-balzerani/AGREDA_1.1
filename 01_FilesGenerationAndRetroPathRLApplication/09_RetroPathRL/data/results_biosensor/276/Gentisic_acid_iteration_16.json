@@ -1,0 +1,114 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OP(=O)(O[H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)",
+          "Names": [
+            "NBIIXXVUZAFLBC-UHFFFAOYSA-N",
+            "hydrogenphosphate"
+          ],
+          "id": "NBIIXXVUZAFLBC-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(N=C(O[H])c1c([H])c(O[H])c([H])c([H])c1O[H])C([H])([H])O[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C10H11NO6/c12-4-7(10(16)17)11-9(15)6-3-5(13)1-2-8(6)14/h1-3,7,12-14H,4H2,(H,11,15)(H,16,17)",
+          "Names": [
+            "LRQVRSRYKRHXPQ-UHFFFAOYSA-N"
+          ],
+          "id": "LRQVRSRYKRHXPQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)c1c([H])c(O[H])c([H])c([H])c1O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C7H6O4/c8-4-1-2-6(9)5(3-4)7(10)11/h1-3,8-9H,(H,10,11)",
+          "Names": [
+            "Gentisic_acid",
+            "WXTMDXOMEHJXQO-UHFFFAOYSA-N"
+          ],
+          "id": "WXTMDXOMEHJXQO-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "WXTMDXOMEHJXQO-UHFFFAOYSA-N-MNXR134270_MNXM455_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR134270_MNXM455_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)c1c([H])c(O[H])c([H])c([H])c1O[H]>>[H]OC(=O)C([H])(N=C(O[H])c1c([H])c(O[H])c([H])c([H])c1O[H])C([H])([H])O[H].[H]OP(=O)(O[H])O[H]",
+          "Diameter": 42,
+          "Score": 1.6559179476350747,
+          "ChemicalScore": 0.7916666666666666,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "LRQVRSRYKRHXPQ-UHFFFAOYSA-N": 1,
+            "NBIIXXVUZAFLBC-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "WXTMDXOMEHJXQO-UHFFFAOYSA-N-MNXR134270_MNXM455_6-0-1",
+          "source": "WXTMDXOMEHJXQO-UHFFFAOYSA-N",
+          "id": "WXTMDXOMEHJXQO-UHFFFAOYSA-N-MNXR134270_MNXM455_6-0-1_=>_WXTMDXOMEHJXQO-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "LRQVRSRYKRHXPQ-UHFFFAOYSA-N",
+          "source": "WXTMDXOMEHJXQO-UHFFFAOYSA-N-MNXR134270_MNXM455_6-0-1",
+          "id": "LRQVRSRYKRHXPQ-UHFFFAOYSA-N_=>_WXTMDXOMEHJXQO-UHFFFAOYSA-N-MNXR134270_MNXM455_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "NBIIXXVUZAFLBC-UHFFFAOYSA-N",
+          "source": "WXTMDXOMEHJXQO-UHFFFAOYSA-N-MNXR134270_MNXM455_6-0-1",
+          "id": "NBIIXXVUZAFLBC-UHFFFAOYSA-N_=>_WXTMDXOMEHJXQO-UHFFFAOYSA-N-MNXR134270_MNXM455_6-0-1"
+        }
+      }
+    ]
+  }
+}

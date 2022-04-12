@@ -1,0 +1,153 @@
+18/07/2021 05:43:56 -- WARNING -- Setting the seed at 1234
+18/07/2021 05:43:56 -- INFO -- Stating global parameters from configuration file
+18/07/2021 05:43:56 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 05:43:56 -- INFO -- Full search - no stopping at first result
+18/07/2021 05:43:56 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 05:43:56 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 05:43:56 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 05:43:56 -- INFO -- Using biological cut off at 0.1
+18/07/2021 05:43:56 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 05:43:56 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 05:43:56 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 05:43:56 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 05:43:56 -- INFO -- Using RAVE: False
+18/07/2021 05:43:56 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 05:43:56 -- INFO -- Using explicit hydrogens : True
+18/07/2021 05:43:56 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 05:43:56 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+18/07/2021 05:43:56 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 05:44:20 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 05:44:20 -- INFO -- Starting move obtention process with compound Dihydrocaffeic_acid ([H]OC(=O)C([H])([H])C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]) at 1626579860.6398325
+18/07/2021 05:44:20 -- INFO -- 204 available rules
+18/07/2021 05:44:21 -- INFO -- For compound Dihydrocaffeic_acid, matching moves are [DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd74_r_2_cpd07333_2_6-0, DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd73_r_2_cpd07333_4_6-0, DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd62_r_2_cpd07333_4_6-0, DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd159_cpd07333_5_6-0, DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd156_r_1_cpd07333_4_6-0, DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd138_r_2_cpd07333_4_6-0, DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd133_r_2_cpd07333_2_6-0, DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd107_r_2_cpd07333_4_6-0, DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd95_r_2_cpd07333_1_16-0, DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd89_r_2_cpd07333_1_16-0]
+18/07/2021 05:44:21 -- INFO -- Calculated moves in 0.9569485187530518 for compound DZAUWHJDUNRCTF-UHFFFAOYSA-N - without caching
+18/07/2021 05:44:21 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 5h 44min 21s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 05:44:21 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 05:44:21 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd74_r_2_cpd07333_2_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:21 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626579861.6712205
+18/07/2021 05:44:22 -- INFO -- 0 available rules
+18/07/2021 05:44:22 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 05:44:22 -- INFO -- Calculated moves in 0.33481502532958984 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 05:44:22 -- INFO -- Pathway is found at iteration 0
+18/07/2021 05:44:22 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd74_r_2_cpd07333_2_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|AIONOLUJZLIMTK-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 0
+18/07/2021 05:44:22 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Dihydrocaffeic_acid| for the first time at iteration 0
+18/07/2021 05:44:22 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd73_r_2_cpd07333_4_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:22 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626579862.1681526
+18/07/2021 05:44:22 -- INFO -- 0 available rules
+18/07/2021 05:44:22 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 05:44:22 -- INFO -- Calculated moves in 0.3024301528930664 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 05:44:22 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd62_r_2_cpd07333_4_6-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:22 -- INFO -- Pathway is found at iteration 2
+18/07/2021 05:44:22 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd73_r_2_cpd07333_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|SBHXYTNGIZCORC-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 2
+18/07/2021 05:44:22 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd159_cpd07333_5_6-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:22 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd156_r_1_cpd07333_4_6-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:22 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626579862.845417
+18/07/2021 05:44:23 -- INFO -- 0 available rules
+18/07/2021 05:44:23 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 05:44:23 -- INFO -- Calculated moves in 0.4566652774810791 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 05:44:23 -- INFO -- Pathway is found at iteration 4
+18/07/2021 05:44:23 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd62_r_2_cpd07333_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CXQWRCVTCMQVQX-UHFFFAOYSA-N- solved| for the first time at iteration 4
+18/07/2021 05:44:23 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd138_r_2_cpd07333_4_6-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:23 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd133_r_2_cpd07333_2_6-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:23 -- INFO -- Pathway is found at iteration 6
+18/07/2021 05:44:23 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd159_cpd07333_5_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CFFZDZCDUFSOFZ-UHFFFAOYSA-N- solved|VNWKTOKETHGBQD-UHFFFAOYSA-N- solved| for the first time at iteration 6
+18/07/2021 05:44:23 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd107_r_2_cpd07333_4_6-0 to node 
+Count: 7/ Score : 6.57/ Children: 7/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:23 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626579863.6615078
+18/07/2021 05:44:23 -- INFO -- 0 available rules
+18/07/2021 05:44:23 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 05:44:23 -- INFO -- Calculated moves in 0.291196346282959 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 05:44:23 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd95_r_2_cpd07333_1_16-0 to node 
+Count: 8/ Score : 6.0/ Children: 8/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:24 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626579864.0770946
+18/07/2021 05:44:24 -- INFO -- 0 available rules
+18/07/2021 05:44:24 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 05:44:24 -- INFO -- Calculated moves in 0.27881884574890137 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 05:44:24 -- INFO -- Pathway is found at iteration 8
+18/07/2021 05:44:24 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd156_r_1_cpd07333_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|GPRLSGONYQIRFK-UHFFFAOYSA-N|QAIPRVGONGVQAS-UHFFFAOYSA-N- solved| for the first time at iteration 8
+18/07/2021 05:44:24 -- INFO -- Adding a child with move DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd89_r_2_cpd07333_1_16-0 to node 
+Count: 9/ Score : 6.44/ Children: 9/ Terminal : False
+|Dihydrocaffeic_acid|
+18/07/2021 05:44:24 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626579864.5140197
+18/07/2021 05:44:24 -- INFO -- 0 available rules
+18/07/2021 05:44:24 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 05:44:24 -- INFO -- Calculated moves in 0.292191743850708 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 05:44:24 -- INFO -- Pathway is found at iteration 10
+18/07/2021 05:44:24 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd138_r_2_cpd07333_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|REFJWTPEDVJJIY-UHFFFAOYSA-N- solved| for the first time at iteration 10
+18/07/2021 05:44:24 -- INFO -- Pathway is found at iteration 12
+18/07/2021 05:44:24 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd133_r_2_cpd07333_2_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|IKMDFBPHZNJCSN-UHFFFAOYSA-N- solved| for the first time at iteration 12
+18/07/2021 05:44:24 -- INFO -- Pathway is found at iteration 14
+18/07/2021 05:44:25 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd107_r_2_cpd07333_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|IQPNAANSBPBGFQ-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 14
+18/07/2021 05:44:25 -- INFO -- Pathway is found at iteration 16
+18/07/2021 05:44:25 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd95_r_2_cpd07333_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|KZNIFHPLKGYRTM-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 16
+18/07/2021 05:44:25 -- INFO -- Pathway is found at iteration 18
+18/07/2021 05:44:25 -- INFO -- Udapted solved Node 	Move name: DZAUWHJDUNRCTF-UHFFFAOYSA-N-rxnAdd89_r_2_cpd07333_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|URSUMOWUGDXZHU-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 18
+18/07/2021 05:44:26 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 05:44:27 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 05:44:29 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 05:44:30 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 05:44:31 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 05:44:33 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 05:44:34 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 05:44:35 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 05:44:37 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 05:44:38 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 5h 44min 38s 
+Your tree search took 1.6e+01s 
+ 
+Time was spent in selection: 4.8e-02s, expansion: 2.8e+00s, rollout: 0.0e+00s, update: 2.1e-01s 
+CONGRATULATIONS, THATS A WIN
+18/07/2021 05:44:38 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 05:44:38 -- WARNING -- RECAP TIME_EXECUTION=16.69
+18/07/2021 05:44:38 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 05:44:38 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 05:44:38 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 05:44:38 -- INFO -- Found 10 pathways for Dihydrocaffeic_acid
+18/07/2021 05:44:38 -- INFO -- 10 pathways were found
+18/07/2021 05:44:38 -- INFO -- At the end of this tree search, the cache contains 0

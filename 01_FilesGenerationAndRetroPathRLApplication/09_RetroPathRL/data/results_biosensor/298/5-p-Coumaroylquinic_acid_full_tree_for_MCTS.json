@@ -1,0 +1,76 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|5-p-Coumaroylquinic_acid|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|AAWZDTNXLSGCEK-UHFFFAOYSA-N- solved|NGSWKAQJJWESNS-UHFFFAOYSA-N- solved|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "rxnAdd171_cpd02595_6_6",
+            "rxnAdd171_cpd02595_5_8",
+            "rxnAdd171_cpd02595_4_10",
+            "rxnAdd171_cpd02595_3_12",
+            "rxnAdd171_cpd02595_2_14",
+            "rxnAdd171_cpd02595_1_16",
+            "rxnAdd150_cpd00634_6_6",
+            "rxnAdd150_cpd00634_5_8",
+            "rxnAdd150_cpd00634_4_10",
+            "rxnAdd150_cpd00634_3_12"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1(O[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c([H])c2[H])C1([H])[H]>>[H]OC(=O)C1(O[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])[H].[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c([H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 1.0,
+          "Name": "BMRSEYFENKXDIS-UHFFFAOYSA-N-rxnAdd171_cpd02595_6_6-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      }
+    ]
+  }
+}

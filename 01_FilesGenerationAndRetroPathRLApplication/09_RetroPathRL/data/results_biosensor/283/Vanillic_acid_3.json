@@ -1,0 +1,119 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]O[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/H2O/h1H2",
+          "Names": [
+            "XLYOFNOQVPJJNP-UHFFFAOYSA-N"
+          ],
+          "id": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C16H12O6/c1-21-15-4-8(2-3-11(15)18)16-13(20)7-10-12(19)5-9(17)6-14(10)22-16/h2-7H,1H3,(H3-,17,18,19,20)/p+1",
+          "Names": [
+            "XFDQJKDGGOEYPI-UHFFFAOYSA-O",
+            "Peonidin"
+          ],
+          "id": "XFDQJKDGGOEYPI-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)c1c([H])c([H])c(O[H])c(OC([H])([H])[H])c1[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C8H8O4/c1-12-7-4-5(8(10)11)2-3-6(7)9/h2-4,9H,1H3,(H,10,11)",
+          "Names": [
+            "Vanillic_acid",
+            "WKOLLVMJNQIZCI-UHFFFAOYSA-N"
+          ],
+          "id": "WKOLLVMJNQIZCI-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "WKOLLVMJNQIZCI-UHFFFAOYSA-N-rxnAdd26_r_2_cpd04073_4_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd26_r_2_cpd04073_4_6",
+            "rxnAdd26_r_2_cpd04073_3_8",
+            "rxnAdd26_r_2_cpd04073_2_16",
+            "rxnAdd26_r_2_cpd04073_1_10",
+            "rxnAdd12_r_1_cpd00197_4_6",
+            "rxnAdd12_r_1_cpd00197_3_8"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)c1c([H])c([H])c(O[H])c(OC([H])([H])[H])c1[H]>>[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c([H])c1OC([H])([H])[H].[H]O[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 1.0,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "XFDQJKDGGOEYPI-UHFFFAOYSA-O": 1,
+            "XLYOFNOQVPJJNP-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "WKOLLVMJNQIZCI-UHFFFAOYSA-N-rxnAdd26_r_2_cpd04073_4_6-0-1",
+          "source": "WKOLLVMJNQIZCI-UHFFFAOYSA-N",
+          "id": "WKOLLVMJNQIZCI-UHFFFAOYSA-N-rxnAdd26_r_2_cpd04073_4_6-0-1_=>_WKOLLVMJNQIZCI-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "XFDQJKDGGOEYPI-UHFFFAOYSA-O",
+          "source": "WKOLLVMJNQIZCI-UHFFFAOYSA-N-rxnAdd26_r_2_cpd04073_4_6-0-1",
+          "id": "XFDQJKDGGOEYPI-UHFFFAOYSA-O_=>_WKOLLVMJNQIZCI-UHFFFAOYSA-N-rxnAdd26_r_2_cpd04073_4_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+          "source": "WKOLLVMJNQIZCI-UHFFFAOYSA-N-rxnAdd26_r_2_cpd04073_4_6-0-1",
+          "id": "XLYOFNOQVPJJNP-UHFFFAOYSA-N_=>_WKOLLVMJNQIZCI-UHFFFAOYSA-N-rxnAdd26_r_2_cpd04073_4_6-0-1"
+        }
+      }
+    ]
+  }
+}

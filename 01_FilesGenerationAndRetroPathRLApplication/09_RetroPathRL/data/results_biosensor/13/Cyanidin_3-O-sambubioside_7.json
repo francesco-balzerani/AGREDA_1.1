@@ -1,0 +1,143 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(O[H])c([H])c(=O)c-4c3[H])C([H])(OC3([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C3([H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C35H34O17/c36-17-5-1-15(2-6-17)3-8-27(42)47-14-26-29(44)30(45)33(52-34-31(46)28(43)23(41)13-48-34)35(51-26)50-25-12-19-21(39)10-18(37)11-24(19)49-32(25)16-4-7-20(38)22(40)9-16/h1-12,23,26,28-31,33-38,40-41,43-46H,13-14H2",
+          "Names": [
+            "JVJUUHSUZPVKAW-UHFFFAOYSA-N"
+          ],
+          "id": "JVJUUHSUZPVKAW-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=NC([H])([H])C([H])([H])S[H])C([H])([H])C([H])([H])N=C(O[H])C([H])(O[H])C(C([H])([H])[H])(C([H])([H])[H])C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C1([H])OC([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)C([H])(O[H])C1([H])OP(=O)(O[H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C21H36N7O16P3S/c1-21(2,16(31)19(32)24-4-3-12(29)23-5-6-48)8-41-47(38,39)44-46(36,37)40-7-11-15(43-45(33,34)35)14(30)20(42-11)28-10-27-13-17(22)25-9-26-18(13)28/h9-11,14-16,20,30-31,48H,3-8H2,1-2H3,(H,23,29)(H,24,32)(H,36,37)(H,38,39)(H2,22,25,26)(H2,33,34,35)",
+          "Names": [
+            "RGJOEKWQDUBAIZ-UHFFFAOYSA-N",
+            "Coenzyme A"
+          ],
+          "id": "RGJOEKWQDUBAIZ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H+]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/p+1",
+          "Names": [
+            "GPRLSGONYQIRFK-UHFFFAOYSA-N"
+          ],
+          "id": "GPRLSGONYQIRFK-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C26H28O15/c27-7-18-20(34)21(35)24(41-25-22(36)19(33)15(32)8-37-25)26(40-18)39-17-6-11-13(30)4-10(28)5-16(11)38-23(17)9-1-2-12(29)14(31)3-9/h1-6,15,18-22,24-27,32-36H,7-8H2,(H3-,28,29,30,31)/p+1",
+          "Names": [
+            "Cyanidin_3-O-sambubioside",
+            "ZPPQIOUITZSYAO-UHFFFAOYSA-O"
+          ],
+          "id": "ZPPQIOUITZSYAO-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "ZPPQIOUITZSYAO-UHFFFAOYSA-O-MNXR120373_MNXM24447_8-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR120373_MNXM24447_8",
+            "MNXR120373_MNXM24447_10",
+            "MNXR120373_MNXM24447_6"
+          ],
+          "EC number": [
+            "2.3.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1O[H]>>[H+].[H]OC(=NC([H])([H])C([H])([H])S[H])C([H])([H])C([H])([H])N=C(O[H])C([H])(O[H])C(C([H])([H])[H])(C([H])([H])[H])C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C1([H])OC([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)C([H])(O[H])C1([H])OP(=O)(O[H])O[H].[H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC([H])([H])C2([H])OC([H])(Oc3c(-c4c([H])c([H])c(O[H])c(O[H])c4[H])oc4c([H])c(O[H])c([H])c(=O)c-4c3[H])C([H])(OC3([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C3([H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]",
+          "Diameter": 42,
+          "Score": 2.2600713879850747,
+          "ChemicalScore": 0.9666666666666667,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "GPRLSGONYQIRFK-UHFFFAOYSA-N": 1,
+            "RGJOEKWQDUBAIZ-UHFFFAOYSA-N": 1,
+            "JVJUUHSUZPVKAW-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "ZPPQIOUITZSYAO-UHFFFAOYSA-O-MNXR120373_MNXM24447_8-0-1",
+          "source": "ZPPQIOUITZSYAO-UHFFFAOYSA-O",
+          "id": "ZPPQIOUITZSYAO-UHFFFAOYSA-O-MNXR120373_MNXM24447_8-0-1_=>_ZPPQIOUITZSYAO-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "GPRLSGONYQIRFK-UHFFFAOYSA-N",
+          "source": "ZPPQIOUITZSYAO-UHFFFAOYSA-O-MNXR120373_MNXM24447_8-0-1",
+          "id": "GPRLSGONYQIRFK-UHFFFAOYSA-N_=>_ZPPQIOUITZSYAO-UHFFFAOYSA-O-MNXR120373_MNXM24447_8-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "RGJOEKWQDUBAIZ-UHFFFAOYSA-N",
+          "source": "ZPPQIOUITZSYAO-UHFFFAOYSA-O-MNXR120373_MNXM24447_8-0-1",
+          "id": "RGJOEKWQDUBAIZ-UHFFFAOYSA-N_=>_ZPPQIOUITZSYAO-UHFFFAOYSA-O-MNXR120373_MNXM24447_8-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "JVJUUHSUZPVKAW-UHFFFAOYSA-N",
+          "source": "ZPPQIOUITZSYAO-UHFFFAOYSA-O-MNXR120373_MNXM24447_8-0-1",
+          "id": "JVJUUHSUZPVKAW-UHFFFAOYSA-N_=>_ZPPQIOUITZSYAO-UHFFFAOYSA-O-MNXR120373_MNXM24447_8-0-1"
+        }
+      }
+    ]
+  }
+}

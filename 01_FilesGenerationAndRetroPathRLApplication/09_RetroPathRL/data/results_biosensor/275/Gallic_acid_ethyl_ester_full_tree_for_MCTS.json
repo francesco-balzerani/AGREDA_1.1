@@ -1,0 +1,116 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|Gallic_acid_ethyl_ester|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|MSTNYGQPCMXVAQ-UHFFFAOYSA-N- solved|WKTHQEDVWJCEQZ-UHFFFAOYSA-N|",
+          "average_score": 2.0081799591002043,
+          "total_score": 1964,
+          "visits": 978,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_2",
+          "level": 1,
+          "root": 0,
+          "terminal": 0,
+          "Names": "|HJZRURPLGOZWGD-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|",
+          "average_score": 2.0,
+          "total_score": 44,
+          "visits": 22,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "MNXR112705_MNXM2329_6",
+            "MNXR112706_MNXM670_6",
+            "MNXR112705_MNXM2329_8",
+            "MNXR112706_MNXM670_8",
+            "MNXR112706_MNXM670_10"
+          ],
+          "EC number": [
+            "2.1.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(C(=O)OC([H])([H])C([H])([H])[H])c([H])c(O[H])c1O[H]>>[H]N=c1nc(O[H])c2c(n1[H])N([H])C([H])([H])C([H])(C([H])([H])N([H])c1c([H])c([H])c(C(=O)N([H])C([H])(C(=O)O[H])C([H])([H])C([H])([H])C(=O)O[H])c([H])c1[H])N2[H].[H]Oc1c([H])c(C(=O)OC([H])([H])C([H])([H])[H])c([H])c(OC([H])([H])[H])c1O[H]",
+          "Diameter": 42,
+          "Score": 1.9542425094393248,
+          "ChemicalScore": 0.6363636363636364,
+          "Name": "VFPFQHQNJCMNBZ-UHFFFAOYSA-N-MNXR112705_MNXM2329_6-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_1",
+          "Rule ID": [
+            "MNXR106360_MNXM670_10"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(C(=O)OC([H])([H])C([H])([H])[H])c([H])c(O[H])c1O[H]>>[H]O[H].[H]Oc1c([H])c(C(=O)Oc2c([H])c(C(=O)OC([H])([H])C([H])([H])[H])c([H])c(O[H])c2O[H])c([H])c(O[H])c1O[H]",
+          "Diameter": 42,
+          "Score": 0.3010299956639812,
+          "ChemicalScore": 0.6206896551724138,
+          "Name": "VFPFQHQNJCMNBZ-UHFFFAOYSA-N-MNXR106360_MNXM670_10-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      },
+      {
+        "data": {
+          "target": "move_1",
+          "source": "node_2",
+          "id": "move_1_=>_node_2"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_1",
+          "id": "node_0_=>_move_1"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|3',4',7-Trihydroxyisoflavanone|",
+          "average_score": 2.01,
+          "total_score": 2010,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 0,
+          "Names": "|TWJUQWMRZAUXLW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|",
+          "average_score": 2.003913894324853,
+          "total_score": 1024,
+          "visits": 511,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_2",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|ACFIXJIJDZMPPO-UHFFFAOYSA-N- solved|JHYXBPPMXZIHKG-UHFFFAOYSA-N- solved|MYMOFIZGZYHOMD-UHFFFAOYSA-N|",
+          "average_score": 2.016359918200409,
+          "total_score": 986,
+          "visits": 489,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_3",
+          "level": 2,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|ACFIXJIJDZMPPO-UHFFFAOYSA-N- solved|MYMOFIZGZYHOMD-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZAIJTQZQMCNJHG-UHFFFAOYSA-N|",
+          "average_score": 2.015748031496063,
+          "total_score": 1024,
+          "visits": 508,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "MNXR111304_MNXM1025_6"
+          ],
+          "EC number": [
+            "1.14.13.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c2c(c1[H])OC([H])([H])C([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C2=O>>[H]O[H].[H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c(O[H])c(O[H])c([H])c3OC2([H])[H])c([H])c1O[H]",
+          "Diameter": 42,
+          "Score": 0.6020599913279624,
+          "ChemicalScore": 0.6190476190476191,
+          "Name": "NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM1025_6-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_1",
+          "Rule ID": [
+            "MNXR111304_MNXM5563_6"
+          ],
+          "EC number": [
+            "1.14.13.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c2c(c1[H])OC([H])([H])C([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C2=O>>[H]N=C(O[H])C1=C([H])N(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C3([H])OC([H])(n4c([H])nc5c(N([H])[H])nc([H])nc54)C([H])(OP(=O)(O[H])O[H])C3([H])O[H])C([H])(O[H])C2([H])O[H])C([H])=C([H])C1([H])[H].[H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c([H])c(O[H])c([H])c3OC2([H])[H])c([H])c1[H].O=O",
+          "Diameter": 42,
+          "Score": 0.6020599913279624,
+          "ChemicalScore": 0.6046511627906976,
+          "Name": "NIUUFTCRUDJDHY-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_2",
+          "Rule ID": [
+            "MNXR111304_MNXM5563_6"
+          ],
+          "EC number": [
+            "1.14.13.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c(O[H])c(O[H])c([H])c3OC2([H])[H])c([H])c1O[H]>>[H]N=C(O[H])C1=C([H])N(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C3([H])OC([H])(n4c([H])nc5c(N([H])[H])nc([H])nc54)C([H])(OP(=O)(O[H])O[H])C3([H])O[H])C([H])(O[H])C2([H])O[H])C([H])=C([H])C1([H])[H].[H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c(O[H])c(O[H])c([H])c3OC2([H])[H])c([H])c1[H].O=O",
+          "Diameter": 42,
+          "Score": 0.6020599913279624,
+          "ChemicalScore": 0.6190476190476191,
+          "Name": "TWJUQWMRZAUXLW-UHFFFAOYSA-N-MNXR111304_MNXM5563_6-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      },
+      {
+        "data": {
+          "target": "move_1",
+          "source": "node_2",
+          "id": "move_1_=>_node_2"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_1",
+          "id": "node_0_=>_move_1"
+        }
+      },
+      {
+        "data": {
+          "target": "move_2",
+          "source": "node_3",
+          "id": "move_2_=>_node_3"
+        }
+      },
+      {
+        "data": {
+          "target": "node_1",
+          "source": "move_2",
+          "id": "node_1_=>_move_2"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1206 @@
+18/07/2021 04:26:12 -- WARNING -- Setting the seed at 1234
+18/07/2021 04:26:12 -- INFO -- Stating global parameters from configuration file
+18/07/2021 04:26:12 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 04:26:12 -- INFO -- Full search - no stopping at first result
+18/07/2021 04:26:12 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 04:26:12 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 04:26:12 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 04:26:12 -- INFO -- Using biological cut off at 0.1
+18/07/2021 04:26:12 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 04:26:12 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 04:26:12 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 04:26:12 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 04:26:12 -- INFO -- Using RAVE: False
+18/07/2021 04:26:12 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 04:26:12 -- INFO -- Using explicit hydrogens : True
+18/07/2021 04:26:12 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 04:26:12 -- WARNING -- Removed compound from the detectable set to force enzymatic detection
+18/07/2021 04:26:12 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 04:26:33 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 04:26:33 -- INFO -- Starting move obtention process with compound 3,4-Dihydroxyphenylacetic_acid ([H]OC(=O)C([H])([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]) at 1626575193.503185
+18/07/2021 04:26:33 -- INFO -- 285 available rules
+18/07/2021 04:26:34 -- INFO -- For compound 3,4-Dihydroxyphenylacetic_acid, matching moves are [CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd60_r_1_cpd00854_4_6-0, CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd32_cpd00854_4_6-0, CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd159_r_1_cpd00854_5_6-0, CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd182_r_1_cpd00854_1_16-0, CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd125_r_1_cpd00854_1_16-0, CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd123_r_1_cpd00854_1_16-0, CFFZDZCDUFSOFZ-UHFFFAOYSA-N-MNXR109194_MNXM3287_8-0, CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd28_r_3_cpd90021_4_6-0, CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0, CFFZDZCDUFSOFZ-UHFFFAOYSA-N-MNXR108085_MNXM645_6-0]
+18/07/2021 04:26:34 -- INFO -- Calculated moves in 1.403123378753662 for compound CFFZDZCDUFSOFZ-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:34 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 4h 26min 34s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 04:26:34 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 04:26:34 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd60_r_1_cpd00854_4_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:26:35 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575195.0189974
+18/07/2021 04:26:35 -- INFO -- 0 available rules
+18/07/2021 04:26:35 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:35 -- INFO -- Calculated moves in 0.3798408508300781 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:35 -- INFO -- Pathway is found at iteration 0
+18/07/2021 04:26:35 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd60_r_1_cpd00854_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|CXQWRCVTCMQVQX-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 0
+18/07/2021 04:26:35 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid| for the first time at iteration 0
+18/07/2021 04:26:35 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd32_cpd00854_4_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:26:35 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd159_r_1_cpd00854_5_6-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:26:35 -- INFO -- Pathway is found at iteration 2
+18/07/2021 04:26:35 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd32_cpd00854_4_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|VNWKTOKETHGBQD-UHFFFAOYSA-N- solved|YQUVCSBJEUQKSH-UHFFFAOYSA-N- solved| for the first time at iteration 2
+18/07/2021 04:26:35 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd28_r_3_cpd90021_4_6-0 to node 
+Count: 3/ Score : 7.33/ Children: 3/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:26:35 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575195.798415
+18/07/2021 04:26:36 -- INFO -- 0 available rules
+18/07/2021 04:26:36 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:36 -- INFO -- Calculated moves in 0.3239269256591797 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:36 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0 to node 
+Count: 4/ Score : 6.0/ Children: 4/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:26:36 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575196.2057455
+18/07/2021 04:26:36 -- INFO -- 0 available rules
+18/07/2021 04:26:36 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:36 -- INFO -- Calculated moves in 0.33403515815734863 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:36 -- INFO -- Starting move obtention process with compound ZDLYNMZEAFURQY-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575196.5517974
+18/07/2021 04:26:36 -- INFO -- 660 available rules
+18/07/2021 04:26:42 -- WARNING -- 
+18/07/2021 04:26:47 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:26:47 -- WARNING -- 
+18/07/2021 04:26:53 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:26:53 -- WARNING -- 
+18/07/2021 04:26:56 -- INFO -- For compound ZDLYNMZEAFURQY-UHFFFAOYSA-N, matching moves are [ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:26:56 -- INFO -- Calculated moves in 20.374685049057007 for compound ZDLYNMZEAFURQY-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:56 -- INFO -- Pathway is found at iteration 4
+18/07/2021 04:26:57 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd159_r_1_cpd00854_5_6-0/ Biological score : 4.02/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|DZAUWHJDUNRCTF-UHFFFAOYSA-N- solved| for the first time at iteration 4
+18/07/2021 04:26:57 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-MNXR109194_MNXM3287_8-0 to node 
+Count: 5/ Score : 6.8/ Children: 5/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:26:57 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575217.1106703
+18/07/2021 04:26:57 -- INFO -- 0 available rules
+18/07/2021 04:26:57 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:57 -- INFO -- Calculated moves in 0.41777706146240234 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:57 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd182_r_1_cpd00854_1_16-0 to node 
+Count: 6/ Score : 6.0/ Children: 6/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:26:57 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575217.5951567
+18/07/2021 04:26:57 -- INFO -- 0 available rules
+18/07/2021 04:26:57 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:57 -- INFO -- Calculated moves in 0.30259060859680176 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:57 -- INFO -- Pathway is found at iteration 6
+18/07/2021 04:26:57 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd28_r_3_cpd90021_4_6-0/ Biological score : 4.02/ Chemical score: 0.75
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|RKWHWFONKJEUEF-UHFFFAOYSA-O- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 6
+18/07/2021 04:26:57 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd125_r_1_cpd00854_1_16-0 to node 
+Count: 7/ Score : 6.57/ Children: 7/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:26:58 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575218.006249
+18/07/2021 04:26:58 -- INFO -- 0 available rules
+18/07/2021 04:26:58 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:58 -- INFO -- Calculated moves in 0.288745641708374 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:58 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd123_r_1_cpd00854_1_16-0 to node 
+Count: 8/ Score : 6.0/ Children: 8/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:26:58 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575218.363537
+18/07/2021 04:26:58 -- INFO -- 0 available rules
+18/07/2021 04:26:58 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:58 -- INFO -- Calculated moves in 0.2929251194000244 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:58 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575218.671079
+18/07/2021 04:26:58 -- INFO -- 0 available rules
+18/07/2021 04:26:58 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:26:58 -- INFO -- Calculated moves in 0.3079078197479248 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:26:58 -- INFO -- Starting move obtention process with compound ZDLYNMZEAFURQY-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575218.9894109
+18/07/2021 04:26:59 -- INFO -- 653 available rules
+18/07/2021 04:27:04 -- WARNING -- 
+18/07/2021 04:27:10 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:27:10 -- WARNING -- 
+18/07/2021 04:27:15 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:27:15 -- WARNING -- 
+18/07/2021 04:27:18 -- INFO -- For compound ZDLYNMZEAFURQY-UHFFFAOYSA-N, matching moves are [ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_12-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_8-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118343_MNXM4313_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118350_MNXM103563_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR119421_MNXM39145_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR119421_MNXM39145_6-1]
+18/07/2021 04:27:18 -- INFO -- Calculated moves in 19.948301553726196 for compound ZDLYNMZEAFURQY-UHFFFAOYSA-N - without caching
+18/07/2021 04:27:18 -- INFO -- Starting move obtention process with compound PHKIHRKCNFFHJP-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575238.9948993
+18/07/2021 04:27:19 -- INFO -- 643 available rules
+18/07/2021 04:27:22 -- INFO -- For compound PHKIHRKCNFFHJP-UHFFFAOYSA-N, matching moves are [PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0]
+18/07/2021 04:27:22 -- INFO -- Calculated moves in 3.0623679161071777 for compound PHKIHRKCNFFHJP-UHFFFAOYSA-N - without caching
+18/07/2021 04:27:22 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575242.0852203
+18/07/2021 04:27:22 -- INFO -- 0 available rules
+18/07/2021 04:27:22 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:27:22 -- INFO -- Calculated moves in 0.3462028503417969 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:27:22 -- INFO -- Rollout results are 2, True
+18/07/2021 04:27:22 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 1/ Score : 0/ Children: 0/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N| for the first time at iteration 8
+18/07/2021 04:27:22 -- INFO -- Adding a child with move CFFZDZCDUFSOFZ-UHFFFAOYSA-N-MNXR108085_MNXM645_6-0 to node 
+Count: 9/ Score : 5.56/ Children: 9/ Terminal : False
+|3,4-Dihydroxyphenylacetic_acid|
+18/07/2021 04:27:22 -- INFO -- Starting move obtention process with compound MYMOFIZGZYHOMD-UHFFFAOYSA-N (O=O) at 1626575242.534383
+18/07/2021 04:27:22 -- INFO -- 0 available rules
+18/07/2021 04:27:22 -- INFO -- For compound MYMOFIZGZYHOMD-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:27:22 -- INFO -- Calculated moves in 0.30069541931152344 for compound MYMOFIZGZYHOMD-UHFFFAOYSA-N - without caching
+18/07/2021 04:27:22 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575242.8540385
+18/07/2021 04:27:23 -- INFO -- 0 available rules
+18/07/2021 04:27:23 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:27:23 -- INFO -- Calculated moves in 0.2919929027557373 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:27:23 -- INFO -- Starting move obtention process with compound ZDLYNMZEAFURQY-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575243.1564462
+18/07/2021 04:27:23 -- INFO -- 652 available rules
+18/07/2021 04:27:28 -- WARNING -- 
+18/07/2021 04:27:34 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:27:34 -- WARNING -- 
+18/07/2021 04:27:39 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:27:39 -- WARNING -- 
+18/07/2021 04:27:42 -- INFO -- For compound ZDLYNMZEAFURQY-UHFFFAOYSA-N, matching moves are [ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:27:42 -- INFO -- Calculated moves in 19.61235809326172 for compound ZDLYNMZEAFURQY-UHFFFAOYSA-N - without caching
+18/07/2021 04:27:42 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575262.817492
+18/07/2021 04:27:43 -- INFO -- 0 available rules
+18/07/2021 04:27:43 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:27:43 -- INFO -- Calculated moves in 0.3621790409088135 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:27:43 -- INFO -- Starting move obtention process with compound NHMZUDOXUOAEOH-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575263.1900942
+18/07/2021 04:27:43 -- INFO -- 641 available rules
+18/07/2021 04:27:48 -- WARNING -- 
+18/07/2021 04:27:54 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:27:54 -- WARNING -- 
+18/07/2021 04:27:59 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:27:59 -- WARNING -- 
+18/07/2021 04:28:05 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:28:05 -- WARNING -- 
+18/07/2021 04:28:12 -- INFO -- For compound NHMZUDOXUOAEOH-UHFFFAOYSA-N, matching moves are [NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:28:12 -- INFO -- Calculated moves in 29.087116718292236 for compound NHMZUDOXUOAEOH-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:12 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575292.2997718
+18/07/2021 04:28:12 -- INFO -- 0 available rules
+18/07/2021 04:28:12 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:28:12 -- INFO -- Calculated moves in 0.39154696464538574 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:12 -- INFO -- Starting move obtention process with compound AABHTDBRYLCNGC-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(O[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575292.7137702
+18/07/2021 04:28:13 -- INFO -- 647 available rules
+18/07/2021 04:28:19 -- INFO -- For compound AABHTDBRYLCNGC-UHFFFAOYSA-N, matching moves are [AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118820_MNXM73027_6-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-1, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:28:19 -- INFO -- Calculated moves in 6.8503007888793945 for compound AABHTDBRYLCNGC-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:19 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575299.5847554
+18/07/2021 04:28:19 -- INFO -- 0 available rules
+18/07/2021 04:28:19 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:28:19 -- INFO -- Calculated moves in 0.3876032829284668 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:19 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575299.9944947
+18/07/2021 04:28:20 -- INFO -- 0 available rules
+18/07/2021 04:28:20 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:28:20 -- INFO -- Calculated moves in 0.29537129402160645 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:20 -- INFO -- Rollout results are 2, True
+18/07/2021 04:28:20 -- INFO -- Pathway is found at iteration 10
+18/07/2021 04:28:20 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-MNXR109194_MNXM3287_8-0/ Biological score : 3.97/ Chemical score: 0.84
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|IADQVXRMSNIUEL-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 10
+18/07/2021 04:28:20 -- INFO -- Pathway is found at iteration 12
+18/07/2021 04:28:20 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd182_r_1_cpd00854_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|DXYUAIFZCFRPTH-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 12
+18/07/2021 04:28:20 -- INFO -- Pathway is found at iteration 14
+18/07/2021 04:28:20 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd125_r_1_cpd00854_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|IYRMWMYZSQPJKC-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 14
+18/07/2021 04:28:20 -- INFO -- Pathway is found at iteration 16
+18/07/2021 04:28:20 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd123_r_1_cpd00854_1_16-0/ Biological score : 3.95/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|SQFSKOYWJBQGKQ-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 16
+18/07/2021 04:28:20 -- INFO -- Pathway is found at iteration 18
+18/07/2021 04:28:20 -- INFO -- Udapted solved Node 	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-MNXR108085_MNXM645_6-0/ Biological score : 1.61/ Chemical score: 1.0
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|BOPGDPNILDQYTO-UHFFFAOYSA-N- solved|CDPKJZJVTHSESZ-UHFFFAOYSA-N- solved|MYMOFIZGZYHOMD-UHFFFAOYSA-N| for the first time at iteration 18
+18/07/2021 04:28:20 -- INFO -- Adding a child with move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0 to node 
+	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 2/ Score : 2.0/ Children: 0/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|
+18/07/2021 04:28:20 -- INFO -- Starting move obtention process with compound SVNFHHGEGMKFKK-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(O[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575300.856687
+18/07/2021 04:28:21 -- INFO -- 666 available rules
+18/07/2021 04:28:24 -- INFO -- For compound SVNFHHGEGMKFKK-UHFFFAOYSA-N, matching moves are [SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118820_MNXM73027_6-0, SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-0, SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-1, SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, SVNFHHGEGMKFKK-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:28:24 -- INFO -- Calculated moves in 3.1481752395629883 for compound SVNFHHGEGMKFKK-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:24 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575304.020176
+18/07/2021 04:28:24 -- INFO -- 0 available rules
+18/07/2021 04:28:24 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:28:24 -- INFO -- Calculated moves in 0.3446826934814453 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:24 -- INFO -- Pathway is found at iteration 44
+18/07/2021 04:28:24 -- INFO -- Udapted solved Node 		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0/ Biological score : 2.41/ Chemical score: 0.88
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|SVNFHHGEGMKFKK-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 44
+18/07/2021 04:28:24 -- INFO -- Adding a child with move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0 to node 
+	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 3/ Score : 4.67/ Children: 1/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|
+18/07/2021 04:28:24 -- INFO -- Starting move obtention process with compound PHKIHRKCNFFHJP-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575304.641023
+18/07/2021 04:28:24 -- INFO -- 643 available rules
+18/07/2021 04:28:27 -- INFO -- For compound PHKIHRKCNFFHJP-UHFFFAOYSA-N, matching moves are [PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0]
+18/07/2021 04:28:27 -- INFO -- Calculated moves in 2.9093706607818604 for compound PHKIHRKCNFFHJP-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:27 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575307.5659914
+18/07/2021 04:28:27 -- INFO -- 0 available rules
+18/07/2021 04:28:27 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:28:27 -- INFO -- Calculated moves in 0.3476731777191162 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:28 -- INFO -- Adding a child with move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1 to node 
+	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 4/ Score : 4.0/ Children: 2/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|
+18/07/2021 04:28:28 -- INFO -- Starting move obtention process with compound OYCHPASJWXHMTH-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575308.149199
+18/07/2021 04:28:28 -- INFO -- 643 available rules
+18/07/2021 04:28:31 -- INFO -- For compound OYCHPASJWXHMTH-UHFFFAOYSA-N, matching moves are [OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0]
+18/07/2021 04:28:31 -- INFO -- Calculated moves in 2.9339702129364014 for compound OYCHPASJWXHMTH-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:31 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575311.0993745
+18/07/2021 04:28:31 -- INFO -- 0 available rules
+18/07/2021 04:28:31 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:28:31 -- INFO -- Calculated moves in 0.368941068649292 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:31 -- INFO -- Pathway is found at iteration 71
+18/07/2021 04:28:31 -- INFO -- Udapted solved Node 		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0/ Biological score : 2.41/ Chemical score: 0.62
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|PHKIHRKCNFFHJP-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 71
+18/07/2021 04:28:31 -- INFO -- Looping move in node |XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|-1 for move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0
+18/07/2021 04:28:31 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575311.7241526
+18/07/2021 04:28:32 -- INFO -- 0 available rules
+18/07/2021 04:28:32 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:28:32 -- INFO -- Calculated moves in 0.31044650077819824 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:32 -- INFO -- Starting move obtention process with compound ZDLYNMZEAFURQY-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575312.043845
+18/07/2021 04:28:32 -- INFO -- 653 available rules
+18/07/2021 04:28:37 -- WARNING -- 
+18/07/2021 04:28:43 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:28:43 -- WARNING -- 
+18/07/2021 04:28:48 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:28:48 -- WARNING -- 
+18/07/2021 04:28:52 -- INFO -- For compound ZDLYNMZEAFURQY-UHFFFAOYSA-N, matching moves are [ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_12-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_8-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118343_MNXM4313_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118350_MNXM103563_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR119421_MNXM39145_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR119421_MNXM39145_6-1]
+18/07/2021 04:28:52 -- INFO -- Calculated moves in 19.962907791137695 for compound ZDLYNMZEAFURQY-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:52 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575332.0552652
+18/07/2021 04:28:52 -- INFO -- 0 available rules
+18/07/2021 04:28:52 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:28:52 -- INFO -- Calculated moves in 0.3488426208496094 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:28:52 -- INFO -- Starting move obtention process with compound XFYYZBJXMSDKCV-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC([H])([H])[H]) at 1626575332.4148755
+18/07/2021 04:28:52 -- INFO -- 641 available rules
+18/07/2021 04:28:58 -- WARNING -- 
+18/07/2021 04:29:03 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:29:03 -- WARNING -- 
+18/07/2021 04:29:09 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:29:09 -- WARNING -- 
+18/07/2021 04:29:15 -- INFO -- For compound XFYYZBJXMSDKCV-UHFFFAOYSA-N, matching moves are [XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118357_MNXM103563_6-0]
+18/07/2021 04:29:15 -- INFO -- Calculated moves in 23.19796133041382 for compound XFYYZBJXMSDKCV-UHFFFAOYSA-N - without caching
+18/07/2021 04:29:15 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575355.6404946
+18/07/2021 04:29:15 -- INFO -- 0 available rules
+18/07/2021 04:29:15 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:29:15 -- INFO -- Calculated moves in 0.34623050689697266 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:29:16 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575356.004243
+18/07/2021 04:29:16 -- INFO -- 0 available rules
+18/07/2021 04:29:16 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:29:16 -- INFO -- Calculated moves in 0.30643510818481445 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:29:16 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575356.3288212
+18/07/2021 04:29:16 -- INFO -- 0 available rules
+18/07/2021 04:29:16 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:29:16 -- INFO -- Calculated moves in 0.32499074935913086 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:29:16 -- INFO -- Starting move obtention process with compound ZDLYNMZEAFURQY-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575356.66449
+18/07/2021 04:29:16 -- INFO -- 660 available rules
+18/07/2021 04:29:22 -- WARNING -- 
+18/07/2021 04:29:27 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:29:27 -- WARNING -- 
+18/07/2021 04:29:33 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:29:33 -- WARNING -- 
+18/07/2021 04:29:36 -- INFO -- For compound ZDLYNMZEAFURQY-UHFFFAOYSA-N, matching moves are [ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:29:36 -- INFO -- Calculated moves in 20.14127826690674 for compound ZDLYNMZEAFURQY-UHFFFAOYSA-N - without caching
+18/07/2021 04:29:36 -- INFO -- Rollout results are 2, True
+18/07/2021 04:29:36 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 04:29:36 -- INFO -- Adding a child with move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0 to node 
+	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 6/ Score : 4.67/ Children: 3/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|
+18/07/2021 04:29:37 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575377.0449486
+18/07/2021 04:29:37 -- INFO -- 0 available rules
+18/07/2021 04:29:37 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:29:37 -- INFO -- Calculated moves in 0.3307206630706787 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:29:37 -- INFO -- Starting move obtention process with compound NHMZUDOXUOAEOH-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575377.3890688
+18/07/2021 04:29:37 -- INFO -- 641 available rules
+18/07/2021 04:29:43 -- WARNING -- 
+18/07/2021 04:29:48 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:29:48 -- WARNING -- 
+18/07/2021 04:29:54 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:29:54 -- WARNING -- 
+18/07/2021 04:29:59 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:29:59 -- WARNING -- 
+18/07/2021 04:30:06 -- INFO -- For compound NHMZUDOXUOAEOH-UHFFFAOYSA-N, matching moves are [NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:30:06 -- INFO -- Calculated moves in 28.94710922241211 for compound NHMZUDOXUOAEOH-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:06 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575406.3527198
+18/07/2021 04:30:06 -- INFO -- 0 available rules
+18/07/2021 04:30:06 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:30:06 -- INFO -- Calculated moves in 0.36063480377197266 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:06 -- INFO -- Adding a child with move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0 to node 
+	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 7/ Score : 4.29/ Children: 4/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|
+18/07/2021 04:30:06 -- INFO -- Starting move obtention process with compound PHKIHRKCNFFHJP-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575406.905035
+18/07/2021 04:30:07 -- INFO -- 643 available rules
+18/07/2021 04:30:09 -- INFO -- For compound PHKIHRKCNFFHJP-UHFFFAOYSA-N, matching moves are [PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, PHKIHRKCNFFHJP-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0]
+18/07/2021 04:30:09 -- INFO -- Calculated moves in 2.891892194747925 for compound PHKIHRKCNFFHJP-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:09 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575409.83276
+18/07/2021 04:30:10 -- INFO -- 0 available rules
+18/07/2021 04:30:10 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:30:10 -- INFO -- Calculated moves in 0.3202192783355713 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:10 -- INFO -- Pathway is found at iteration 117
+18/07/2021 04:30:10 -- INFO -- Udapted solved Node 		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1/ Biological score : 2.41/ Chemical score: 0.62
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|OYCHPASJWXHMTH-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 117
+18/07/2021 04:30:10 -- INFO -- Adding a child with move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1 to node 
+	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 8/ Score : 5.0/ Children: 5/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|
+18/07/2021 04:30:10 -- INFO -- Starting move obtention process with compound OYCHPASJWXHMTH-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575410.3954809
+18/07/2021 04:30:10 -- INFO -- 643 available rules
+18/07/2021 04:30:13 -- INFO -- For compound OYCHPASJWXHMTH-UHFFFAOYSA-N, matching moves are [OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, OYCHPASJWXHMTH-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0]
+18/07/2021 04:30:13 -- INFO -- Calculated moves in 2.846060037612915 for compound OYCHPASJWXHMTH-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:13 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575413.2739725
+18/07/2021 04:30:13 -- INFO -- 0 available rules
+18/07/2021 04:30:13 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:30:13 -- INFO -- Calculated moves in 0.3705453872680664 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:13 -- INFO -- Adding a child with move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0 to node 
+	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 9/ Score : 4.67/ Children: 6/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|
+18/07/2021 04:30:13 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575413.917786
+18/07/2021 04:30:14 -- INFO -- 1334 available rules
+18/07/2021 04:30:18 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:30:18 -- INFO -- Calculated moves in 5.079334735870361 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:19 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575419.0205078
+18/07/2021 04:30:19 -- INFO -- 613 available rules
+18/07/2021 04:30:22 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:30:22 -- INFO -- Calculated moves in 3.124147891998291 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:22 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575422.172396
+18/07/2021 04:30:22 -- INFO -- 0 available rules
+18/07/2021 04:30:22 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:30:22 -- INFO -- Calculated moves in 0.38446950912475586 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:22 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575422.5767272
+18/07/2021 04:30:22 -- INFO -- 0 available rules
+18/07/2021 04:30:22 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:30:22 -- INFO -- Calculated moves in 0.33048534393310547 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:22 -- INFO -- Starting move obtention process with compound NHMZUDOXUOAEOH-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575422.9179063
+18/07/2021 04:30:23 -- INFO -- 635 available rules
+18/07/2021 04:30:28 -- WARNING -- 
+18/07/2021 04:30:34 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:30:34 -- WARNING -- 
+18/07/2021 04:30:39 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:30:39 -- WARNING -- 
+18/07/2021 04:30:45 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:30:45 -- WARNING -- 
+18/07/2021 04:30:51 -- INFO -- For compound NHMZUDOXUOAEOH-UHFFFAOYSA-N, matching moves are [NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118837_MNXM46888_12-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_8-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118350_MNXM103563_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR119421_MNXM39145_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR119421_MNXM39145_6-1]
+18/07/2021 04:30:51 -- INFO -- Calculated moves in 28.4879310131073 for compound NHMZUDOXUOAEOH-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:51 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575451.4349911
+18/07/2021 04:30:51 -- INFO -- 0 available rules
+18/07/2021 04:30:51 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:30:51 -- INFO -- Calculated moves in 0.38634347915649414 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:51 -- INFO -- Starting move obtention process with compound BZNGSWUAGQYGFV-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575451.8491352
+18/07/2021 04:30:52 -- INFO -- 638 available rules
+18/07/2021 04:30:57 -- INFO -- For compound BZNGSWUAGQYGFV-UHFFFAOYSA-N, matching moves are [BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:30:57 -- INFO -- Calculated moves in 5.979973554611206 for compound BZNGSWUAGQYGFV-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:57 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575457.8522186
+18/07/2021 04:30:58 -- INFO -- 0 available rules
+18/07/2021 04:30:58 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:30:58 -- INFO -- Calculated moves in 0.36089515686035156 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:58 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575458.2355816
+18/07/2021 04:30:58 -- INFO -- 0 available rules
+18/07/2021 04:30:58 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:30:58 -- INFO -- Calculated moves in 0.295548677444458 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:30:58 -- INFO -- Rollout results are 2, True
+18/07/2021 04:30:58 -- INFO -- Udapted solved Node 		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0/ Biological score : 2.06/ Chemical score: 0.83
+		Count: 1/ Score : 0/ Children: 0/ Terminal : False
+		|GPRLSGONYQIRFK-UHFFFAOYSA-N|NHMZUDOXUOAEOH-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 146
+18/07/2021 04:30:58 -- INFO -- Adding a child with move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1 to node 
+	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 10/ Score : 4.4/ Children: 7/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|
+18/07/2021 04:30:58 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575458.7673597
+18/07/2021 04:30:59 -- INFO -- 613 available rules
+18/07/2021 04:31:01 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:31:01 -- INFO -- Calculated moves in 3.0004665851593018 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:01 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575461.7883246
+18/07/2021 04:31:02 -- INFO -- 1334 available rules
+18/07/2021 04:31:06 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:31:06 -- INFO -- Calculated moves in 5.042484998703003 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:06 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575466.8595145
+18/07/2021 04:31:07 -- INFO -- 0 available rules
+18/07/2021 04:31:07 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:31:07 -- INFO -- Calculated moves in 0.41911959648132324 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:07 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575467.297171
+18/07/2021 04:31:07 -- INFO -- 0 available rules
+18/07/2021 04:31:07 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:31:07 -- INFO -- Calculated moves in 0.33097338676452637 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:07 -- INFO -- Starting move obtention process with compound NHMZUDOXUOAEOH-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575467.6385355
+18/07/2021 04:31:07 -- INFO -- 634 available rules
+18/07/2021 04:31:13 -- WARNING -- 
+18/07/2021 04:31:18 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:31:18 -- WARNING -- 
+18/07/2021 04:31:24 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:31:24 -- WARNING -- 
+18/07/2021 04:31:29 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:31:29 -- WARNING -- 
+18/07/2021 04:31:35 -- INFO -- For compound NHMZUDOXUOAEOH-UHFFFAOYSA-N, matching moves are [NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:31:35 -- INFO -- Calculated moves in 28.228537559509277 for compound NHMZUDOXUOAEOH-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:35 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575495.8915303
+18/07/2021 04:31:36 -- INFO -- 0 available rules
+18/07/2021 04:31:36 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:31:36 -- INFO -- Calculated moves in 0.35017895698547363 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:36 -- INFO -- Starting move obtention process with compound BZNGSWUAGQYGFV-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575496.2631881
+18/07/2021 04:31:36 -- INFO -- 638 available rules
+18/07/2021 04:31:42 -- INFO -- For compound BZNGSWUAGQYGFV-UHFFFAOYSA-N, matching moves are [BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:31:42 -- INFO -- Calculated moves in 6.035362005233765 for compound BZNGSWUAGQYGFV-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:42 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575502.321205
+18/07/2021 04:31:42 -- INFO -- 0 available rules
+18/07/2021 04:31:42 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:31:42 -- INFO -- Calculated moves in 0.3753824234008789 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:42 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575502.7177572
+18/07/2021 04:31:43 -- INFO -- 0 available rules
+18/07/2021 04:31:43 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:31:43 -- INFO -- Calculated moves in 0.30577802658081055 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:43 -- INFO -- Rollout results are 2, True
+18/07/2021 04:31:43 -- INFO -- Adding a child with move ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0 to node 
+	Move name: CFFZDZCDUFSOFZ-UHFFFAOYSA-N-rxnAdd118_r_2_cpd90015_5_6-0/ Biological score : 4.02/ Chemical score: 0.71
+	Count: 11/ Score : 4.18/ Children: 8/ Terminal : False
+	|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZDLYNMZEAFURQY-UHFFFAOYSA-N|
+18/07/2021 04:31:43 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575503.2348168
+18/07/2021 04:31:43 -- INFO -- 0 available rules
+18/07/2021 04:31:43 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:31:43 -- INFO -- Calculated moves in 0.30806517601013184 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:31:43 -- INFO -- Starting move obtention process with compound XFYYZBJXMSDKCV-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC([H])([H])[H]) at 1626575503.5524428
+18/07/2021 04:31:43 -- INFO -- 641 available rules
+18/07/2021 04:31:49 -- WARNING -- 
+18/07/2021 04:31:54 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:31:54 -- WARNING -- 
+18/07/2021 04:32:00 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:32:00 -- WARNING -- 
+18/07/2021 04:32:06 -- INFO -- For compound XFYYZBJXMSDKCV-UHFFFAOYSA-N, matching moves are [XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0, XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118357_MNXM103563_6-0]
+18/07/2021 04:32:06 -- INFO -- Calculated moves in 23.288193464279175 for compound XFYYZBJXMSDKCV-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:06 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575526.8605185
+18/07/2021 04:32:07 -- INFO -- 0 available rules
+18/07/2021 04:32:07 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:32:07 -- INFO -- Calculated moves in 0.33618736267089844 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:07 -- INFO -- Pathway is found at iteration 178
+18/07/2021 04:32:07 -- INFO -- Udapted solved Node 		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0/ Biological score : 1.97/ Chemical score: 0.88
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|PHKIHRKCNFFHJP-UHFFFAOYSA-N|WSFSSNUMVMOOMR-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 178
+18/07/2021 04:32:07 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 04:32:07 -- INFO -- Pathway is found at iteration 209
+18/07/2021 04:32:07 -- INFO -- Udapted solved Node 		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1/ Biological score : 1.97/ Chemical score: 0.88
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|OYCHPASJWXHMTH-UHFFFAOYSA-N|WSFSSNUMVMOOMR-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 209
+18/07/2021 04:32:07 -- INFO -- Looping move in node |XCCTYIAWTASOJW-UHFFFAOYSA-N|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|-2 for move XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0
+18/07/2021 04:32:07 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575527.834023
+18/07/2021 04:32:08 -- INFO -- 1324 available rules
+18/07/2021 04:32:12 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_14-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97207_MNXM492_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR114764_MNXM899_6-0]
+18/07/2021 04:32:12 -- INFO -- Calculated moves in 4.820382595062256 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:12 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575532.6803365
+18/07/2021 04:32:13 -- INFO -- 604 available rules
+18/07/2021 04:32:15 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_5_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:32:15 -- INFO -- Calculated moves in 2.8569726943969727 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:15 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575535.553638
+18/07/2021 04:32:15 -- INFO -- 0 available rules
+18/07/2021 04:32:15 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:32:15 -- INFO -- Calculated moves in 0.40625858306884766 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:15 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575535.9807718
+18/07/2021 04:32:16 -- INFO -- 1329 available rules
+18/07/2021 04:32:20 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:32:20 -- INFO -- Calculated moves in 4.192735910415649 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:20 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575540.2121396
+18/07/2021 04:32:20 -- INFO -- 604 available rules
+18/07/2021 04:32:22 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:32:22 -- INFO -- Calculated moves in 2.7087109088897705 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:22 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575542.941361
+18/07/2021 04:32:23 -- INFO -- 0 available rules
+18/07/2021 04:32:23 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:32:23 -- INFO -- Calculated moves in 0.335479736328125 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:23 -- INFO -- Rollout results are 2, True
+18/07/2021 04:32:23 -- INFO -- Udapted solved Node 		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 1/ Score : 0/ Children: 0/ Terminal : False
+		|XCCTYIAWTASOJW-UHFFFAOYSA-N|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 238
+18/07/2021 04:32:23 -- INFO -- Adding a child with move XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 1/ Score : 2.0/ Children: 0/ Terminal : False
+		|XCCTYIAWTASOJW-UHFFFAOYSA-N|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:32:23 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575543.505314
+18/07/2021 04:32:23 -- INFO -- 1329 available rules
+18/07/2021 04:32:27 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:32:27 -- INFO -- Calculated moves in 4.013648748397827 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:27 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575547.5506032
+18/07/2021 04:32:27 -- INFO -- 604 available rules
+18/07/2021 04:32:30 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_5_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:32:30 -- INFO -- Calculated moves in 2.8456945419311523 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:30 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575550.4273028
+18/07/2021 04:32:30 -- INFO -- 0 available rules
+18/07/2021 04:32:30 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:32:30 -- INFO -- Calculated moves in 0.33980727195739746 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:30 -- INFO -- Pathway is found at iteration 253
+18/07/2021 04:32:30 -- INFO -- Udapted solved Node 			Move name: XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0/ Biological score : 4.02/ Chemical score: 0.68
+			Count: 1/ Score : 0/ Children: 0/ Terminal : True
+			|PGAVKCOVUIYSFO-UHFFFAOYSA-N|RFSUNEUAIZKAJO-UHFFFAOYSA-N- solved|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 253
+18/07/2021 04:32:30 -- INFO -- Looping move in node |OCVXPVGRUHWJBN-UHFFFAOYSA-N|XCCTYIAWTASOJW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|-2 for move OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0
+18/07/2021 04:32:30 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575550.9845967
+18/07/2021 04:32:31 -- INFO -- 604 available rules
+18/07/2021 04:32:33 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:32:33 -- INFO -- Calculated moves in 2.736862897872925 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:33 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575553.7452328
+18/07/2021 04:32:34 -- INFO -- 1324 available rules
+18/07/2021 04:32:38 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_14-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97207_MNXM492_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR114764_MNXM899_6-0]
+18/07/2021 04:32:38 -- INFO -- Calculated moves in 4.835267066955566 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:38 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575558.6031253
+18/07/2021 04:32:38 -- INFO -- 0 available rules
+18/07/2021 04:32:38 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:32:38 -- INFO -- Calculated moves in 0.3630380630493164 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:38 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575558.9987404
+18/07/2021 04:32:39 -- INFO -- 604 available rules
+18/07/2021 04:32:41 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:32:41 -- INFO -- Calculated moves in 2.635993480682373 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:41 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575561.6485114
+18/07/2021 04:32:42 -- INFO -- 1329 available rules
+18/07/2021 04:32:46 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:32:46 -- INFO -- Calculated moves in 4.374987602233887 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:46 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575566.0409896
+18/07/2021 04:32:46 -- INFO -- 0 available rules
+18/07/2021 04:32:46 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:32:46 -- INFO -- Calculated moves in 0.3409104347229004 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:46 -- INFO -- Rollout results are 2, True
+18/07/2021 04:32:46 -- INFO -- Udapted solved Node 		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 1/ Score : 0/ Children: 0/ Terminal : False
+		|OCVXPVGRUHWJBN-UHFFFAOYSA-N|XCCTYIAWTASOJW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 265
+18/07/2021 04:32:46 -- INFO -- Adding a child with move XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 1/ Score : 2.0/ Children: 0/ Terminal : False
+		|OCVXPVGRUHWJBN-UHFFFAOYSA-N|XCCTYIAWTASOJW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:32:46 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575566.6325598
+18/07/2021 04:32:46 -- INFO -- 604 available rules
+18/07/2021 04:32:49 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:32:49 -- INFO -- Calculated moves in 2.61997389793396 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:49 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575569.2775798
+18/07/2021 04:32:49 -- INFO -- 1329 available rules
+18/07/2021 04:32:53 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:32:53 -- INFO -- Calculated moves in 4.085751295089722 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:53 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575573.392596
+18/07/2021 04:32:53 -- INFO -- 0 available rules
+18/07/2021 04:32:53 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:32:53 -- INFO -- Calculated moves in 0.4053041934967041 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:53 -- INFO -- Pathway is found at iteration 282
+18/07/2021 04:32:53 -- INFO -- Udapted solved Node 			Move name: XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0/ Biological score : 4.02/ Chemical score: 0.68
+			Count: 1/ Score : 0/ Children: 0/ Terminal : True
+			|OCVXPVGRUHWJBN-UHFFFAOYSA-N|PGAVKCOVUIYSFO-UHFFFAOYSA-N|RFSUNEUAIZKAJO-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 282
+18/07/2021 04:32:54 -- INFO -- Adding a child with move XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0/ Biological score : 1.11/ Chemical score: 0.71
+		Count: 0/ Score : 0/ Children: 0/ Terminal : False
+		|GPRLSGONYQIRFK-UHFFFAOYSA-N|XFYYZBJXMSDKCV-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:32:54 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575574.1041377
+18/07/2021 04:32:54 -- INFO -- 0 available rules
+18/07/2021 04:32:54 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:32:54 -- INFO -- Calculated moves in 0.30158233642578125 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:32:54 -- INFO -- Starting move obtention process with compound HRQWEWPCWWGBQR-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(O[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC([H])([H])[H]) at 1626575574.416477
+18/07/2021 04:32:54 -- INFO -- 647 available rules
+18/07/2021 04:33:00 -- INFO -- For compound HRQWEWPCWWGBQR-UHFFFAOYSA-N, matching moves are [HRQWEWPCWWGBQR-UHFFFAOYSA-N-MNXR118820_MNXM73027_6-0, HRQWEWPCWWGBQR-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, HRQWEWPCWWGBQR-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-0, HRQWEWPCWWGBQR-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-1, HRQWEWPCWWGBQR-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, HRQWEWPCWWGBQR-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, HRQWEWPCWWGBQR-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, HRQWEWPCWWGBQR-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0, HRQWEWPCWWGBQR-UHFFFAOYSA-N-MNXR118357_MNXM103563_6-0]
+18/07/2021 04:33:00 -- INFO -- Calculated moves in 6.070980072021484 for compound HRQWEWPCWWGBQR-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:00 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575580.5154037
+18/07/2021 04:33:00 -- INFO -- 0 available rules
+18/07/2021 04:33:00 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:00 -- INFO -- Calculated moves in 0.3917818069458008 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:00 -- INFO -- Pathway is found at iteration 297
+18/07/2021 04:33:01 -- INFO -- Udapted solved Node 			Move name: XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0/ Biological score : 2.41/ Chemical score: 0.85
+			Count: 1/ Score : 0/ Children: 0/ Terminal : True
+			|GPRLSGONYQIRFK-UHFFFAOYSA-N|HRQWEWPCWWGBQR-UHFFFAOYSA-N|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 297
+18/07/2021 04:33:01 -- INFO -- Udapted solved Node 		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0/ Biological score : 1.11/ Chemical score: 0.71
+		Count: 1/ Score : 0/ Children: 1/ Terminal : False
+		|GPRLSGONYQIRFK-UHFFFAOYSA-N|XFYYZBJXMSDKCV-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 297
+18/07/2021 04:33:01 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 04:33:01 -- INFO -- Adding a child with move XFYYZBJXMSDKCV-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0/ Biological score : 1.11/ Chemical score: 0.71
+		Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+		|GPRLSGONYQIRFK-UHFFFAOYSA-N|XFYYZBJXMSDKCV-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:33:01 -- INFO -- Starting move obtention process with compound DQGLAIOSGHDERB-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC([H])([H])[H]) at 1626575581.3111129
+18/07/2021 04:33:01 -- INFO -- 638 available rules
+18/07/2021 04:33:04 -- INFO -- For compound DQGLAIOSGHDERB-UHFFFAOYSA-N, matching moves are [DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0, DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0, DQGLAIOSGHDERB-UHFFFAOYSA-N-MNXR118357_MNXM103563_6-0]
+18/07/2021 04:33:04 -- INFO -- Calculated moves in 3.3236520290374756 for compound DQGLAIOSGHDERB-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:04 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575584.6490228
+18/07/2021 04:33:05 -- INFO -- 0 available rules
+18/07/2021 04:33:05 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:05 -- INFO -- Calculated moves in 0.37958598136901855 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:05 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575585.0486512
+18/07/2021 04:33:05 -- INFO -- 0 available rules
+18/07/2021 04:33:05 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:05 -- INFO -- Calculated moves in 0.33209896087646484 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:06 -- INFO -- Adding a child with move NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0/ Biological score : 2.06/ Chemical score: 0.83
+		Count: 2/ Score : 2.0/ Children: 0/ Terminal : False
+		|GPRLSGONYQIRFK-UHFFFAOYSA-N|NHMZUDOXUOAEOH-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:33:06 -- INFO -- Starting move obtention process with compound AABHTDBRYLCNGC-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(O[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575586.1364584
+18/07/2021 04:33:06 -- INFO -- 647 available rules
+18/07/2021 04:33:12 -- INFO -- For compound AABHTDBRYLCNGC-UHFFFAOYSA-N, matching moves are [AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118820_MNXM73027_6-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-1, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, AABHTDBRYLCNGC-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:33:12 -- INFO -- Calculated moves in 6.4737324714660645 for compound AABHTDBRYLCNGC-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:12 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575592.6314387
+18/07/2021 04:33:12 -- INFO -- 0 available rules
+18/07/2021 04:33:12 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:12 -- INFO -- Calculated moves in 0.3653285503387451 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:13 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575593.0151057
+18/07/2021 04:33:13 -- INFO -- 0 available rules
+18/07/2021 04:33:13 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:13 -- INFO -- Calculated moves in 0.2884514331817627 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:13 -- INFO -- Pathway is found at iteration 389
+18/07/2021 04:33:13 -- INFO -- Udapted solved Node 			Move name: NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0/ Biological score : 2.41/ Chemical score: 0.85
+			Count: 1/ Score : 0/ Children: 0/ Terminal : True
+			|AABHTDBRYLCNGC-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 389
+18/07/2021 04:33:13 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 04:33:14 -- INFO -- Adding a child with move NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0/ Biological score : 2.06/ Chemical score: 0.83
+		Count: 3/ Score : 4.67/ Children: 1/ Terminal : False
+		|GPRLSGONYQIRFK-UHFFFAOYSA-N|NHMZUDOXUOAEOH-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:33:14 -- INFO -- Starting move obtention process with compound BZNGSWUAGQYGFV-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575594.244268
+18/07/2021 04:33:14 -- INFO -- 638 available rules
+18/07/2021 04:33:20 -- INFO -- For compound BZNGSWUAGQYGFV-UHFFFAOYSA-N, matching moves are [BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:33:20 -- INFO -- Calculated moves in 5.9868059158325195 for compound BZNGSWUAGQYGFV-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:20 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575600.2482603
+18/07/2021 04:33:20 -- INFO -- 0 available rules
+18/07/2021 04:33:20 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:20 -- INFO -- Calculated moves in 0.3642699718475342 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:20 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575600.6305733
+18/07/2021 04:33:20 -- INFO -- 0 available rules
+18/07/2021 04:33:20 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:20 -- INFO -- Calculated moves in 0.30453944206237793 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:21 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 04:33:21 -- INFO -- Adding a child with move XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 2/ Score : 6.0/ Children: 1/ Terminal : False
+		|OCVXPVGRUHWJBN-UHFFFAOYSA-N|XCCTYIAWTASOJW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:33:21 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575601.2419593
+18/07/2021 04:33:21 -- INFO -- 604 available rules
+18/07/2021 04:33:23 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:33:23 -- INFO -- Calculated moves in 2.633673667907715 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:23 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575603.8920321
+18/07/2021 04:33:24 -- INFO -- 1329 available rules
+18/07/2021 04:33:27 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:33:27 -- INFO -- Calculated moves in 4.055210113525391 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:27 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575607.9790008
+18/07/2021 04:33:28 -- INFO -- 0 available rules
+18/07/2021 04:33:28 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:28 -- INFO -- Calculated moves in 0.3279867172241211 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:28 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575608.3184636
+18/07/2021 04:33:28 -- INFO -- 544 available rules
+18/07/2021 04:33:28 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:33:29 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:33:30 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:33:30 -- INFO -- Calculated moves in 2.6358189582824707 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:31 -- INFO -- Adding a child with move XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 2/ Score : 6.0/ Children: 1/ Terminal : False
+		|XCCTYIAWTASOJW-UHFFFAOYSA-N|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:33:31 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575611.1907823
+18/07/2021 04:33:31 -- INFO -- 1329 available rules
+18/07/2021 04:33:35 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:33:35 -- INFO -- Calculated moves in 4.159295082092285 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:35 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575615.3748658
+18/07/2021 04:33:35 -- INFO -- 604 available rules
+18/07/2021 04:33:38 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:33:38 -- INFO -- Calculated moves in 2.757044553756714 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:38 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575618.1516526
+18/07/2021 04:33:38 -- INFO -- 0 available rules
+18/07/2021 04:33:38 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:38 -- INFO -- Calculated moves in 0.33403801918029785 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:38 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575618.4960432
+18/07/2021 04:33:38 -- INFO -- 544 available rules
+18/07/2021 04:33:39 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:33:39 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:33:41 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:33:41 -- INFO -- Calculated moves in 2.5129494667053223 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:41 -- INFO -- Adding a child with move NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0/ Biological score : 2.06/ Chemical score: 0.83
+		Count: 4/ Score : 4.0/ Children: 2/ Terminal : False
+		|GPRLSGONYQIRFK-UHFFFAOYSA-N|NHMZUDOXUOAEOH-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:33:41 -- INFO -- Starting move obtention process with compound FUVNKMCXHOWBQB-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575621.622849
+18/07/2021 04:33:41 -- INFO -- 638 available rules
+18/07/2021 04:33:47 -- INFO -- For compound FUVNKMCXHOWBQB-UHFFFAOYSA-N, matching moves are [FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:33:47 -- INFO -- Calculated moves in 6.019895076751709 for compound FUVNKMCXHOWBQB-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:47 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575627.6566036
+18/07/2021 04:33:47 -- INFO -- 0 available rules
+18/07/2021 04:33:47 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:47 -- INFO -- Calculated moves in 0.3351783752441406 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:48 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575628.0109265
+18/07/2021 04:33:48 -- INFO -- 0 available rules
+18/07/2021 04:33:48 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:48 -- INFO -- Calculated moves in 0.3177680969238281 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:48 -- INFO -- Pathway is found at iteration 591
+18/07/2021 04:33:48 -- INFO -- Udapted solved Node 			Move name: NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0/ Biological score : 2.41/ Chemical score: 0.64
+			Count: 1/ Score : 0/ Children: 0/ Terminal : True
+			|BZNGSWUAGQYGFV-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 591
+18/07/2021 04:33:48 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 04:33:48 -- INFO -- Adding a child with move XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 3/ Score : 4.67/ Children: 2/ Terminal : False
+		|OCVXPVGRUHWJBN-UHFFFAOYSA-N|XCCTYIAWTASOJW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:33:48 -- INFO -- Starting move obtention process with compound DJJCXFVJDGTHFX-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575628.9817014
+18/07/2021 04:33:49 -- INFO -- 1226 available rules
+18/07/2021 04:33:56 -- INFO -- For compound DJJCXFVJDGTHFX-UHFFFAOYSA-N, matching moves are [DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR111792_MNXM6123_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR118559_MNXM114601_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR133927_MNXM38120_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR94932_MNXM288_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR107736_MNXM298_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR105161_MNXM288_8-0]
+18/07/2021 04:33:56 -- INFO -- Calculated moves in 7.8074259757995605 for compound DJJCXFVJDGTHFX-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:56 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575636.807831
+18/07/2021 04:33:57 -- INFO -- 604 available rules
+18/07/2021 04:33:59 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:33:59 -- INFO -- Calculated moves in 2.72290301322937 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:59 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575639.5464926
+18/07/2021 04:33:59 -- INFO -- 0 available rules
+18/07/2021 04:33:59 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:33:59 -- INFO -- Calculated moves in 0.32228565216064453 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:33:59 -- INFO -- Starting move obtention process with compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575639.879359
+18/07/2021 04:34:00 -- INFO -- 526 available rules
+18/07/2021 04:34:00 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:00 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:01 -- INFO -- For compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N, matching moves are [ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105330_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0]
+18/07/2021 04:34:01 -- INFO -- Calculated moves in 1.6521496772766113 for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:01 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575641.5551987
+18/07/2021 04:34:01 -- INFO -- 604 available rules
+18/07/2021 04:34:04 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:34:04 -- INFO -- Calculated moves in 2.7529170513153076 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:04 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575644.327639
+18/07/2021 04:34:04 -- INFO -- 1319 available rules
+18/07/2021 04:34:09 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_14-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105330_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR118559_MNXM38144_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0]
+18/07/2021 04:34:09 -- INFO -- Calculated moves in 4.689901828765869 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:09 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575649.0432172
+18/07/2021 04:34:09 -- INFO -- 0 available rules
+18/07/2021 04:34:09 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:34:09 -- INFO -- Calculated moves in 0.3492593765258789 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:09 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575649.4018853
+18/07/2021 04:34:09 -- INFO -- 534 available rules
+18/07/2021 04:34:10 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:10 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:11 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_6-0]
+18/07/2021 04:34:11 -- INFO -- Calculated moves in 2.2888541221618652 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:11 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575651.7256932
+18/07/2021 04:34:12 -- INFO -- 1319 available rules
+18/07/2021 04:34:15 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:34:15 -- INFO -- Calculated moves in 3.896214008331299 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:15 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575655.6576035
+18/07/2021 04:34:16 -- INFO -- 0 available rules
+18/07/2021 04:34:16 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:34:16 -- INFO -- Calculated moves in 0.36356019973754883 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:16 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575656.0324473
+18/07/2021 04:34:16 -- INFO -- 534 available rules
+18/07/2021 04:34:16 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:16 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:18 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:34:18 -- INFO -- Calculated moves in 2.4196436405181885 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:18 -- INFO -- Starting move obtention process with compound YSYQNQSGFGQYIP-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC2([H])C([H])(C([H])([H])O[H])OC([H])(Oc3c([H])c(-c4oc5c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c5c(=O)c4[H])c([H])c([H])c3O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575658.4716372
+18/07/2021 04:34:18 -- INFO -- 241 available rules
+18/07/2021 04:34:22 -- INFO -- For compound YSYQNQSGFGQYIP-UHFFFAOYSA-N, matching moves are [YSYQNQSGFGQYIP-UHFFFAOYSA-N-MNXR118450_MNXM114687_8-0, YSYQNQSGFGQYIP-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, YSYQNQSGFGQYIP-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, YSYQNQSGFGQYIP-UHFFFAOYSA-N-MNXR118454_MNXM114520_6-0, YSYQNQSGFGQYIP-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, YSYQNQSGFGQYIP-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0]
+18/07/2021 04:34:22 -- INFO -- Calculated moves in 3.59879994392395 for compound YSYQNQSGFGQYIP-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:22 -- INFO -- Rollout results are 2, True
+18/07/2021 04:34:22 -- INFO -- Udapted solved Node 			Move name: XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0/ Biological score : 3.11/ Chemical score: 0.61
+			Count: 1/ Score : 0/ Children: 0/ Terminal : False
+			|OCVXPVGRUHWJBN-UHFFFAOYSA-N|PGAVKCOVUIYSFO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|XTWYTFMLZFPYCI-UHFFFAOYSA-N| for the first time at iteration 651
+18/07/2021 04:34:22 -- INFO -- Adding a child with move XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 3/ Score : 4.67/ Children: 2/ Terminal : False
+		|XCCTYIAWTASOJW-UHFFFAOYSA-N|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:34:22 -- INFO -- Starting move obtention process with compound DJJCXFVJDGTHFX-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575662.3417742
+18/07/2021 04:34:22 -- INFO -- 1226 available rules
+18/07/2021 04:34:30 -- INFO -- For compound DJJCXFVJDGTHFX-UHFFFAOYSA-N, matching moves are [DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR111792_MNXM6123_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR118559_MNXM114601_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR133927_MNXM38120_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR94932_MNXM288_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR107736_MNXM298_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR105161_MNXM288_8-0]
+18/07/2021 04:34:30 -- INFO -- Calculated moves in 7.878295183181763 for compound DJJCXFVJDGTHFX-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:30 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575670.2552269
+18/07/2021 04:34:30 -- INFO -- 604 available rules
+18/07/2021 04:34:33 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_5_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:34:33 -- INFO -- Calculated moves in 2.819242000579834 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:33 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575673.0923016
+18/07/2021 04:34:33 -- INFO -- 0 available rules
+18/07/2021 04:34:33 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:34:33 -- INFO -- Calculated moves in 0.381591796875 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:33 -- INFO -- Starting move obtention process with compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575673.4850771
+18/07/2021 04:34:33 -- INFO -- 526 available rules
+18/07/2021 04:34:34 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:34 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:35 -- INFO -- For compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N, matching moves are [ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105330_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0]
+18/07/2021 04:34:35 -- INFO -- Calculated moves in 1.6129529476165771 for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:35 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575675.1238043
+18/07/2021 04:34:35 -- INFO -- 1319 available rules
+18/07/2021 04:34:39 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_14-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105330_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR118559_MNXM38144_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0]
+18/07/2021 04:34:39 -- INFO -- Calculated moves in 4.079052686691284 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:39 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575679.2214303
+18/07/2021 04:34:39 -- INFO -- 604 available rules
+18/07/2021 04:34:41 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:34:41 -- INFO -- Calculated moves in 2.699320077896118 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:41 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575681.9423764
+18/07/2021 04:34:42 -- INFO -- 0 available rules
+18/07/2021 04:34:42 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:34:42 -- INFO -- Calculated moves in 0.3747446537017822 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:42 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575682.3322275
+18/07/2021 04:34:42 -- INFO -- 534 available rules
+18/07/2021 04:34:42 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:43 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:44 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_6-0]
+18/07/2021 04:34:44 -- INFO -- Calculated moves in 2.334294557571411 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:44 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575684.7129567
+18/07/2021 04:34:45 -- INFO -- 1334 available rules
+18/07/2021 04:34:49 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:34:49 -- INFO -- Calculated moves in 4.8852760791778564 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:49 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575689.6244318
+18/07/2021 04:34:50 -- INFO -- 604 available rules
+18/07/2021 04:34:52 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_5_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:34:52 -- INFO -- Calculated moves in 2.7916767597198486 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:52 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575692.4405048
+18/07/2021 04:34:52 -- INFO -- 0 available rules
+18/07/2021 04:34:52 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:34:52 -- INFO -- Calculated moves in 0.339280366897583 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:52 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575692.790331
+18/07/2021 04:34:53 -- INFO -- 534 available rules
+18/07/2021 04:34:53 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:53 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:34:55 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:34:55 -- INFO -- Calculated moves in 2.320232629776001 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:55 -- INFO -- Rollout results are 2, True
+18/07/2021 04:34:55 -- INFO -- Udapted solved Node 			Move name: XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0/ Biological score : 3.11/ Chemical score: 0.61
+			Count: 1/ Score : 0/ Children: 0/ Terminal : False
+			|PGAVKCOVUIYSFO-UHFFFAOYSA-N|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|XTWYTFMLZFPYCI-UHFFFAOYSA-N| for the first time at iteration 663
+18/07/2021 04:34:55 -- INFO -- Looping move in node |GPRLSGONYQIRFK-UHFFFAOYSA-N|NHMZUDOXUOAEOH-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|-2 for move NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0
+18/07/2021 04:34:55 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575695.372703
+18/07/2021 04:34:55 -- INFO -- 0 available rules
+18/07/2021 04:34:55 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:34:55 -- INFO -- Calculated moves in 0.35496068000793457 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:34:55 -- INFO -- Starting move obtention process with compound NHMZUDOXUOAEOH-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575695.7425554
+18/07/2021 04:34:56 -- INFO -- 635 available rules
+18/07/2021 04:35:01 -- WARNING -- 
+18/07/2021 04:35:06 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:35:06 -- WARNING -- 
+18/07/2021 04:35:12 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:35:12 -- WARNING -- 
+18/07/2021 04:35:17 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:35:17 -- WARNING -- 
+18/07/2021 04:35:23 -- INFO -- For compound NHMZUDOXUOAEOH-UHFFFAOYSA-N, matching moves are [NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118837_MNXM46888_12-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_8-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118834_MNXM73027_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118350_MNXM103563_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR119421_MNXM39145_6-0, NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR119421_MNXM39145_6-1]
+18/07/2021 04:35:23 -- INFO -- Calculated moves in 28.04661202430725 for compound NHMZUDOXUOAEOH-UHFFFAOYSA-N - without caching
+18/07/2021 04:35:23 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575723.8135984
+18/07/2021 04:35:24 -- INFO -- 0 available rules
+18/07/2021 04:35:24 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:35:24 -- INFO -- Calculated moves in 0.3478233814239502 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:35:24 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575724.1810453
+18/07/2021 04:35:24 -- INFO -- 0 available rules
+18/07/2021 04:35:24 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:35:24 -- INFO -- Calculated moves in 0.32535409927368164 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:35:24 -- INFO -- Starting move obtention process with compound UQXZYIHFSACKPB-UHFFFAOYSA-N ([H]OC([H])([H])C1([H])OC([H])(Oc2c([H])c([H])c(-c3oc4c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c4c(=O)c3[H])c([H])c2OC([H])([H])[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575724.521284
+18/07/2021 04:35:24 -- INFO -- 489 available rules
+18/07/2021 04:35:30 -- WARNING -- 
+18/07/2021 04:35:36 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:35:36 -- WARNING -- 
+18/07/2021 04:35:41 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:35:41 -- WARNING -- 
+18/07/2021 04:35:47 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:35:47 -- WARNING -- 
+18/07/2021 04:35:49 -- INFO -- For compound UQXZYIHFSACKPB-UHFFFAOYSA-N, matching moves are [UQXZYIHFSACKPB-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, UQXZYIHFSACKPB-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:35:49 -- INFO -- Calculated moves in 25.331737995147705 for compound UQXZYIHFSACKPB-UHFFFAOYSA-N - without caching
+18/07/2021 04:35:49 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575749.8758888
+18/07/2021 04:35:50 -- INFO -- 1334 available rules
+18/07/2021 04:35:54 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:35:54 -- INFO -- Calculated moves in 4.887309312820435 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:35:54 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575754.7810795
+18/07/2021 04:35:55 -- INFO -- 0 available rules
+18/07/2021 04:35:55 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:35:55 -- INFO -- Calculated moves in 0.35095715522766113 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:35:55 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575755.1478815
+18/07/2021 04:35:55 -- INFO -- 0 available rules
+18/07/2021 04:35:55 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:35:55 -- INFO -- Calculated moves in 0.30873632431030273 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:35:55 -- INFO -- Starting move obtention process with compound IHOBKVRLONQTOC-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(C([H])=C([H])C(=O)OC2([H])C([H])(C([H])([H])O[H])OC([H])(Oc3c([H])c([H])c(-c4oc5c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c5c(=O)c4[H])c([H])c3OC([H])([H])[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575755.4661055
+18/07/2021 04:35:55 -- INFO -- 229 available rules
+18/07/2021 04:35:58 -- INFO -- For compound IHOBKVRLONQTOC-UHFFFAOYSA-N, matching moves are [IHOBKVRLONQTOC-UHFFFAOYSA-N-MNXR118450_MNXM114687_8-0, IHOBKVRLONQTOC-UHFFFAOYSA-N-MNXR118454_MNXM114520_6-0, IHOBKVRLONQTOC-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, IHOBKVRLONQTOC-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, IHOBKVRLONQTOC-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, IHOBKVRLONQTOC-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0]
+18/07/2021 04:35:58 -- INFO -- Calculated moves in 3.352532148361206 for compound IHOBKVRLONQTOC-UHFFFAOYSA-N - without caching
+18/07/2021 04:35:58 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575758.8404162
+18/07/2021 04:35:59 -- INFO -- 1324 available rules
+18/07/2021 04:36:03 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_14-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97207_MNXM492_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR114764_MNXM899_6-0]
+18/07/2021 04:36:03 -- INFO -- Calculated moves in 5.125510931015015 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:03 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575763.9967682
+18/07/2021 04:36:04 -- INFO -- 0 available rules
+18/07/2021 04:36:04 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:36:04 -- INFO -- Calculated moves in 0.36467814445495605 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:04 -- INFO -- Rollout results are 2, True
+18/07/2021 04:36:04 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 04:36:05 -- INFO -- Adding a child with move NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0/ Biological score : 2.06/ Chemical score: 0.83
+		Count: 6/ Score : 4.67/ Children: 3/ Terminal : False
+		|GPRLSGONYQIRFK-UHFFFAOYSA-N|NHMZUDOXUOAEOH-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:36:05 -- INFO -- Starting move obtention process with compound BZNGSWUAGQYGFV-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575765.2898796
+18/07/2021 04:36:05 -- INFO -- 638 available rules
+18/07/2021 04:36:11 -- INFO -- For compound BZNGSWUAGQYGFV-UHFFFAOYSA-N, matching moves are [BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0, BZNGSWUAGQYGFV-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:36:11 -- INFO -- Calculated moves in 5.876441955566406 for compound BZNGSWUAGQYGFV-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:11 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575771.1844585
+18/07/2021 04:36:11 -- INFO -- 0 available rules
+18/07/2021 04:36:11 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:36:11 -- INFO -- Calculated moves in 0.35123348236083984 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:11 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575771.557042
+18/07/2021 04:36:11 -- INFO -- 0 available rules
+18/07/2021 04:36:11 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:36:11 -- INFO -- Calculated moves in 0.3046402931213379 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:11 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 04:36:12 -- INFO -- Adding a child with move XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 4/ Score : 4.0/ Children: 3/ Terminal : False
+		|OCVXPVGRUHWJBN-UHFFFAOYSA-N|XCCTYIAWTASOJW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:36:12 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575772.2774894
+18/07/2021 04:36:12 -- INFO -- 604 available rules
+18/07/2021 04:36:14 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:36:14 -- INFO -- Calculated moves in 2.4822537899017334 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:14 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575774.78065
+18/07/2021 04:36:15 -- INFO -- 1329 available rules
+18/07/2021 04:36:18 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:36:18 -- INFO -- Calculated moves in 4.0597898960113525 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:18 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575778.8711202
+18/07/2021 04:36:19 -- INFO -- 0 available rules
+18/07/2021 04:36:19 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:36:19 -- INFO -- Calculated moves in 0.33437037467956543 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:19 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575779.2230248
+18/07/2021 04:36:19 -- INFO -- 604 available rules
+18/07/2021 04:36:21 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:36:21 -- INFO -- Calculated moves in 2.7044875621795654 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:21 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575781.9445457
+18/07/2021 04:36:22 -- INFO -- 1319 available rules
+18/07/2021 04:36:26 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_14-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105330_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR118559_MNXM38144_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0]
+18/07/2021 04:36:26 -- INFO -- Calculated moves in 4.345441818237305 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:26 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575786.3182712
+18/07/2021 04:36:26 -- INFO -- 0 available rules
+18/07/2021 04:36:26 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:36:26 -- INFO -- Calculated moves in 0.4314606189727783 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:26 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575786.7632434
+18/07/2021 04:36:27 -- INFO -- 534 available rules
+18/07/2021 04:36:27 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:36:27 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:36:29 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_6-0]
+18/07/2021 04:36:29 -- INFO -- Calculated moves in 2.471628189086914 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:29 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575789.2778113
+18/07/2021 04:36:29 -- INFO -- 604 available rules
+18/07/2021 04:36:31 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:36:31 -- INFO -- Calculated moves in 2.6613500118255615 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:31 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575791.9584684
+18/07/2021 04:36:32 -- INFO -- 1334 available rules
+18/07/2021 04:36:36 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:36:36 -- INFO -- Calculated moves in 4.89644718170166 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:36 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575796.8746853
+18/07/2021 04:36:37 -- INFO -- 0 available rules
+18/07/2021 04:36:37 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:36:37 -- INFO -- Calculated moves in 0.3383808135986328 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:37 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575797.2241724
+18/07/2021 04:36:37 -- INFO -- 534 available rules
+18/07/2021 04:36:37 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:36:38 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:36:39 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:36:39 -- INFO -- Calculated moves in 2.471524953842163 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:39 -- INFO -- Rollout results are 2, True
+18/07/2021 04:36:39 -- INFO -- Adding a child with move XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 4/ Score : 4.0/ Children: 3/ Terminal : False
+		|XCCTYIAWTASOJW-UHFFFAOYSA-N|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:36:39 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575799.972456
+18/07/2021 04:36:40 -- INFO -- 1329 available rules
+18/07/2021 04:36:43 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:36:43 -- INFO -- Calculated moves in 4.025789499282837 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:44 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575804.0373745
+18/07/2021 04:36:44 -- INFO -- 604 available rules
+18/07/2021 04:36:46 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:36:46 -- INFO -- Calculated moves in 2.7640020847320557 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:46 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575806.8192298
+18/07/2021 04:36:47 -- INFO -- 0 available rules
+18/07/2021 04:36:47 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:36:47 -- INFO -- Calculated moves in 0.3441634178161621 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:47 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575807.179493
+18/07/2021 04:36:47 -- INFO -- 1319 available rules
+18/07/2021 04:36:50 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_16-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0]
+18/07/2021 04:36:50 -- INFO -- Calculated moves in 3.7412359714508057 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:50 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575810.9531543
+18/07/2021 04:36:51 -- INFO -- 604 available rules
+18/07/2021 04:36:53 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_5_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:36:53 -- INFO -- Calculated moves in 2.6838512420654297 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:53 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575813.6544194
+18/07/2021 04:36:54 -- INFO -- 0 available rules
+18/07/2021 04:36:54 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:36:54 -- INFO -- Calculated moves in 0.3520653247833252 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:54 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575814.0162287
+18/07/2021 04:36:54 -- INFO -- 534 available rules
+18/07/2021 04:36:54 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:36:54 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:36:56 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_6-0]
+18/07/2021 04:36:56 -- INFO -- Calculated moves in 2.443392038345337 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:36:56 -- INFO -- Starting move obtention process with compound PGAVKCOVUIYSFO-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575816.4911234
+18/07/2021 04:36:56 -- INFO -- 1319 available rules
+18/07/2021 04:37:00 -- INFO -- For compound PGAVKCOVUIYSFO-UHFFFAOYSA-N, matching moves are [PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR111799_MNXM6129_14-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105330_MNXM423_6-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR118559_MNXM38144_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR105328_MNXM423_8-0, PGAVKCOVUIYSFO-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0]
+18/07/2021 04:37:00 -- INFO -- Calculated moves in 4.299604654312134 for compound PGAVKCOVUIYSFO-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:00 -- INFO -- Starting move obtention process with compound WJHQCXDPUWONOW-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(OC2([H])OC([H])(C([H])([H])[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])C([H])(O[H])C1([H])O[H]) at 1626575820.8076842
+18/07/2021 04:37:01 -- INFO -- 538 available rules
+18/07/2021 04:37:03 -- INFO -- For compound WJHQCXDPUWONOW-UHFFFAOYSA-N, matching moves are [WJHQCXDPUWONOW-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118451_MNXM114298_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118451_MNXM114298_6-2, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR122949_MNXM18776_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-2]
+18/07/2021 04:37:03 -- INFO -- Calculated moves in 2.8707404136657715 for compound WJHQCXDPUWONOW-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:03 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575823.693224
+18/07/2021 04:37:04 -- INFO -- 1334 available rules
+18/07/2021 04:37:09 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:37:09 -- INFO -- Calculated moves in 5.444603681564331 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:09 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575829.1659303
+18/07/2021 04:37:09 -- INFO -- 0 available rules
+18/07/2021 04:37:09 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:37:09 -- INFO -- Calculated moves in 0.34186577796936035 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:09 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575829.5181606
+18/07/2021 04:37:09 -- INFO -- 534 available rules
+18/07/2021 04:37:10 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:37:10 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:37:11 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:37:11 -- INFO -- Calculated moves in 2.250086784362793 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:11 -- INFO -- Starting move obtention process with compound WJHQCXDPUWONOW-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(OC2([H])OC([H])(C([H])([H])[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])C([H])(O[H])C1([H])O[H]) at 1626575831.7930872
+18/07/2021 04:37:12 -- INFO -- 530 available rules
+18/07/2021 04:37:14 -- INFO -- For compound WJHQCXDPUWONOW-UHFFFAOYSA-N, matching moves are [WJHQCXDPUWONOW-UHFFFAOYSA-N-rxnAdd147_cpd23057_5_8-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118453_MNXM114298_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118450_MNXM114298_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118450_MNXM114298_6-1, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118450_MNXM114298_6-2, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR122950_MNXM18775_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0, WJHQCXDPUWONOW-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-1]
+18/07/2021 04:37:14 -- INFO -- Calculated moves in 2.4178788661956787 for compound WJHQCXDPUWONOW-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:14 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575834.2272015
+18/07/2021 04:37:14 -- INFO -- 1324 available rules
+18/07/2021 04:37:18 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_14-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_8-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97207_MNXM492_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR114764_MNXM899_6-0]
+18/07/2021 04:37:18 -- INFO -- Calculated moves in 4.729750871658325 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:18 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575838.980031
+18/07/2021 04:37:19 -- INFO -- 0 available rules
+18/07/2021 04:37:19 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:37:19 -- INFO -- Calculated moves in 0.3104417324066162 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:19 -- INFO -- Starting move obtention process with compound XTWYTFMLZFPYCI-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575839.3001475
+18/07/2021 04:37:19 -- INFO -- 534 available rules
+18/07/2021 04:37:19 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:37:20 -- INFO -- Self generating rule for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N and rule MNXR111799_MNXM5568_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:37:21 -- INFO -- For compound XTWYTFMLZFPYCI-UHFFFAOYSA-N, matching moves are [XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR111798_MNXM5568_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR125040_MNXM1906_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105330_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR105328_MNXM495_8-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR101883_MNXM8_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR95432_MNXM212_6-0, XTWYTFMLZFPYCI-UHFFFAOYSA-N-MNXR103374_MNXM495_6-0]
+18/07/2021 04:37:21 -- INFO -- Calculated moves in 2.251218795776367 for compound XTWYTFMLZFPYCI-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:21 -- INFO -- Rollout results are 2, True
+18/07/2021 04:37:21 -- INFO -- Adding a child with move NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0/ Biological score : 2.06/ Chemical score: 0.83
+		Count: 7/ Score : 4.29/ Children: 4/ Terminal : False
+		|GPRLSGONYQIRFK-UHFFFAOYSA-N|NHMZUDOXUOAEOH-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:37:21 -- INFO -- Starting move obtention process with compound FUVNKMCXHOWBQB-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC([H])([H])[H]) at 1626575841.924384
+18/07/2021 04:37:22 -- INFO -- 638 available rules
+18/07/2021 04:37:27 -- INFO -- For compound FUVNKMCXHOWBQB-UHFFFAOYSA-N, matching moves are [FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118819_MNXM64528_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118837_MNXM46888_14-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118833_MNXM64528_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118414_MNXM62768_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118366_MNXM103563_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118369_MNXM114447_6-0, FUVNKMCXHOWBQB-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:37:27 -- INFO -- Calculated moves in 6.054072380065918 for compound FUVNKMCXHOWBQB-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:27 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626575847.9989374
+18/07/2021 04:37:28 -- INFO -- 0 available rules
+18/07/2021 04:37:28 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:37:28 -- INFO -- Calculated moves in 0.36080121994018555 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:28 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575848.3808591
+18/07/2021 04:37:28 -- INFO -- 0 available rules
+18/07/2021 04:37:28 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:37:28 -- INFO -- Calculated moves in 0.30042219161987305 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:28 -- INFO -- Pathway is found at iteration 882
+18/07/2021 04:37:28 -- INFO -- Udapted solved Node 			Move name: NHMZUDOXUOAEOH-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1/ Biological score : 2.41/ Chemical score: 0.64
+			Count: 1/ Score : 0/ Children: 0/ Terminal : True
+			|FUVNKMCXHOWBQB-UHFFFAOYSA-N|GPRLSGONYQIRFK-UHFFFAOYSA-N|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 882
+18/07/2021 04:37:28 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 04:37:29 -- INFO -- Adding a child with move OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 5/ Score : 3.6/ Children: 4/ Terminal : False
+		|OCVXPVGRUHWJBN-UHFFFAOYSA-N|XCCTYIAWTASOJW-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:37:29 -- INFO -- Starting move obtention process with compound NMFOWBWNUXBLEI-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575849.6320834
+18/07/2021 04:37:29 -- INFO -- 588 available rules
+18/07/2021 04:37:32 -- INFO -- For compound NMFOWBWNUXBLEI-UHFFFAOYSA-N, matching moves are [NMFOWBWNUXBLEI-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, NMFOWBWNUXBLEI-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, NMFOWBWNUXBLEI-UHFFFAOYSA-N-MNXR118391_MNXM80125_6-0, NMFOWBWNUXBLEI-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, NMFOWBWNUXBLEI-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, NMFOWBWNUXBLEI-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, NMFOWBWNUXBLEI-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, NMFOWBWNUXBLEI-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, NMFOWBWNUXBLEI-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, NMFOWBWNUXBLEI-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:37:32 -- INFO -- Calculated moves in 2.77522873878479 for compound NMFOWBWNUXBLEI-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:32 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575852.4246864
+18/07/2021 04:37:32 -- INFO -- 1324 available rules
+18/07/2021 04:37:36 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:37:36 -- INFO -- Calculated moves in 4.503276348114014 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:36 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575856.9526954
+18/07/2021 04:37:37 -- INFO -- 0 available rules
+18/07/2021 04:37:37 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:37:37 -- INFO -- Calculated moves in 0.32880473136901855 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:37 -- INFO -- Starting move obtention process with compound DJJCXFVJDGTHFX-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575857.3006961
+18/07/2021 04:37:37 -- INFO -- 1218 available rules
+18/07/2021 04:37:45 -- INFO -- For compound DJJCXFVJDGTHFX-UHFFFAOYSA-N, matching moves are [DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR118559_MNXM114601_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR97207_MNXM492_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR111792_MNXM6123_12-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR133927_MNXM38120_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR94932_MNXM288_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR107736_MNXM298_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR105161_MNXM288_6-0]
+18/07/2021 04:37:45 -- INFO -- Calculated moves in 7.735944032669067 for compound DJJCXFVJDGTHFX-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:45 -- INFO -- Starting move obtention process with compound OCVXPVGRUHWJBN-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575865.0556765
+18/07/2021 04:37:45 -- INFO -- 604 available rules
+18/07/2021 04:37:47 -- INFO -- For compound OCVXPVGRUHWJBN-UHFFFAOYSA-N, matching moves are [OCVXPVGRUHWJBN-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, OCVXPVGRUHWJBN-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:37:47 -- INFO -- Calculated moves in 2.7279515266418457 for compound OCVXPVGRUHWJBN-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:47 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575867.810122
+18/07/2021 04:37:48 -- INFO -- 0 available rules
+18/07/2021 04:37:48 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:37:48 -- INFO -- Calculated moves in 0.32419657707214355 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:48 -- INFO -- Starting move obtention process with compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575868.1437566
+18/07/2021 04:37:48 -- INFO -- 516 available rules
+18/07/2021 04:37:48 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:37:48 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:37:49 -- INFO -- For compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N, matching moves are [ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR125040_MNXM1906_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105330_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0]
+18/07/2021 04:37:49 -- INFO -- Calculated moves in 1.5172293186187744 for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:49 -- INFO -- Starting move obtention process with compound DJJCXFVJDGTHFX-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575869.6885064
+18/07/2021 04:37:50 -- INFO -- 1219 available rules
+18/07/2021 04:37:57 -- INFO -- For compound DJJCXFVJDGTHFX-UHFFFAOYSA-N, matching moves are [DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR111792_MNXM6123_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR118559_MNXM114601_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR133927_MNXM38120_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR94932_MNXM288_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR107736_MNXM298_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR105161_MNXM288_8-0]
+18/07/2021 04:37:57 -- INFO -- Calculated moves in 7.698048114776611 for compound DJJCXFVJDGTHFX-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:57 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575877.4190855
+18/07/2021 04:37:57 -- INFO -- 0 available rules
+18/07/2021 04:37:57 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:37:57 -- INFO -- Calculated moves in 0.3466172218322754 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:37:57 -- INFO -- Starting move obtention process with compound ZDLYNMZEAFURQY-UHFFFAOYSA-N ([H]Oc1c([H])c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c1O[H]) at 1626575877.7765725
+18/07/2021 04:37:58 -- INFO -- 660 available rules
+18/07/2021 04:38:03 -- WARNING -- 
+18/07/2021 04:38:08 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:38:08 -- WARNING -- 
+18/07/2021 04:38:14 -- ERROR -- semaphore or lock released too many times
+18/07/2021 04:38:14 -- WARNING -- 
+18/07/2021 04:38:17 -- INFO -- For compound ZDLYNMZEAFURQY-UHFFFAOYSA-N, matching moves are [ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118820_MNXM54759_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118833_MNXM54759_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118837_MNXM46889_14-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118351_MNXM103563_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118414_MNXM104000_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-1, ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118357_MNXM4312_6-0]
+18/07/2021 04:38:17 -- INFO -- Calculated moves in 19.742578268051147 for compound ZDLYNMZEAFURQY-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:17 -- INFO -- Starting move obtention process with compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575897.5389209
+18/07/2021 04:38:17 -- INFO -- 516 available rules
+18/07/2021 04:38:18 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:38:18 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:38:18 -- INFO -- For compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N, matching moves are [ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105330_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0]
+18/07/2021 04:38:18 -- INFO -- Calculated moves in 1.3962516784667969 for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:18 -- INFO -- Rollout results are 2, True
+18/07/2021 04:38:18 -- INFO -- Udapted solved Node 			Move name: XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0/ Biological score : 3.11/ Chemical score: 0.61
+			Count: 1/ Score : 0/ Children: 0/ Terminal : False
+			|DJJCXFVJDGTHFX-UHFFFAOYSA-N|OCVXPVGRUHWJBN-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZKHQWZAMYRWXGA-UHFFFAOYSA-N| for the first time at iteration 973
+18/07/2021 04:38:19 -- INFO -- Adding a child with move XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0 to node 
+		Move name: ZDLYNMZEAFURQY-UHFFFAOYSA-N-MNXR118392_MNXM95527_6-0/ Biological score : 1.96/ Chemical score: 0.73
+		Count: 5/ Score : 3.6/ Children: 4/ Terminal : False
+		|XCCTYIAWTASOJW-UHFFFAOYSA-N|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+18/07/2021 04:38:19 -- INFO -- Starting move obtention process with compound XCCTYIAWTASOJW-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575899.2751276
+18/07/2021 04:38:19 -- INFO -- 1324 available rules
+18/07/2021 04:38:24 -- INFO -- For compound XCCTYIAWTASOJW-UHFFFAOYSA-N, matching moves are [XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111799_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR119521_MNXM47_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR97039_MNXM288_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR103374_MNXM495_8-0]
+18/07/2021 04:38:24 -- INFO -- Calculated moves in 5.012033700942993 for compound XCCTYIAWTASOJW-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:24 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575904.3145201
+18/07/2021 04:38:24 -- INFO -- 0 available rules
+18/07/2021 04:38:24 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:38:24 -- INFO -- Calculated moves in 0.36861658096313477 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:24 -- INFO -- Starting move obtention process with compound ZNGVQBONVZZRFN-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(O[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575904.695404
+18/07/2021 04:38:25 -- INFO -- 588 available rules
+18/07/2021 04:38:27 -- INFO -- For compound ZNGVQBONVZZRFN-UHFFFAOYSA-N, matching moves are [ZNGVQBONVZZRFN-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, ZNGVQBONVZZRFN-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, ZNGVQBONVZZRFN-UHFFFAOYSA-N-MNXR118391_MNXM80125_6-0, ZNGVQBONVZZRFN-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, ZNGVQBONVZZRFN-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, ZNGVQBONVZZRFN-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, ZNGVQBONVZZRFN-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, ZNGVQBONVZZRFN-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, ZNGVQBONVZZRFN-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, ZNGVQBONVZZRFN-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:38:27 -- INFO -- Calculated moves in 2.9827475547790527 for compound ZNGVQBONVZZRFN-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:27 -- INFO -- Starting move obtention process with compound DJJCXFVJDGTHFX-UHFFFAOYSA-N ([H]Oc1nc(=O)n(C2([H])OC([H])(C([H])([H])OP(=O)(O[H])O[H])C([H])(O[H])C2([H])O[H])c([H])c1[H]) at 1626575907.715617
+18/07/2021 04:38:28 -- INFO -- 1218 available rules
+18/07/2021 04:38:35 -- INFO -- For compound DJJCXFVJDGTHFX-UHFFFAOYSA-N, matching moves are [DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR118559_MNXM114601_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR97207_MNXM492_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR111792_MNXM6123_12-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR133927_MNXM38120_6-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR94932_MNXM288_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR107736_MNXM298_8-0, DJJCXFVJDGTHFX-UHFFFAOYSA-N-MNXR105161_MNXM288_6-0]
+18/07/2021 04:38:35 -- INFO -- Calculated moves in 7.9444260597229 for compound DJJCXFVJDGTHFX-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:35 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575915.690647
+18/07/2021 04:38:36 -- INFO -- 604 available rules
+18/07/2021 04:38:38 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_6_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118391_MNXM68980_6-1, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118392_MNXM68980_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR134749_MNXM162965_6-0]
+18/07/2021 04:38:38 -- INFO -- Calculated moves in 2.760998249053955 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:38 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575918.4772122
+18/07/2021 04:38:38 -- INFO -- 0 available rules
+18/07/2021 04:38:38 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:38:38 -- INFO -- Calculated moves in 0.3526608943939209 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:38 -- INFO -- Starting move obtention process with compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575918.843856
+18/07/2021 04:38:39 -- INFO -- 516 available rules
+18/07/2021 04:38:39 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:38:39 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:38:40 -- INFO -- For compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N, matching moves are [ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM495_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR125040_MNXM1906_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM495_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105330_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM423_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105330_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM495_8-0]
+18/07/2021 04:38:40 -- INFO -- Calculated moves in 1.4312047958374023 for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:40 -- INFO -- Starting move obtention process with compound XFWRPAJULJMTTO-UHFFFAOYSA-N ([H]Oc1c([H])c(-c2oc3c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c(OC([H])([H])[H])c3c(=O)c2[H])c([H])c([H])c1OC1([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626575920.3225183
+18/07/2021 04:38:40 -- INFO -- 604 available rules
+18/07/2021 04:38:43 -- INFO -- For compound XFWRPAJULJMTTO-UHFFFAOYSA-N, matching moves are [XFWRPAJULJMTTO-UHFFFAOYSA-N-rxnAdd147_cpd23057_5_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118453_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118452_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118451_MNXM114298_12-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118450_MNXM114298_14-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118366_MNXM45781_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118427_MNXM114521_8-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR118529_MNXM105663_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-0, XFWRPAJULJMTTO-UHFFFAOYSA-N-MNXR122949_MNXM11928_6-1]
+18/07/2021 04:38:43 -- INFO -- Calculated moves in 2.75974178314209 for compound XFWRPAJULJMTTO-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:43 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626575923.0965502
+18/07/2021 04:38:43 -- INFO -- 0 available rules
+18/07/2021 04:38:43 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+18/07/2021 04:38:43 -- INFO -- Calculated moves in 0.32727503776550293 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:43 -- INFO -- Starting move obtention process with compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N ([H]OC1([H])C([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)OC([H])(C([H])([H])OP(=O)(O[H])OP(=O)(O[H])OP(=O)(O[H])O[H])C1([H])O[H]) at 1626575923.4351454
+18/07/2021 04:38:43 -- INFO -- 516 available rules
+18/07/2021 04:38:44 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_16, set 0. Move is discarded in MainProcess
+18/07/2021 04:38:44 -- INFO -- Self generating rule for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N and rule MNXR111799_MNXM6129_14, set 0. Move is discarded in MainProcess
+18/07/2021 04:38:44 -- INFO -- For compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N, matching moves are [ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR106729_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105328_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR125040_MNXM1906_8-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR134292_MNXM495_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR105330_MNXM423_6-0, ZKHQWZAMYRWXGA-UHFFFAOYSA-N-MNXR107788_MNXM495_6-0]
+18/07/2021 04:38:44 -- INFO -- Calculated moves in 1.3708205223083496 for compound ZKHQWZAMYRWXGA-UHFFFAOYSA-N - without caching
+18/07/2021 04:38:44 -- INFO -- Rollout results are 2, True
+18/07/2021 04:38:44 -- INFO -- Udapted solved Node 			Move name: XCCTYIAWTASOJW-UHFFFAOYSA-N-MNXR111798_MNXM5568_16-0/ Biological score : 3.11/ Chemical score: 0.61
+			Count: 1/ Score : 0/ Children: 0/ Terminal : False
+			|DJJCXFVJDGTHFX-UHFFFAOYSA-N|XFWRPAJULJMTTO-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZKHQWZAMYRWXGA-UHFFFAOYSA-N| for the first time at iteration 989
+18/07/2021 04:38:44 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 4h 38min 44s 
+Your tree search took 7.3e+02s 
+ 
+Time was spent in selection: 4.0e-02s, expansion: 2.5e+02s, rollout: 4.7e+02s, update: 7.8e-01s 
+CONGRATULATIONS, THATS A WIN
+18/07/2021 04:38:44 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 04:38:44 -- WARNING -- RECAP TIME_EXECUTION=730.05
+18/07/2021 04:38:44 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 04:38:44 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 04:38:46 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 04:38:46 -- INFO -- Found 20 pathways for 3,4-Dihydroxyphenylacetic_acid
+18/07/2021 04:38:46 -- INFO -- 20 pathways were found
+18/07/2021 04:38:46 -- INFO -- At the end of this tree search, the cache contains 0

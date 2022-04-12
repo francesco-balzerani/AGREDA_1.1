@@ -1,0 +1,134 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|(-)-Epigallocatechin_3-O-gallate|",
+          "average_score": 2.016,
+          "total_score": 2016,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|LNTHITQWFMADLM-UHFFFAOYSA-N- solved|XMOCLSLCDHWDHP-UHFFFAOYSA-N- solved|",
+          "average_score": 2.0105263157894737,
+          "total_score": 1528,
+          "visits": 760,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_2",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|GDVRUDXLQBVIKP-UHFFFAOYSA-N- solved|XMOCLSLCDHWDHP-UHFFFAOYSA-N- solved|",
+          "average_score": 2.033333333333333,
+          "total_score": 488,
+          "visits": 240,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "rxnAdd58_cpd06623_6_6",
+            "rxnAdd52_cpd33824_6_6",
+            "rxnAdd58_cpd06623_5_8",
+            "rxnAdd52_cpd33824_5_8",
+            "rxnAdd58_cpd06623_4_16",
+            "rxnAdd58_cpd06623_3_14",
+            "rxnAdd58_cpd06623_2_12",
+            "rxnAdd58_cpd06623_1_10",
+            "rxnAdd52_cpd33824_4_16",
+            "rxnAdd52_cpd33824_3_14",
+            "rxnAdd52_cpd33824_2_12",
+            "rxnAdd52_cpd33824_1_10",
+            "rxnAdd55_cpd31510_6_6",
+            "rxnAdd55_cpd31510_5_8",
+            "rxnAdd55_cpd31510_1_10"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C([H])(OC(=O)c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C2([H])[H]>>[H]OC(=O)c1c([H])c(O[H])c(O[H])c(O[H])c1[H].[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 1.0,
+          "Name": "WMBWREPUVVBILR-UHFFFAOYSA-N-rxnAdd58_cpd06623_6_6-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_1",
+          "Rule ID": [
+            "MNXR119276_MNXM30289_8",
+            "MNXR119276_MNXM30289_16",
+            "MNXR119276_MNXM30289_14",
+            "MNXR119276_MNXM30289_12",
+            "MNXR119276_MNXM30289_10",
+            "MNXR119276_MNXM30289_6",
+            "MNXR119278_MNXM104871_8",
+            "MNXR119278_MNXM104871_10",
+            "MNXR119278_MNXM104871_6"
+          ],
+          "EC number": [
+            "2.3.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C([H])(OC(=O)c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C2([H])[H]>>[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H].[H]Oc1c([H])c(C(=O)OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c(O[H])c1O[H]",
+          "Diameter": 42,
+          "Score": 2.2600713879850747,
+          "ChemicalScore": 1.0,
+          "Name": "WMBWREPUVVBILR-UHFFFAOYSA-N-MNXR119276_MNXM30289_8-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      },
+      {
+        "data": {
+          "target": "move_1",
+          "source": "node_2",
+          "id": "move_1_=>_node_2"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_1",
+          "id": "node_0_=>_move_1"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)c1c([H])c([H])c(OC2([H])OC([H])(C(=O)O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c(OC([H])([H])[H])c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C14H16O10/c1-22-7-4-5(12(18)19)2-3-6(7)23-14-10(17)8(15)9(16)11(24-14)13(20)21/h2-4,8-11,14-17H,1H3,(H,18,19)(H,20,21)",
+          "Names": [
+            "GRERMCGRRAMWSD-UHFFFAOYSA-N"
+          ],
+          "id": "GRERMCGRRAMWSD-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c([H])c(O[H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C6H6O3/c7-4-1-5(8)3-6(9)2-4/h1-3,7-9H",
+          "Names": [
+            "QCDYQQDYXPDABM-UHFFFAOYSA-N",
+            "Phloroglucinol"
+          ],
+          "id": "QCDYQQDYXPDABM-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c(-c3oc4c([H])c(O[H])c([H])c(O[H])c4c(=O)c3O[H])c([H])c2OC([H])([H])[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C22H20O13/c1-32-11-4-7(19-16(27)14(25)13-9(24)5-8(23)6-12(13)33-19)2-3-10(11)34-22-18(29)15(26)17(28)20(35-22)21(30)31/h2-6,15,17-18,20,22-24,26-29H,1H3,(H,30,31)",
+          "Names": [
+            "Isorhamnetin_4'-O-glucuronide",
+            "NCHMCZDLVWDQLC-UHFFFAOYSA-N"
+          ],
+          "id": "NCHMCZDLVWDQLC-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd65_cpd06974_4_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd65_cpd06974_4_6",
+            "rxnAdd65_cpd06974_3_8",
+            "rxnAdd65_cpd06974_1_10"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c(-c3oc4c([H])c(O[H])c([H])c(O[H])c4c(=O)c3O[H])c([H])c2OC([H])([H])[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]>>[H]Oc1c([H])c(O[H])c([H])c(O[H])c1[H].[H]OC(=O)c1c([H])c([H])c(OC2([H])OC([H])(C(=O)O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c(OC([H])([H])[H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.6190476190476191,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "QCDYQQDYXPDABM-UHFFFAOYSA-N": 1,
+            "GRERMCGRRAMWSD-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd65_cpd06974_4_6-0-1",
+          "source": "NCHMCZDLVWDQLC-UHFFFAOYSA-N",
+          "id": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd65_cpd06974_4_6-0-1_=>_NCHMCZDLVWDQLC-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "QCDYQQDYXPDABM-UHFFFAOYSA-N",
+          "source": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd65_cpd06974_4_6-0-1",
+          "id": "QCDYQQDYXPDABM-UHFFFAOYSA-N_=>_NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd65_cpd06974_4_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "GRERMCGRRAMWSD-UHFFFAOYSA-N",
+          "source": "NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd65_cpd06974_4_6-0-1",
+          "id": "GRERMCGRRAMWSD-UHFFFAOYSA-N_=>_NCHMCZDLVWDQLC-UHFFFAOYSA-N-rxnAdd65_cpd06974_4_6-0-1"
+        }
+      }
+    ]
+  }
+}

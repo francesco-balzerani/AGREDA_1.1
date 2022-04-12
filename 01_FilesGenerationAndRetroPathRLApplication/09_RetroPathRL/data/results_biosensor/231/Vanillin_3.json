@@ -1,0 +1,87 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(O[H])c1c([H])c([H])c(O[H])c(OC([H])([H])[H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C9H10O5/c1-14-7-4-5(2-3-6(7)10)8(11)9(12)13/h2-4,8,10-11H,1H3,(H,12,13)",
+          "Names": [
+            "CGQCWMIAEPEHNQ-UHFFFAOYSA-N",
+            "Vanillylmandelic acid"
+          ],
+          "id": "CGQCWMIAEPEHNQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(C([H])=O)c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C8H8O3/c1-11-8-4-6(5-9)2-3-7(8)10/h2-5,10H,1H3",
+          "Names": [
+            "Vanillin",
+            "MWOOGOJBHIARFG-UHFFFAOYSA-N"
+          ],
+          "id": "MWOOGOJBHIARFG-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "MWOOGOJBHIARFG-UHFFFAOYSA-N-MNXR107658_MNXM577_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR107658_MNXM577_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C([H])=O)c([H])c1OC([H])([H])[H]>>[H]OC(=O)C([H])(O[H])c1c([H])c([H])c(O[H])c(OC([H])([H])[H])c1[H]",
+          "Diameter": 42,
+          "Score": 2.7986506454452686,
+          "ChemicalScore": 0.6428571428571429,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "CGQCWMIAEPEHNQ-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "MWOOGOJBHIARFG-UHFFFAOYSA-N-MNXR107658_MNXM577_6-0-1",
+          "source": "MWOOGOJBHIARFG-UHFFFAOYSA-N",
+          "id": "MWOOGOJBHIARFG-UHFFFAOYSA-N-MNXR107658_MNXM577_6-0-1_=>_MWOOGOJBHIARFG-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "CGQCWMIAEPEHNQ-UHFFFAOYSA-N",
+          "source": "MWOOGOJBHIARFG-UHFFFAOYSA-N-MNXR107658_MNXM577_6-0-1",
+          "id": "CGQCWMIAEPEHNQ-UHFFFAOYSA-N_=>_MWOOGOJBHIARFG-UHFFFAOYSA-N-MNXR107658_MNXM577_6-0-1"
+        }
+      }
+    ]
+  }
+}

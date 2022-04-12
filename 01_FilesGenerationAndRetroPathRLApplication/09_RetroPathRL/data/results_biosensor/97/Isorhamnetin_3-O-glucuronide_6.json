@@ -1,0 +1,118 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C16H12O7/c1-22-11-4-7(2-3-9(11)18)16-15(21)14(20)13-10(19)5-8(17)6-12(13)23-16/h2-6,17-19,21H,1H3",
+          "Names": [
+            "IZQSVPBOUDKVDZ-UHFFFAOYSA-N"
+          ],
+          "id": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C2([H])OC([H])(n3c([H])c([H])c(O[H])nc3=O)C([H])(O[H])C2([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C15H22N2O18P2/c18-5-1-2-17(15(26)16-5)12-9(22)6(19)4(32-12)3-31-36(27,28)35-37(29,30)34-14-10(23)7(20)8(21)11(33-14)13(24)25/h1-2,4,6-12,14,19-23H,3H2,(H,24,25)(H,27,28)(H,29,30)(H,16,18,26)",
+          "Names": [
+            "HDYANYHVCAPMJV-UHFFFAOYSA-N",
+            "UDP-D-glucuronate"
+          ],
+          "id": "HDYANYHVCAPMJV-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c(-c3c([H])c([H])c(O[H])c(OC([H])([H])[H])c3[H])oc3c([H])c(O[H])c([H])c(O[H])c3c2=O)C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C22H20O13/c1-32-11-4-7(2-3-9(11)24)18-19(14(26)13-10(25)5-8(23)6-12(13)33-18)34-22-17(29)15(27)16(28)20(35-22)21(30)31/h2-6,15-17,20,22-25,27-29H,1H3,(H,30,31)",
+          "Names": [
+            "Isorhamnetin_3-O-glucuronide",
+            "VVZWHOMBDMMRSC-UHFFFAOYSA-N"
+          ],
+          "id": "VVZWHOMBDMMRSC-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "VVZWHOMBDMMRSC-UHFFFAOYSA-N-MNXR118395_MNXM52963_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR118395_MNXM52963_6",
+            "MNXR118394_MNXM52966_6",
+            "MNXR118289_MNXM21431_6",
+            "MNXR113206_MNXM2722_6",
+            "MNXR113205_MNXM40413_6"
+          ],
+          "EC number": [
+            "2.4.1.-"
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c(-c3c([H])c([H])c(O[H])c(OC([H])([H])[H])c3[H])oc3c([H])c(O[H])c([H])c(O[H])c3c2=O)C([H])(O[H])C([H])(O[H])C1([H])O[H]>>[H]OC(=O)C1([H])OC([H])(OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C2([H])OC([H])(n3c([H])c([H])c(O[H])nc3=O)C([H])(O[H])C2([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]Oc1c([H])c([H])c(-c2oc3c([H])c(O[H])c([H])c(O[H])c3c(=O)c2O[H])c([H])c1OC([H])([H])[H]",
+          "Diameter": 42,
+          "Score": 1.9637878273455556,
+          "ChemicalScore": 0.7101449275362319,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "HDYANYHVCAPMJV-UHFFFAOYSA-N": 1,
+            "IZQSVPBOUDKVDZ-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "VVZWHOMBDMMRSC-UHFFFAOYSA-N-MNXR118395_MNXM52963_6-0-1",
+          "source": "VVZWHOMBDMMRSC-UHFFFAOYSA-N",
+          "id": "VVZWHOMBDMMRSC-UHFFFAOYSA-N-MNXR118395_MNXM52963_6-0-1_=>_VVZWHOMBDMMRSC-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "HDYANYHVCAPMJV-UHFFFAOYSA-N",
+          "source": "VVZWHOMBDMMRSC-UHFFFAOYSA-N-MNXR118395_MNXM52963_6-0-1",
+          "id": "HDYANYHVCAPMJV-UHFFFAOYSA-N_=>_VVZWHOMBDMMRSC-UHFFFAOYSA-N-MNXR118395_MNXM52963_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N",
+          "source": "VVZWHOMBDMMRSC-UHFFFAOYSA-N-MNXR118395_MNXM52963_6-0-1",
+          "id": "IZQSVPBOUDKVDZ-UHFFFAOYSA-N_=>_VVZWHOMBDMMRSC-UHFFFAOYSA-N-MNXR118395_MNXM52963_6-0-1"
+        }
+      }
+    ]
+  }
+}

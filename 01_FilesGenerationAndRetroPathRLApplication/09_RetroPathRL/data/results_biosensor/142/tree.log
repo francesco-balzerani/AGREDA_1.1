@@ -1,0 +1,56 @@
+17/07/2021 12:28:41 -- WARNING -- Setting the seed at 1234
+17/07/2021 12:28:41 -- INFO -- Stating global parameters from configuration file
+17/07/2021 12:28:41 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 12:28:41 -- INFO -- Full search - no stopping at first result
+17/07/2021 12:28:41 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 12:28:41 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 12:28:41 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 12:28:41 -- INFO -- Using biological cut off at 0.1
+17/07/2021 12:28:41 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 12:28:41 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 12:28:41 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 12:28:41 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 12:28:41 -- INFO -- Using RAVE: False
+17/07/2021 12:28:41 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 12:28:41 -- INFO -- Using explicit hydrogens : True
+17/07/2021 12:28:41 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 12:28:41 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 12:29:03 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 12:29:03 -- INFO -- Starting move obtention process with compound 8-Hydroxydihydrodaidzein ([H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c([H])c(O[H])c(O[H])c3OC2([H])[H])c([H])c1[H]) at 1626517743.6129487
+17/07/2021 12:29:03 -- INFO -- 12 available rules
+17/07/2021 12:29:04 -- INFO -- For compound 8-Hydroxydihydrodaidzein, matching moves are []
+17/07/2021 12:29:04 -- INFO -- Calculated moves in 0.4624364376068115 for compound IPNJSNNLHGSALU-UHFFFAOYSA-N - without caching
+17/07/2021 12:29:04 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 12h 29min 4s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 12:29:04 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 12:29:05 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 12:29:06 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 12:29:08 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 12:29:10 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 12:29:12 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 12:29:13 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 12:29:15 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 12:29:16 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 12:29:18 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 12:29:19 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 12h 29min 19s 
+Your tree search took 1.6e+01s 
+ 
+Time was spent in selection: 1.3e-03s, expansion: 8.2e-04s, rollout: 0.0e+00s, update: 1.4e-02s 
+You just lost the game
+17/07/2021 12:29:19 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 12:29:19 -- WARNING -- RECAP TIME_EXECUTION=15.84
+17/07/2021 12:29:19 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 12:29:19 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 12:29:19 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 12:29:19 -- INFO -- No pathway was found for this compound
+17/07/2021 12:29:19 -- INFO -- 0 pathways were found
+17/07/2021 12:29:19 -- INFO -- At the end of this tree search, the cache contains 0

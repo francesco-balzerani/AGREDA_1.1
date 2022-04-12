@@ -1,0 +1,87 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c([H])c(C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C14H12O4/c15-11-5-10(6-12(16)8-11)2-1-9-3-4-13(17)14(18)7-9/h1-8,15-18H",
+          "Names": [
+            "CDRPUGZCRXZLFL-UHFFFAOYSA-N",
+            "Piceatannol"
+          ],
+          "id": "CDRPUGZCRXZLFL-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(C([H])=O)c([H])c1O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C7H6O3/c8-4-5-1-2-6(9)7(10)3-5/h1-4,9-10H",
+          "Names": [
+            "Protocatechuic_aldehyde",
+            "IBGBGRVKPALMCQ-UHFFFAOYSA-N"
+          ],
+          "id": "IBGBGRVKPALMCQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM577_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR117216_MNXM577_6"
+          ],
+          "EC number": [
+            "1.13.11.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C([H])=O)c([H])c1O[H]>>[H]Oc1c([H])c(O[H])c([H])c(C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])c1[H]",
+          "Diameter": 42,
+          "Score": 1.9030899869919435,
+          "ChemicalScore": 0.8571428571428571,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "CDRPUGZCRXZLFL-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM577_6-0-1",
+          "source": "IBGBGRVKPALMCQ-UHFFFAOYSA-N",
+          "id": "IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM577_6-0-1_=>_IBGBGRVKPALMCQ-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "CDRPUGZCRXZLFL-UHFFFAOYSA-N",
+          "source": "IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM577_6-0-1",
+          "id": "CDRPUGZCRXZLFL-UHFFFAOYSA-N_=>_IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM577_6-0-1"
+        }
+      }
+    ]
+  }
+}

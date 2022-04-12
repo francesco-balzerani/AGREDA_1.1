@@ -1,0 +1,88 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])([H])c1c([H])c([H])c([H])c(O[H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C8H8O3/c9-7-3-1-2-6(4-7)5-8(10)11/h1-4,9H,5H2,(H,10,11)",
+          "Names": [
+            "FVMDYYGIDFPZAX-UHFFFAOYSA-N",
+            "3-Hydroxyphenylacetate"
+          ],
+          "id": "FVMDYYGIDFPZAX-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)c1c([H])c([H])c([H])c(O[H])c1[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C7H6O3/c8-6-3-1-2-5(4-6)7(9)10/h1-4,8H,(H,9,10)",
+          "Names": [
+            "3-Hydroxybenzoic_acid",
+            "IJFXRHURBJZNAO-UHFFFAOYSA-N"
+          ],
+          "id": "IJFXRHURBJZNAO-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "IJFXRHURBJZNAO-UHFFFAOYSA-N-rxnAdd32_r_1_cpd00197_4_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd32_r_1_cpd00197_4_6",
+            "rxnAdd32_r_1_cpd00197_3_8"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)c1c([H])c([H])c([H])c(O[H])c1[H]>>[H]OC(=O)C([H])([H])c1c([H])c([H])c([H])c(O[H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.8695652173913043,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "FVMDYYGIDFPZAX-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "IJFXRHURBJZNAO-UHFFFAOYSA-N-rxnAdd32_r_1_cpd00197_4_6-0-1",
+          "source": "IJFXRHURBJZNAO-UHFFFAOYSA-N",
+          "id": "IJFXRHURBJZNAO-UHFFFAOYSA-N-rxnAdd32_r_1_cpd00197_4_6-0-1_=>_IJFXRHURBJZNAO-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "FVMDYYGIDFPZAX-UHFFFAOYSA-N",
+          "source": "IJFXRHURBJZNAO-UHFFFAOYSA-N-rxnAdd32_r_1_cpd00197_4_6-0-1",
+          "id": "FVMDYYGIDFPZAX-UHFFFAOYSA-N_=>_IJFXRHURBJZNAO-UHFFFAOYSA-N-rxnAdd32_r_1_cpd00197_4_6-0-1"
+        }
+      }
+    ]
+  }
+}

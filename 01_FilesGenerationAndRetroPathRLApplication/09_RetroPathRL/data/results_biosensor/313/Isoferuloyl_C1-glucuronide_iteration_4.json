@@ -1,0 +1,115 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(O[H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(OC([H])([H])[H])c(O[H])c1[H])C(=O)O[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C16H18O11/c1-26-9-4-2-7(6-8(9)17)3-5-10(18)27-14(16(24)25)12(20)11(19)13(21)15(22)23/h2-6,11-14,17,19-21H,1H3,(H,22,23)(H,24,25)",
+          "Names": [
+            "JPTGOSSCOUCFGE-UHFFFAOYSA-N"
+          ],
+          "id": "JPTGOSSCOUCFGE-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)",
+          "Names": [
+            "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+            "D-Galacturonate"
+          ],
+          "id": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(OC([H])([H])[H])c(O[H])c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C16H18O10/c1-24-9-4-2-7(6-8(9)17)3-5-10(18)25-16-13(21)11(19)12(20)14(26-16)15(22)23/h2-6,11-14,16-17,19-21H,1H3,(H,22,23)",
+          "Names": [
+            "Isoferuloyl_C1-glucuronide",
+            "RBJXXYNRHTWXDN-UHFFFAOYSA-N"
+          ],
+          "id": "RBJXXYNRHTWXDN-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR119315_MNXM1304_8",
+            "MNXR119315_MNXM1304_6"
+          ],
+          "EC number": [
+            "2.3.1.-"
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1([H])OC([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(OC([H])([H])[H])c(O[H])c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]>>[H]OC(=O)C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]OC(=O)C([H])(O[H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c1c([H])c([H])c(OC([H])([H])[H])c(O[H])c1[H])C(=O)O[H]",
+          "Diameter": 42,
+          "Score": 2.2600713879850747,
+          "ChemicalScore": 0.6949152542372882,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "AEMOLEFTQBMNLQ-UHFFFAOYSA-N": 1,
+            "JPTGOSSCOUCFGE-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0-1",
+          "source": "RBJXXYNRHTWXDN-UHFFFAOYSA-N",
+          "id": "RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0-1_=>_RBJXXYNRHTWXDN-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+          "source": "RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0-1",
+          "id": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N_=>_RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "JPTGOSSCOUCFGE-UHFFFAOYSA-N",
+          "source": "RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0-1",
+          "id": "JPTGOSSCOUCFGE-UHFFFAOYSA-N_=>_RBJXXYNRHTWXDN-UHFFFAOYSA-N-MNXR119315_MNXM1304_8-0-1"
+        }
+      }
+    ]
+  }
+}

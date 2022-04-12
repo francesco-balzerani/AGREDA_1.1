@@ -1,0 +1,68 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|Isoferulic_acid_3-O-glucuronide|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|HDYANYHVCAPMJV-UHFFFAOYSA-N- solved|QURCVMIEKCOAJU-UHFFFAOYSA-N- solved|",
+          "average_score": 2.008,
+          "total_score": 2008,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "MNXR112308_MNXM7210_6",
+            "MNXR112307_MNXM5106_6"
+          ],
+          "EC number": [
+            "2.4.1.-"
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(OC([H])([H])[H])c(OC2([H])OC([H])(C(=O)O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c1[H]>>[H]OC(=O)C1([H])OC([H])(OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C2([H])OC([H])(n3c([H])c([H])c(O[H])nc3=O)C([H])(O[H])C2([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(OC([H])([H])[H])c(O[H])c1[H]",
+          "Diameter": 42,
+          "Score": 1.4803030273550728,
+          "ChemicalScore": 0.6307692307692307,
+          "Name": "SHJZLGVIOYFHCB-UHFFFAOYSA-N-MNXR112308_MNXM7210_6-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      }
+    ]
+  }
+}

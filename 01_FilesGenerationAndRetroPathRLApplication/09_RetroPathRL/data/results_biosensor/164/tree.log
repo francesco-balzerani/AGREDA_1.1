@@ -1,0 +1,120 @@
+17/07/2021 13:50:26 -- WARNING -- Setting the seed at 1234
+17/07/2021 13:50:26 -- INFO -- Stating global parameters from configuration file
+17/07/2021 13:50:26 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 13:50:26 -- INFO -- Full search - no stopping at first result
+17/07/2021 13:50:26 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 13:50:26 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 13:50:26 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 13:50:26 -- INFO -- Using biological cut off at 0.1
+17/07/2021 13:50:26 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 13:50:26 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 13:50:26 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 13:50:26 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 13:50:26 -- INFO -- Using RAVE: False
+17/07/2021 13:50:26 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 13:50:26 -- INFO -- Using explicit hydrogens : True
+17/07/2021 13:50:26 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 13:50:26 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 13:50:50 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 13:50:50 -- INFO -- Starting move obtention process with compound Formononetin_7-O-glucuronide ([H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c3c(=O)c(-c4c([H])c([H])c(OC([H])([H])[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626522650.1915662
+17/07/2021 13:50:50 -- INFO -- 50 available rules
+17/07/2021 13:50:51 -- INFO -- For compound Formononetin_7-O-glucuronide, matching moves are [UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0, UMBVLOHYPOQARY-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0, UMBVLOHYPOQARY-UHFFFAOYSA-N-MNXR119264_MNXM2393_6-0]
+17/07/2021 13:50:51 -- INFO -- Calculated moves in 0.9718661308288574 for compound UMBVLOHYPOQARY-UHFFFAOYSA-N - without caching
+17/07/2021 13:50:51 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 13h 50min 51s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 13:50:51 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 13:50:51 -- INFO -- Adding a child with move UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|Formononetin_7-O-glucuronide|
+17/07/2021 13:50:51 -- INFO -- Pathway is found at iteration 0
+17/07/2021 13:50:51 -- INFO -- Udapted solved Node 	Move name: UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0/ Biological score : 4.02/ Chemical score: 0.63
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|HKQYGTCOTHHOMP-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 13:50:51 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|Formononetin_7-O-glucuronide| for the first time at iteration 0
+17/07/2021 13:50:51 -- INFO -- Adding a child with move UMBVLOHYPOQARY-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|Formononetin_7-O-glucuronide|
+17/07/2021 13:50:51 -- INFO -- Adding a child with move UMBVLOHYPOQARY-UHFFFAOYSA-N-MNXR119264_MNXM2393_6-0 to node 
+Count: 2/ Score : 6.0/ Children: 2/ Terminal : False
+|Formononetin_7-O-glucuronide|
+17/07/2021 13:50:51 -- INFO -- Starting move obtention process with compound HRXDRXNCPJWZDS-UHFFFAOYSA-N ([H]OC(=O)C1([H])OC([H])(OC2([H])C([H])(Oc3c([H])c([H])c4c(=O)c(-c5c([H])c([H])c(OC([H])([H])[H])c([H])c5[H])c([H])oc4c3[H])OC([H])(C(=O)O[H])C([H])(O[H])C2([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626522651.483505
+17/07/2021 13:50:51 -- INFO -- 19 available rules
+17/07/2021 13:50:52 -- INFO -- For compound HRXDRXNCPJWZDS-UHFFFAOYSA-N, matching moves are [HRXDRXNCPJWZDS-UHFFFAOYSA-N-rxnAdd87_cpd09263_6_6-0, HRXDRXNCPJWZDS-UHFFFAOYSA-N-MNXR119264_MNXM2129_6-0]
+17/07/2021 13:50:52 -- INFO -- Calculated moves in 0.6306710243225098 for compound HRXDRXNCPJWZDS-UHFFFAOYSA-N - without caching
+17/07/2021 13:50:52 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626522652.1299632
+17/07/2021 13:50:52 -- INFO -- 0 available rules
+17/07/2021 13:50:52 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 13:50:52 -- INFO -- Calculated moves in 0.36345767974853516 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 13:50:52 -- INFO -- Pathway is found at iteration 2
+17/07/2021 13:50:52 -- INFO -- Udapted solved Node 	Move name: UMBVLOHYPOQARY-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0/ Biological score : 2.6/ Chemical score: 0.6
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|HDYANYHVCAPMJV-UHFFFAOYSA-N- solved|HKQYGTCOTHHOMP-UHFFFAOYSA-N- solved| for the first time at iteration 2
+17/07/2021 13:50:52 -- INFO -- Adding a child with move HRXDRXNCPJWZDS-UHFFFAOYSA-N-rxnAdd87_cpd09263_6_6-0 to node 
+	Move name: UMBVLOHYPOQARY-UHFFFAOYSA-N-MNXR119264_MNXM2393_6-0/ Biological score : 1.69/ Chemical score: 0.6
+	Count: 0/ Score : 0/ Children: 0/ Terminal : False
+	|HRXDRXNCPJWZDS-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|
+17/07/2021 13:50:52 -- INFO -- Starting move obtention process with compound GPRLSGONYQIRFK-UHFFFAOYSA-N ([H+]) at 1626522652.6909442
+17/07/2021 13:50:53 -- INFO -- 0 available rules
+17/07/2021 13:50:53 -- INFO -- For compound GPRLSGONYQIRFK-UHFFFAOYSA-N, matching moves are []
+17/07/2021 13:50:53 -- INFO -- Calculated moves in 0.32344818115234375 for compound GPRLSGONYQIRFK-UHFFFAOYSA-N - without caching
+17/07/2021 13:50:53 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626522653.0315707
+17/07/2021 13:50:53 -- INFO -- 0 available rules
+17/07/2021 13:50:53 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 13:50:53 -- INFO -- Calculated moves in 0.32219529151916504 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 13:50:53 -- INFO -- Pathway is found at iteration 4
+17/07/2021 13:50:53 -- INFO -- Udapted solved Node 		Move name: HRXDRXNCPJWZDS-UHFFFAOYSA-N-rxnAdd87_cpd09263_6_6-0/ Biological score : 4.02/ Chemical score: 0.62
+		Count: 1/ Score : 0/ Children: 0/ Terminal : True
+		|AEMOLEFTQBMNLQ-UHFFFAOYSA-N- solved|GPRLSGONYQIRFK-UHFFFAOYSA-N|HKQYGTCOTHHOMP-UHFFFAOYSA-N- solved|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 4
+17/07/2021 13:50:53 -- INFO -- Udapted solved Node 	Move name: UMBVLOHYPOQARY-UHFFFAOYSA-N-MNXR119264_MNXM2393_6-0/ Biological score : 1.69/ Chemical score: 0.6
+	Count: 1/ Score : 0/ Children: 1/ Terminal : False
+	|HRXDRXNCPJWZDS-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N| for the first time at iteration 4
+17/07/2021 13:50:53 -- INFO -- Looping move in node |HRXDRXNCPJWZDS-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|-1 for move HRXDRXNCPJWZDS-UHFFFAOYSA-N-MNXR119264_MNXM2129_6-0
+17/07/2021 13:50:53 -- INFO -- Starting move obtention process with compound HRXDRXNCPJWZDS-UHFFFAOYSA-N ([H]OC(=O)C1([H])OC([H])(OC2([H])C([H])(Oc3c([H])c([H])c4c(=O)c(-c5c([H])c([H])c(OC([H])([H])[H])c([H])c5[H])c([H])oc4c3[H])OC([H])(C(=O)O[H])C([H])(O[H])C2([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626522653.5520632
+17/07/2021 13:50:53 -- INFO -- 17 available rules
+17/07/2021 13:50:54 -- INFO -- For compound HRXDRXNCPJWZDS-UHFFFAOYSA-N, matching moves are [HRXDRXNCPJWZDS-UHFFFAOYSA-N-MNXR119264_MNXM2129_8-0]
+17/07/2021 13:50:54 -- INFO -- Calculated moves in 0.6183567047119141 for compound HRXDRXNCPJWZDS-UHFFFAOYSA-N - without caching
+17/07/2021 13:50:54 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626522654.1821074
+17/07/2021 13:50:54 -- INFO -- 0 available rules
+17/07/2021 13:50:54 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 13:50:54 -- INFO -- Calculated moves in 0.29584717750549316 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 13:50:54 -- INFO -- Starting move obtention process with compound UMBVLOHYPOQARY-UHFFFAOYSA-N ([H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c3c(=O)c(-c4c([H])c([H])c(OC([H])([H])[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]) at 1626522654.5117793
+17/07/2021 13:50:54 -- INFO -- 50 available rules
+17/07/2021 13:50:55 -- INFO -- For compound UMBVLOHYPOQARY-UHFFFAOYSA-N, matching moves are [UMBVLOHYPOQARY-UHFFFAOYSA-N-rxnAdd178_cpd07105_6_6-0, UMBVLOHYPOQARY-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0, UMBVLOHYPOQARY-UHFFFAOYSA-N-MNXR119264_MNXM2393_6-0]
+17/07/2021 13:50:55 -- INFO -- Calculated moves in 0.8245759010314941 for compound UMBVLOHYPOQARY-UHFFFAOYSA-N - without caching
+17/07/2021 13:50:55 -- INFO -- Starting move obtention process with compound XLYOFNOQVPJJNP-UHFFFAOYSA-N ([H]O[H]) at 1626522655.3571868
+17/07/2021 13:50:55 -- INFO -- 0 available rules
+17/07/2021 13:50:55 -- INFO -- For compound XLYOFNOQVPJJNP-UHFFFAOYSA-N, matching moves are []
+17/07/2021 13:50:55 -- INFO -- Calculated moves in 0.34467029571533203 for compound XLYOFNOQVPJJNP-UHFFFAOYSA-N - without caching
+17/07/2021 13:50:55 -- INFO -- Rollout results are 2, True
+17/07/2021 13:50:57 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 13:50:58 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 13:50:59 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 13:51:01 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 13:51:02 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 13:51:03 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 13:51:03 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 13:51:04 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 13:51:05 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 13:51:06 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 13h 51min 6s 
+Your tree search took 1.5e+01s 
+ 
+Time was spent in selection: 3.0e-02s, expansion: 2.1e+00s, rollout: 2.2e+00s, update: 1.4e-01s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 13:51:06 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 13:51:06 -- WARNING -- RECAP TIME_EXECUTION=15.24
+17/07/2021 13:51:06 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 13:51:06 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 13:51:06 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 13:51:06 -- INFO -- Found 3 pathways for Formononetin_7-O-glucuronide
+17/07/2021 13:51:06 -- INFO -- 3 pathways were found
+17/07/2021 13:51:06 -- INFO -- At the end of this tree search, the cache contains 0

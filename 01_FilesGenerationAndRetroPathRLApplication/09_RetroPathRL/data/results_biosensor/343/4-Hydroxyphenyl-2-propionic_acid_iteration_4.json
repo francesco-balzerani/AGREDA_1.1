@@ -1,0 +1,87 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c2c(=O)c(O[H])c(-c3c([H])c([H])c(OC([H])([H])[H])c([H])c3[H])oc2c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C16H12O6/c1-21-10-4-2-8(3-5-10)16-15(20)14(19)13-11(18)6-9(17)7-12(13)22-16/h2-7,17-18,20H,1H3",
+          "Names": [
+            "SQFSKOYWJBQGKQ-UHFFFAOYSA-N",
+            "Kaempferide"
+          ],
+          "id": "SQFSKOYWJBQGKQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(c1c([H])c([H])c(O[H])c([H])c1[H])C([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C9H10O3/c1-6(9(11)12)7-2-4-8(10)5-3-7/h2-6,10H,1H3,(H,11,12)",
+          "Names": [
+            "4-Hydroxyphenyl-2-propionic_acid",
+            "ZHMMPVANGNPCBW-UHFFFAOYSA-N"
+          ],
+          "id": "ZHMMPVANGNPCBW-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "ZHMMPVANGNPCBW-UHFFFAOYSA-N-rxnAdd122_r_2_cpd90008_1_16-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd122_r_2_cpd90008_1_16"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C([H])(c1c([H])c([H])c(O[H])c([H])c1[H])C([H])([H])[H]>>[H]Oc1c([H])c(O[H])c2c(=O)c(O[H])c(-c3c([H])c([H])c(OC([H])([H])[H])c([H])c3[H])oc2c1[H]",
+          "Diameter": 42,
+          "Score": 3.948,
+          "ChemicalScore": 1.0,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "SQFSKOYWJBQGKQ-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "ZHMMPVANGNPCBW-UHFFFAOYSA-N-rxnAdd122_r_2_cpd90008_1_16-0-1",
+          "source": "ZHMMPVANGNPCBW-UHFFFAOYSA-N",
+          "id": "ZHMMPVANGNPCBW-UHFFFAOYSA-N-rxnAdd122_r_2_cpd90008_1_16-0-1_=>_ZHMMPVANGNPCBW-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "SQFSKOYWJBQGKQ-UHFFFAOYSA-N",
+          "source": "ZHMMPVANGNPCBW-UHFFFAOYSA-N-rxnAdd122_r_2_cpd90008_1_16-0-1",
+          "id": "SQFSKOYWJBQGKQ-UHFFFAOYSA-N_=>_ZHMMPVANGNPCBW-UHFFFAOYSA-N-rxnAdd122_r_2_cpd90008_1_16-0-1"
+        }
+      }
+    ]
+  }
+}

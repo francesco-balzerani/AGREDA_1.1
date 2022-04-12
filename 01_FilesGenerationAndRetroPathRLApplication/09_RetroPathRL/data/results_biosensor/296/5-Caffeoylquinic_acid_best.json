@@ -1,0 +1,122 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C9H8O4/c10-7-3-1-6(5-8(7)11)2-4-9(12)13/h1-5,10-11H,(H,12,13)",
+          "Names": [
+            "QAIPRVGONGVQAS-UHFFFAOYSA-N"
+          ],
+          "id": "QAIPRVGONGVQAS-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1(O[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C7H12O6/c8-3-1-7(13,6(11)12)2-4(9)5(3)10/h3-5,8-10,13H,1-2H2,(H,11,12)",
+          "Names": [
+            "AAWZDTNXLSGCEK-UHFFFAOYSA-N",
+            "Quinate"
+          ],
+          "id": "AAWZDTNXLSGCEK-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1(O[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C1([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C16H18O9/c17-9-3-1-8(5-10(9)18)2-4-13(20)25-12-7-16(24,15(22)23)6-11(19)14(12)21/h1-5,11-12,14,17-19,21,24H,6-7H2,(H,22,23)",
+          "Names": [
+            "5-Caffeoylquinic_acid",
+            "CWVRJTMFETXNAD-UHFFFAOYSA-N"
+          ],
+          "id": "CWVRJTMFETXNAD-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "CWVRJTMFETXNAD-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd150_cpd00634_6_6",
+            "rxnAdd150_cpd00634_5_8",
+            "rxnAdd150_cpd00634_4_10",
+            "rxnAdd150_cpd00634_3_12",
+            "rxnAdd150_cpd00634_2_14",
+            "rxnAdd150_cpd00634_1_16",
+            "rxnAdd171_cpd02595_6_6",
+            "rxnAdd171_cpd02595_5_8",
+            "rxnAdd171_cpd02595_4_10"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1(O[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C1([H])[H]>>[H]OC(=O)C1(O[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])[H].[H]OC(=O)C([H])=C([H])c1c([H])c([H])c(O[H])c(O[H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 1.0,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "AAWZDTNXLSGCEK-UHFFFAOYSA-N": 1,
+            "QAIPRVGONGVQAS-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "CWVRJTMFETXNAD-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0-1",
+          "source": "CWVRJTMFETXNAD-UHFFFAOYSA-N",
+          "id": "CWVRJTMFETXNAD-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0-1_=>_CWVRJTMFETXNAD-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "AAWZDTNXLSGCEK-UHFFFAOYSA-N",
+          "source": "CWVRJTMFETXNAD-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0-1",
+          "id": "AAWZDTNXLSGCEK-UHFFFAOYSA-N_=>_CWVRJTMFETXNAD-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "QAIPRVGONGVQAS-UHFFFAOYSA-N",
+          "source": "CWVRJTMFETXNAD-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0-1",
+          "id": "QAIPRVGONGVQAS-UHFFFAOYSA-N_=>_CWVRJTMFETXNAD-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0-1"
+        }
+      }
+    ]
+  }
+}

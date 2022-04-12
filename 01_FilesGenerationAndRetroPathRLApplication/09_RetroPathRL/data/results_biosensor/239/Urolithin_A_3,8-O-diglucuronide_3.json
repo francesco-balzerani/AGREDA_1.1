@@ -1,0 +1,114 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c3c(oc(=O)c4c([H])c(O[H])c([H])c([H])c43)c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C19H16O10/c20-7-1-3-9-10-4-2-8(6-12(10)28-18(26)11(9)5-7)27-19-15(23)13(21)14(22)16(29-19)17(24)25/h1-6,13-16,19-23H,(H,24,25)",
+          "Names": [
+            "KXBXNRJGUDTJQS-UHFFFAOYSA-N"
+          ],
+          "id": "KXBXNRJGUDTJQS-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C2([H])OC([H])(n3c([H])c([H])c(O[H])nc3=O)C([H])(O[H])C2([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C15H22N2O18P2/c18-5-1-2-17(15(26)16-5)12-9(22)6(19)4(32-12)3-31-36(27,28)35-37(29,30)34-14-10(23)7(20)8(21)11(33-14)13(24)25/h1-2,4,6-12,14,19-23H,3H2,(H,24,25)(H,27,28)(H,29,30)(H,16,18,26)",
+          "Names": [
+            "HDYANYHVCAPMJV-UHFFFAOYSA-N",
+            "UDP-D-glucuronate"
+          ],
+          "id": "HDYANYHVCAPMJV-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c3c(oc(=O)c4c([H])c(OC5([H])OC([H])(C(=O)O[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])c([H])c([H])c43)c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C25H24O16/c26-13-15(28)19(21(32)33)40-24(17(13)30)37-7-1-3-9-10-4-2-8(6-12(10)39-23(36)11(9)5-7)38-25-18(31)14(27)16(29)20(41-25)22(34)35/h1-6,13-20,24-31H,(H,32,33)(H,34,35)",
+          "Names": [
+            "Urolithin_A_3,8-O-diglucuronide",
+            "SXMJSEFKPOZNAT-UHFFFAOYSA-N"
+          ],
+          "id": "SXMJSEFKPOZNAT-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "SXMJSEFKPOZNAT-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR108276_MNXM2393_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c3c(oc(=O)c4c([H])c(OC5([H])OC([H])(C(=O)O[H])C([H])(O[H])C([H])(O[H])C5([H])O[H])c([H])c([H])c43)c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]>>[H]OC(=O)C1([H])OC([H])(OP(=O)(O[H])OP(=O)(O[H])OC([H])([H])C2([H])OC([H])(n3c([H])c([H])c(O[H])nc3=O)C([H])(O[H])C2([H])O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]OC(=O)C1([H])OC([H])(Oc2c([H])c([H])c3c(oc(=O)c4c([H])c(O[H])c([H])c([H])c43)c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "Diameter": 42,
+          "Score": 2.6009728956867484,
+          "ChemicalScore": 0.6190476190476191,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "HDYANYHVCAPMJV-UHFFFAOYSA-N": 1,
+            "KXBXNRJGUDTJQS-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "SXMJSEFKPOZNAT-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0-1",
+          "source": "SXMJSEFKPOZNAT-UHFFFAOYSA-N",
+          "id": "SXMJSEFKPOZNAT-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0-1_=>_SXMJSEFKPOZNAT-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "HDYANYHVCAPMJV-UHFFFAOYSA-N",
+          "source": "SXMJSEFKPOZNAT-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0-1",
+          "id": "HDYANYHVCAPMJV-UHFFFAOYSA-N_=>_SXMJSEFKPOZNAT-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "KXBXNRJGUDTJQS-UHFFFAOYSA-N",
+          "source": "SXMJSEFKPOZNAT-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0-1",
+          "id": "KXBXNRJGUDTJQS-UHFFFAOYSA-N_=>_SXMJSEFKPOZNAT-UHFFFAOYSA-N-MNXR108276_MNXM2393_6-0-1"
+        }
+      }
+    ]
+  }
+}

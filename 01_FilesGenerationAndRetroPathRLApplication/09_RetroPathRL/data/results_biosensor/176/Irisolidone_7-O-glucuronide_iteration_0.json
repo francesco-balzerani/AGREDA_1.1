@@ -1,0 +1,114 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c(OC([H])([H])[H])c(O[H])c2c(=O)c(-c3c([H])c([H])c(OC([H])([H])[H])c([H])c3[H])c([H])oc2c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C17H14O6/c1-21-10-5-3-9(4-6-10)11-8-23-13-7-12(18)17(22-2)16(20)14(13)15(11)19/h3-8,18,20H,1-2H3",
+          "Names": [
+            "VOOFPOMXNLNEOF-UHFFFAOYSA-N"
+          ],
+          "id": "VOOFPOMXNLNEOF-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C6H10O7/c7-1-2(8)4(5(10)11)13-6(12)3(1)9/h1-4,6-9,12H,(H,10,11)",
+          "Names": [
+            "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+            "D-Galacturonate"
+          ],
+          "id": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c(OC([H])([H])[H])c(O[H])c3c(=O)c(-c4c([H])c([H])c(OC([H])([H])[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C23H22O12/c1-31-10-5-3-9(4-6-10)11-8-33-12-7-13(20(32-2)16(25)14(12)15(11)24)34-23-19(28)17(26)18(27)21(35-23)22(29)30/h3-8,17-19,21,23,25-28H,1-2H3,(H,29,30)",
+          "Names": [
+            "Irisolidone_7-O-glucuronide",
+            "IOKMQETVPIUDOP-UHFFFAOYSA-N"
+          ],
+          "id": "IOKMQETVPIUDOP-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "IOKMQETVPIUDOP-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd183_cpd14914_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]OC(=O)C1([H])OC([H])(Oc2c(OC([H])([H])[H])c(O[H])c3c(=O)c(-c4c([H])c([H])c(OC([H])([H])[H])c([H])c4[H])c([H])oc3c2[H])C([H])(O[H])C([H])(O[H])C1([H])O[H]>>[H]OC(=O)C1([H])OC([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]Oc1c(OC([H])([H])[H])c(O[H])c2c(=O)c(-c3c([H])c([H])c(OC([H])([H])[H])c([H])c3[H])c([H])oc2c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.647887323943662,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "AEMOLEFTQBMNLQ-UHFFFAOYSA-N": 1,
+            "VOOFPOMXNLNEOF-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "IOKMQETVPIUDOP-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0-1",
+          "source": "IOKMQETVPIUDOP-UHFFFAOYSA-N",
+          "id": "IOKMQETVPIUDOP-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0-1_=>_IOKMQETVPIUDOP-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N",
+          "source": "IOKMQETVPIUDOP-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0-1",
+          "id": "AEMOLEFTQBMNLQ-UHFFFAOYSA-N_=>_IOKMQETVPIUDOP-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "VOOFPOMXNLNEOF-UHFFFAOYSA-N",
+          "source": "IOKMQETVPIUDOP-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0-1",
+          "id": "VOOFPOMXNLNEOF-UHFFFAOYSA-N_=>_IOKMQETVPIUDOP-UHFFFAOYSA-N-rxnAdd183_cpd14914_6_6-0-1"
+        }
+      }
+    ]
+  }
+}

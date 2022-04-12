@@ -1,0 +1,115 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C16H12O6/c1-21-15-4-8(2-3-11(15)18)16-13(20)7-10-12(19)5-9(17)6-14(10)22-16/h2-7H,1H3,(H3-,17,18,19,20)/p+1",
+          "Names": [
+            "XFDQJKDGGOEYPI-UHFFFAOYSA-O"
+          ],
+          "id": "XFDQJKDGGOEYPI-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]OC1([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2",
+          "Names": [
+            "SRBFZHDQGSBBOR-UHFFFAOYSA-N",
+            "L-arabinose"
+          ],
+          "id": "SRBFZHDQGSBBOR-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C27H30O15/c1-37-17-4-10(2-3-13(17)30)24-18(7-12-14(31)5-11(29)6-16(12)39-24)40-27-25(22(35)21(34)19(8-28)41-27)42-26-23(36)20(33)15(32)9-38-26/h2-7,15,19-23,25-28,32-36H,8-9H2,1H3,(H2-,29,30,31)/p+1",
+          "Names": [
+            "Peonidin_3-O-sambubioside",
+            "PYUGATAPBPHGFK-UHFFFAOYSA-O"
+          ],
+          "id": "PYUGATAPBPHGFK-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "PYUGATAPBPHGFK-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd17_cpd15022_6_6",
+            "rxnAdd25_cpd15021_6_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]>>[H]OC1([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C1([H])O[H].[H]Oc1c([H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2O[H])c([H])c1OC([H])([H])[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.8615384615384616,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "SRBFZHDQGSBBOR-UHFFFAOYSA-N": 1,
+            "XFDQJKDGGOEYPI-UHFFFAOYSA-O": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "PYUGATAPBPHGFK-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1",
+          "source": "PYUGATAPBPHGFK-UHFFFAOYSA-O",
+          "id": "PYUGATAPBPHGFK-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1_=>_PYUGATAPBPHGFK-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "SRBFZHDQGSBBOR-UHFFFAOYSA-N",
+          "source": "PYUGATAPBPHGFK-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1",
+          "id": "SRBFZHDQGSBBOR-UHFFFAOYSA-N_=>_PYUGATAPBPHGFK-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "XFDQJKDGGOEYPI-UHFFFAOYSA-O",
+          "source": "PYUGATAPBPHGFK-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1",
+          "id": "XFDQJKDGGOEYPI-UHFFFAOYSA-O_=>_PYUGATAPBPHGFK-UHFFFAOYSA-O-rxnAdd17_cpd15022_6_6-0-1"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|Dihydrodaidzein|",
+          "average_score": 0.5,
+          "total_score": 500,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 0,
+          "Names": "|NIUUFTCRUDJDHY-UHFFFAOYSA-N|XLYOFNOQVPJJNP-UHFFFAOYSA-N|",
+          "average_score": 0.5,
+          "total_score": 250,
+          "visits": 500,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_2",
+          "level": 1,
+          "root": 0,
+          "terminal": 0,
+          "Names": "|XLYOFNOQVPJJNP-UHFFFAOYSA-N|ZAIJTQZQMCNJHG-UHFFFAOYSA-N|",
+          "average_score": 0.5,
+          "total_score": 250,
+          "visits": 500,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "MNXR111304_MNXM1025_6"
+          ],
+          "EC number": [
+            "1.14.13.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c([H])c(O[H])c([H])c3OC2([H])[H])c([H])c1[H]>>[H]O[H].[H]Oc1c([H])c([H])c2c(c1[H])OC([H])([H])C([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C2=O",
+          "Diameter": 42,
+          "Score": 0.6020599913279624,
+          "ChemicalScore": 0.65,
+          "Name": "JHYXBPPMXZIHKG-UHFFFAOYSA-N-MNXR111304_MNXM1025_6-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_1",
+          "Rule ID": [
+            "MNXR111304_MNXM1025_6"
+          ],
+          "EC number": [
+            "1.14.13.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c([H])c(O[H])c([H])c3OC2([H])[H])c([H])c1[H]>>[H]O[H].[H]Oc1c([H])c([H])c(C2([H])C(=O)c3c([H])c(O[H])c(O[H])c([H])c3OC2([H])[H])c([H])c1[H]",
+          "Diameter": 42,
+          "Score": 0.6020599913279624,
+          "ChemicalScore": 0.65,
+          "Name": "JHYXBPPMXZIHKG-UHFFFAOYSA-N-MNXR111304_MNXM1025_6-1"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      },
+      {
+        "data": {
+          "target": "move_1",
+          "source": "node_2",
+          "id": "move_1_=>_node_2"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_1",
+          "id": "node_0_=>_move_1"
+        }
+      }
+    ]
+  }
+}

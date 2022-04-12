@@ -1,0 +1,80 @@
+17/07/2021 03:28:49 -- WARNING -- Setting the seed at 1234
+17/07/2021 03:28:49 -- INFO -- Stating global parameters from configuration file
+17/07/2021 03:28:49 -- INFO -- Using retrosynthesis: False - using biosensor True
+17/07/2021 03:28:49 -- INFO -- Full search - no stopping at first result
+17/07/2021 03:28:49 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+17/07/2021 03:28:49 -- INFO -- Initialising an empty cache: {}; Using it: False
+17/07/2021 03:28:49 -- INFO -- -------------------Scoring configurations -------------------------
+17/07/2021 03:28:49 -- INFO -- Using biological cut off at 0.1
+17/07/2021 03:28:49 -- INFO -- Using substrate only cut off at 0.6
+17/07/2021 03:28:49 -- INFO -- Using chemical score cut off at 0.6
+17/07/2021 03:28:49 -- INFO -- -------------------MCTS configurations -------------------------
+17/07/2021 03:28:49 -- INFO -- Setting the minimal visit count for a node at 1
+17/07/2021 03:28:49 -- INFO -- Using RAVE: False
+17/07/2021 03:28:49 -- INFO -- -------------------Chemical configurations -------------------------
+17/07/2021 03:28:49 -- INFO -- Using explicit hydrogens : True
+17/07/2021 03:28:49 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+17/07/2021 03:28:49 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 03:29:14 -- INFO -- Main layer was set to True. Sanitising state
+17/07/2021 03:29:14 -- INFO -- Starting move obtention process with compound 4''-O-Methylepigallocatechin_3-O-gallate ([H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C([H])(OC(=O)c1c([H])c(O[H])c(OC([H])([H])[H])c(O[H])c1[H])C2([H])[H]) at 1626485354.750469
+17/07/2021 03:29:15 -- INFO -- 30 available rules
+17/07/2021 03:29:16 -- INFO -- For compound 4''-O-Methylepigallocatechin_3-O-gallate, matching moves are [BMJHAAZDURGGSC-UHFFFAOYSA-N-rxnAdd58_cpd06623_6_6-0, BMJHAAZDURGGSC-UHFFFAOYSA-N-MNXR119276_MNXM30289_8-0]
+17/07/2021 03:29:16 -- INFO -- Calculated moves in 1.403900384902954 for compound BMJHAAZDURGGSC-UHFFFAOYSA-N - without caching
+17/07/2021 03:29:16 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 3h 29min 16s 
+Your tree search is currently running ... 
+ 
+
+17/07/2021 03:29:16 -- INFO -- Performing iteration 0 out of 1000
+17/07/2021 03:29:16 -- INFO -- Adding a child with move BMJHAAZDURGGSC-UHFFFAOYSA-N-rxnAdd58_cpd06623_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|4''-O-Methylepigallocatechin_3-O-gallate|
+17/07/2021 03:29:16 -- INFO -- Starting move obtention process with compound UBXDWYFLYYJQFR-UHFFFAOYSA-N ([H]OC(=O)c1c([H])c(O[H])c(OC([H])([H])[H])c(O[H])c1[H]) at 1626485356.232685
+17/07/2021 03:29:16 -- INFO -- 208 available rules
+17/07/2021 03:29:16 -- INFO -- For compound UBXDWYFLYYJQFR-UHFFFAOYSA-N, matching moves are [UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd65_r_2_cpd04073_4_6-0, UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd26_r_2_cpd04073_4_6-0, UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd103_r_2_cpd04073_4_6-0, UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd7_r_3_cpd01020_4_6-0, UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd6_r_4_cpd01020_4_6-0, UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd58_r_1_cpd01020_5_6-0, UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd55_r_1_cpd01020_5_6-0, UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd47_cpd01020_3_6-0, UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd46_cpd01020_3_6-0, UBXDWYFLYYJQFR-UHFFFAOYSA-N-rxnAdd42_r_2_cpd01020_5_6-0]
+17/07/2021 03:29:16 -- INFO -- Calculated moves in 0.6649861335754395 for compound UBXDWYFLYYJQFR-UHFFFAOYSA-N - without caching
+17/07/2021 03:29:16 -- INFO -- Pathway is found at iteration 0
+17/07/2021 03:29:17 -- INFO -- Udapted solved Node 	Move name: BMJHAAZDURGGSC-UHFFFAOYSA-N-rxnAdd58_cpd06623_6_6-0/ Biological score : 4.02/ Chemical score: 0.86
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|UBXDWYFLYYJQFR-UHFFFAOYSA-N|XMOCLSLCDHWDHP-UHFFFAOYSA-N- solved| for the first time at iteration 0
+17/07/2021 03:29:17 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|4''-O-Methylepigallocatechin_3-O-gallate| for the first time at iteration 0
+17/07/2021 03:29:17 -- INFO -- Adding a child with move BMJHAAZDURGGSC-UHFFFAOYSA-N-MNXR119276_MNXM30289_8-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|4''-O-Methylepigallocatechin_3-O-gallate|
+17/07/2021 03:29:17 -- INFO -- Starting move obtention process with compound IOIUKPNONJAFRM-UHFFFAOYSA-N ([H]Oc1c([H])c(C(=O)OC2([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c(O[H])c1OC([H])([H])[H]) at 1626485357.1188693
+17/07/2021 03:29:17 -- INFO -- 145 available rules
+17/07/2021 03:29:19 -- INFO -- For compound IOIUKPNONJAFRM-UHFFFAOYSA-N, matching moves are [IOIUKPNONJAFRM-UHFFFAOYSA-N-rxnAdd42_cpd00852_5_6-0, IOIUKPNONJAFRM-UHFFFAOYSA-N-MNXR122445_MNXM1098_8-0, IOIUKPNONJAFRM-UHFFFAOYSA-N-MNXR122444_MNXM1098_8-0, IOIUKPNONJAFRM-UHFFFAOYSA-N-MNXR119278_MNXM1098_8-0, IOIUKPNONJAFRM-UHFFFAOYSA-N-MNXR119276_MNXM1098_8-0, IOIUKPNONJAFRM-UHFFFAOYSA-N-MNXR119341_MNXM16237_6-0, IOIUKPNONJAFRM-UHFFFAOYSA-N-MNXR122444_MNXM3418_8-0, IOIUKPNONJAFRM-UHFFFAOYSA-N-MNXR122445_MNXM7954_6-0, IOIUKPNONJAFRM-UHFFFAOYSA-N-MNXR122445_MNXM7954_6-1, IOIUKPNONJAFRM-UHFFFAOYSA-N-MNXR119429_MNXM32738_6-0]
+17/07/2021 03:29:19 -- INFO -- Calculated moves in 2.2067747116088867 for compound IOIUKPNONJAFRM-UHFFFAOYSA-N - without caching
+17/07/2021 03:29:19 -- INFO -- Pathway is found at iteration 2
+17/07/2021 03:29:19 -- INFO -- Udapted solved Node 	Move name: BMJHAAZDURGGSC-UHFFFAOYSA-N-MNXR119276_MNXM30289_8-0/ Biological score : 2.26/ Chemical score: 0.86
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|IOIUKPNONJAFRM-UHFFFAOYSA-N|XMOCLSLCDHWDHP-UHFFFAOYSA-N- solved| for the first time at iteration 2
+17/07/2021 03:29:21 -- INFO -- Performing iteration 100 out of 1000
+17/07/2021 03:29:23 -- INFO -- Performing iteration 200 out of 1000
+17/07/2021 03:29:25 -- INFO -- Performing iteration 300 out of 1000
+17/07/2021 03:29:27 -- INFO -- Performing iteration 400 out of 1000
+17/07/2021 03:29:29 -- INFO -- Performing iteration 500 out of 1000
+17/07/2021 03:29:31 -- INFO -- Performing iteration 600 out of 1000
+17/07/2021 03:29:33 -- INFO -- Performing iteration 700 out of 1000
+17/07/2021 03:29:35 -- INFO -- Performing iteration 800 out of 1000
+17/07/2021 03:29:36 -- INFO -- Performing iteration 900 out of 1000
+17/07/2021 03:29:37 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 3h 29min 37s 
+Your tree search took 2.1e+01s 
+ 
+Time was spent in selection: 3.4e-02s, expansion: 3.1e+00s, rollout: 0.0e+00s, update: 7.3e-02s 
+CONGRATULATIONS, THATS A WIN
+17/07/2021 03:29:37 -- INFO -- At the end of this tree search, the cache contains 0
+17/07/2021 03:29:37 -- WARNING -- RECAP TIME_EXECUTION=20.84
+17/07/2021 03:29:37 -- WARNING -- RECAP STOP_REASON=iteration
+17/07/2021 03:29:37 -- WARNING -- RECAP NUMBER_ITERATION=999
+17/07/2021 03:29:37 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+17/07/2021 03:29:37 -- INFO -- Found 2 pathways for 4''-O-Methylepigallocatechin_3-O-gallate
+17/07/2021 03:29:37 -- INFO -- 2 pathways were found
+17/07/2021 03:29:37 -- INFO -- At the end of this tree search, the cache contains 0

@@ -1,0 +1,118 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "type": "node",
+          "id": "node_0",
+          "level": 0,
+          "root": 1,
+          "terminal": 0,
+          "Names": "|5-(3',4',-dihydroxyphenyl)-\u03b3-valerolactone|",
+          "average_score": 2.016,
+          "total_score": 2016,
+          "visits": 1000,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_1",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|XMOCLSLCDHWDHP-UHFFFAOYSA-N- solved|",
+          "average_score": 2.016,
+          "total_score": 1008,
+          "visits": 500,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "node",
+          "id": "node_2",
+          "level": 1,
+          "root": 0,
+          "terminal": 1,
+          "Names": "|PFTAWBLQPZVEMU-UHFFFAOYSA-N- solved|",
+          "average_score": 2.016,
+          "total_score": 1008,
+          "visits": 500,
+          "solved_child": true
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_0",
+          "Rule ID": [
+            "rxnAdd57_r_2_cpd90010_2_6",
+            "rxnAdd51_r_2_cpd90010_2_6",
+            "rxnAdd57_r_2_cpd90010_1_16",
+            "rxnAdd51_r_2_cpd90010_1_16"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C([H])([H])C2([H])OC(=O)C([H])([H])C2([H])[H])c([H])c1O[H]>>[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 1.0,
+          "Name": "ZNXXWTPQHVLMQT-UHFFFAOYSA-N-rxnAdd57_r_2_cpd90010_2_6-0"
+        }
+      },
+      {
+        "data": {
+          "type": "move",
+          "id": "move_1",
+          "Rule ID": [
+            "rxnAdd49_r_1_cpd90010_4_6",
+            "rxnAdd49_r_1_cpd90010_3_8",
+            "rxnAdd49_r_1_cpd90010_2_16",
+            "rxnAdd49_r_1_cpd90010_1_10"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C([H])([H])C2([H])OC(=O)C([H])([H])C2([H])[H])c([H])c1O[H]>>[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c([H])c(O[H])c(O[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 1.0,
+          "Name": "ZNXXWTPQHVLMQT-UHFFFAOYSA-N-rxnAdd49_r_1_cpd90010_4_6-0"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "move_0",
+          "source": "node_1",
+          "id": "move_0_=>_node_1"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_0",
+          "id": "node_0_=>_move_0"
+        }
+      },
+      {
+        "data": {
+          "target": "move_1",
+          "source": "node_2",
+          "id": "move_1_=>_node_2"
+        }
+      },
+      {
+        "data": {
+          "target": "node_0",
+          "source": "move_1",
+          "id": "node_0_=>_move_1"
+        }
+      }
+    ]
+  }
+}

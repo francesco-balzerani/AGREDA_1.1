@@ -1,0 +1,80 @@
+18/07/2021 01:28:42 -- WARNING -- Setting the seed at 1234
+18/07/2021 01:28:42 -- INFO -- Stating global parameters from configuration file
+18/07/2021 01:28:42 -- INFO -- Using retrosynthesis: False - using biosensor True
+18/07/2021 01:28:42 -- INFO -- Full search - no stopping at first result
+18/07/2021 01:28:42 -- INFO -- Setting the DB from config file: Installed package: True. Using cache DB: False; Replacing results: False
+18/07/2021 01:28:42 -- INFO -- Initialising an empty cache: {}; Using it: False
+18/07/2021 01:28:42 -- INFO -- -------------------Scoring configurations -------------------------
+18/07/2021 01:28:42 -- INFO -- Using biological cut off at 0.1
+18/07/2021 01:28:42 -- INFO -- Using substrate only cut off at 0.6
+18/07/2021 01:28:42 -- INFO -- Using chemical score cut off at 0.6
+18/07/2021 01:28:42 -- INFO -- -------------------MCTS configurations -------------------------
+18/07/2021 01:28:42 -- INFO -- Setting the minimal visit count for a node at 1
+18/07/2021 01:28:42 -- INFO -- Using RAVE: False
+18/07/2021 01:28:42 -- INFO -- -------------------Chemical configurations -------------------------
+18/07/2021 01:28:42 -- INFO -- Using explicit hydrogens : True
+18/07/2021 01:28:42 -- INFO -- Using detectable compounds as sink as running in biosensor mode.
+18/07/2021 01:28:42 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 01:29:02 -- INFO -- Main layer was set to True. Sanitising state
+18/07/2021 01:29:02 -- INFO -- Starting move obtention process with compound 1-Feruloyl-5-caffeoylquinic_acid ([H]OC(=O)C1(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(OC([H])([H])[H])c2[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C1([H])[H]) at 1626564542.1080587
+18/07/2021 01:29:02 -- INFO -- 86 available rules
+18/07/2021 01:29:03 -- INFO -- For compound 1-Feruloyl-5-caffeoylquinic_acid, matching moves are [WBACKTNTXNGGBO-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0, WBACKTNTXNGGBO-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0]
+18/07/2021 01:29:03 -- INFO -- Calculated moves in 0.9578864574432373 for compound WBACKTNTXNGGBO-UHFFFAOYSA-N - without caching
+18/07/2021 01:29:03 -- INFO -- ---------------Beginning of search informations------------------ 
+UCT policy is : Biochemical_UCT_1 
+Rollout policy is : Rollout_policy_random_uniform_on_biochemical_multiplication_score 
+Rewarding policy is : Penalty is -1 and full state reward is 2 
+Maximum number of iterations 1000 
+Tree search started running at 1h 29min 3s 
+Your tree search is currently running ... 
+ 
+
+18/07/2021 01:29:03 -- INFO -- Performing iteration 0 out of 1000
+18/07/2021 01:29:03 -- INFO -- Adding a child with move WBACKTNTXNGGBO-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0 to node 
+Count: 0/ Score : 0/ Children: 0/ Terminal : False
+|1-Feruloyl-5-caffeoylquinic_acid|
+18/07/2021 01:29:03 -- INFO -- Starting move obtention process with compound VUDGIKJFRLJLBR-UHFFFAOYSA-N ([H]OC(=O)C1(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(OC([H])([H])[H])c2[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(O[H])C1([H])[H]) at 1626564543.1618247
+18/07/2021 01:29:03 -- INFO -- 92 available rules
+18/07/2021 01:29:04 -- INFO -- For compound VUDGIKJFRLJLBR-UHFFFAOYSA-N, matching moves are [VUDGIKJFRLJLBR-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0]
+18/07/2021 01:29:04 -- INFO -- Calculated moves in 0.9668715000152588 for compound VUDGIKJFRLJLBR-UHFFFAOYSA-N - without caching
+18/07/2021 01:29:04 -- INFO -- Pathway is found at iteration 0
+18/07/2021 01:29:04 -- INFO -- Udapted solved Node 	Move name: WBACKTNTXNGGBO-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0/ Biological score : 4.02/ Chemical score: 0.82
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|QAIPRVGONGVQAS-UHFFFAOYSA-N- solved|VUDGIKJFRLJLBR-UHFFFAOYSA-N| for the first time at iteration 0
+18/07/2021 01:29:04 -- INFO -- Udapted solved Node Count: 1/ Score : 0/ Children: 1/ Terminal : False
+|1-Feruloyl-5-caffeoylquinic_acid| for the first time at iteration 0
+18/07/2021 01:29:04 -- INFO -- Adding a child with move WBACKTNTXNGGBO-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0 to node 
+Count: 1/ Score : 10.0/ Children: 1/ Terminal : False
+|1-Feruloyl-5-caffeoylquinic_acid|
+18/07/2021 01:29:04 -- INFO -- Starting move obtention process with compound YDDUMTOHNYZQPO-UHFFFAOYSA-N ([H]OC(=O)C1(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C([H])([H])C([H])(O[H])C([H])(O[H])C([H])(OC(=O)C([H])=C([H])c2c([H])c([H])c(O[H])c(O[H])c2[H])C1([H])[H]) at 1626564544.3005805
+18/07/2021 01:29:04 -- INFO -- 33 available rules
+18/07/2021 01:29:04 -- INFO -- For compound YDDUMTOHNYZQPO-UHFFFAOYSA-N, matching moves are [YDDUMTOHNYZQPO-UHFFFAOYSA-N-rxnAdd150_cpd00634_6_6-0]
+18/07/2021 01:29:04 -- INFO -- Calculated moves in 0.5982084274291992 for compound YDDUMTOHNYZQPO-UHFFFAOYSA-N - without caching
+18/07/2021 01:29:04 -- INFO -- Pathway is found at iteration 2
+18/07/2021 01:29:05 -- INFO -- Udapted solved Node 	Move name: WBACKTNTXNGGBO-UHFFFAOYSA-N-MNXR119429_MNXM13920_6-0/ Biological score : 0.7/ Chemical score: 0.61
+	Count: 1/ Score : 0/ Children: 0/ Terminal : True
+	|MEFKEPWMEQBLKI-UHFFFAOYSA-O- solved|YDDUMTOHNYZQPO-UHFFFAOYSA-N| for the first time at iteration 2
+18/07/2021 01:29:06 -- INFO -- Performing iteration 100 out of 1000
+18/07/2021 01:29:08 -- INFO -- Performing iteration 200 out of 1000
+18/07/2021 01:29:10 -- INFO -- Performing iteration 300 out of 1000
+18/07/2021 01:29:12 -- INFO -- Performing iteration 400 out of 1000
+18/07/2021 01:29:14 -- INFO -- Performing iteration 500 out of 1000
+18/07/2021 01:29:16 -- INFO -- Performing iteration 600 out of 1000
+18/07/2021 01:29:17 -- INFO -- Performing iteration 700 out of 1000
+18/07/2021 01:29:19 -- INFO -- Performing iteration 800 out of 1000
+18/07/2021 01:29:21 -- INFO -- Performing iteration 900 out of 1000
+18/07/2021 01:29:23 -- INFO -- ---------------End of search informations------------------ 
+Tree search finished running at 1h 29min 23s 
+Your tree search took 2.1e+01s 
+ 
+Time was spent in selection: 3.0e-02s, expansion: 1.7e+00s, rollout: 0.0e+00s, update: 7.0e-02s 
+CONGRATULATIONS, THATS A WIN
+18/07/2021 01:29:23 -- INFO -- At the end of this tree search, the cache contains 0
+18/07/2021 01:29:23 -- WARNING -- RECAP TIME_EXECUTION=20.67
+18/07/2021 01:29:23 -- WARNING -- RECAP STOP_REASON=iteration
+18/07/2021 01:29:23 -- WARNING -- RECAP NUMBER_ITERATION=999
+18/07/2021 01:29:23 -- INFO -- According to Wikipedia, choosing the pathway with the most visists 
+ This could be replaced by the best score
+18/07/2021 01:29:23 -- INFO -- Found 2 pathways for 1-Feruloyl-5-caffeoylquinic_acid
+18/07/2021 01:29:23 -- INFO -- 2 pathways were found
+18/07/2021 01:29:23 -- INFO -- At the end of this tree search, the cache contains 0

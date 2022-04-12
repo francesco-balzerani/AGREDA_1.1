@@ -1,0 +1,54 @@
+30/09/2021 10:50:32 -- WARNING -- Sanitization error: Explicit valence for atom # 10 S, 8, is greater than permitted
+30/09/2021 10:50:32 -- ERROR -- For compound Choline sulfate with inchi InChI=1S/C5H13NO4S/c1-6(2,3)4-5-10-11(7,8)9/h4-5H2,1-3H3: error ChemConversionError
+30/09/2021 10:50:49 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:50:49 -- ERROR -- For compound 1,2-diacyl-sn-glycerol 3-phosphate with inchi InChI=1S/C35H69O8P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-34(36)41-31-33(32-42-44(38,39)40)43-35(37)30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h33H,3-32H2,1-2H3,(H2,38,39,40)/q2*+1/p-2: error ChemConversionError
+30/09/2021 10:50:50 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:50:50 -- ERROR -- For compound Cardiolipin with inchi InChI=1S/C81H142O17P2/c1-5-9-13-17-21-25-29-33-37-41-45-49-53-57-61-65-78(83)91-71-76(97-80(85)67-63-59-55-51-47-43-39-35-31-27-23-19-15-11-7-3)73-95-99(87,88)93-69-75(82)70-94-100(89,90)96-74-77(98-81(86)68-64-60-56-52-48-44-40-36-32-28-24-20-16-12-8-4)72-92-79(84)66-62-58-54-50-46-42-38-34-30-26-22-18-14-10-6-2/h21-28,33-40,75-77,82H,5-20,29-32,41-74H2,1-4H3,(H,87,88)(H,89,90)/q2*+1/p-2: error ChemConversionError
+30/09/2021 10:50:50 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:50:50 -- ERROR -- For compound Reactive black 5 with inchi InChI=1S/C26H25N5O19S6/c27-23-22-15(13-20(53(37,38)39)24(23)30-28-16-1-5-18(6-2-16)51(33,34)11-9-49-55(43,44)45)14-21(54(40,41)42)25(26(22)32)31-29-17-3-7-19(8-4-17)52(35,36)12-10-50-56(46,47)48/h1-8,13-14,32H,9-12,27H2,(H,37,38,39)(H,40,41,42)(H,43,44,45)(H,46,47,48)/q4*+1/p-4: error ChemConversionError
+30/09/2021 10:50:56 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:50:56 -- ERROR -- For compound CARDIOLIPIN with inchi InChI=1S/C81H142O17P2/c1-5-9-13-17-21-25-29-33-37-41-45-49-53-57-61-65-78(83)91-71-76(97-80(85)67-63-59-55-51-47-43-39-35-31-27-23-19-15-11-7-3)73-95-99(87,88)93-69-75(82)70-94-100(89,90)96-74-77(98-81(86)68-64-60-56-52-48-44-40-36-32-28-24-20-16-12-8-4)72-92-79(84)66-62-58-54-50-46-42-38-34-30-26-22-18-14-10-6-2/h21-28,33-40,75-77,82H,5-20,29-32,41-74H2,1-4H3,(H,87,88)(H,89,90)/q2*+1/p-2: error ChemConversionError
+30/09/2021 10:51:08 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:51:08 -- ERROR -- For compound Mo(Dtpp-mGDP)2 with inchi InChI=1S/2C20H26N10O13P2S2/c2*21-19-26-13-7(15(33)28-19)24-6-12(47)11(46)5(41-17(6)25-13)2-40-45(37,38)43-44(35,36)39-1-4-9(31)10(32)18(42-4)30-3-23-8-14(30)27-20(22)29-16(8)34/h2*3-6,9-10,17-18,24,31-32,46-47H,1-2H2,(H,35,36)(H,37,38)(H3,22,27,29,34)(H4,21,25,26,28,33)/q+4/p-4/t2*4?,5?,6?,9-,10-,17?,18-/m11/s1: error ChemConversionError
+30/09/2021 10:51:20 -- WARNING -- Sanitization error: Explicit valence for atom # 10 S, 8, is greater than permitted
+30/09/2021 10:51:20 -- ERROR -- For compound Choline sulfate with inchi InChI=1S/C5H13NO4S/c1-6(2,3)4-5-10-11(7,8)9/h4-5H2,1-3H3: error ChemConversionError
+30/09/2021 10:51:36 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:51:36 -- ERROR -- For compound 1,2-diacyl-sn-glycerol 3-phosphate with inchi InChI=1S/C35H69O8P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-34(36)41-31-33(32-42-44(38,39)40)43-35(37)30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h33H,3-32H2,1-2H3,(H2,38,39,40)/q2*+1/p-2: error ChemConversionError
+30/09/2021 10:51:36 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:51:36 -- ERROR -- For compound Cardiolipin with inchi InChI=1S/C81H142O17P2/c1-5-9-13-17-21-25-29-33-37-41-45-49-53-57-61-65-78(83)91-71-76(97-80(85)67-63-59-55-51-47-43-39-35-31-27-23-19-15-11-7-3)73-95-99(87,88)93-69-75(82)70-94-100(89,90)96-74-77(98-81(86)68-64-60-56-52-48-44-40-36-32-28-24-20-16-12-8-4)72-92-79(84)66-62-58-54-50-46-42-38-34-30-26-22-18-14-10-6-2/h21-28,33-40,75-77,82H,5-20,29-32,41-74H2,1-4H3,(H,87,88)(H,89,90)/q2*+1/p-2: error ChemConversionError
+30/09/2021 10:51:37 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:51:37 -- ERROR -- For compound Reactive black 5 with inchi InChI=1S/C26H25N5O19S6/c27-23-22-15(13-20(53(37,38)39)24(23)30-28-16-1-5-18(6-2-16)51(33,34)11-9-49-55(43,44)45)14-21(54(40,41)42)25(26(22)32)31-29-17-3-7-19(8-4-17)52(35,36)12-10-50-56(46,47)48/h1-8,13-14,32H,9-12,27H2,(H,37,38,39)(H,40,41,42)(H,43,44,45)(H,46,47,48)/q4*+1/p-4: error ChemConversionError
+30/09/2021 10:51:43 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:51:43 -- ERROR -- For compound CARDIOLIPIN with inchi InChI=1S/C81H142O17P2/c1-5-9-13-17-21-25-29-33-37-41-45-49-53-57-61-65-78(83)91-71-76(97-80(85)67-63-59-55-51-47-43-39-35-31-27-23-19-15-11-7-3)73-95-99(87,88)93-69-75(82)70-94-100(89,90)96-74-77(98-81(86)68-64-60-56-52-48-44-40-36-32-28-24-20-16-12-8-4)72-92-79(84)66-62-58-54-50-46-42-38-34-30-26-22-18-14-10-6-2/h21-28,33-40,75-77,82H,5-20,29-32,41-74H2,1-4H3,(H,87,88)(H,89,90)/q2*+1/p-2: error ChemConversionError
+30/09/2021 10:51:53 -- WARNING -- Python argument types in
+    rdkit.Chem.rdmolops.Cleanup(NoneType)
+did not match C++ signature:
+    Cleanup(RDKit::ROMol {lvalue} mol)
+30/09/2021 10:51:53 -- ERROR -- For compound Mo(Dtpp-mGDP)2 with inchi InChI=1S/2C20H26N10O13P2S2/c2*21-19-26-13-7(15(33)28-19)24-6-12(47)11(46)5(41-17(6)25-13)2-40-45(37,38)43-44(35,36)39-1-4-9(31)10(32)18(42-4)30-3-23-8-14(30)27-20(22)29-16(8)34/h2*3-6,9-10,17-18,24,31-32,46-47H,1-2H2,(H,35,36)(H,37,38)(H3,22,27,29,34)(H4,21,25,26,28,33)/q+4/p-4/t2*4?,5?,6?,9-,10-,17?,18-/m11/s1: error ChemConversionError

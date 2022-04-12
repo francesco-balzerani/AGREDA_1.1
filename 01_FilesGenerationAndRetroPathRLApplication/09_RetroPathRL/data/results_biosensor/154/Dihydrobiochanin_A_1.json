@@ -1,0 +1,114 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])(N([H])[H])C([H])([H])C([H])([H])[S+](C([H])([H])[H])C([H])([H])C1([H])OC([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)C([H])(O[H])C1([H])O[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C15H22N6O5S/c1-27(3-2-7(16)15(24)25)4-8-10(22)11(23)14(26-8)21-6-20-9-12(17)18-5-19-13(9)21/h5-8,10-11,14,22-23H,2-4,16H2,1H3,(H2-,17,18,19,24,25)/p+1",
+          "Names": [
+            "MEFKEPWMEQBLKI-UHFFFAOYSA-O",
+            "S-Adenosyl-L-methionine"
+          ],
+          "id": "MEFKEPWMEQBLKI-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(C2([H])C(=O)c3c(O[H])c([H])c(O[H])c([H])c3OC2([H])[H])c([H])c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C15H12O5/c16-9-3-1-8(2-4-9)11-7-20-13-6-10(17)5-12(18)14(13)15(11)19/h1-6,11,16-18H,7H2",
+          "Names": [
+            "UQGVUYNHDKMLSE-UHFFFAOYSA-N"
+          ],
+          "id": "UQGVUYNHDKMLSE-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])([H])C([H])(c1c([H])c([H])c(OC([H])([H])[H])c([H])c1[H])C2=O",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C16H14O5/c1-20-11-4-2-9(3-5-11)12-8-21-14-7-10(17)6-13(18)15(14)16(12)19/h2-7,12,17-18H,8H2,1H3",
+          "Names": [
+            "Dihydrobiochanin_A",
+            "XPZQBSCTDLGDBP-UHFFFAOYSA-N"
+          ],
+          "id": "XPZQBSCTDLGDBP-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "XPZQBSCTDLGDBP-UHFFFAOYSA-N-MNXR122000_MNXM9030_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR122000_MNXM9030_6"
+          ],
+          "EC number": [
+            "2.1.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])([H])C([H])(c1c([H])c([H])c(OC([H])([H])[H])c([H])c1[H])C2=O>>[H]Oc1c([H])c([H])c(C2([H])C(=O)c3c(O[H])c([H])c(O[H])c([H])c3OC2([H])[H])c([H])c1[H].[H]OC(=O)C([H])(N([H])[H])C([H])([H])C([H])([H])[S+](C([H])([H])[H])C([H])([H])C1([H])OC([H])(n2c([H])nc3c(N([H])[H])nc([H])nc32)C([H])(O[H])C1([H])O[H]",
+          "Diameter": 42,
+          "Score": 1.8573324964312683,
+          "ChemicalScore": 0.6530612244897959,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "UQGVUYNHDKMLSE-UHFFFAOYSA-N": 1,
+            "MEFKEPWMEQBLKI-UHFFFAOYSA-O": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "XPZQBSCTDLGDBP-UHFFFAOYSA-N-MNXR122000_MNXM9030_6-0-1",
+          "source": "XPZQBSCTDLGDBP-UHFFFAOYSA-N",
+          "id": "XPZQBSCTDLGDBP-UHFFFAOYSA-N-MNXR122000_MNXM9030_6-0-1_=>_XPZQBSCTDLGDBP-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "UQGVUYNHDKMLSE-UHFFFAOYSA-N",
+          "source": "XPZQBSCTDLGDBP-UHFFFAOYSA-N-MNXR122000_MNXM9030_6-0-1",
+          "id": "UQGVUYNHDKMLSE-UHFFFAOYSA-N_=>_XPZQBSCTDLGDBP-UHFFFAOYSA-N-MNXR122000_MNXM9030_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "MEFKEPWMEQBLKI-UHFFFAOYSA-O",
+          "source": "XPZQBSCTDLGDBP-UHFFFAOYSA-N-MNXR122000_MNXM9030_6-0-1",
+          "id": "MEFKEPWMEQBLKI-UHFFFAOYSA-O_=>_XPZQBSCTDLGDBP-UHFFFAOYSA-N-MNXR122000_MNXM9030_6-0-1"
+        }
+      }
+    ]
+  }
+}

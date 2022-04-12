@@ -1,0 +1,115 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "O=O",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/O2/c1-2",
+          "Names": [
+            "MYMOFIZGZYHOMD-UHFFFAOYSA-N"
+          ],
+          "id": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(C([H])=C([H])c2c([H])c(O[H])c([H])c(O[H])c2[H])c([H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C14H12O3/c15-12-5-3-10(4-6-12)1-2-11-7-13(16)9-14(17)8-11/h1-9,15-17H",
+          "Names": [
+            "LUKBXSAWLPMMSZ-UHFFFAOYSA-N",
+            "Resveratrol"
+          ],
+          "id": "LUKBXSAWLPMMSZ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(C([H])=O)c([H])c1O[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C7H6O3/c8-4-5-1-2-6(9)7(10)3-5/h1-4,9-10H",
+          "Names": [
+            "Protocatechuic_aldehyde",
+            "IBGBGRVKPALMCQ-UHFFFAOYSA-N"
+          ],
+          "id": "IBGBGRVKPALMCQ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM2779_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR117216_MNXM2779_6",
+            "MNXR117216_MNXM2779_14"
+          ],
+          "EC number": [
+            "1.13.11.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C([H])=O)c([H])c1O[H]>>[H]Oc1c([H])c([H])c(C([H])=C([H])c2c([H])c(O[H])c([H])c(O[H])c2[H])c([H])c1[H].O=O",
+          "Diameter": 42,
+          "Score": 1.9030899869919435,
+          "ChemicalScore": 1.0,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "LUKBXSAWLPMMSZ-UHFFFAOYSA-N": 1,
+            "MYMOFIZGZYHOMD-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM2779_6-0-1",
+          "source": "IBGBGRVKPALMCQ-UHFFFAOYSA-N",
+          "id": "IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM2779_6-0-1_=>_IBGBGRVKPALMCQ-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "LUKBXSAWLPMMSZ-UHFFFAOYSA-N",
+          "source": "IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM2779_6-0-1",
+          "id": "LUKBXSAWLPMMSZ-UHFFFAOYSA-N_=>_IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM2779_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "MYMOFIZGZYHOMD-UHFFFAOYSA-N",
+          "source": "IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM2779_6-0-1",
+          "id": "MYMOFIZGZYHOMD-UHFFFAOYSA-N_=>_IBGBGRVKPALMCQ-UHFFFAOYSA-N-MNXR117216_MNXM2779_6-0-1"
+        }
+      }
+    ]
+  }
+}

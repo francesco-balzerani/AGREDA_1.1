@@ -1,0 +1,173 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)C([H])([H])C([H])([H])c1c([H])c(O[H])c(O[H])c(OC([H])([H])[H])c1[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C10H12O5/c1-15-8-5-6(2-3-9(12)13)4-7(11)10(8)14/h4-5,11,14H,2-3H2,1H3,(H,12,13)",
+          "Names": [
+            "ILKDXJVXGKUMEJ-UHFFFAOYSA-N"
+          ],
+          "id": "ILKDXJVXGKUMEJ-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c([H])c(O[H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C6H6O3/c7-4-1-5(8)3-6(9)2-4/h1-3,7-9H",
+          "Names": [
+            "QCDYQQDYXPDABM-UHFFFAOYSA-N",
+            "Phloroglucinol"
+          ],
+          "id": "QCDYQQDYXPDABM-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(OC([H])([H])[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C16H16O7/c1-22-14-3-7(2-11(19)15(14)21)16-12(20)6-9-10(18)4-8(17)5-13(9)23-16/h2-5,12,16-21H,6H2,1H3",
+          "Names": [
+            "BWMRFDYQOMYDPB-UHFFFAOYSA-N"
+          ],
+          "id": "BWMRFDYQOMYDPB-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c([H])c([H])c(C([H])([H])C2([H])OC(=O)C([H])([H])C2([H])[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C12H14O4/c1-15-11-7-8(2-4-10(11)13)6-9-3-5-12(14)16-9/h2,4,7,9,13H,3,5-6H2,1H3",
+          "Names": [
+            "5-(3'-Methoxy-4'-hydroxyphenyl)-\u03b3-valerolactone",
+            "GCIFEQYZDROELP-UHFFFAOYSA-N"
+          ],
+          "id": "GCIFEQYZDROELP-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "GCIFEQYZDROELP-UHFFFAOYSA-N-rxnAdd57_r_2_cpd90010_2_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd57_r_2_cpd90010_2_6",
+            "rxnAdd51_r_2_cpd90010_2_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c([H])c(C([H])([H])C2([H])OC(=O)C([H])([H])C2([H])[H])c([H])c1OC([H])([H])[H]>>[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(OC([H])([H])[H])c1[H])C([H])(O[H])C2([H])[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.8717948717948718,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "BWMRFDYQOMYDPB-UHFFFAOYSA-N": 1
+          }
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "BWMRFDYQOMYDPB-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0-2",
+          "type": "reaction",
+          "Rule ID": [
+            "rxnAdd53_cpd06619_4_6"
+          ],
+          "EC number": [
+            ""
+          ],
+          "Reaction SMILES": "[H]Oc1c([H])c(O[H])c2c(c1[H])OC([H])(c1c([H])c(O[H])c(O[H])c(OC([H])([H])[H])c1[H])C([H])(O[H])C2([H])[H]>>[H]Oc1c([H])c(O[H])c([H])c(O[H])c1[H].[H]OC(=O)C([H])([H])C([H])([H])c1c([H])c(O[H])c(O[H])c(OC([H])([H])[H])c1[H]",
+          "Diameter": 42,
+          "Score": 4.022,
+          "ChemicalScore": 0.7674418604651163,
+          "Iteration": 2,
+          "Stoechiometry": {
+            "QCDYQQDYXPDABM-UHFFFAOYSA-N": 1,
+            "ILKDXJVXGKUMEJ-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "GCIFEQYZDROELP-UHFFFAOYSA-N-rxnAdd57_r_2_cpd90010_2_6-0-1",
+          "source": "GCIFEQYZDROELP-UHFFFAOYSA-N",
+          "id": "GCIFEQYZDROELP-UHFFFAOYSA-N-rxnAdd57_r_2_cpd90010_2_6-0-1_=>_GCIFEQYZDROELP-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "BWMRFDYQOMYDPB-UHFFFAOYSA-N",
+          "source": "GCIFEQYZDROELP-UHFFFAOYSA-N-rxnAdd57_r_2_cpd90010_2_6-0-1",
+          "id": "BWMRFDYQOMYDPB-UHFFFAOYSA-N_=>_GCIFEQYZDROELP-UHFFFAOYSA-N-rxnAdd57_r_2_cpd90010_2_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "BWMRFDYQOMYDPB-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0-2",
+          "source": "BWMRFDYQOMYDPB-UHFFFAOYSA-N",
+          "id": "BWMRFDYQOMYDPB-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0-2_=>_BWMRFDYQOMYDPB-UHFFFAOYSA-N"
+        }
+      },
+      {
+        "data": {
+          "target": "QCDYQQDYXPDABM-UHFFFAOYSA-N",
+          "source": "BWMRFDYQOMYDPB-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0-2",
+          "id": "QCDYQQDYXPDABM-UHFFFAOYSA-N_=>_BWMRFDYQOMYDPB-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0-2"
+        }
+      },
+      {
+        "data": {
+          "target": "ILKDXJVXGKUMEJ-UHFFFAOYSA-N",
+          "source": "BWMRFDYQOMYDPB-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0-2",
+          "id": "ILKDXJVXGKUMEJ-UHFFFAOYSA-N_=>_BWMRFDYQOMYDPB-UHFFFAOYSA-N-rxnAdd53_cpd06619_4_6-0-2"
+        }
+      }
+    ]
+  }
+}

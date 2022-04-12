@@ -1,0 +1,114 @@
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "SMILES": "[H]OC(=O)c1c([H])c([H])c(O[H])c([H])c1[H]",
+          "inSink": 1,
+          "isSource": 0,
+          "InChI": "InChI=1S/C7H6O3/c8-6-3-1-5(2-4-6)7(9)10/h1-4,8H,(H,9,10)",
+          "Names": [
+            "FJKROLUGYXJWQN-UHFFFAOYSA-N",
+            "4-hydroxybenzoate"
+          ],
+          "id": "FJKROLUGYXJWQN-UHFFFAOYSA-N",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c(OC([H])([H])[H])c([H])c(-c2oc3c([H])c(=[O+]C4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c([H])c(O[H])c-3c([H])c2OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 0,
+          "InChI": "InChI=1S/C28H32O16/c1-38-16-3-10(4-17(39-2)21(16)33)26-18(43-27-24(36)20(32)14(31)9-40-27)7-12-13(30)5-11(6-15(12)42-26)41-28-25(37)23(35)22(34)19(8-29)44-28/h3-7,14,19-20,22-25,27-29,31-32,34-37H,8-9H2,1-2H3,(H-,30,33)/p+1",
+          "Names": [
+            "YGZDHLHHAYGQBJ-UHFFFAOYSA-O"
+          ],
+          "id": "YGZDHLHHAYGQBJ-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": "[H]Oc1c(OC([H])([H])[H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]",
+          "inSink": 0,
+          "isSource": 1,
+          "InChI": "InChI=1S/C22H22O11/c1-29-15-3-9(4-16(30-2)19(15)27)21-17(33-22-20(28)18(26)13(25)8-31-22)7-11-12(24)5-10(23)6-14(11)32-21/h3-7,13,18,20,22,25-26,28H,8H2,1-2H3,(H2-,23,24,27)/p+1",
+          "Names": [
+            "Malvidin_3-O-arabinoside",
+            "ZWAAFZOEMBEAAF-UHFFFAOYSA-O"
+          ],
+          "id": "ZWAAFZOEMBEAAF-UHFFFAOYSA-O",
+          "type": "compound",
+          "Rule ID": null,
+          "EC number": null,
+          "Reaction SMILES": null,
+          "Diameter": null,
+          "Score": null,
+          "Iteration": null
+        }
+      },
+      {
+        "data": {
+          "SMILES": null,
+          "inSink": null,
+          "isSource": null,
+          "InChI": null,
+          "Names": null,
+          "id": "ZWAAFZOEMBEAAF-UHFFFAOYSA-O-MNXR119305_MNXM148202_6-0-1",
+          "type": "reaction",
+          "Rule ID": [
+            "MNXR119305_MNXM148202_6"
+          ],
+          "EC number": [
+            "2.4.1.-"
+          ],
+          "Reaction SMILES": "[H]Oc1c(OC([H])([H])[H])c([H])c(-c2[o+]c3c([H])c(O[H])c([H])c(O[H])c3c([H])c2OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H]>>[H]Oc1c(OC([H])([H])[H])c([H])c(-c2oc3c([H])c(=[O+]C4([H])OC([H])(C([H])([H])O[H])C([H])(O[H])C([H])(O[H])C4([H])O[H])c([H])c(O[H])c-3c([H])c2OC2([H])OC([H])([H])C([H])(O[H])C([H])(O[H])C2([H])O[H])c([H])c1OC([H])([H])[H].[H]OC(=O)c1c([H])c([H])c(O[H])c([H])c1[H]",
+          "Diameter": 42,
+          "Score": 0.3010299956639812,
+          "ChemicalScore": 0.671875,
+          "Iteration": 1,
+          "Stoechiometry": {
+            "YGZDHLHHAYGQBJ-UHFFFAOYSA-O": 1,
+            "FJKROLUGYXJWQN-UHFFFAOYSA-N": 1
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "target": "ZWAAFZOEMBEAAF-UHFFFAOYSA-O-MNXR119305_MNXM148202_6-0-1",
+          "source": "ZWAAFZOEMBEAAF-UHFFFAOYSA-O",
+          "id": "ZWAAFZOEMBEAAF-UHFFFAOYSA-O-MNXR119305_MNXM148202_6-0-1_=>_ZWAAFZOEMBEAAF-UHFFFAOYSA-O"
+        }
+      },
+      {
+        "data": {
+          "target": "YGZDHLHHAYGQBJ-UHFFFAOYSA-O",
+          "source": "ZWAAFZOEMBEAAF-UHFFFAOYSA-O-MNXR119305_MNXM148202_6-0-1",
+          "id": "YGZDHLHHAYGQBJ-UHFFFAOYSA-O_=>_ZWAAFZOEMBEAAF-UHFFFAOYSA-O-MNXR119305_MNXM148202_6-0-1"
+        }
+      },
+      {
+        "data": {
+          "target": "FJKROLUGYXJWQN-UHFFFAOYSA-N",
+          "source": "ZWAAFZOEMBEAAF-UHFFFAOYSA-O-MNXR119305_MNXM148202_6-0-1",
+          "id": "FJKROLUGYXJWQN-UHFFFAOYSA-N_=>_ZWAAFZOEMBEAAF-UHFFFAOYSA-O-MNXR119305_MNXM148202_6-0-1"
+        }
+      }
+    ]
+  }
+}
