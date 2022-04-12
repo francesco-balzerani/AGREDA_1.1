@@ -12,4 +12,6 @@ m01. Extract the stoichiometry matrix, the list of reactions and metabolites of 
 09. Apply the RetroPath RL algorithm
 
 To apply this pipeline, download the RetroRules database (https://retrorules.org/dl/retrorules_dump) and extract in the input folder.
+Similartly, to apply this pipeline is necessary to unzip the file "agora_seed_merged_sergio.7z" in the input folder.
+
 In case to use the output already present, it's necessary to unzip the file "output.zip" in the output folder.
