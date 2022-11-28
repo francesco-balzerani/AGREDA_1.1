@@ -14,6 +14,7 @@ Francisco J. Planes fplanes@tecnun.es
 
 Citing AGREDA_1.1
 
+Balzerani, Francesco, et al. "Prediction of degradation pathways of phenolic compounds in the human gut microbiota through enzyme promiscuity methods." NPJ systems biology and applications 8.1 (2022): 1-9.
 
 PIPELINE
 Please refer to the following sections for a pipeline execution description.
@@ -32,3 +33,12 @@ The execution is divided in two steps, as shown below. Within each step, various
 
 01_FilesGenerationAndRetroPathRLApplication: Files generation and application of the enzyme promiscuity algorithm RetroPath RL.
 02_ManualRevisionAndReconstruction: Extraction of the results produced by the algorithm, their analysis and revision followed by the metabolic network reconstruction
+
+OUTPUT
+
+In 02_ManualRevisionAndReconstruction/output/outputReconstruction there are two type of outputs:
+  - AGREDA1_1.mat: supra-organism model
+  - singleSpecies folder: contains the reconstruction for the 818 organisms considering the improvements made with AGREDA1_1 (they are compatible with cobrapy).
+
+
+
