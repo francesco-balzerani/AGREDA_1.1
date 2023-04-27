@@ -2,7 +2,7 @@ function model = balanceSpecies(model,path)
 
 % balanceSpecies.m
 % 
-% Author: Telmo Blasco, Francesco Balzerani, Iñigo Apaolaza, Francisco J.
+% Author: Telmo Blasco, Francesco Balzerani, IÃ±igo Apaolaza, Francisco J.
 % Planes
 % Email: tblasco@tecnun.es, fbalzerani@tecnun.es, iaemparanza@tecnun.es,
 % fplanes@tecnun.es
@@ -68,5 +68,17 @@ for i = 1:length(model.rxns)
     trules = cellfun(@num2str, num2cell(find(ismember(model.taxonomy,tmp))), 'UniformOutput', false);
     model.trules(i) = join(join([repmat({'t('}, length(trules), 1),trules,repmat({')'}, length(trules), 1)],''), ' | ');
 end
+
+% Number of reactions and taxa
+nR = length(model.rxns);
+nT = length(model.taxonomy);
+
+% Build new rxnTaxMat from trRules
+obj = sparse(nR,nT);
+for i = 1:nR
+    idx = find(ismember(model.taxonomy,split(model.trRules(i),' or ')));
+    obj(i,idx) = 1;
+end
+model.rxnTaxMat = obj;
 
 end
